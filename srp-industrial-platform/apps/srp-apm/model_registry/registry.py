@@ -104,7 +104,7 @@ class Registry:
                 prediction=predict_advanced(self.artifact,card,all_scores=True)
             except Exception as error:
                 return dict(result,model_evaluation=str(error))
-            return dict(result,**prediction,timestamp=datetime.now(timezone.utc).isoformat())
+            return dict(result,**prediction)
         from fault_detection.contour import SCHEMA as CONTOUR_SCHEMA,predict as predict_contour
         if metadata.get('schema')==CONTOUR_SCHEMA:
             try:
