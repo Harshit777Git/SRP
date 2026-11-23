@@ -1,0 +1,46 @@
+{
+  "state_id": "STATE-040",
+  "name": "Light Load Motor",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Light Load Motor",
+  "source_files": [
+    {
+      "State ID": "STATE-040",
+      "Original State Name": "Light Load Motor",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Light Load Motor\\Original TWM\\1_6_Dynamometer Analysis\\Light Load Motor.001",
+      "Extension": ".001",
+      "Bytes": 112301,
+      "SHA256": "c83c6bdb27e2f04c8f1118c969bc1449112dfd5b43427a7bbc07c5c545ce5ddb",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-040",
+      "Original State Name": "Light Load Motor",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Light Load Motor\\Original TWM\\3_2_Motor\\Light Load Motor.001",
+      "Extension": ".001",
+      "Bytes": 112301,
+      "SHA256": "7543e5066446adc98fd711a85a79bd61efadee10f868dfdb3384c17236be9992",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "UNSUPPORTED_CONVERSION",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

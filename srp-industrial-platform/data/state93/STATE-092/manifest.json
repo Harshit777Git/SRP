@@ -1,0 +1,35 @@
+{
+  "state_id": "STATE-092",
+  "name": "Well5",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Well5",
+  "source_files": [
+    {
+      "State ID": "STATE-092",
+      "Original State Name": "Well5",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Well5\\Original TWM\\3_5_HowToCBELoad_Detail\\Well5.001",
+      "Extension": ".001",
+      "Bytes": 562311,
+      "SHA256": "69941bbfe167d35664f17042f6864d09566b83504f247b7530abe7173e05b868",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "UNSUPPORTED_CONVERSION",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

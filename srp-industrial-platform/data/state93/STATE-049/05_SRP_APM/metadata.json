@@ -1,0 +1,7 @@
+{
+  "state_id": "STATE-049",
+  "source_state": "PFL_Gaslift",
+  "surface_card": null,
+  "downhole_card": null,
+  "reason": "No verified ordered numerical samples extracted"
+}

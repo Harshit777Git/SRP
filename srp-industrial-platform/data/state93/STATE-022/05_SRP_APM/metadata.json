@@ -1,0 +1,7 @@
+{
+  "state_id": "STATE-022",
+  "source_state": "FluidPoundUnAnchoredTubing",
+  "surface_card": null,
+  "downhole_card": null,
+  "reason": "No verified ordered numerical samples extracted"
+}

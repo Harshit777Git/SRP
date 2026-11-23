@@ -1,0 +1,891 @@
+{
+  "schema": "phase5.1/1",
+  "states": {
+    "STATE-001": {
+      "tests": {
+        "1995-06-07_215400": {
+          "reported_strokes": 4,
+          "strokes": {
+            "1": {
+              "state_id": "STATE-001",
+              "test_id": "1995-06-07_215400",
+              "stroke_id": 1,
+              "status": "NUMERICAL_VERIFIED",
+              "points": 251,
+              "position_unit": "in",
+              "load_unit": "lbf",
+              "txt_surface_load_unit": "klbf",
+              "max_position_difference_in": 0.0,
+              "max_load_difference_lbf": 0.005000000001018634,
+              "txt_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-001\\05_NUMERICAL_DATA\\TAM\\test_1995-06-07_215400\\Anchored but NOT Set_test-1995-06-07_215400_stroke-1.txt",
+              "dyn_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-001\\05_NUMERICAL_DATA\\TAM\\test_1995-06-07_215400\\Anchored but NOT Set_test-1995-06-07_215400_stroke-1.dyn",
+              "txt_sha256": "e314ed9f1c525b8c5433a2bf27e3d943a71a45da6e03032d1780b0341bb93f80",
+              "dyn_sha256": "6df9004e57aa0aad3bf70384b20d23dda80241140912e52e33e296266ed8e0c6",
+              "sample_array_fingerprint": "088fe9731a4c482df793d468b84175260ba16448d87376b01b62d82984865909",
+              "normalized_dir": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-001\\05_NUMERICAL_DATA\\normalized\\test_1995-06-07_215400\\stroke_1",
+              "duplicate_of": ""
+            },
+            "2": {
+              "state_id": "STATE-001",
+              "test_id": "1995-06-07_215400",
+              "stroke_id": 2,
+              "status": "NUMERICAL_VERIFIED",
+              "points": 250,
+              "position_unit": "in",
+              "load_unit": "lbf",
+              "txt_surface_load_unit": "klbf",
+              "max_position_difference_in": 0.0,
+              "max_load_difference_lbf": 0.006000000001222361,
+              "txt_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-001\\05_NUMERICAL_DATA\\TAM\\test_1995-06-07_215400\\Anchored but NOT Set_test-1995-06-07_215400_stroke-2.txt",
+              "dyn_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-001\\05_NUMERICAL_DATA\\TAM\\test_1995-06-07_215400\\Anchored but NOT Set_test-1995-06-07_215400_stroke-2.dyn",
+              "txt_sha256": "c791e80ac7c8563d08ffb97119bc78d16696df40c226e719e9ffe6399102f6a4",
+              "dyn_sha256": "69cf69149a9c19f39872326b994cf87efeb71d8488e7b9d7b119fea35b55a04d",
+              "sample_array_fingerprint": "00984a995c1713f0b5c5851679a27ec8e48455e46b8aaf57279c252d98f63aeb",
+              "normalized_dir": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-001\\05_NUMERICAL_DATA\\normalized\\test_1995-06-07_215400\\stroke_2",
+              "duplicate_of": ""
+            },
+            "3": {
+              "state_id": "STATE-001",
+              "test_id": "1995-06-07_215400",
+              "stroke_id": 3,
+              "status": "NUMERICAL_VERIFIED",
+              "points": 251,
+              "position_unit": "in",
+              "load_unit": "lbf",
+              "txt_surface_load_unit": "klbf",
+              "max_position_difference_in": 0.0,
+              "max_load_difference_lbf": 0.005000000001018634,
+              "txt_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-001\\05_NUMERICAL_DATA\\TAM\\test_1995-06-07_215400\\Anchored but NOT Set_test-1995-06-07_215400_stroke-3.txt",
+              "dyn_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-001\\05_NUMERICAL_DATA\\TAM\\test_1995-06-07_215400\\Anchored but NOT Set_test-1995-06-07_215400_stroke-3.dyn",
+              "txt_sha256": "5e598df01d533a1bc74ccc12b6f4fca6331f3c0a078c09cfef2b2ce5aeef7c35",
+              "dyn_sha256": "bc6f28f36c90097a89498ac6f08eacec808e74ab3eb88aa75b5c52e2bb31425a",
+              "sample_array_fingerprint": "cffa94773843d330fc2eedbe6e44ac2e5c415769a5d5b192da2d90d0e4dd0771",
+              "normalized_dir": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-001\\05_NUMERICAL_DATA\\normalized\\test_1995-06-07_215400\\stroke_3",
+              "duplicate_of": ""
+            },
+            "4": {
+              "state_id": "STATE-001",
+              "test_id": "1995-06-07_215400",
+              "stroke_id": 4,
+              "status": "NUMERICAL_VERIFIED",
+              "points": 251,
+              "position_unit": "in",
+              "load_unit": "lbf",
+              "txt_surface_load_unit": "klbf",
+              "max_position_difference_in": 0.0,
+              "max_load_difference_lbf": 0.005000000001018634,
+              "txt_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-001\\05_NUMERICAL_DATA\\TAM\\test_1995-06-07_215400\\Anchored but NOT Set_DYN_4294967295_06-07-1995_21-54-00.txt",
+              "dyn_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-001\\05_NUMERICAL_DATA\\TAM\\test_1995-06-07_215400\\Anchored but NOT Set_DYN_4294967295_06-07-1995_21-54-00.dyn",
+              "txt_sha256": "4c718db695d552923b979693e2e4daaf884e5b0b5a2a13d07b11a3c83b7ba90c",
+              "dyn_sha256": "1d9aa0312ab7e10ebec7cd15f85e7f0b183e6a4f95d3620983894b36c147f78b",
+              "sample_array_fingerprint": "1fa8ec4e24608e6689666f47dfab6518db0cfbcc20defa3bf56f78467682bd1c",
+              "normalized_dir": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-001\\05_NUMERICAL_DATA\\normalized\\test_1995-06-07_215400\\stroke_4",
+              "duplicate_of": ""
+            }
+          }
+        }
+      },
+      "status": "NUMERICAL_EXTRACTED",
+      "verified_strokes": 4
+    },
+    "STATE-002": {
+      "tests": {
+        "2002-01-11_012908": {
+          "reported_strokes": 99,
+          "strokes": {
+            "1": {
+              "status": "NOT_STARTED"
+            },
+            "2": {
+              "status": "NOT_STARTED"
+            },
+            "3": {
+              "status": "NOT_STARTED"
+            },
+            "4": {
+              "status": "NOT_STARTED"
+            },
+            "5": {
+              "status": "NOT_STARTED"
+            },
+            "6": {
+              "status": "NOT_STARTED"
+            },
+            "7": {
+              "status": "NOT_STARTED"
+            },
+            "8": {
+              "status": "NOT_STARTED"
+            },
+            "9": {
+              "status": "NOT_STARTED"
+            },
+            "10": {
+              "status": "NOT_STARTED"
+            },
+            "11": {
+              "status": "NOT_STARTED"
+            },
+            "12": {
+              "status": "NOT_STARTED"
+            },
+            "13": {
+              "status": "NOT_STARTED"
+            },
+            "14": {
+              "status": "NOT_STARTED"
+            },
+            "15": {
+              "status": "NOT_STARTED"
+            },
+            "16": {
+              "status": "NOT_STARTED"
+            },
+            "17": {
+              "status": "NOT_STARTED"
+            },
+            "18": {
+              "status": "NOT_STARTED"
+            },
+            "19": {
+              "status": "NOT_STARTED"
+            },
+            "20": {
+              "status": "NOT_STARTED"
+            },
+            "21": {
+              "status": "NOT_STARTED"
+            },
+            "22": {
+              "status": "NOT_STARTED"
+            },
+            "23": {
+              "status": "NOT_STARTED"
+            },
+            "24": {
+              "status": "NOT_STARTED"
+            },
+            "25": {
+              "status": "NOT_STARTED"
+            },
+            "26": {
+              "status": "NOT_STARTED"
+            },
+            "27": {
+              "status": "NOT_STARTED"
+            },
+            "28": {
+              "status": "NOT_STARTED"
+            },
+            "29": {
+              "status": "NOT_STARTED"
+            },
+            "30": {
+              "status": "NOT_STARTED"
+            },
+            "31": {
+              "status": "NOT_STARTED"
+            },
+            "32": {
+              "status": "NOT_STARTED"
+            },
+            "33": {
+              "status": "NOT_STARTED"
+            },
+            "34": {
+              "status": "NOT_STARTED"
+            },
+            "35": {
+              "status": "NOT_STARTED"
+            },
+            "36": {
+              "status": "NOT_STARTED"
+            },
+            "37": {
+              "status": "NOT_STARTED"
+            },
+            "38": {
+              "status": "NOT_STARTED"
+            },
+            "39": {
+              "status": "NOT_STARTED"
+            },
+            "40": {
+              "status": "NOT_STARTED"
+            },
+            "41": {
+              "status": "NOT_STARTED"
+            },
+            "42": {
+              "status": "NOT_STARTED"
+            },
+            "43": {
+              "status": "NOT_STARTED"
+            },
+            "44": {
+              "status": "NOT_STARTED"
+            },
+            "45": {
+              "status": "NOT_STARTED"
+            },
+            "46": {
+              "status": "NOT_STARTED"
+            },
+            "47": {
+              "status": "NOT_STARTED"
+            },
+            "48": {
+              "status": "NOT_STARTED"
+            },
+            "49": {
+              "status": "NOT_STARTED"
+            },
+            "50": {
+              "status": "NOT_STARTED"
+            },
+            "51": {
+              "status": "NOT_STARTED"
+            },
+            "52": {
+              "status": "NOT_STARTED"
+            },
+            "53": {
+              "status": "NOT_STARTED"
+            },
+            "54": {
+              "status": "NOT_STARTED"
+            },
+            "55": {
+              "status": "NOT_STARTED"
+            },
+            "56": {
+              "status": "NOT_STARTED"
+            },
+            "57": {
+              "status": "NOT_STARTED"
+            },
+            "58": {
+              "status": "NOT_STARTED"
+            },
+            "59": {
+              "status": "NOT_STARTED"
+            },
+            "60": {
+              "status": "NOT_STARTED"
+            },
+            "61": {
+              "status": "NOT_STARTED"
+            },
+            "62": {
+              "status": "NOT_STARTED"
+            },
+            "63": {
+              "status": "NOT_STARTED"
+            },
+            "64": {
+              "status": "NOT_STARTED"
+            },
+            "65": {
+              "status": "NOT_STARTED"
+            },
+            "66": {
+              "status": "NOT_STARTED"
+            },
+            "67": {
+              "status": "NOT_STARTED"
+            },
+            "68": {
+              "status": "NOT_STARTED"
+            },
+            "69": {
+              "status": "NOT_STARTED"
+            },
+            "70": {
+              "status": "NOT_STARTED"
+            },
+            "71": {
+              "status": "NOT_STARTED"
+            },
+            "72": {
+              "status": "NOT_STARTED"
+            },
+            "73": {
+              "status": "NOT_STARTED"
+            },
+            "74": {
+              "status": "NOT_STARTED"
+            },
+            "75": {
+              "status": "NOT_STARTED"
+            },
+            "76": {
+              "status": "NOT_STARTED"
+            },
+            "77": {
+              "status": "NOT_STARTED"
+            },
+            "78": {
+              "status": "NOT_STARTED"
+            },
+            "79": {
+              "status": "NOT_STARTED"
+            },
+            "80": {
+              "status": "NOT_STARTED"
+            },
+            "81": {
+              "status": "NOT_STARTED"
+            },
+            "82": {
+              "status": "NOT_STARTED"
+            },
+            "83": {
+              "status": "NOT_STARTED"
+            },
+            "84": {
+              "status": "NOT_STARTED"
+            },
+            "85": {
+              "status": "NOT_STARTED"
+            },
+            "86": {
+              "status": "NOT_STARTED"
+            },
+            "87": {
+              "status": "NOT_STARTED"
+            },
+            "88": {
+              "status": "NOT_STARTED"
+            },
+            "89": {
+              "status": "NOT_STARTED"
+            },
+            "90": {
+              "status": "NOT_STARTED"
+            },
+            "91": {
+              "status": "NOT_STARTED"
+            },
+            "92": {
+              "status": "NOT_STARTED"
+            },
+            "93": {
+              "status": "NOT_STARTED"
+            },
+            "94": {
+              "status": "NOT_STARTED"
+            },
+            "95": {
+              "status": "NOT_STARTED"
+            },
+            "96": {
+              "status": "NOT_STARTED"
+            },
+            "97": {
+              "status": "NOT_STARTED"
+            },
+            "98": {
+              "status": "NOT_STARTED"
+            },
+            "99": {
+              "state_id": "STATE-002",
+              "test_id": "2002-01-11_012908",
+              "stroke_id": 99,
+              "status": "NUMERICAL_VERIFIED",
+              "points": 271,
+              "position_unit": "in",
+              "load_unit": "lbf",
+              "txt_surface_load_unit": "klbf",
+              "max_position_difference_in": 0.0,
+              "max_load_difference_lbf": 0.005000000001018634,
+              "txt_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-002\\05_NUMERICAL_DATA\\TAM\\test_2002-01-11_012908\\Anchored With Rod Stretch_DYN_4294967295_01-11-2002_01-29-08.txt",
+              "dyn_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-002\\05_NUMERICAL_DATA\\TAM\\test_2002-01-11_012908\\Anchored With Rod Stretch_DYN_4294967295_01-11-2002_01-29-08.dyn",
+              "txt_sha256": "701b83ce440507b7be6677f72677bd61a0c0aad48b06467bd935d0ca14da0c17",
+              "dyn_sha256": "00128b2b6bdcf26524dd467b9e16005faa139501bd9f69c542b24dea5e7e1847",
+              "sample_array_fingerprint": "be8cb389d73734c6f818875e5e8bcfd10d2194311fb592543615938262edd13e",
+              "normalized_dir": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-002\\05_NUMERICAL_DATA\\normalized\\test_2002-01-11_012908\\stroke_99",
+              "duplicate_of": ""
+            }
+          }
+        }
+      },
+      "status": "NUMERICAL_EXTRACTED",
+      "verified_strokes": 1
+    },
+    "STATE-003": {
+      "tests": {
+        "1997-12-13_045700": {
+          "reported_strokes": 5,
+          "strokes": {
+            "1": {
+              "state_id": "STATE-003",
+              "test_id": "1997-12-13_045700",
+              "stroke_id": 1,
+              "status": "NUMERICAL_VERIFIED",
+              "points": 183,
+              "position_unit": "in",
+              "load_unit": "lbf",
+              "txt_surface_load_unit": "klbf",
+              "max_position_difference_in": 0.0,
+              "max_load_difference_lbf": 0.005000000001018634,
+              "txt_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-003\\05_NUMERICAL_DATA\\TAM\\test_1997-12-13_045700\\Asphaltenes in Pump_DYN_4294967295_12-13-1997_04-57-00.txt",
+              "dyn_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-003\\05_NUMERICAL_DATA\\TAM\\test_1997-12-13_045700\\Asphaltenes in Pump_DYN_4294967295_12-13-1997_04-57-00.dyn",
+              "txt_sha256": "6be3ac42e24ed358795da9626bbbd150163c7cf018bb6d04568d8f1eab8e7c7a",
+              "dyn_sha256": "4f67425e39b1ad596fa53ace8ca270a064bb0dc5f9ba95a2dce1e76b64d760f1",
+              "sample_array_fingerprint": "2cf24a9b066ddef2e6211a094a011f4ddcdd1a9d828908f1275f4033cc925a43",
+              "normalized_dir": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-003\\05_NUMERICAL_DATA\\normalized\\test_1997-12-13_045700\\stroke_1",
+              "duplicate_of": ""
+            },
+            "2": {
+              "status": "NOT_STARTED"
+            },
+            "3": {
+              "status": "NOT_STARTED"
+            },
+            "4": {
+              "status": "NOT_STARTED"
+            },
+            "5": {
+              "status": "NOT_STARTED"
+            }
+          }
+        }
+      },
+      "status": "NUMERICAL_EXTRACTED",
+      "verified_strokes": 1
+    },
+    "STATE-004": {
+      "tests": {
+        "1995-02-25_100152": {
+          "reported_strokes": 7,
+          "strokes": {
+            "1": {
+              "status": "NOT_STARTED"
+            },
+            "2": {
+              "status": "NOT_STARTED"
+            },
+            "3": {
+              "status": "NOT_STARTED"
+            },
+            "4": {
+              "status": "NOT_STARTED"
+            },
+            "5": {
+              "status": "NOT_STARTED"
+            },
+            "6": {
+              "status": "NOT_STARTED"
+            },
+            "7": {
+              "state_id": "STATE-004",
+              "test_id": "1995-02-25_100152",
+              "stroke_id": 7,
+              "status": "NUMERICAL_VERIFIED",
+              "points": 140,
+              "position_unit": "in",
+              "load_unit": "lbf",
+              "txt_surface_load_unit": "klbf",
+              "max_position_difference_in": 0.0,
+              "max_load_difference_lbf": 0.005000000001018634,
+              "txt_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-004\\05_NUMERICAL_DATA\\TAM\\test_1995-02-25_100152\\average_well_DYN_4294967295_02-25-1995_10-01-52.txt",
+              "dyn_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-004\\05_NUMERICAL_DATA\\TAM\\test_1995-02-25_100152\\average_well_DYN_4294967295_02-25-1995_10-01-52.dyn",
+              "txt_sha256": "6634cd85ef576d755835e9f6bb0047804db056f9c230d7200d364534871122d2",
+              "dyn_sha256": "602d02654f2f6651b3c88e81f07904bb6d5e5f68fcc66a1c34e83a93482a16f6",
+              "sample_array_fingerprint": "b9ede91983a2ccec7f7598a9b4f31a817c1e5b8d871155c86561b1f92ff3554c",
+              "normalized_dir": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-004\\05_NUMERICAL_DATA\\normalized\\test_1995-02-25_100152\\stroke_7",
+              "duplicate_of": ""
+            }
+          }
+        }
+      },
+      "status": "NUMERICAL_EXTRACTED",
+      "verified_strokes": 1
+    },
+    "STATE-005": {
+      "tests": {
+        "1996-02-22_043000": {
+          "reported_strokes": 5,
+          "strokes": {
+            "1": {
+              "status": "NOT_STARTED"
+            },
+            "2": {
+              "status": "NOT_STARTED"
+            },
+            "3": {
+              "status": "NOT_STARTED"
+            },
+            "4": {
+              "status": "NOT_STARTED"
+            },
+            "5": {
+              "state_id": "STATE-005",
+              "test_id": "1996-02-22_043000",
+              "stroke_id": 5,
+              "status": "NUMERICAL_VERIFIED",
+              "points": 179,
+              "position_unit": "in",
+              "load_unit": "lbf",
+              "txt_surface_load_unit": "klbf",
+              "max_position_difference_in": 0.0,
+              "max_load_difference_lbf": 0.005000000001018634,
+              "txt_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-005\\05_NUMERICAL_DATA\\TAM\\test_1996-02-22_043000\\Bad Tail Bearing_DYN_4294967295_02-22-1996_04-30-00.txt",
+              "dyn_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-005\\05_NUMERICAL_DATA\\TAM\\test_1996-02-22_043000\\Bad Tail Bearing_DYN_4294967295_02-22-1996_04-30-00.dyn",
+              "txt_sha256": "5b0ad3549157934bb5966137915a79b517b0f46a3da538cc145a86e8f770c35c",
+              "dyn_sha256": "97876c1120bac71ba62898e07256628e468beb4d1c3e72150766e734970812f4",
+              "sample_array_fingerprint": "399c199ed24caede0487886c72be5f48b0b3aad6b8c2831ece364c7d6766c07a",
+              "normalized_dir": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-005\\05_NUMERICAL_DATA\\normalized\\test_1996-02-22_043000\\stroke_5",
+              "duplicate_of": ""
+            }
+          }
+        }
+      },
+      "status": "NUMERICAL_EXTRACTED",
+      "verified_strokes": 1
+    },
+    "STATE-006": {
+      "tests": {
+        "2007-08-16_192600": {
+          "reported_strokes": 14,
+          "strokes": {
+            "1": {
+              "status": "NOT_STARTED"
+            },
+            "2": {
+              "status": "NOT_STARTED"
+            },
+            "3": {
+              "status": "NOT_STARTED"
+            },
+            "4": {
+              "status": "NOT_STARTED"
+            },
+            "5": {
+              "status": "NOT_STARTED"
+            },
+            "6": {
+              "status": "NOT_STARTED"
+            },
+            "7": {
+              "status": "NOT_STARTED"
+            },
+            "8": {
+              "status": "NOT_STARTED"
+            },
+            "9": {
+              "status": "NOT_STARTED"
+            },
+            "10": {
+              "status": "NOT_STARTED"
+            },
+            "11": {
+              "status": "NOT_STARTED"
+            },
+            "12": {
+              "status": "NOT_STARTED"
+            },
+            "13": {
+              "status": "NOT_STARTED"
+            },
+            "14": {
+              "state_id": "STATE-006",
+              "test_id": "2007-08-16_192600",
+              "stroke_id": 14,
+              "status": "NUMERICAL_VERIFIED",
+              "points": 289,
+              "position_unit": "in",
+              "load_unit": "lbf",
+              "txt_surface_load_unit": "klbf",
+              "max_position_difference_in": 0.0,
+              "max_load_difference_lbf": 0.006000000001222361,
+              "txt_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192600\\BlockedIntake_test-2007-08-16_192600_stroke-14.txt",
+              "dyn_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192600\\BlockedIntake_test-2007-08-16_192600_stroke-14.dyn",
+              "txt_sha256": "0c58eb44519cc53af0a065733c03a542caa8450e301e11b76a488f7b7bd3626d",
+              "dyn_sha256": "85ba3961acb3aae7f70f6152275464f76b2a933f88275e46e20e59590fdc7277",
+              "sample_array_fingerprint": "4521124deb373e7a147a3afbafb05fe89659f30b29c0d35f72b1f342c1e70b28",
+              "normalized_dir": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\normalized\\test_2007-08-16_192600\\stroke_14",
+              "duplicate_of": ""
+            }
+          }
+        },
+        "2007-08-16_192307": {
+          "reported_strokes": 18,
+          "strokes": {
+            "1": {
+              "state_id": "STATE-006",
+              "test_id": "2007-08-16_192307",
+              "stroke_id": 1,
+              "status": "NUMERICAL_VERIFIED",
+              "points": 289,
+              "position_unit": "in",
+              "load_unit": "lbf",
+              "txt_surface_load_unit": "klbf",
+              "max_position_difference_in": 0.0,
+              "max_load_difference_lbf": 0.006000000001222361,
+              "txt_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\BlockedIntake_test-2007-08-16_192307_stroke-1.txt",
+              "dyn_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\BlockedIntake_test-2007-08-16_192307_stroke-1.dyn",
+              "txt_sha256": "2135c7f89d7e8d3481d7d5d4b8e13d7bbf49973ba52bdf7505429dbf128e4c13",
+              "dyn_sha256": "de12aa76307fc9677862c84eaebdc4cdbcbb8cfb1722d604a8c1780b4ff2b102",
+              "sample_array_fingerprint": "f98801d7a849b44beb421869a26a27c9320a8d82ebba146fdc0f372341cdc2a9",
+              "normalized_dir": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\normalized\\test_2007-08-16_192307\\stroke_1",
+              "duplicate_of": ""
+            },
+            "2": {
+              "state_id": "STATE-006",
+              "test_id": "2007-08-16_192307",
+              "stroke_id": 2,
+              "status": "NUMERICAL_VERIFIED",
+              "points": 288,
+              "position_unit": "in",
+              "load_unit": "lbf",
+              "txt_surface_load_unit": "klbf",
+              "max_position_difference_in": 0.0,
+              "max_load_difference_lbf": 0.006000000001222361,
+              "txt_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-2.txt",
+              "dyn_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-2.dyn",
+              "txt_sha256": "6588c428266c2ca42a591ea5ef12082258dbf543b7ea26c202369512f7493358",
+              "dyn_sha256": "2a2c126d2009342fd9f2c76da966511dde18c8eff725ddc8335cd4b41cc65e08",
+              "sample_array_fingerprint": "46f337e91cf38ebbcbc9a5ce1f4bf2686545481c7caeea6aa20ab664bb91f22d",
+              "normalized_dir": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\normalized\\test_2007-08-16_192307\\stroke_2",
+              "duplicate_of": ""
+            },
+            "3": {
+              "state_id": "STATE-006",
+              "test_id": "2007-08-16_192307",
+              "stroke_id": 3,
+              "status": "NUMERICAL_VERIFIED",
+              "points": 289,
+              "position_unit": "in",
+              "load_unit": "lbf",
+              "txt_surface_load_unit": "klbf",
+              "max_position_difference_in": 0.0,
+              "max_load_difference_lbf": 0.006000000001222361,
+              "txt_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-3.txt",
+              "dyn_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-3.dyn",
+              "txt_sha256": "725ca669c5132d6da8492c85add42b61d65dbe7e135603c718a3918ce8d73c18",
+              "dyn_sha256": "345e63f67fff5c81e4cc219a63dccf10db41962f88c4b6815d1a7060e928caaf",
+              "sample_array_fingerprint": "18cd3c048cc743198889d4db1a200041e20e13658de3540bfaba237cdaf2e501",
+              "normalized_dir": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\normalized\\test_2007-08-16_192307\\stroke_3",
+              "duplicate_of": ""
+            },
+            "4": {
+              "state_id": "STATE-006",
+              "test_id": "2007-08-16_192307",
+              "stroke_id": 4,
+              "status": "NUMERICAL_VERIFIED",
+              "points": 287,
+              "position_unit": "in",
+              "load_unit": "lbf",
+              "txt_surface_load_unit": "klbf",
+              "max_position_difference_in": 0.0,
+              "max_load_difference_lbf": 0.006000000001222361,
+              "txt_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-4.txt",
+              "dyn_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-4.dyn",
+              "txt_sha256": "a059802c96c2ab776d1b3a2b16f227f7ecd1c3e06ac13b5b9e32f7e95e1e6535",
+              "dyn_sha256": "11975ed032dc9a4c9cc0181e54e3975512d0001d5d177a8a6ac2e916c3742901",
+              "sample_array_fingerprint": "640eb7f8c63d76c1332a19e02620c847e5a4c91b7311ba57c60933f84a59fcee",
+              "normalized_dir": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\normalized\\test_2007-08-16_192307\\stroke_4",
+              "duplicate_of": ""
+            },
+            "5": {
+              "state_id": "STATE-006",
+              "test_id": "2007-08-16_192307",
+              "stroke_id": 5,
+              "status": "NUMERICAL_VERIFIED",
+              "points": 289,
+              "position_unit": "in",
+              "load_unit": "lbf",
+              "txt_surface_load_unit": "klbf",
+              "max_position_difference_in": 0.0,
+              "max_load_difference_lbf": 0.006000000001222361,
+              "txt_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-5.txt",
+              "dyn_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-5.dyn",
+              "txt_sha256": "0b3c50c4a12ac702c784d374ce20deab100f6439671a2172490d31b154c14436",
+              "dyn_sha256": "c4d23597c3ec01b48d867b162b440cf321acc2d16f2d7d4ceffda0994306d023",
+              "sample_array_fingerprint": "ed0998e0e8110b690c2b53d72d68c4ada04fc9c9bc939e8c42593debc01d4c95",
+              "normalized_dir": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\normalized\\test_2007-08-16_192307\\stroke_5",
+              "duplicate_of": ""
+            },
+            "6": {
+              "state_id": "STATE-006",
+              "test_id": "2007-08-16_192307",
+              "stroke_id": 6,
+              "status": "NUMERICAL_VERIFIED",
+              "points": 288,
+              "position_unit": "in",
+              "load_unit": "lbf",
+              "txt_surface_load_unit": "klbf",
+              "max_position_difference_in": 0.0,
+              "max_load_difference_lbf": 0.005000000001018634,
+              "txt_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-6.txt",
+              "dyn_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-6.dyn",
+              "txt_sha256": "d31937898ea8638d3c29b8403135329e45c3ac1ac4525e6634eab2a6c196ba67",
+              "dyn_sha256": "82b4467d3fa7b80bab2f52415782e3a9738884c1dab7a2afebbcc19e4a7eece2",
+              "sample_array_fingerprint": "e6ce0cd6988013c0ef027153512cdc047f66f543b3322e25781fb779a61b05e7",
+              "normalized_dir": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\normalized\\test_2007-08-16_192307\\stroke_6",
+              "duplicate_of": ""
+            },
+            "7": {
+              "state_id": "STATE-006",
+              "test_id": "2007-08-16_192307",
+              "stroke_id": 7,
+              "status": "NUMERICAL_VERIFIED",
+              "points": 289,
+              "position_unit": "in",
+              "load_unit": "lbf",
+              "txt_surface_load_unit": "klbf",
+              "max_position_difference_in": 0.0,
+              "max_load_difference_lbf": 0.006000000001222361,
+              "txt_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-7.txt",
+              "dyn_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-7.dyn",
+              "txt_sha256": "ba4151e111c4e0cf7ee48e5cc78404af0dcf4efbf5bd5be03c253aa408e46a81",
+              "dyn_sha256": "9c0246e89c0a4eeb277d19783df3e761a89579ae0a8ba3a83b84943628b06dc8",
+              "sample_array_fingerprint": "37b46ab63a158f67604537bfc596988b2758f9ccce1ad95c4d94d77754c7979c",
+              "normalized_dir": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\normalized\\test_2007-08-16_192307\\stroke_7",
+              "duplicate_of": ""
+            },
+            "8": {
+              "state_id": "STATE-006",
+              "test_id": "2007-08-16_192307",
+              "stroke_id": 8,
+              "status": "NUMERICAL_VERIFIED",
+              "points": 288,
+              "position_unit": "in",
+              "load_unit": "lbf",
+              "txt_surface_load_unit": "klbf",
+              "max_position_difference_in": 0.0,
+              "max_load_difference_lbf": 0.006000000001222361,
+              "txt_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-8.txt",
+              "dyn_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-8.dyn",
+              "txt_sha256": "8e77f7e8a4b0992f74d59bb76541321e80445427c130a9292590b5a50e4b786d",
+              "dyn_sha256": "a2e474e22a2723b34a7bac8329a405bd1b65a9ef6c176b4b7a3522b4b6deed21",
+              "sample_array_fingerprint": "4c7ea760ce55b99c2d84b338245f37923366b290aab7594837000ccfae05de13",
+              "normalized_dir": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\normalized\\test_2007-08-16_192307\\stroke_8",
+              "duplicate_of": ""
+            },
+            "9": {
+              "state_id": "STATE-006",
+              "test_id": "2007-08-16_192307",
+              "stroke_id": 9,
+              "status": "NUMERICAL_VERIFIED",
+              "points": 289,
+              "position_unit": "in",
+              "load_unit": "lbf",
+              "txt_surface_load_unit": "klbf",
+              "max_position_difference_in": 0.0,
+              "max_load_difference_lbf": 0.006000000001222361,
+              "txt_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-9.txt",
+              "dyn_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-9.dyn",
+              "txt_sha256": "c55e86e05f4f290c300987684897b3ef5713f4b733bf1f789a489e97d4c10fb8",
+              "dyn_sha256": "38b7088bdabbba1470254f41a6f34b7c33c3a550de4113b832d56b0540228fec",
+              "sample_array_fingerprint": "0c46a01c1d97f16dd955a5f243982e8a3b960f81671c7c280d032ed23d84dbfd",
+              "normalized_dir": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\normalized\\test_2007-08-16_192307\\stroke_9",
+              "duplicate_of": ""
+            },
+            "10": {
+              "state_id": "STATE-006",
+              "test_id": "2007-08-16_192307",
+              "stroke_id": 10,
+              "status": "NUMERICAL_VERIFIED",
+              "points": 289,
+              "position_unit": "in",
+              "load_unit": "lbf",
+              "txt_surface_load_unit": "klbf",
+              "max_position_difference_in": 0.0,
+              "max_load_difference_lbf": 0.005999999997584382,
+              "txt_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-10.txt",
+              "dyn_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-10.dyn",
+              "txt_sha256": "cf47ec912bb2b3390105a16e94715fb3ba33cdf3976d2b8105e041d41af2e0e4",
+              "dyn_sha256": "5d539d6e0f22d1f7bf9fb6ef6be794c60b4434c32b6e17da72dadf624d0b710d",
+              "sample_array_fingerprint": "c24f4bf390bcb9f1e68123759fd03ee7f0cd669e84959ec616f188fc4e48b97f",
+              "normalized_dir": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\normalized\\test_2007-08-16_192307\\stroke_10",
+              "duplicate_of": ""
+            },
+            "11": {
+              "state_id": "STATE-006",
+              "test_id": "2007-08-16_192307",
+              "stroke_id": 11,
+              "status": "NUMERICAL_VERIFIED",
+              "points": 288,
+              "position_unit": "in",
+              "load_unit": "lbf",
+              "txt_surface_load_unit": "klbf",
+              "max_position_difference_in": 0.0,
+              "max_load_difference_lbf": 0.006000000001222361,
+              "txt_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-11.txt",
+              "dyn_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-11.dyn",
+              "txt_sha256": "63293ca4653fe9d3c0a3b298cdbf7f3677de12263ae19b7107ba0dac774be1d3",
+              "dyn_sha256": "90a3819a076345d015911928605f5f25763ee50c3961dd5aa1ff9b0d4ad8989a",
+              "sample_array_fingerprint": "24cf617405edd374bd32f62a3ead0b9f8b0df714ba968f520a1fbd0e212f6e00",
+              "normalized_dir": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\normalized\\test_2007-08-16_192307\\stroke_11",
+              "duplicate_of": ""
+            },
+            "12": {
+              "state_id": "STATE-006",
+              "test_id": "2007-08-16_192307",
+              "stroke_id": 12,
+              "status": "NUMERICAL_VERIFIED",
+              "points": 291,
+              "position_unit": "in",
+              "load_unit": "lbf",
+              "txt_surface_load_unit": "klbf",
+              "max_position_difference_in": 0.0,
+              "max_load_difference_lbf": 0.006000000001222361,
+              "txt_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-12.txt",
+              "dyn_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-12.dyn",
+              "txt_sha256": "db3e3c8a625beb6302e1a04a87aee2a296e498408bb9a88437b366662993e6b4",
+              "dyn_sha256": "f7a1257695654ca6bd040333c5602295c8a58d38765dddfcdcd6c2ab2471eb6b",
+              "sample_array_fingerprint": "7c68ae291d81c814fcbdffd0a93d09db696f12f06b18d24650ab0e49186d50c0",
+              "normalized_dir": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\normalized\\test_2007-08-16_192307\\stroke_12",
+              "duplicate_of": ""
+            },
+            "13": {
+              "status": "NOT_STARTED"
+            },
+            "14": {
+              "status": "NOT_STARTED"
+            },
+            "15": {
+              "status": "NOT_STARTED"
+            },
+            "16": {
+              "status": "NOT_STARTED"
+            },
+            "17": {
+              "status": "NOT_STARTED"
+            },
+            "18": {
+              "state_id": "STATE-006",
+              "test_id": "2007-08-16_192307",
+              "stroke_id": 18,
+              "status": "NUMERICAL_VERIFIED",
+              "points": 289,
+              "position_unit": "in",
+              "load_unit": "lbf",
+              "txt_surface_load_unit": "klbf",
+              "max_position_difference_in": 0.0,
+              "max_load_difference_lbf": 0.006000000001222361,
+              "txt_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\BlockedIntake_test-2007-08-16_192307_stroke-18.txt",
+              "dyn_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\BlockedIntake_test-2007-08-16_192307_stroke-18.dyn",
+              "txt_sha256": "772cd09acc0949f135d706aac7446e6059f0f3f3a7382bab0615f958394d3d4e",
+              "dyn_sha256": "e047c7ecc9f121e6c1138d52a0ea71002ead296354f799a40f5d22a5db8b5e9f",
+              "sample_array_fingerprint": "89f97eb52079d5b3fce665889eb027490e42629c74012330a915ee2b62514d19",
+              "normalized_dir": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\normalized\\test_2007-08-16_192307\\stroke_18",
+              "duplicate_of": ""
+            }
+          }
+        }
+      },
+      "status": "NUMERICAL_EXTRACTED",
+      "verified_strokes": 14
+    }
+  },
+  "updated_utc": "2026-11-18T12:55:24.510474+00:00",
+  "verified_strokes": 23,
+  "verified_new_after_phase5": 17,
+  "known_remaining": 143,
+  "failed": [],
+  "registered_test_strokes": 184,
+  "registered_remaining": 161
+}

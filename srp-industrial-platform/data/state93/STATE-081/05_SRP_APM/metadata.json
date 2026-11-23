@@ -1,0 +1,7 @@
+{
+  "state_id": "STATE-081",
+  "source_state": "TBG Fluid Grad",
+  "surface_card": null,
+  "downhole_card": null,
+  "reason": "No verified ordered numerical samples extracted"
+}

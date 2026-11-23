@@ -1,0 +1,152 @@
+[
+  {
+    "filename": "Overtravel_DYN_4294967295_09-18-2002_12-52-16.dyn",
+    "records": 132,
+    "sha256": "823fef51648e11c62ac64d338ac746c91796943f6982d319a6e067f5870e82b7",
+    "sample_order": "preserved",
+    "stroke_m": 1.8429402054,
+    "min_load_n": 31678.410573023022,
+    "max_load_n": 90292.76024395908,
+    "area_j": 52738.135288857025,
+    "comparison": {
+      "reference": {
+        "asset": "SRP_001",
+        "run": "02a5f2fe2c0144769692188bfd09b125",
+        "stroke": 8,
+        "source": "SIMULATOR",
+        "configuration": {
+          "asset_id": "SRP_001",
+          "rods": [
+            {
+              "length_m": 450.0,
+              "diameter_m": 0.0222,
+              "density": 7850.0,
+              "modulus": 205000000000.0
+            }
+          ],
+          "stroke_m": 1.65,
+          "spm": 8.0,
+          "crank_m": 0.6,
+          "rocker_m": 2.0,
+          "pitman_m": 3.4,
+          "pivot_x_m": 2.4,
+          "pivot_y_m": 2.1,
+          "mechanism": "four_bar",
+          "damping_s": 0.6,
+          "plunger_m": 0.04445,
+          "fluid_kg_m3": 880.0,
+          "viscosity_pa_s": 0.015,
+          "intake_head_m": 100.0,
+          "tubing_pa": 350000.0,
+          "casing_pa": 150000.0,
+          "voltage_v": 480.0,
+          "gear_ratio": 100.0,
+          "running_efficiency": 0.85,
+          "physics_step_s": 0.002,
+          "dynamometer_hz": 50,
+          "electrical_hz": 10,
+          "pressure_hz": 1,
+          "noise_position_m": 0.0,
+          "noise_load_n": 0.0,
+          "position_bias_m": 0.0,
+          "load_bias_n": 0.0,
+          "sensor_latency_s": 0.0,
+          "missing_probability": 0.0,
+          "seed": 42
+        }
+      },
+      "external": {
+        "asset": "OVERTRAVEL",
+        "stroke": 1,
+        "source": "Echometer session 20 training examples",
+        "kind": "surface"
+      },
+      "peak_load_difference_pct": 345.9598086101443,
+      "minimum_load_difference_n": 21748.392866587837,
+      "stroke_length_difference_m": 0.1929466977382286,
+      "area_difference_j": 42673.77450171441,
+      "alignment": "GEOMETRY_ONLY",
+      "reason": "Time metrics require complete timestamps and confirmation of comparable cycle and equipment",
+      "rmse_n": null,
+      "mae_n": null,
+      "normalized_rmse": null,
+      "correlation": null,
+      "fundamental_phase_deg": null
+    }
+  },
+  {
+    "filename": "Undertravel_DYN_4294967295_05-05-2004_14-06-57.dyn",
+    "records": 216,
+    "sha256": "c22962b487c50179a5377103529187684c75c29b19b6f6dfb03ab25d19a67d6f",
+    "sample_order": "preserved",
+    "stroke_m": 1.1529639373999998,
+    "min_load_n": 40372.45972004967,
+    "max_load_n": 73414.56159366311,
+    "area_j": 12936.045163195955,
+    "comparison": {
+      "reference": {
+        "asset": "SRP_001",
+        "run": "02a5f2fe2c0144769692188bfd09b125",
+        "stroke": 8,
+        "source": "SIMULATOR",
+        "configuration": {
+          "asset_id": "SRP_001",
+          "rods": [
+            {
+              "length_m": 450.0,
+              "diameter_m": 0.0222,
+              "density": 7850.0,
+              "modulus": 205000000000.0
+            }
+          ],
+          "stroke_m": 1.65,
+          "spm": 8.0,
+          "crank_m": 0.6,
+          "rocker_m": 2.0,
+          "pitman_m": 3.4,
+          "pivot_x_m": 2.4,
+          "pivot_y_m": 2.1,
+          "mechanism": "four_bar",
+          "damping_s": 0.6,
+          "plunger_m": 0.04445,
+          "fluid_kg_m3": 880.0,
+          "viscosity_pa_s": 0.015,
+          "intake_head_m": 100.0,
+          "tubing_pa": 350000.0,
+          "casing_pa": 150000.0,
+          "voltage_v": 480.0,
+          "gear_ratio": 100.0,
+          "running_efficiency": 0.85,
+          "physics_step_s": 0.002,
+          "dynamometer_hz": 50,
+          "electrical_hz": 10,
+          "pressure_hz": 1,
+          "noise_position_m": 0.0,
+          "noise_load_n": 0.0,
+          "position_bias_m": 0.0,
+          "load_bias_n": 0.0,
+          "sensor_latency_s": 0.0,
+          "missing_probability": 0.0,
+          "seed": 42
+        }
+      },
+      "external": {
+        "asset": "UNDERTRAVEL",
+        "stroke": 1,
+        "source": "Echometer session 20 training examples",
+        "kind": "surface"
+      },
+      "peak_load_difference_pct": 262.59766285855756,
+      "minimum_load_difference_n": 30442.442013614487,
+      "stroke_length_difference_m": -0.4970295702617715,
+      "area_difference_j": 2871.684376053341,
+      "alignment": "GEOMETRY_ONLY",
+      "reason": "Time metrics require complete timestamps and confirmation of comparable cycle and equipment",
+      "rmse_n": null,
+      "mae_n": null,
+      "normalized_rmse": null,
+      "correlation": null,
+      "fundamental_phase_deg": null
+    }
+  }
+]

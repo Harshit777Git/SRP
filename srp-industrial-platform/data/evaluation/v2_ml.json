@@ -1,0 +1,1460 @@
+{
+  "validation": "SYNTHETIC VALIDATION ONLY",
+  "schema": "srp-v2-grouped/1.0",
+  "classes": [
+    "gas_interference",
+    "healthy",
+    "incomplete_fillage",
+    "pump_wear",
+    "restricted_inflow",
+    "rod_friction",
+    "standing_valve_leak",
+    "traveling_valve_leak"
+  ],
+  "groups": {
+    "train": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "calibration": [
+      4,
+      5
+    ],
+    "test": [
+      6,
+      7
+    ]
+  },
+  "dataset_sha256": "0fb0ffa8ac1ff1d4227223810a353522a26e6b7bc63c74c11b996c57962a872b",
+  "counts": {
+    "gas_interference": 8,
+    "healthy": 8,
+    "incomplete_fillage": 8,
+    "pump_wear": 8,
+    "restricted_inflow": 8,
+    "rod_friction": 8,
+    "standing_valve_leak": 8,
+    "traveling_valve_leak": 8
+  },
+  "accepted_runs": 64,
+  "rejected_runs": 0,
+  "rules": {
+    "unknown_fraction": 1.0
+  },
+  "seeds": [
+    {
+      "seed": 13,
+      "tabular": {
+        "accuracy": 0.4375,
+        "macro_f1": 0.40625,
+        "per_class": {
+          "gas_interference": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+          },
+          "healthy": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "incomplete_fillage": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "pump_wear": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+          },
+          "restricted_inflow": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "rod_friction": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+          },
+          "standing_valve_leak": {
+            "precision": 0.16666666666666666,
+            "recall": 0.5,
+            "f1-score": 0.25,
+            "support": 2.0
+          },
+          "traveling_valve_leak": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "accuracy": 0.4375,
+          "macro avg": {
+            "precision": 0.39583333333333337,
+            "recall": 0.4375,
+            "f1-score": 0.40625,
+            "support": 16.0
+          },
+          "weighted avg": {
+            "precision": 0.39583333333333337,
+            "recall": 0.4375,
+            "f1-score": 0.40625,
+            "support": 16.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0
+          ]
+        ],
+        "expected_calibration_error": 0.22576220517890047,
+        "unknown_fraction": 0.875,
+        "selective_accuracy": 1.0,
+        "healthy_false_positive_fraction": 0.0,
+        "inference_ms": 0.29009999707341194
+      },
+      "cnn": {
+        "accuracy": 0.6875,
+        "macro_f1": 0.625,
+        "per_class": {
+          "gas_interference": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+          },
+          "healthy": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "incomplete_fillage": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "pump_wear": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+          },
+          "restricted_inflow": {
+            "precision": 0.3333333333333333,
+            "recall": 1.0,
+            "f1-score": 0.5,
+            "support": 2.0
+          },
+          "rod_friction": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+          },
+          "standing_valve_leak": {
+            "precision": 0.5,
+            "recall": 0.5,
+            "f1-score": 0.5,
+            "support": 2.0
+          },
+          "traveling_valve_leak": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+          },
+          "accuracy": 0.6875,
+          "macro avg": {
+            "precision": 0.6041666666666666,
+            "recall": 0.6875,
+            "f1-score": 0.625,
+            "support": 16.0
+          },
+          "weighted avg": {
+            "precision": 0.6041666666666666,
+            "recall": 0.6875,
+            "f1-score": 0.625,
+            "support": 16.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        "expected_calibration_error": 0.43068460654467344,
+        "unknown_fraction": 0.9375,
+        "selective_accuracy": 1.0,
+        "healthy_false_positive_fraction": 0.0,
+        "temperature": 8.0,
+        "inference_ms": 0.2701124976738356
+      },
+      "ensemble": {
+        "accuracy": 0.4375,
+        "macro_f1": 0.3857142857142857,
+        "per_class": {
+          "gas_interference": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+          },
+          "healthy": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "incomplete_fillage": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "pump_wear": {
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "f1-score": 0.8,
+            "support": 2.0
+          },
+          "restricted_inflow": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "rod_friction": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+          },
+          "standing_valve_leak": {
+            "precision": 0.2,
+            "recall": 0.5,
+            "f1-score": 0.2857142857142857,
+            "support": 2.0
+          },
+          "traveling_valve_leak": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "accuracy": 0.4375,
+          "macro avg": {
+            "precision": 0.3583333333333333,
+            "recall": 0.4375,
+            "f1-score": 0.3857142857142857,
+            "support": 16.0
+          },
+          "weighted avg": {
+            "precision": 0.3583333333333333,
+            "recall": 0.4375,
+            "f1-score": 0.3857142857142857,
+            "support": 16.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        "expected_calibration_error": 0.23280687483475604,
+        "unknown_fraction": 0.9375,
+        "selective_accuracy": 1.0,
+        "healthy_false_positive_fraction": 0.0
+      }
+    },
+    {
+      "seed": 29,
+      "tabular": {
+        "accuracy": 0.4375,
+        "macro_f1": 0.40625,
+        "per_class": {
+          "gas_interference": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+          },
+          "healthy": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "incomplete_fillage": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "pump_wear": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+          },
+          "restricted_inflow": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "rod_friction": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+          },
+          "standing_valve_leak": {
+            "precision": 0.16666666666666666,
+            "recall": 0.5,
+            "f1-score": 0.25,
+            "support": 2.0
+          },
+          "traveling_valve_leak": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "accuracy": 0.4375,
+          "macro avg": {
+            "precision": 0.39583333333333337,
+            "recall": 0.4375,
+            "f1-score": 0.40625,
+            "support": 16.0
+          },
+          "weighted avg": {
+            "precision": 0.39583333333333337,
+            "recall": 0.4375,
+            "f1-score": 0.40625,
+            "support": 16.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0
+          ]
+        ],
+        "expected_calibration_error": 0.22576220517890047,
+        "unknown_fraction": 0.875,
+        "selective_accuracy": 1.0,
+        "healthy_false_positive_fraction": 0.0,
+        "inference_ms": 0.12788750609615818
+      },
+      "cnn": {
+        "accuracy": 0.625,
+        "macro_f1": 0.5499999999999999,
+        "per_class": {
+          "gas_interference": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+          },
+          "healthy": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1-score": 0.6666666666666666,
+            "support": 2.0
+          },
+          "incomplete_fillage": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "pump_wear": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1-score": 0.6666666666666666,
+            "support": 2.0
+          },
+          "restricted_inflow": {
+            "precision": 0.3333333333333333,
+            "recall": 0.5,
+            "f1-score": 0.4,
+            "support": 2.0
+          },
+          "rod_friction": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+          },
+          "standing_valve_leak": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "traveling_valve_leak": {
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1-score": 0.6666666666666666,
+            "support": 2.0
+          },
+          "accuracy": 0.625,
+          "macro avg": {
+            "precision": 0.5416666666666666,
+            "recall": 0.625,
+            "f1-score": 0.5499999999999999,
+            "support": 16.0
+          },
+          "weighted avg": {
+            "precision": 0.5416666666666666,
+            "recall": 0.625,
+            "f1-score": 0.5499999999999999,
+            "support": 16.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "expected_calibration_error": 0.40172241162508726,
+        "unknown_fraction": 1.0,
+        "selective_accuracy": null,
+        "healthy_false_positive_fraction": 0.0,
+        "temperature": 8.0,
+        "inference_ms": 0.19019375031348318
+      },
+      "ensemble": {
+        "accuracy": 0.4375,
+        "macro_f1": 0.3857142857142857,
+        "per_class": {
+          "gas_interference": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+          },
+          "healthy": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "incomplete_fillage": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "pump_wear": {
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "f1-score": 0.8,
+            "support": 2.0
+          },
+          "restricted_inflow": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "rod_friction": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+          },
+          "standing_valve_leak": {
+            "precision": 0.2,
+            "recall": 0.5,
+            "f1-score": 0.2857142857142857,
+            "support": 2.0
+          },
+          "traveling_valve_leak": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "accuracy": 0.4375,
+          "macro avg": {
+            "precision": 0.3583333333333333,
+            "recall": 0.4375,
+            "f1-score": 0.3857142857142857,
+            "support": 16.0
+          },
+          "weighted avg": {
+            "precision": 0.3583333333333333,
+            "recall": 0.4375,
+            "f1-score": 0.3857142857142857,
+            "support": 16.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        "expected_calibration_error": 0.24637815456045387,
+        "unknown_fraction": 0.9375,
+        "selective_accuracy": 1.0,
+        "healthy_false_positive_fraction": 0.0
+      }
+    },
+    {
+      "seed": 71,
+      "tabular": {
+        "accuracy": 0.4375,
+        "macro_f1": 0.40625,
+        "per_class": {
+          "gas_interference": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+          },
+          "healthy": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "incomplete_fillage": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "pump_wear": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+          },
+          "restricted_inflow": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "rod_friction": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+          },
+          "standing_valve_leak": {
+            "precision": 0.16666666666666666,
+            "recall": 0.5,
+            "f1-score": 0.25,
+            "support": 2.0
+          },
+          "traveling_valve_leak": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "accuracy": 0.4375,
+          "macro avg": {
+            "precision": 0.39583333333333337,
+            "recall": 0.4375,
+            "f1-score": 0.40625,
+            "support": 16.0
+          },
+          "weighted avg": {
+            "precision": 0.39583333333333337,
+            "recall": 0.4375,
+            "f1-score": 0.40625,
+            "support": 16.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0
+          ]
+        ],
+        "expected_calibration_error": 0.22576220517890047,
+        "unknown_fraction": 0.875,
+        "selective_accuracy": 1.0,
+        "healthy_false_positive_fraction": 0.0,
+        "inference_ms": 0.14573749649571255
+      },
+      "cnn": {
+        "accuracy": 0.5625,
+        "macro_f1": 0.4833333333333333,
+        "per_class": {
+          "gas_interference": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+          },
+          "healthy": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "incomplete_fillage": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "pump_wear": {
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "f1-score": 0.8,
+            "support": 2.0
+          },
+          "restricted_inflow": {
+            "precision": 0.25,
+            "recall": 1.0,
+            "f1-score": 0.4,
+            "support": 2.0
+          },
+          "rod_friction": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+          },
+          "standing_valve_leak": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "traveling_valve_leak": {
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1-score": 0.6666666666666666,
+            "support": 2.0
+          },
+          "accuracy": 0.5625,
+          "macro avg": {
+            "precision": 0.4895833333333333,
+            "recall": 0.5625,
+            "f1-score": 0.4833333333333333,
+            "support": 16.0
+          },
+          "weighted avg": {
+            "precision": 0.4895833333333333,
+            "recall": 0.5625,
+            "f1-score": 0.4833333333333333,
+            "support": 16.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "expected_calibration_error": 0.3209066614508629,
+        "unknown_fraction": 1.0,
+        "selective_accuracy": null,
+        "healthy_false_positive_fraction": 0.0,
+        "temperature": 7.263563375566167,
+        "inference_ms": 0.15853750664973632
+      },
+      "ensemble": {
+        "accuracy": 0.4375,
+        "macro_f1": 0.3857142857142857,
+        "per_class": {
+          "gas_interference": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+          },
+          "healthy": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "incomplete_fillage": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "pump_wear": {
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "f1-score": 0.8,
+            "support": 2.0
+          },
+          "restricted_inflow": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "rod_friction": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+          },
+          "standing_valve_leak": {
+            "precision": 0.2,
+            "recall": 0.5,
+            "f1-score": 0.2857142857142857,
+            "support": 2.0
+          },
+          "traveling_valve_leak": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "accuracy": 0.4375,
+          "macro avg": {
+            "precision": 0.3583333333333333,
+            "recall": 0.4375,
+            "f1-score": 0.3857142857142857,
+            "support": 16.0
+          },
+          "weighted avg": {
+            "precision": 0.3583333333333333,
+            "recall": 0.4375,
+            "f1-score": 0.3857142857142857,
+            "support": 16.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        "expected_calibration_error": 0.24236428544373312,
+        "unknown_fraction": 0.9375,
+        "selective_accuracy": 1.0,
+        "healthy_false_positive_fraction": 0.0
+      }
+    }
+  ],
+  "false_alarms_per_well_day": null,
+  "detection_latency_s": null,
+  "tabular_model": "LightGBM",
+  "macro_f1_across_seeds": {
+    "tabular": {
+      "mean": 0.40625,
+      "spread": 0.0
+    },
+    "cnn": {
+      "mean": 0.5527777777777777,
+      "spread": 0.05786851848888796
+    },
+    "ensemble": {
+      "mean": 0.3857142857142857,
+      "spread": 0.0
+    }
+  }
+}

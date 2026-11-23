@@ -1,0 +1,7 @@
+{
+  "state_id": "STATE-087",
+  "source_state": "Undertravel",
+  "surface_card": null,
+  "downhole_card": null,
+  "reason": "No verified ordered numerical samples extracted"
+}

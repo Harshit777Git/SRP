@@ -1,0 +1,7 @@
+{
+  "state_id": "STATE-005",
+  "source_state": "Bad Tail Bearing",
+  "surface_card": null,
+  "downhole_card": null,
+  "reason": "No verified ordered numerical samples extracted"
+}

@@ -1,0 +1,35 @@
+{
+  "state_id": "STATE-051",
+  "name": "PFL_High_liquid_low_gas",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\PFL_High_liquid_low_gas",
+  "source_files": [
+    {
+      "State ID": "STATE-051",
+      "Original State Name": "PFL_High_liquid_low_gas",
+      "Application": "TAM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\PFL_High_liquid_low_gas\\Original TAM\\PFL_High_liquid_low_gas.TAM_EXP",
+      "Extension": ".TAM_EXP",
+      "Bytes": 3130,
+      "SHA256": "bb8f2b6175f6b22f4e69ce5d648d285c43a93df60f7681dacbd8ffb89e5e1923",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "VENDOR_GUI_ACTION_REQUIRED",
+    "02_TWM": "UNSUPPORTED_CONVERSION",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "gate": "mqtt",
+    "status": "FAIL_COMBINED_QUEUE_GROWTH",
+    "training_allowed": false
+  },
+  {
+    "gate": "continuous_physics",
+    "status": "PARTIAL_THREE_STROKES_PER_WELL",
+    "training_allowed": false
+  },
+  {
+    "gate": "qrod",
+    "status": "FAIL_NO_INDEPENDENT_NUMERICAL_EXPORT",
+    "training_allowed": false
+  },
+  {
+    "gate": "faults",
+    "status": "PARTIAL_TWO_SEVERITIES_NO_FIELD_PROOF",
+    "training_allowed": false
+  },
+  {
+    "gate": "apm",
+    "status": "PARTIAL_API_AND_REPLAY_ONLY",
+    "training_allowed": false
+  },
+  {
+    "gate": "dataset",
+    "status": "PARTIAL_HEALTHY_EXPORTS_ONLY",
+    "training_allowed": false
+  },
+  {
+    "gate": "ml_boundary",
+    "status": "PASS_NO_MODEL_TRAINING",
+    "training_allowed": false
+  }
+]

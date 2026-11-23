@@ -1,0 +1,66 @@
+{
+  "reference": {
+    "asset": "SRP_001",
+    "run": "f993b1ba67e24b5bbce6a194f9af24fe",
+    "stroke": 8,
+    "source": "SIMULATOR",
+    "configuration": {
+      "asset_id": "SRP_001",
+      "rods": [
+        {
+          "length_m": 450,
+          "diameter_m": 0.0222,
+          "density": 7850,
+          "modulus": 205000000000
+        }
+      ],
+      "stroke_m": 1.65,
+      "spm": 8,
+      "crank_m": 0.6,
+      "rocker_m": 2,
+      "pitman_m": 3.4,
+      "pivot_x_m": 2.4,
+      "pivot_y_m": 2.1,
+      "mechanism": "four_bar",
+      "damping_s": 0.6,
+      "plunger_m": 0.04445,
+      "fluid_kg_m3": 880,
+      "chamber_gas_fraction": 0.015,
+      "viscosity_pa_s": 0.015,
+      "intake_head_m": 100,
+      "tubing_pa": 350000,
+      "casing_pa": 150000,
+      "voltage_v": 480,
+      "gear_ratio": 100,
+      "running_efficiency": 0.85,
+      "physics_step_s": 0.002,
+      "dynamometer_hz": 50,
+      "electrical_hz": 10,
+      "pressure_hz": 1,
+      "noise_position_m": 0,
+      "noise_load_n": 0,
+      "position_bias_m": 0,
+      "load_bias_n": 0,
+      "sensor_latency_s": 0,
+      "missing_probability": 0,
+      "seed": 42
+    }
+  },
+  "external": {
+    "asset": "OVERTRAVEL",
+    "stroke": 1,
+    "source": "Echometer Session 20 training example",
+    "kind": "surface"
+  },
+  "peak_load_difference_pct": 345.9598086101443,
+  "minimum_load_difference_n": 21748.392866587837,
+  "stroke_length_difference_m": 0.1929466977382286,
+  "area_difference_j": 42673.77450171441,
+  "alignment": "GEOMETRY_ONLY",
+  "reason": "Time metrics require complete timestamps and confirmation of comparable cycle and equipment",
+  "rmse_n": null,
+  "mae_n": null,
+  "normalized_rmse": null,
+  "correlation": null,
+  "fundamental_phase_deg": null
+}

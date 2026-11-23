@@ -1,0 +1,7 @@
+{
+  "state_id": "STATE-051",
+  "source_state": "PFL_High_liquid_low_gas",
+  "surface_card": null,
+  "downhole_card": null,
+  "reason": "No verified ordered numerical samples extracted"
+}

@@ -1,0 +1,2 @@
+well_id,stroke_id,timestamp,predicted_class,confidence,severity,evidence,model_version,dataset_provenance,fault_status,quality
+SRP_001,8,2026-11-16T10:30:32.930363+00:00,UNKNOWN,0.25794824957847595,,"Calculated downhole card work 8375 J per stroke, 103% of the ideal hydrostatic work",cnn-v2/a63191e90177-13,v2_full_runs.npz,TRAINED_ON_SYNTHETIC,GOOD

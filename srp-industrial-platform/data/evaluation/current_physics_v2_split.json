@@ -1,0 +1,181 @@
+{
+  "origin": "SYNTHETIC_ONLY",
+  "physics_model_version": "srp-forward-2.0-plunger-clearance",
+  "seed": 20261117,
+  "groups_by_virtual_well": {
+    "train": [
+      "CO-DJ-001",
+      "ND-WIL-001",
+      "ND-WIL-002",
+      "ND-WIL-003",
+      "ND-WIL-004",
+      "NM-DEL-001",
+      "NM-DEL-003",
+      "NM-DEL-004",
+      "NM-DEL-005",
+      "OK-ANA-001",
+      "OK-ANA-003",
+      "OK-ANA-005",
+      "TX-EAG-001",
+      "TX-EAG-003",
+      "TX-EAG-004",
+      "TX-MID-003",
+      "TX-MID-004",
+      "TX-MID-005"
+    ],
+    "calibration": [
+      "CO-DJ-003",
+      "CO-DJ-004",
+      "CO-DJ-005",
+      "NM-DEL-002",
+      "TX-EAG-002",
+      "TX-MID-001"
+    ],
+    "test": [
+      "CO-DJ-002",
+      "ND-WIL-005",
+      "OK-ANA-002",
+      "OK-ANA-004",
+      "TX-EAG-005",
+      "TX-MID-002"
+    ]
+  },
+  "physical_configuration_groups": {
+    "6596737f249740532a74da8a14d8817ce464cb8554ba5816d66f3963d3b96faf": [
+      "TX-MID-001"
+    ],
+    "3ea83339ca2f2af33a5ae97d11d2edceacc3ca087998e758bc97f18b17a899ef": [
+      "TX-MID-002"
+    ],
+    "b14f4c4a491e0b6440b7bf6d0845eb581e5f3f69139d488fb09c247c14f51f7f": [
+      "TX-MID-003"
+    ],
+    "f66be7a2db6cf46c028c685c0898777239b74b8b6a255a25b562a12b7cb88ae1": [
+      "TX-MID-004"
+    ],
+    "fd4c174a24bf77a8a38c482e77a06b71c63e2074aede6b8488629491f50f7716": [
+      "TX-MID-005"
+    ],
+    "85abe6df4453ecc36100bc9509b6d32f3e15cdf72b549eab798ff12ea034b65e": [
+      "NM-DEL-001"
+    ],
+    "bd777a760b715282cc74db3ed2b86bb4be73a9fb129d73b0f9ca7366dfecd523": [
+      "NM-DEL-002"
+    ],
+    "d4e29671126aef38114d968dc1615a4070c7b1b9d935c88e13a59f35dce418ac": [
+      "NM-DEL-003"
+    ],
+    "8e2691061e4b25d2ea0c6e8a635c7d48ba9af2ab3fa4f3b690cb0a992ff54e90": [
+      "NM-DEL-004"
+    ],
+    "b9d1519e972f9e2da43281f57689dab89fa07e58fb754db26e9824a6a57f458d": [
+      "NM-DEL-005"
+    ],
+    "72dd8d9409f16b006f071f7c9602017b7356e47b45bcc7db79b4f9543975f125": [
+      "ND-WIL-001"
+    ],
+    "8e548a6a3cf5276829a3b1470e9ac1b3299c1ef85c2888aca4e9d7d54ce7ceed": [
+      "ND-WIL-002"
+    ],
+    "b6a37a444a674097ad2157df7c423e4621b01b78c5967501cca519a707df9e77": [
+      "ND-WIL-003"
+    ],
+    "46cae0b445c48be57689b7c40761878324f9e41d02a95bd407f318f40b5b8ef0": [
+      "ND-WIL-004"
+    ],
+    "4377ae53997f036984130ed24af302601bf81a4384d2a8ada18511cd8005ab51": [
+      "ND-WIL-005"
+    ],
+    "a21788d868b79f2a57ad0ef9c63a245fc4dc5fbeb3a5a1da8471143cb3a4481f": [
+      "OK-ANA-001"
+    ],
+    "3bf82df6cd5ce8d31f94084de98ccce86d330e0275aa3554d8b8ff536bb33cbc": [
+      "OK-ANA-002"
+    ],
+    "bbd2bca46319b1f350be54733a63b89e529fe44d150f3f2a7fdd70b4d97d7921": [
+      "OK-ANA-003"
+    ],
+    "c1d43e30eb318146aa6c638f99b010d76c49df64c9fed1635d7f11c06f3fc687": [
+      "OK-ANA-004"
+    ],
+    "b40fcf1d63b6ce80086f35182839864c74219a5c599e2bc60ad81f7173fac629": [
+      "OK-ANA-005"
+    ],
+    "2836e69864dcb08fb96b5604581f9840edc2488ac5d4002bfa2d72c665a40d17": [
+      "CO-DJ-001"
+    ],
+    "0e11cda775eaa6548692004450dfa121ed925cdd4e1607f0202c1ae75163708e": [
+      "CO-DJ-002"
+    ],
+    "242aca9cb7d8d2b57f5f1d58d5ef267b9d9567c6820eb855571f2007a0442677": [
+      "CO-DJ-003"
+    ],
+    "806bddd582a83865686221b998b6f3837c5cdcebc4f1da8fe17c3c59586b25ed": [
+      "CO-DJ-004"
+    ],
+    "638720a9462801f1c31542e71b2f8f009bd19a9b281de1551d5e7ef2656bd11a": [
+      "CO-DJ-005"
+    ],
+    "7fa93a856d8740f7ec6f8c4112b42cad5721b0effb8008f3a87f171aa8b2b5ec": [
+      "TX-EAG-001"
+    ],
+    "5dd4d7d3099ba1461051cd476dead814efdc9f75a4b549cdcd21e49a38f4ad1f": [
+      "TX-EAG-002"
+    ],
+    "371e61a8c94323ec85371ffce89e3c311ce1381b2b51ab1faba0a68d73b36649": [
+      "TX-EAG-003"
+    ],
+    "3e30dd2a6262004127a50edb82c8cae75c65a60571e30197e754b55c4fbb41ca": [
+      "TX-EAG-004"
+    ],
+    "e513f14eee8519f095d76c8b6818aad9ee75141489265f786dbf1c2c0da0ccf0": [
+      "TX-EAG-005"
+    ]
+  },
+  "partition_card_counts": {
+    "train": {
+      "abnormal_speed": 61,
+      "gas_interference": 61,
+      "healthy": 61,
+      "incomplete_fillage": 61,
+      "load_cell_drift": 61,
+      "position_sensor_fault": 61,
+      "pump_wear": 61,
+      "restricted_inflow": 61,
+      "rod_friction": 61,
+      "standing_valve_leak": 61,
+      "traveling_valve_leak": 61
+    },
+    "calibration": {
+      "abnormal_speed": 20,
+      "gas_interference": 20,
+      "healthy": 20,
+      "incomplete_fillage": 20,
+      "load_cell_drift": 20,
+      "position_sensor_fault": 20,
+      "pump_wear": 20,
+      "restricted_inflow": 20,
+      "rod_friction": 20,
+      "standing_valve_leak": 20,
+      "traveling_valve_leak": 20
+    },
+    "test": {
+      "abnormal_speed": 19,
+      "gas_interference": 19,
+      "healthy": 19,
+      "incomplete_fillage": 19,
+      "load_cell_drift": 19,
+      "position_sensor_fault": 19,
+      "pump_wear": 19,
+      "restricted_inflow": 19,
+      "rod_friction": 19,
+      "standing_valve_leak": 19,
+      "traveling_valve_leak": 19
+    }
+  },
+  "whole_well_isolation": true,
+  "test_used_for_model_selection": false,
+  "source_capture_sha256": "c9751c8eda902addaf462eac6346449a28984834067dcc971d06bd843ffd6f97",
+  "policy": "Fit candidate on train wells, choose model on calibration wells, evaluate once on test wells.",
+  "limitation": "Virtual wells share a simulator and hand-authored parameter envelope; this does not estimate field generalization."
+}

@@ -1,0 +1,61 @@
+{
+  "provenance": {
+    "state_id": "STATE-047",
+    "source_archive": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-047\\01_TAM\\PFL_DHM_CoalBedPerfs.TAM_EXP",
+    "source_sha256": "823efe50398804feedbc68085d4473a2d7cfde77765338328bab65359e48bed9",
+    "source_bytes": 4618,
+    "extracted_utc": "2026-11-18T04_44_29Z",
+    "method": "lossless extraction of vendor metadata.json and TestResults.json",
+    "synthetic_data": false
+  },
+  "tests": [
+    {
+      "DateTime": "2004-01-02T18:33:20Z",
+      "FilePath": "",
+      "LastModified": "2004-01-02T18:33:20Z",
+      "NumValues": {
+        "ACU Acoustic Velocity": 1427.773784173016,
+        "ACU Casing Pressure": 79.4654312133789,
+        "ACU PBHP": 82.95893422195138,
+        "Annular Gas Flow": 16.088299752928993,
+        "Average Acoustic Velocity": 1427.773784173016,
+        "Average Joints Per Second": 21.891655691091938,
+        "Back Pressure on Formation Due to Liquid Loading": 14.707089978549988,
+        "Buildup": 1.5638656616210938,
+        "Buildup Time": 60.0,
+        "Computed Gas Gravity from User Entered Velocity": 0.6032219200911518,
+        "Continuous Removal of Liquid Tubing ID": 2.441,
+        "Distance to Liquid": 1878.9502999716892,
+        "Filter High End": 23.7391304347825,
+        "Filter Low End": 19.7391304347825,
+        "Gas Production": 16.088299752928993,
+        "Gas/Liquid Interface Pressure": 83.08565603160824,
+        "Interval Acoustic Velocity": 1417.8260869565145,
+        "Interval Joints Per Second": 21.7391304347825,
+        "Joints to Liquid": 57.61883777895398,
+        "Liquid Level - TVD": 1878.9502999716892,
+        "PIP LL": 83.04930523528532,
+        "Percent Liquid Above Pump": 100.0,
+        "Producing Efficiency": 0.0,
+        "RTTT": 2.632,
+        "Selected Marker Depth": 0.0,
+        "Time to First Collar": 0.26,
+        "Time to Last Collar": 2.544,
+        "User Entered Velocity": 1427.773784173016
+      },
+      "Session": false,
+      "StrValues": {
+        "Acoustic Velocity Calc Method": "Collar Count",
+        "Continuous Removal of Liquid Method": "Turner",
+        "Gun Serial Number": "WG Unknown",
+        "IPR Method": "Vogel",
+        "Pressure Sensor Serial Number": "PT 4678",
+        "Pulse Type": "Explosion",
+        "Selected Marker Name": "",
+        "Shot Path": "Casing",
+        "Well State": "Producing"
+      },
+      "Type": "ACU"
+    }
+  ]
+}

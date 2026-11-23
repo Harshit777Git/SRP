@@ -1,0 +1,62 @@
+{
+  "provenance": {
+    "state_id": "STATE-084",
+    "source_archive": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-084\\01_TAM\\TV Action Erratic.TAM_EXP",
+    "source_sha256": "4b20b75fb1a6f6bea6d3a76b7a693b7b74bf25b1ad4c7d5542db278d708caa92",
+    "source_bytes": 4818,
+    "extracted_utc": "2026-11-18T04_44_29Z",
+    "method": "lossless extraction of vendor metadata.json and TestResults.json",
+    "synthetic_data": false
+  },
+  "tests": [
+    {
+      "DateTime": "1998-02-18T21:16:12Z",
+      "FilePath": "",
+      "LastModified": "1998-02-18T21:16:12Z",
+      "NumValues": {
+        "ACU Acoustic Velocity": 1562.719562149814,
+        "ACU Casing Pressure": 234.52764892578125,
+        "ACU PBHP": 653.5268379025184,
+        "Annular Gas Flow": 294.26499072350856,
+        "Average Joints Per Second": 25.319500358875796,
+        "Back Pressure": 450.5056989297884,
+        "Back Pressure on Formation Due to Liquid Loading": 450.5056989297884,
+        "Buildup": 16.829025268554688,
+        "Buildup Time": 255.0,
+        "Computed Velocity from Gas Gravity": 1562.719562149814,
+        "Continuous Removal of Liquid For Condensate": 592.5990491971843,
+        "Continuous Removal of Liquid For Water": 916.6726520427262,
+        "Continuous Removal of Liquid Tubing ID": 2.441,
+        "Current Loaded EOT": 668.2268379025185,
+        "Distance to Liquid": 242.22153213322116,
+        "Flowing Gas EOT": 217.72113897273005,
+        "Fluid Above Pump": 5018.778467866779,
+        "Gas Free Above Pump": 1150.8895019274007,
+        "Gas Production": 294.26499072350856,
+        "Gas/Liquid Interface Pressure": 233.75135247447685,
+        "Joints to Liquid": 7.849045111251496,
+        "Liquid Level - TVD": 242.22153213322116,
+        "Oil Production": 96.0,
+        "PIP LL": 659.820381709165,
+        "Percent Liquid Above Pump": 22.6697265625,
+        "Producing Efficiency": 90.31150909029594,
+        "RTTT": 0.31,
+        "Selected Marker Depth": 0.0,
+        "Water Production": 819.0
+      },
+      "Session": false,
+      "StrValues": {
+        "Acoustic Velocity Calc Method": "Acoustic Velocity using Gas Specific Gravity",
+        "Continuous Removal of Liquid Method": "Turner",
+        "Gun Serial Number": "WG Unknown",
+        "IPR Method": "Vogel",
+        "Pressure Sensor Serial Number": "PT Undefined",
+        "Pulse Type": "Explosion",
+        "Selected Marker Name": "",
+        "Shot Path": "Casing",
+        "Well State": "Producing"
+      },
+      "Type": "ACU"
+    }
+  ]
+}

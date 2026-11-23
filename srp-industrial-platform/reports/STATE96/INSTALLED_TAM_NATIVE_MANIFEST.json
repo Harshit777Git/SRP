@@ -1,0 +1,15 @@
+{
+  "matched_states": 39,
+  "files": 217,
+  "categories": {
+    "DYN": 68,
+    "ACU": 54,
+    "CBE": 9,
+    "PLIFT": 1,
+    "HEADER": 39,
+    "CONFIGURATION": 46
+  },
+  "duplicate_members": 92,
+  "unmatched_directories": [],
+  "manifest": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\reports\\STATE96\\INSTALLED_TAM_NATIVE_MANIFEST.csv"
+}

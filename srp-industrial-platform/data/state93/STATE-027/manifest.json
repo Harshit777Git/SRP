@@ -1,0 +1,57 @@
+{
+  "state_id": "STATE-027",
+  "name": "Gunk in Pump",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Gunk in Pump",
+  "source_files": [
+    {
+      "State ID": "STATE-027",
+      "Original State Name": "Gunk in Pump",
+      "Application": "TAM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Gunk in Pump\\Original TAM\\Gunk in Pump.TAM_EXP",
+      "Extension": ".TAM_EXP",
+      "Bytes": 8913,
+      "SHA256": "a9d015439f718f804916ac5512a5a2306f8019e93050c3099e27922cb1158a69",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-027",
+      "Original State Name": "Gunk in Pump",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Gunk in Pump\\Original TWM\\2_7_HighSpeedDynoData\\Gunk in Pump.001",
+      "Extension": ".001",
+      "Bytes": 271733,
+      "SHA256": "87dd44ac83aece55d45190f7eee202aa88091cae1e59cb26f6f90a991ff8e654",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-027",
+      "Original State Name": "Gunk in Pump",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Gunk in Pump\\Original TWM\\Gunk in Pump.001",
+      "Extension": ".001",
+      "Bytes": 271733,
+      "SHA256": "87dd44ac83aece55d45190f7eee202aa88091cae1e59cb26f6f90a991ff8e654",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "VENDOR_GUI_ACTION_REQUIRED",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

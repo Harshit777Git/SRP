@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "state_id": "STATE-080",
+    "source_archive": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-080\\01_TAM\\Tagging Unanchored.TAM_EXP",
+    "source_sha256": "a39623755c68c49bd0490d0d78956e8ba3cd97cd153aae5be4888dee301f141f",
+    "source_bytes": 60945,
+    "extracted_utc": "2026-11-18T04_44_29Z",
+    "method": "lossless extraction of vendor metadata.json and TestResults.json",
+    "synthetic_data": false
+  },
+  "tests": [
+    {
+      "DateTime": "1996-04-13T02:30:00Z",
+      "LastModified": "1996-04-13T02:30:00Z",
+      "Type": "DYN",
+      "NumValues": {
+        "Beam Loading": 59.294725286549536,
+        "Existing Counterbalance": 81.91788000000001,
+        "Existing Cyclic Load Factor": 2.6997148817019645,
+        "Existing Max Gearbox Torque, DownStroke": 5.7591071128845215,
+        "Existing Max Gearbox Torque, Upstroke": 59.58955001831055,
+        "Existing Min Gearbox Torque, DownStroke": -21.30263328552246,
+        "Existing Min Gearbox Torque, Upstroke": -5.200758934020996,
+        "Existing RMS Gearbox Torque": 25.73277861268482,
+        "In Balance Cyclic Load Factor": 1.5713070089923267,
+        "In Balance Max Gearbox Torque, DownStroke": 34.374969482421875,
+        "In Balance Max Gearbox Torque, Upstroke": 34.374969482421875,
+        "In Balance Min Gearbox Torque, DownStroke": -7.412418365478516,
+        "In Balance Min Gearbox Torque, Upstroke": -8.303031921386719,
+        "In Balance RMS Gearbox Torque": 15.18670344133059,
+        "Maximum Counterbalance": 113.69388000000002,
+        "Polished Rod Power": 0.7827664701328969,
+        "Rated Current": 0.0,
+        "Required Counterbalance Change": 30.208643594462263
+      },
+      "StrValues": {
+        "Out of Balance": "Yes, rod heavy",
+        "To Balance Move": "2648.0 weights OUT 11.41"
+      }
+    }
+  ],
+  "note": "Exact vendor result values only; invalid/sentinel values are preserved and no units are inferred."
+}

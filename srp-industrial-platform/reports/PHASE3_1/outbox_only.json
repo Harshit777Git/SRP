@@ -1,0 +1,9 @@
+{
+  "messages": 3000,
+  "enqueue_s": 0.24235890014097095,
+  "enqueue_rate": 12378.336418654377,
+  "sent_in_15_s": 3000,
+  "queue_before": 3000,
+  "queue_after": 0,
+  "ack_lag_s": 1.7626409530639648
+}

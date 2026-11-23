@@ -1,0 +1,7 @@
+{
+  "state_id": "STATE-027",
+  "source_state": "Gunk in Pump",
+  "surface_card": null,
+  "downhole_card": null,
+  "reason": "No verified ordered numerical samples extracted"
+}

@@ -1,0 +1,93 @@
+{
+  "task": "provider-reported hourly pump fillage estimation",
+  "validation": "leave-one-whole-well-out",
+  "target_status": "provider estimate; not independent measured fillage or fault truth",
+  "features": [
+    "SPM",
+    "min_rod_weight",
+    "max_rod_weight",
+    "dynamometer_area"
+  ],
+  "complete_rows": 28714,
+  "quality_filtered_rows": 27874,
+  "excluded_rows": 840,
+  "wells": [
+    "NK-68",
+    "NK-7",
+    "NK-77",
+    "NK-82",
+    "NK-86",
+    "NK-91",
+    "NK-93"
+  ],
+  "per_well": [
+    {
+      "held_out_well": "NK-68",
+      "train_rows": 23553,
+      "test_rows": 4321,
+      "target_mean": 70.03097343207591,
+      "ridge_mae_percentage_points": 20.22784725736029,
+      "train_mean_mae_percentage_points": 30.16885439778027,
+      "ridge_r2": -2.3667362090339243
+    },
+    {
+      "held_out_well": "NK-7",
+      "train_rows": 24659,
+      "test_rows": 3215,
+      "target_mean": 35.395084914463446,
+      "ridge_mae_percentage_points": 18.00973583748705,
+      "train_mean_mae_percentage_points": 19.43795231276351,
+      "ridge_r2": -0.8018527559995181
+    },
+    {
+      "held_out_well": "NK-77",
+      "train_rows": 23490,
+      "test_rows": 4384,
+      "target_mean": 69.08185205291971,
+      "ridge_mae_percentage_points": 19.15360587497055,
+      "train_mean_mae_percentage_points": 30.343188518751568,
+      "ridge_r2": -1.4510993201584612
+    },
+    {
+      "held_out_well": "NK-82",
+      "train_rows": 23932,
+      "test_rows": 3942,
+      "target_mean": 14.934340842212075,
+      "ridge_mae_percentage_points": 25.719189023104597,
+      "train_mean_mae_percentage_points": 38.561069964510466,
+      "ridge_r2": -1.3949802704201972
+    },
+    {
+      "held_out_well": "NK-86",
+      "train_rows": 23696,
+      "test_rows": 4178,
+      "target_mean": 20.330091239827667,
+      "ridge_mae_percentage_points": 28.558599525655765,
+      "train_mean_mae_percentage_points": 30.891527456349113,
+      "ridge_r2": -2.213426431015544
+    },
+    {
+      "held_out_well": "NK-91",
+      "train_rows": 24085,
+      "test_rows": 3789,
+      "target_mean": 85.36851609923463,
+      "ridge_mae_percentage_points": 43.63234757975625,
+      "train_mean_mae_percentage_points": 47.18168610969562,
+      "ridge_r2": -8.616867419630687
+    },
+    {
+      "held_out_well": "NK-93",
+      "train_rows": 23829,
+      "test_rows": 4045,
+      "target_mean": 19.723176588380717,
+      "ridge_mae_percentage_points": 25.281391675963427,
+      "train_mean_mae_percentage_points": 33.54434068407988,
+      "ridge_r2": -1.1857628610107822
+    }
+  ],
+  "unweighted_mean_mae": 25.797530967756845,
+  "unweighted_mean_baseline_mae": 32.875517063418634,
+  "model": "ridge linear regression, penalty 1 on standardized features; fit on training wells only",
+  "deployment": "NOT_READY",
+  "production_fault_model_changed": false
+}

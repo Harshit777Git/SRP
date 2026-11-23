@@ -1,0 +1,35 @@
+{
+  "state_id": "STATE-029",
+  "name": "INF 1824",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\INF 1824",
+  "source_files": [
+    {
+      "State ID": "STATE-029",
+      "Original State Name": "INF 1824",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\INF 1824\\Original TWM\\2_8_PRT_BendingRolishedRod\\INF 1824.012",
+      "Extension": ".012",
+      "Bytes": 192409,
+      "SHA256": "8b3ba0f1739f7d58ade5e9be6009a031de34f6adac37c3426dc81d14e1ae9856",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "UNSUPPORTED_CONVERSION",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

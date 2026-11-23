@@ -1,0 +1,12 @@
+﻿metric,value
+load_rmse_lbf,627.3106625247694
+load_mae_lbf,559.5822183278813
+displacement_rmse_in,1.4218893705299334
+displacement_mae_in,1.3715657574612647
+stroke_length_error_in,-0.14298107072195876
+card_area_error_percent,5.4438532531811195
+maximum_load_difference_lbf,746.437851339364
+minimum_load_difference_lbf,1055.252636035516
+load_correlation,0.9931106249645918
+best_circular_shift_samples,0
+phase_basis,ORDERED_SAMPLE_INDEX; TIMEBASE_ESTIMATED_FROM_SPM

@@ -1,0 +1,9 @@
+{
+  "messages": 15000,
+  "enqueue_s": 0.285824199905619,
+  "elapsed_s": 8.043062600074336,
+  "acknowledged": 15000,
+  "received": 15000,
+  "receive_rate_per_s": 1864.9612399959894,
+  "missing": 0
+}

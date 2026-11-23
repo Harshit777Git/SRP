@@ -1,0 +1,46 @@
+{
+  "state_id": "STATE-042",
+  "name": "Motor - Burn Up",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Motor - Burn Up",
+  "source_files": [
+    {
+      "State ID": "STATE-042",
+      "Original State Name": "Motor - Burn Up",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Motor - Burn Up\\Original TWM\\3_2_Motor\\Motor - Burn Up.001",
+      "Extension": ".001",
+      "Bytes": 86342,
+      "SHA256": "e4e0772eb0ea3a9d3cc25fa55fc5a31a89931a37c3f12b8a5416fef1bd6d636a",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-042",
+      "Original State Name": "Motor - Burn Up",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Motor - Burn Up\\Original TWM\\3_2_Motor\\Motor - Burn Up.002",
+      "Extension": ".002",
+      "Bytes": 132816,
+      "SHA256": "072724d90cdcd58e63eec87c4b8f41bafbef6495be384a6ffeb98e21aa491735",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "UNSUPPORTED_CONVERSION",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

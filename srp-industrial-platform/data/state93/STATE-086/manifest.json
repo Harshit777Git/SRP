@@ -1,0 +1,79 @@
+{
+  "state_id": "STATE-086",
+  "name": "Unaccounted Wellbore Friction",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Unaccounted Wellbore Friction",
+  "source_files": [
+    {
+      "State ID": "STATE-086",
+      "Original State Name": "Unaccounted Wellbore Friction",
+      "Application": "TAM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Unaccounted Wellbore Friction\\Original TAM\\Unaccounted Wellbore Friction.TAM_EXP",
+      "Extension": ".TAM_EXP",
+      "Bytes": 9673,
+      "SHA256": "22f2b8f0b69069405947f1057db2bd84526fe54782b47e42a553c41ede73869f",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-086",
+      "Original State Name": "Unaccounted Wellbore Friction",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Unaccounted Wellbore Friction\\Original TWM\\2_4_Damping Factor\\Unaccounted Wellbore Friction.001",
+      "Extension": ".001",
+      "Bytes": 389562,
+      "SHA256": "fd4c37af7cc357421477c822d4600bc5b2681bdfab62f3cdf0e8b9088f2c91be",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-086",
+      "Original State Name": "Unaccounted Wellbore Friction",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Unaccounted Wellbore Friction\\Original TWM\\2_4_Damping Factor\\Unaccounted Wellbore Friction.002",
+      "Extension": ".002",
+      "Bytes": 1077651,
+      "SHA256": "81f42131b33138908618ea72e0f90ffc197c0e530f45761e55a6677dd3eeb5b4",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-086",
+      "Original State Name": "Unaccounted Wellbore Friction",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Unaccounted Wellbore Friction\\Original TWM\\Unaccounted Wellbore Friction.001",
+      "Extension": ".001",
+      "Bytes": 389562,
+      "SHA256": "fd4c37af7cc357421477c822d4600bc5b2681bdfab62f3cdf0e8b9088f2c91be",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-086",
+      "Original State Name": "Unaccounted Wellbore Friction",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Unaccounted Wellbore Friction\\Original TWM\\Unaccounted Wellbore Friction.002",
+      "Extension": ".002",
+      "Bytes": 1077651,
+      "SHA256": "81f42131b33138908618ea72e0f90ffc197c0e530f45761e55a6677dd3eeb5b4",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "VENDOR_GUI_ACTION_REQUIRED",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

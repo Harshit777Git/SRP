@@ -1,0 +1,7 @@
+test_duplicate_late_recovery_and_run_geometry (__main__.IngestionTests.test_duplicate_late_recovery_and_run_geometry) ... ok
+test_run_and_asset_isolation (__main__.IngestionTests.test_run_and_asset_isolation) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.073s
+
+OK

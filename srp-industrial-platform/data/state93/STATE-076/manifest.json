@@ -1,0 +1,35 @@
+{
+  "state_id": "STATE-076",
+  "name": "SV_StuckOpenHT",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\SV_StuckOpenHT",
+  "source_files": [
+    {
+      "State ID": "STATE-076",
+      "Original State Name": "SV_StuckOpenHT",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\SV_StuckOpenHT\\Original TWM\\1_8_Dyno_Analysis_Advanced\\SV_StuckOpenHT.001",
+      "Extension": ".001",
+      "Bytes": 860195,
+      "SHA256": "7ad9434d1d5cec804474c9208eacbce1846579e39ca8da92fd1a1155fc99d7be",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "UNSUPPORTED_CONVERSION",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

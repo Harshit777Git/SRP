@@ -1,0 +1,57 @@
+{
+  "state_id": "STATE-063",
+  "name": "RodPart_5365",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\RodPart_5365",
+  "source_files": [
+    {
+      "State ID": "STATE-063",
+      "Original State Name": "RodPart_5365",
+      "Application": "TAM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\RodPart_5365\\Original TAM\\RodPart_5365.TAM_EXP",
+      "Extension": ".TAM_EXP",
+      "Bytes": 4329,
+      "SHA256": "24571b9ccee5ec571abdaa06ae21b217a4ff328f281409197a63de37864283ba",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-063",
+      "Original State Name": "RodPart_5365",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\RodPart_5365\\Original TWM\\1_8_Dyno_Analysis_Advanced\\RodPart_5365.012",
+      "Extension": ".012",
+      "Bytes": 33747,
+      "SHA256": "7186ddd84040ef6a865c78073759a755575a81cf93f6733ba46eec8d163bf09e",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-063",
+      "Original State Name": "RodPart_5365",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\RodPart_5365\\Original TWM\\RodPart_5365.012",
+      "Extension": ".012",
+      "Bytes": 33747,
+      "SHA256": "7186ddd84040ef6a865c78073759a755575a81cf93f6733ba46eec8d163bf09e",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "VENDOR_GUI_ACTION_REQUIRED",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

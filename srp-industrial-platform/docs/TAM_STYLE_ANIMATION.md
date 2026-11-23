@@ -1,0 +1,9 @@
+# Synchronized pump analysis
+
+Open Animated Pump Analysis in APM. The cutaway and both cursors share one animation clock. The selected completed stroke defaults to the latest one received. Freeze Stroke, Previous, Next and Historical Stroke pin a record. The speed control supports 0.25×, 0.5×, 1× and 2×. Scrub or click a sample on either card to pause and inspect the same time in all three views. Overlay Stroke displays a second operating stroke as a dashed trace. Notes are local to the browser.
+
+New stroke records store original surface sample offsets and their verified uniform reconstruction grid. The wave solver and resampled surface record use exactly the same timestamps. Playback interpolates the two resampled curves, including the periodic end interval. Older stored strokes without that grid require a newly acquired stroke for synchronization.
+
+The plunger follows reconstructed displacement. Its instrumentation distinguishes reconstructed load and travel from model-estimated static heads and geometry-based swept volume. The cutoff drawing uses a schematic scale. Valve states, chamber pressure, dynamic fluid levels and actual flow remain unavailable. The current inverse solution estimates rod-end displacement and tension. The previous synthetic reconstruction range of 119–236 N corresponds to about 77–152 kPa across the preset 44.45 mm plunger. Valve transitions cannot be inferred reliably from that pressure uncertainty alone. The live APM process has access to telemetry and equipment geometry. Valve actuation, reverse flow, fault-specific particles and chamber fillage require an independently validated hydraulic observer.
+
+TAM stroke playback, overlays and pump analysis informed the workflow. The cutaway and controls are original. [TAM documentation](https://hamdon.net/wp-content/uploads/2015/04/TAM-Software-Manual.pdf) · [TAM feature overview](https://www.upcoglobal.com/software/echometer/total-asset-monitor).

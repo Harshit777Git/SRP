@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "state_id": "STATE-001",
+    "source_archive": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-001\\01_TAM\\Anchored but NOT Set.TAM_EXP",
+    "source_sha256": "6fc76d446ef6fc056df7e7a89868b5ba07096e11f3d3df753802ffb9481c6a28",
+    "source_bytes": 5394,
+    "extracted_utc": "2026-11-18T04_44_29Z",
+    "method": "lossless extraction of vendor metadata.json and TestResults.json",
+    "synthetic_data": false
+  },
+  "tests": [
+    {
+      "DateTime": "1995-06-07T16:24:00Z",
+      "LastModified": "1995-06-07T16:24:00Z",
+      "Type": "DYN",
+      "NumValues": {
+        "Beam Loading": 66.3679987192154,
+        "Existing Counterbalance": 606.9929400000001,
+        "Existing Cyclic Load Factor": 3.7616685178940386,
+        "Existing Max Gearbox Torque, DownStroke": 72.18958282470703,
+        "Existing Max Gearbox Torque, Upstroke": 353.51318359375,
+        "Existing Min Gearbox Torque, DownStroke": -337.57403564453125,
+        "Existing Min Gearbox Torque, Upstroke": 24.123722076416016,
+        "Existing RMS Gearbox Torque": 201.44525682077827,
+        "In Balance Cyclic Load Factor": 2.4137597336452816,
+        "In Balance Max Gearbox Torque, DownStroke": 203.1422119140625,
+        "In Balance Max Gearbox Torque, Upstroke": 203.1422119140625,
+        "In Balance Min Gearbox Torque, DownStroke": -171.5059051513672,
+        "In Balance Min Gearbox Torque, Upstroke": -114.58961486816406,
+        "In Balance RMS Gearbox Torque": 124.91567282158039,
+        "Maximum Counterbalance": 620.2329400000001,
+        "Polished Rod Power": 3.6979633235888336,
+        "Rated Current": 20.0,
+        "Required Counterbalance Change": 226.50422447656373
+      },
+      "StrValues": {
+        "Out of Balance": "Yes, rod heavy",
+        "To Balance Move": "Loading cannot be balanced, must add weights to balance"
+      }
+    }
+  ],
+  "note": "Exact vendor result values only; invalid/sentinel values are preserved and no units are inferred."
+}

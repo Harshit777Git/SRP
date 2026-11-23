@@ -1,0 +1,35 @@
+{
+  "state_id": "STATE-091",
+  "name": "VariableSlippagePump",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\VariableSlippagePump",
+  "source_files": [
+    {
+      "State ID": "STATE-091",
+      "Original State Name": "VariableSlippagePump",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\VariableSlippagePump\\Original TWM\\2_5_Pumping Flumping Sucker Rod Lifted Wells\\VariableSlippagePump.007",
+      "Extension": ".007",
+      "Bytes": 2951478,
+      "SHA256": "185b8f6555bd5ec0c48048143a828ccb423ea7a0f6018cf82491fc3ce6e3bf92",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "UNSUPPORTED_CONVERSION",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

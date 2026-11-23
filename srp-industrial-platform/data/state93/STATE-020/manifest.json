@@ -1,0 +1,46 @@
+{
+  "state_id": "STATE-020",
+  "name": "FHMUF814",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\FHMUF814",
+  "source_files": [
+    {
+      "State ID": "STATE-020",
+      "Original State Name": "FHMUF814",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\FHMUF814\\Original TWM\\1_1_Introduction_TWM_Torque_Power\\FHMUF814.004",
+      "Extension": ".004",
+      "Bytes": 1158161,
+      "SHA256": "5c22ab4e50f2a99c25c1a5de82d011663f7484916c8bf525bdb6a884306a3ea1",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-020",
+      "Original State Name": "FHMUF814",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\FHMUF814\\Original TWM\\1_1_Introduction_TWM_Torque_Power\\FHMUF814.005",
+      "Extension": ".005",
+      "Bytes": 401920,
+      "SHA256": "81e30398f0f5dc8edeccd0037bbd9a68a7830c348b51dbad42d19fbb70cd7df4",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "UNSUPPORTED_CONVERSION",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

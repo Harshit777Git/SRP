@@ -1,0 +1,39 @@
+{
+  "state_id": "STATE-001",
+  "state_name": "Anchored but NOT Set",
+  "source_application": "TAM",
+  "test_id": "1995-06-07_215400",
+  "selected_stroke_id": "4",
+  "reported_test_strokes": 4,
+  "exported_unique_strokes": 1,
+  "sample_count": 251,
+  "surface_load_unit": "lbf",
+  "pump_load_unit": "lbf",
+  "position_unit": "in",
+  "pdf_configuration_status": "ORIGINAL_PDF_COLLECTED_NOT_ENGINEERING_REVIEWED",
+  "vendor_comment": "Unanchored Tubing - 071440.D01",
+  "diagnostic_label_status": "COMMENT_ONLY_NOT_FIELD_VERIFIED",
+  "txt_dyn_surface_max_position_difference_in": 0.0,
+  "txt_dyn_surface_max_load_difference_lbf": 0.005000000001018634,
+  "source_files": [
+    {
+      "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-001\\05_NUMERICAL_DATA\\TAM\\test_1995-06-07_215400\\Anchored but NOT Set_DYN_4294967295_06-07-1995_21-54-00.txt",
+      "bytes": 10024,
+      "sha256": "4c718db695d552923b979693e2e4daaf884e5b0b5a2a13d07b11a3c83b7ba90c",
+      "format": ".txt"
+    },
+    {
+      "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-001\\05_NUMERICAL_DATA\\TAM\\test_1995-06-07_215400\\Anchored but NOT Set_DYN_4294967295_06-07-1995_21-54-00.dyn",
+      "bytes": 5326,
+      "sha256": "1d9aa0312ab7e10ebec7cd15f85e7f0b183e6a4f95d3620983894b36c147f78b",
+      "format": ".dyn"
+    },
+    {
+      "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-001\\06_ENGINEERING_CONFIGURATION\\TAM\\Anchored but NOT Set_Summary.pdf",
+      "bytes": 183272,
+      "sha256": "f8572967db89047b94776e9facde6ddb0f99ec9ea88c58cf076c98d7ba638715",
+      "format": ".pdf"
+    }
+  ],
+  "apm_reconstruction": "BLOCKED_REVIEWED_CONFIGURATION_REQUIRED"
+}

@@ -1,0 +1,18 @@
+{
+  "state_id": "STATE-054",
+  "source_archive": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-054\\01_TAM\\PFL_Lot of Gas2.TAM_EXP",
+  "source_sha256": "a08dead3b80f23bec3f1db65f10f4b9a5ba835761a5d4d4d23be466f1a0fe02f",
+  "source_bytes": 4993,
+  "extracted_utc": "2026-11-18T04_44_29Z",
+  "method": "lossless extraction of vendor metadata.json and TestResults.json",
+  "synthetic_data": false,
+  "well_count": 1,
+  "test_count": 2,
+  "normalized_parameter_rows": 106,
+  "outputs": [
+    "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-054\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-054_TAM_TEST_RESULTS.json",
+    "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-054\\NORMALIZED_DATA\\STATE-054_TAM_TEST_RESULTS_LONG.csv",
+    "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-054\\07_MEASUREMENTS\\ACOUSTIC_TESTS\\STATE-054_TAM_ACU_RESULTS.json",
+    "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-054\\07_MEASUREMENTS\\POWER_TORQUE\\STATE-054_TAM_DYN_MECHANICAL_ELECTRICAL_RESULTS.json"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "states": {
+    "STATE-006": {
+      "2007-08-16_192307": {
+        "1": {
+          "status": "FAILED",
+          "stage": "TXT_EXPORTED"
+        },
+        "2": {
+          "status": "NUMERICAL_VERIFIED",
+          "points": 288
+        },
+        "3": {
+          "status": "NUMERICAL_VERIFIED",
+          "points": 289
+        },
+        "4": {
+          "status": "NUMERICAL_VERIFIED",
+          "points": 287
+        },
+        "5": {
+          "status": "FAILED",
+          "stage": "TXT_EXPORTED"
+        },
+        "10": {
+          "status": "NUMERICAL_VERIFIED",
+          "points": 289
+        },
+        "11": {
+          "status": "NUMERICAL_VERIFIED",
+          "points": 288
+        },
+        "12": {
+          "status": "FAILED",
+          "validator_error": "Traceback (most recent call last):\n  File \"C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\scripts\\echometer\\phase5_1_validate.py\", line 217, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\scripts\\echometer\\phase5_1_validate.py\", line 212, in main\n    atomic_json(progress_path, progress)\n    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\scripts\\echometer\\phase5_1_validate.py\", line 55, in atomic_json\n    tmp.replace(path)\n    ~~~~~~~~~~~^^^^^^\n  File \"C:\\Users\\HARSHIT\\AppData\\Local\\Python\\pythoncore-3.15-64\\Lib\\pathlib\\__init__.py\", line 1292, in replace\n    os.replace(self, target)\n    ~~~~~~~~~~^^^^^^^^^^^^^^\nPermissionError: [WinError 5] Access is denied: 'C:\\\\Users\\\\HARSHIT\\\\OneDrive - TAS\\\\Desktop\\\\SRP\\\\srp-industrial-platform\\\\reports\\\\STATE93\\\\PHASE5_1\\\\EXTRACTION_PROGRESS.json.tmp' -> 'C:\\\\Users\\\\HARSHIT\\\\OneDrive - TAS\\\\Desktop\\\\SRP\\\\srp-industrial-platform\\\\reports\\\\STATE93\\\\PHASE5_1\\\\EXTRACTION_PROGRESS.json'\n"
+        },
+        "13": {
+          "status": "NUMERICAL_VERIFIED",
+          "points": 290
+        },
+        "14": {
+          "status": "NUMERICAL_VERIFIED",
+          "points": 289
+        },
+        "15": {
+          "status": "NUMERICAL_VERIFIED",
+          "points": 291
+        },
+        "16": {
+          "status": "NUMERICAL_VERIFIED",
+          "points": 289
+        },
+        "17": {
+          "status": "NUMERICAL_VERIFIED",
+          "points": 290
+        }
+      },
+      "2007-08-16_192600": {
+        "1": {
+          "status": "NUMERICAL_VERIFIED",
+          "points": 291
+        },
+        "2": {
+          "status": "NUMERICAL_VERIFIED",
+          "points": 288
+        },
+        "3": {
+          "status": "NUMERICAL_VERIFIED",
+          "points": 289
+        },
+        "4": {
+          "status": "NUMERICAL_VERIFIED",
+          "points": 289
+        },
+        "5": {
+          "status": "NUMERICAL_VERIFIED",
+          "points": 288
+        },
+        "6": {
+          "status": "NUMERICAL_VERIFIED",
+          "points": 289
+        },
+        "7": {
+          "status": "NUMERICAL_VERIFIED",
+          "points": 288
+        },
+        "8": {
+          "status": "NUMERICAL_VERIFIED",
+          "points": 288
+        },
+        "9": {
+          "status": "NUMERICAL_VERIFIED",
+          "points": 289
+        },
+        "10": {
+          "status": "NUMERICAL_VERIFIED",
+          "points": 288
+        },
+        "11": {
+          "status": "NUMERICAL_VERIFIED",
+          "points": 289
+        },
+        "12": {
+          "status": "NUMERICAL_VERIFIED",
+          "points": 288
+        },
+        "13": {
+          "status": "NUMERICAL_VERIFIED",
+          "points": 288
+        }
+      }
+    }
+  }
+}

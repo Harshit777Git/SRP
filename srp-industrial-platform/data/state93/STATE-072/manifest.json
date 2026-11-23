@@ -1,0 +1,35 @@
+{
+  "state_id": "STATE-072",
+  "name": "StrokeProcessind3",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\StrokeProcessind3",
+  "source_files": [
+    {
+      "State ID": "STATE-072",
+      "Original State Name": "StrokeProcessind3",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\StrokeProcessind3\\Original TWM\\1_2_Dynamometer_Basic_Loads\\StrokeProcessind3.001",
+      "Extension": ".001",
+      "Bytes": 598714,
+      "SHA256": "6a2330be9ba4d4337ce60d893e05b6fb7f8d794606bbd77f12c10bb7023e1010",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "UNSUPPORTED_CONVERSION",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

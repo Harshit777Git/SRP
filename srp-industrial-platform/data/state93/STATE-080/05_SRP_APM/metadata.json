@@ -1,0 +1,7 @@
+{
+  "state_id": "STATE-080",
+  "source_state": "Tagging Unanchored",
+  "surface_card": null,
+  "downhole_card": null,
+  "reason": "No verified ordered numerical samples extracted"
+}

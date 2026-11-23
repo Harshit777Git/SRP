@@ -1,0 +1,79 @@
+{
+  "state_id": "STATE-026",
+  "name": "GearboxBalance",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\GearboxBalance",
+  "source_files": [
+    {
+      "State ID": "STATE-026",
+      "Original State Name": "GearboxBalance",
+      "Application": "TAM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\GearboxBalance\\Original TAM\\GearboxBalance.TAM_EXP",
+      "Extension": ".TAM_EXP",
+      "Bytes": 8303,
+      "SHA256": "828ae1b9ccdbf61838cd8d1d9d68960d2642e60b3f6b7755fd2d158e71432252",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-026",
+      "Original State Name": "GearboxBalance",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\GearboxBalance\\Original TWM\\3_4_PumpUnit_BalanceTorque\\GearboxBalance.011",
+      "Extension": ".011",
+      "Bytes": 2450934,
+      "SHA256": "3092c984f242b877e3703a2fb9298afe02a7b7aad90709d53a007a0221454f15",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-026",
+      "Original State Name": "GearboxBalance",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\GearboxBalance\\Original TWM\\3_4_PumpUnit_BalanceTorque\\GearboxBalance.012",
+      "Extension": ".012",
+      "Bytes": 2056682,
+      "SHA256": "5225d3b7b0d977904a57c2a354c79f119a5a3760bb7f4783ce93bb4cfdff1607",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-026",
+      "Original State Name": "GearboxBalance",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\GearboxBalance\\Original TWM\\GearboxBalance.011",
+      "Extension": ".011",
+      "Bytes": 2450934,
+      "SHA256": "3092c984f242b877e3703a2fb9298afe02a7b7aad90709d53a007a0221454f15",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-026",
+      "Original State Name": "GearboxBalance",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\GearboxBalance\\Original TWM\\GearboxBalance.012",
+      "Extension": ".012",
+      "Bytes": 2056682,
+      "SHA256": "5225d3b7b0d977904a57c2a354c79f119a5a3760bb7f4783ce93bb4cfdff1607",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "VENDOR_GUI_ACTION_REQUIRED",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

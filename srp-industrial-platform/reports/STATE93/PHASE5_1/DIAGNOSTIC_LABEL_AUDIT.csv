@@ -1,0 +1,94 @@
+﻿state_id,example_name,provider_comment,test_specific_condition,pre_post_repair,field_confirmed_diagnosis,stroke_wide_label_assigned,training_permission
+STATE-001,Anchored but NOT Set,Unanchored Tubing - 071440.D01,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-002,Anchored With Rod Stretch,Anchored Tubing and Deep Fluid Level - Dynamometer Test,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-003,Asphaltenes in Pump,Asphaltenes Sticking TV - TV goes on Seat at different Points,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-004,average_well,Example in TWM Manual - v11TTD24.D01,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-005,Bad Tail Bearing,Repaired Tail Bearing - After Repair Tail Bearing,After tail-bearing repair,POST_REPAIR,False,False,NOT_REVIEWED
+STATE-006,BlockedIntake,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-007,Calculate_PlungerClearance,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-008,Conventional,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-009,Damping_10API,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-010,Damping_High,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-011,Damping_Negative_Acc,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-012,Damping_RodString,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-013,Damping_ShallowWell,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-014,Damping_VeryHigh,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-015,Deep_well,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-016,Dyno_CardOptions,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-017,Dyno_HydraulicPump,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-018,Dyno_Normal_GradientSet_0,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-019,DynoChangeSPM,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-020,FHMUF814,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-021,FlatLoadLineBuoy,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-022,FluidPoundUnAnchoredTubing,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-023,Flumping,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-024,Gas Interference,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-025,GasLocked_wTag,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-026,GearboxBalance,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-027,Gunk in Pump,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-028,HighSpeed,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-029,INF 1824,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-030,Leak Hole In Pump Barrel,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-031,Leak Pump Barrel Worn,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-032,Leak Standing Valve,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-033,Leak SV Bad,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-034,Leak Tubing Hole,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-035,Leak Tubing Hole HT,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-036,Leak Tubing Hole PRT,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-037,Leak TV Unanchored,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-038,Leak TV(best),,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-039,LeaveCsgValveClosed,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-040,Light Load Motor,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-041,MarkII,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-042,Motor - Burn Up,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-043,Need Gas Separator,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-044,NR-6,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-045,PFL_Anomaly,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-046,PFL_DHM_CasingWtChange,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-047,PFL_DHM_CoalBedPerfs,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-048,PFL_Gaseous_noisy,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-049,PFL_Gaslift,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-050,PFL_High,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-051,PFL_High_liquid_low_gas,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-052,PFL_Imp_Exp,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-053,PFL_Liner,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-054,PFL_Lot of Gas2,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-055,PFL_SBHP,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-056,PFL_Tubing_anchor,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-057,Plunger_Normal Cycle,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-058,PRT Bending Polished Rod,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-059,PRT RodRotator,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-060,Red Raider 1,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-061,ReverseMark,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-062,RodPart_3000,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-063,RodPart_5365,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-064,RodPart_NoPlunger,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-065,RotoFlex,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-066,RotoFlex_Electric,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-067,RVOGTA8,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-068,RVOGTA8DOWN10MIN,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-069,RvogtXa8,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-070,Sandia,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-071,Stick_Release_Upstroke,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-072,StrokeProcessind3,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-073,StrokeProcessing,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-074,StrokeProcessing1,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-075,Stuffing Box,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-076,SV_StuckOpenHT,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-077,Tagging Down Hard,Multiple behaviors documented; refer to test-specific STATE-077 benchmark evidence,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-078,Tagging Fiberglass Rods on Downstroke,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-079,Tagging Hard FG,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-080,Tagging Unanchored,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-081,TBG Fluid Grad,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-082,Trash Sticks SV Open,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-083,Trash Sticks TV Open,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-084,TV Action Erratic,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-085,TV Double Valve,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-086,Unaccounted Wellbore Friction,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-087,Undertravel,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-088,UseBackPressureRequlator,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-089,V11,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-090,V11_StartUp_AMP_KW,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-091,VariableSlippagePump,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-092,Well5,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED
+STATE-093,Well6,,Unverified across all strokes,UNKNOWN,False,False,NOT_REVIEWED

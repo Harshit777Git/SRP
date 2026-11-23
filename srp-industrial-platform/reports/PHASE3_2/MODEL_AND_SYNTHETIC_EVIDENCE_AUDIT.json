@@ -1,0 +1,1016 @@
+{
+  "generated_at_utc": "2026-11-17",
+  "classification": "SYNTHETIC_EVIDENCE_ONLY",
+  "fault_capture_revisions": [
+    {
+      "dataset_id": "phase32-fault-training-candidate-3129-each",
+      "physics_model_version": null,
+      "raw_telemetry_rows_per_fault": {
+        "healthy": 3129,
+        "incomplete_fillage": 3129,
+        "gas_interference": 3129,
+        "traveling_valve_leak": 3129,
+        "standing_valve_leak": 3129,
+        "rod_friction": 3129,
+        "pump_wear": 3129,
+        "restricted_inflow": 3129,
+        "load_cell_drift": 3129,
+        "position_sensor_fault": 3129,
+        "abnormal_speed": 3129
+      },
+      "raw_telemetry_total": 34419,
+      "independent_runs_per_fault": {
+        "healthy": 3,
+        "incomplete_fillage": 3,
+        "gas_interference": 3,
+        "traveling_valve_leak": 3,
+        "standing_valve_leak": 3,
+        "rod_friction": 3,
+        "pump_wear": 3,
+        "restricted_inflow": 3,
+        "load_cell_drift": 3,
+        "position_sensor_fault": 3,
+        "abnormal_speed": 3
+      },
+      "fault_severity_values_per_fault": {
+        "healthy": [
+          0.0
+        ],
+        "incomplete_fillage": [
+          0.1,
+          0.2,
+          0.4
+        ],
+        "gas_interference": [
+          0.1,
+          0.2,
+          0.4
+        ],
+        "traveling_valve_leak": [
+          0.1,
+          0.2,
+          0.4
+        ],
+        "standing_valve_leak": [
+          0.1,
+          0.2,
+          0.4
+        ],
+        "rod_friction": [
+          0.1,
+          0.2,
+          0.4
+        ],
+        "pump_wear": [
+          0.1,
+          0.2,
+          0.4
+        ],
+        "restricted_inflow": [
+          0.1,
+          0.2,
+          0.4
+        ],
+        "load_cell_drift": [
+          0.1,
+          0.2,
+          0.4
+        ],
+        "position_sensor_fault": [
+          0.1,
+          0.2,
+          0.4
+        ],
+        "abnormal_speed": [
+          0.1,
+          0.2,
+          0.4
+        ]
+      },
+      "completed_cards_total": 57,
+      "completed_cards_per_fault": {
+        "healthy": 5,
+        "incomplete_fillage": 5,
+        "gas_interference": 5,
+        "traveling_valve_leak": 6,
+        "standing_valve_leak": 4,
+        "rod_friction": 6,
+        "pump_wear": 5,
+        "restricted_inflow": 5,
+        "load_cell_drift": 5,
+        "position_sensor_fault": 5,
+        "abnormal_speed": 6
+      },
+      "distinct_virtual_wells": 30,
+      "manifest_hashes_match": {
+        "ml_inputs_telemetry.jsonl": true,
+        "ml_inputs_auxiliary.jsonl": true,
+        "simulation_truth_labels.jsonl": true,
+        "surface_downhole_cards.jsonl": true
+      }
+    },
+    {
+      "dataset_id": "phase32-fault-training-candidate-3129-each-v2",
+      "physics_model_version": null,
+      "raw_telemetry_rows_per_fault": {
+        "healthy": 3129,
+        "incomplete_fillage": 3129,
+        "gas_interference": 3129,
+        "traveling_valve_leak": 3129,
+        "standing_valve_leak": 3129,
+        "rod_friction": 3129,
+        "pump_wear": 3129,
+        "restricted_inflow": 3129,
+        "load_cell_drift": 3129,
+        "position_sensor_fault": 3129,
+        "abnormal_speed": 3129
+      },
+      "raw_telemetry_total": 34419,
+      "independent_runs_per_fault": {
+        "healthy": 6,
+        "incomplete_fillage": 6,
+        "gas_interference": 6,
+        "traveling_valve_leak": 6,
+        "standing_valve_leak": 6,
+        "rod_friction": 6,
+        "pump_wear": 6,
+        "restricted_inflow": 6,
+        "load_cell_drift": 6,
+        "position_sensor_fault": 6,
+        "abnormal_speed": 6
+      },
+      "fault_severity_values_per_fault": {
+        "healthy": [
+          0.0
+        ],
+        "incomplete_fillage": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "gas_interference": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "traveling_valve_leak": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "standing_valve_leak": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "rod_friction": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "pump_wear": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "restricted_inflow": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "load_cell_drift": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "position_sensor_fault": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "abnormal_speed": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ]
+      },
+      "completed_cards_total": 47,
+      "completed_cards_per_fault": {
+        "healthy": 4,
+        "incomplete_fillage": 5,
+        "gas_interference": 4,
+        "traveling_valve_leak": 4,
+        "standing_valve_leak": 4,
+        "rod_friction": 4,
+        "pump_wear": 5,
+        "restricted_inflow": 4,
+        "load_cell_drift": 4,
+        "position_sensor_fault": 4,
+        "abnormal_speed": 5
+      },
+      "distinct_virtual_wells": 30,
+      "manifest_hashes_match": {
+        "ml_inputs_telemetry.jsonl": true,
+        "ml_inputs_auxiliary.jsonl": true,
+        "simulation_truth_labels.jsonl": true,
+        "surface_downhole_cards.jsonl": true
+      }
+    },
+    {
+      "dataset_id": "phase32-fault-training-candidate-3129-each-v3",
+      "physics_model_version": null,
+      "raw_telemetry_rows_per_fault": {
+        "healthy": 3233,
+        "incomplete_fillage": 3129,
+        "gas_interference": 3205,
+        "traveling_valve_leak": 3129,
+        "standing_valve_leak": 3165,
+        "rod_friction": 3233,
+        "pump_wear": 3129,
+        "restricted_inflow": 3205,
+        "load_cell_drift": 3129,
+        "position_sensor_fault": 3165,
+        "abnormal_speed": 3129
+      },
+      "raw_telemetry_total": 34851,
+      "independent_runs_per_fault": {
+        "healthy": 6,
+        "incomplete_fillage": 6,
+        "gas_interference": 6,
+        "traveling_valve_leak": 6,
+        "standing_valve_leak": 6,
+        "rod_friction": 6,
+        "pump_wear": 6,
+        "restricted_inflow": 6,
+        "load_cell_drift": 6,
+        "position_sensor_fault": 6,
+        "abnormal_speed": 6
+      },
+      "fault_severity_values_per_fault": {
+        "healthy": [
+          0.0
+        ],
+        "incomplete_fillage": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "gas_interference": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "traveling_valve_leak": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "standing_valve_leak": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "rod_friction": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "pump_wear": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "restricted_inflow": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "load_cell_drift": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "position_sensor_fault": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "abnormal_speed": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ]
+      },
+      "completed_cards_total": 66,
+      "completed_cards_per_fault": {
+        "healthy": 6,
+        "incomplete_fillage": 6,
+        "gas_interference": 6,
+        "traveling_valve_leak": 6,
+        "standing_valve_leak": 6,
+        "rod_friction": 6,
+        "pump_wear": 6,
+        "restricted_inflow": 6,
+        "load_cell_drift": 6,
+        "position_sensor_fault": 6,
+        "abnormal_speed": 6
+      },
+      "distinct_virtual_wells": 30,
+      "manifest_hashes_match": {
+        "ml_inputs_telemetry.jsonl": true,
+        "ml_inputs_auxiliary.jsonl": true,
+        "simulation_truth_labels.jsonl": true,
+        "surface_downhole_cards.jsonl": true
+      }
+    },
+    {
+      "dataset_id": "phase32-fault-training-candidate-3129-each-v4",
+      "physics_model_version": "srp-forward-2.0-plunger-clearance",
+      "raw_telemetry_rows_per_fault": {
+        "healthy": 3233,
+        "incomplete_fillage": 3129,
+        "gas_interference": 3205,
+        "traveling_valve_leak": 3129,
+        "standing_valve_leak": 3165,
+        "rod_friction": 3233,
+        "pump_wear": 3129,
+        "restricted_inflow": 3205,
+        "load_cell_drift": 3129,
+        "position_sensor_fault": 3165,
+        "abnormal_speed": 3129
+      },
+      "raw_telemetry_total": 34851,
+      "independent_runs_per_fault": {
+        "healthy": 6,
+        "incomplete_fillage": 6,
+        "gas_interference": 6,
+        "traveling_valve_leak": 6,
+        "standing_valve_leak": 6,
+        "rod_friction": 6,
+        "pump_wear": 6,
+        "restricted_inflow": 6,
+        "load_cell_drift": 6,
+        "position_sensor_fault": 6,
+        "abnormal_speed": 6
+      },
+      "fault_severity_values_per_fault": {
+        "healthy": [
+          0.0
+        ],
+        "incomplete_fillage": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "gas_interference": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "traveling_valve_leak": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "standing_valve_leak": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "rod_friction": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "pump_wear": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "restricted_inflow": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "load_cell_drift": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "position_sensor_fault": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "abnormal_speed": [
+          0.1,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ]
+      },
+      "completed_cards_total": 66,
+      "completed_cards_per_fault": {
+        "healthy": 6,
+        "incomplete_fillage": 6,
+        "gas_interference": 6,
+        "traveling_valve_leak": 6,
+        "standing_valve_leak": 6,
+        "rod_friction": 6,
+        "pump_wear": 6,
+        "restricted_inflow": 6,
+        "load_cell_drift": 6,
+        "position_sensor_fault": 6,
+        "abnormal_speed": 6
+      },
+      "distinct_virtual_wells": 30,
+      "manifest_hashes_match": {
+        "ml_inputs_telemetry.jsonl": true,
+        "ml_inputs_auxiliary.jsonl": true,
+        "simulation_truth_labels.jsonl": true,
+        "surface_downhole_cards.jsonl": true
+      }
+    }
+  ],
+  "capture_count_interpretation": "The requested count is telemetry rows per mechanism, not independent strokes. Revisions report actual run and card counts separately.",
+  "sensor_noise_and_bias": {
+    "configured_wells": 30,
+    "wells_with_zero_position_and_load_noise_and_bias": 30,
+    "noise_is_field_calibrated": false,
+    "interpretation": "The present synthetic captures do not test robustness to measurement noise, drift outside injected sensor faults, or calibration variation."
+  },
+  "balanced_complete_stroke_experiment": {
+    "complete_stroke_files": 2970,
+    "complete_strokes": 2970,
+    "class_summary": {
+      "abnormal_speed": {
+        "strokes": 270,
+        "runs": 270,
+        "wells": 30,
+        "severity_counts": {
+          "0.001": 30,
+          "0.01": 30,
+          "0.05": 30,
+          "0.1": 30,
+          "0.2": 30,
+          "0.4": 30,
+          "0.6": 30,
+          "0.8": 30,
+          "1.0": 30
+        },
+        "raw_samples": 113624
+      },
+      "gas_interference": {
+        "strokes": 270,
+        "runs": 270,
+        "wells": 30,
+        "severity_counts": {
+          "0.001": 30,
+          "0.01": 30,
+          "0.05": 30,
+          "0.1": 30,
+          "0.2": 30,
+          "0.4": 30,
+          "0.6": 30,
+          "0.8": 30,
+          "1.0": 30
+        },
+        "raw_samples": 126270
+      },
+      "healthy": {
+        "strokes": 270,
+        "runs": 270,
+        "wells": 30,
+        "severity_counts": {
+          "0.0": 270
+        },
+        "raw_samples": 126270
+      },
+      "incomplete_fillage": {
+        "strokes": 270,
+        "runs": 270,
+        "wells": 30,
+        "severity_counts": {
+          "0.001": 30,
+          "0.01": 30,
+          "0.05": 30,
+          "0.1": 30,
+          "0.2": 30,
+          "0.4": 30,
+          "0.6": 30,
+          "0.8": 30,
+          "1.0": 30
+        },
+        "raw_samples": 126270
+      },
+      "load_cell_drift": {
+        "strokes": 270,
+        "runs": 270,
+        "wells": 30,
+        "severity_counts": {
+          "0.001": 30,
+          "0.01": 30,
+          "0.05": 30,
+          "0.1": 30,
+          "0.2": 30,
+          "0.4": 30,
+          "0.6": 30,
+          "0.8": 30,
+          "1.0": 30
+        },
+        "raw_samples": 126270
+      },
+      "position_sensor_fault": {
+        "strokes": 270,
+        "runs": 270,
+        "wells": 30,
+        "severity_counts": {
+          "0.001": 30,
+          "0.01": 30,
+          "0.05": 30,
+          "0.1": 30,
+          "0.2": 30,
+          "0.4": 30,
+          "0.6": 30,
+          "0.8": 30,
+          "1.0": 30
+        },
+        "raw_samples": 126270
+      },
+      "pump_wear": {
+        "strokes": 270,
+        "runs": 270,
+        "wells": 30,
+        "severity_counts": {
+          "0.001": 30,
+          "0.01": 30,
+          "0.05": 30,
+          "0.1": 30,
+          "0.2": 30,
+          "0.4": 30,
+          "0.6": 30,
+          "0.8": 30,
+          "1.0": 30
+        },
+        "raw_samples": 126270
+      },
+      "restricted_inflow": {
+        "strokes": 270,
+        "runs": 270,
+        "wells": 30,
+        "severity_counts": {
+          "0.001": 30,
+          "0.01": 30,
+          "0.05": 30,
+          "0.1": 30,
+          "0.2": 30,
+          "0.4": 30,
+          "0.6": 30,
+          "0.8": 30,
+          "1.0": 30
+        },
+        "raw_samples": 126270
+      },
+      "rod_friction": {
+        "strokes": 270,
+        "runs": 270,
+        "wells": 30,
+        "severity_counts": {
+          "0.001": 30,
+          "0.01": 30,
+          "0.05": 30,
+          "0.1": 30,
+          "0.2": 30,
+          "0.4": 30,
+          "0.6": 30,
+          "0.8": 30,
+          "1.0": 30
+        },
+        "raw_samples": 126270
+      },
+      "standing_valve_leak": {
+        "strokes": 270,
+        "runs": 270,
+        "wells": 30,
+        "severity_counts": {
+          "0.001": 30,
+          "0.01": 30,
+          "0.05": 30,
+          "0.1": 30,
+          "0.2": 30,
+          "0.4": 30,
+          "0.6": 30,
+          "0.8": 30,
+          "1.0": 30
+        },
+        "raw_samples": 126270
+      },
+      "traveling_valve_leak": {
+        "strokes": 270,
+        "runs": 270,
+        "wells": 30,
+        "severity_counts": {
+          "0.001": 30,
+          "0.01": 30,
+          "0.05": 30,
+          "0.1": 30,
+          "0.2": 30,
+          "0.4": 30,
+          "0.6": 30,
+          "0.8": 30,
+          "1.0": 30
+        },
+        "raw_samples": 126270
+      }
+    },
+    "exact_duplicate_surface_signal_groups": 58,
+    "held_out_virtual_wells": 6,
+    "unique_held_out_strokes_after_exact_deduplication": 540,
+    "macro_f1": 0.5383493646193469,
+    "coverage_at_threshold": 0.43703703703703706,
+    "accepted_accuracy": 0.9576271186440678,
+    "expected_calibration_error": 0.1364329625187683,
+    "field_test_wells": 0,
+    "deployment_gates_passed": false
+  },
+  "new_capture_holdout_challenge": {
+    "origin": "SYNTHETIC_NEW_RUNS_HELD_OUT_VIRTUAL_CONFIGURATIONS",
+    "model_sha256": "be791160cf685178adf3dd5f93a979fa40b601972004f22eb684f95a8536d678",
+    "capture_dataset_id": "phase32-fault-training-candidate-3129-each-v3",
+    "capture_manifest_sha256": "85db43dfff60915abb7e11c453c779c2787a578b0a9291cf41bda3f429bae976",
+    "virtual_test_assets": [
+      "CO-DJ-002",
+      "ND-WIL-002",
+      "NM-DEL-004",
+      "OK-ANA-001",
+      "TX-EAG-004",
+      "TX-EAG-005"
+    ],
+    "new_cards_before_deduplication": 12,
+    "new_unique_cards_after_exact_deduplication": 12,
+    "excluded_duplicate_runs": [],
+    "classes_present": [
+      "gas_interference",
+      "incomplete_fillage",
+      "load_cell_drift",
+      "position_sensor_fault",
+      "restricted_inflow",
+      "standing_valve_leak",
+      "traveling_valve_or_plunger_leakage"
+    ],
+    "macro_f1_present_classes": 0.9047619047619048,
+    "accuracy": 0.9166666666666666,
+    "per_class": {
+      "abnormal_speed": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "gas_interference": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1-score": 0.6666666666666666,
+        "support": 1.0
+      },
+      "healthy": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "incomplete_fillage": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1-score": 0.6666666666666666,
+        "support": 2.0
+      },
+      "load_cell_drift": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+      },
+      "position_sensor_fault": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 2.0
+      },
+      "restricted_inflow": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+      },
+      "rod_friction": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "standing_valve_leak": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 2.0
+      },
+      "traveling_valve_or_plunger_leakage": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 3.0
+      },
+      "accuracy": 0.9166666666666666,
+      "macro avg": {
+        "precision": 0.65,
+        "recall": 0.65,
+        "f1-score": 0.6333333333333333,
+        "support": 12.0
+      },
+      "weighted avg": {
+        "precision": 0.9583333333333334,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.9166666666666666,
+        "support": 12.0
+      }
+    },
+    "confusion": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "selective_threshold": 0.7,
+    "coverage": 0.9166666666666666,
+    "accepted_accuracy": 1.0,
+    "accuracy_by_severity": {
+      "0.4": {
+        "cards": 2,
+        "accuracy": 0.5
+      },
+      "0.6": {
+        "cards": 4,
+        "accuracy": 1.0
+      },
+      "0.8": {
+        "cards": 2,
+        "accuracy": 1.0
+      },
+      "1.0": {
+        "cards": 4,
+        "accuracy": 1.0
+      }
+    },
+    "real_test_wells": 0,
+    "field_ready": false,
+    "limitation": "New synthetic runs use frozen test configurations, not physical field wells. Fault labels are simulator injections. Configured sensor noise and bias are zero."
+  },
+  "previous_800_run_model_comparison": {
+    "synthetic_test_counts": [
+      480,
+      160,
+      160
+    ],
+    "best_model": "physics_features",
+    "best_macro_f1": 0.6672612432042143,
+    "best_coverage": 0.425,
+    "real_labeled_test_wells": 0,
+    "model_deployed": false
+  },
+  "field_training_readiness": {
+    "source": "data\\training\\real_labeled\\field_strokes.csv",
+    "ready": false,
+    "eligible_strokes": 0,
+    "eligible_wells": 0,
+    "class_counts": {},
+    "rejected": [],
+    "required_columns": [
+      "well_id",
+      "run_id",
+      "stroke_id",
+      "source_file_sha256",
+      "measured_origin",
+      "surface_load_unit",
+      "surface_position_unit",
+      "sample_count",
+      "label",
+      "label_evidence",
+      "evidence_date",
+      "reviewer",
+      "training_permission",
+      "equipment_configuration_id"
+    ],
+    "reason": "No measured, independently labeled field stroke manifest is present."
+  },
+  "data_integrity": {
+    "all_capture_manifest_hashes_match": true
+  },
+  "decision": "NOT_FIELD_READY",
+  "reason": "No independently verified, permission-cleared labeled field stroke test set exists; synthetic metrics do not establish site accuracy."
+}

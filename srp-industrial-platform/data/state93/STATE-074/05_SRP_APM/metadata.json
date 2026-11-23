@@ -1,0 +1,7 @@
+{
+  "state_id": "STATE-074",
+  "source_state": "StrokeProcessing1",
+  "surface_card": null,
+  "downhole_card": null,
+  "reason": "No verified ordered numerical samples extracted"
+}

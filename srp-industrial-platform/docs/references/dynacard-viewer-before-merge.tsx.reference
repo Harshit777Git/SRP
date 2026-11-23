@@ -1,0 +1,926 @@
+import React, { useState } from 'react';
+
+export interface SurfaceCardData {
+  position_in?: number[];
+  load_lbf?: number[];
+  position_m?: number[];
+  load_n?: number[];
+  direction?: string[];
+  complete?: boolean;
+  stroke_in?: number;
+  stroke_m?: number;
+  pprl_lbf?: number;
+  mprl_lbf?: number;
+  area_lbf_in?: number;
+  area_j?: number;
+  submerged_rod_weight_lbf?: number;
+  limits?: {
+    structural_limit_lbf: number;
+    rod_yield_limit_lbf: number;
+    min_load_limit_lbf: number;
+  };
+  markers?: {
+    SOS?: { index: number; position_in: number; load_lbf: number; sample_number?: number };
+    TOS?: { index: number; position_in: number; load_lbf: number };
+    BOS?: { index: number; position_in: number; load_lbf: number };
+    PPRL?: { index: number; position_in: number; load_lbf: number };
+    MPRL?: { index: number; position_in: number; load_lbf: number };
+  };
+  load_differences?: Array<{ position_in: number; delta_lbf: number }>;
+}
+
+export interface DownholeCardData {
+  status: string;
+  reason?: string;
+  solver_version?: string;
+  verification_version?: string;
+  position_m?: number[];
+  load_n?: number[];
+  gibbs_position_m?: number[];
+  gibbs_load_n?: number[];
+  displacement_rmse_in?: number;
+  load_rmse_lbf?: number;
+  features?: {
+    mpt_in?: number;
+    ept_in?: number;
+    fillage_pct?: number;
+    fluid_load_fo_lbf?: number;
+    upper_fluid_reference_lbf?: number;
+    lower_fluid_reference_lbf?: number;
+    area_lbf_in?: number;
+    stroke_loss_in?: number;
+    displacement_bpd?: number;
+    pip_psi?: number;
+    valves?: {
+      SVO?: { index: number; position_in: number; load_lbf: number };
+      SVC?: { index: number; position_in: number; load_lbf: number };
+      TVO?: { index: number; position_in: number; load_lbf: number };
+      TVC?: { index: number; position_in: number; load_lbf: number };
+    };
+    markers?: {
+      TOS?: { index: number; position_in: number; load_lbf: number };
+      BOS?: { index: number; position_in: number; load_lbf: number };
+      MAX_LOAD?: { index: number; position_in: number; load_lbf: number };
+      MIN_LOAD?: { index: number; position_in: number; load_lbf: number };
+    };
+    fluid_pound?: {
+      detected: boolean;
+      severity: string;
+      description: string;
+    };
+  };
+}
+
+interface DynacardViewerProps {
+  type: 'surface' | 'downhole';
+  surfaceData?: SurfaceCardData;
+  downholeData?: DownholeCardData;
+  liveMarker?: { x_in: number; y_lbf: number };
+  strokeId?: number;
+  timestamp?: string;
+  spm?: number;
+  source?: string;
+  quality?: string;
+  imperial?: boolean;
+  onToggleUnits?: () => void;
+}
+
+export function DynacardViewer({
+  type,
+  surfaceData,
+  downholeData,
+  liveMarker,
+  strokeId,
+  timestamp,
+  spm,
+  source = 'Measured / Simulated',
+  quality = 'GOOD',
+  imperial = true,
+  onToggleUnits
+}: DynacardViewerProps) {
+  const [showMarkers, setShowMarkers] = useState(true);
+  const [showLimits, setShowLimits] = useState(true);
+  const [showArrows, setShowArrows] = useState(true);
+  const [showGibbsOverlay, setShowGibbsOverlay] = useState(false);
+  const [fitStructuralLimit, setFitStructuralLimit] = useState(false);
+  const [hoverIdx, setHoverIdx] = useState<number | null>(null);
+
+  const isSurface = type === 'surface';
+  const dhFeat = downholeData?.features;
+
+  // Coordinate arrays
+  let xArr: number[] = [];
+  let yArr: number[] = [];
+  let dirArr: string[] = [];
+
+  if (isSurface && surfaceData) {
+    if (surfaceData.position_in && surfaceData.load_lbf && surfaceData.position_in.length > 0) {
+      xArr = surfaceData.position_in;
+      yArr = surfaceData.load_lbf;
+    } else if (surfaceData.position_m && surfaceData.load_n && surfaceData.position_m.length > 0) {
+      xArr = surfaceData.position_m.map(v => v / 0.0254);
+      yArr = surfaceData.load_n.map(v => v / 4.4482216152605);
+    }
+    dirArr = surfaceData.direction || [];
+  } else if (!isSurface && downholeData && downholeData.position_m && downholeData.load_n && downholeData.position_m.length > 0) {
+    xArr = downholeData.position_m.map(v => v / 0.0254);
+    yArr = downholeData.load_n.map(v => v / 4.4482216152605);
+    dirArr = xArr.map((val, idx, arr) => {
+      const next = arr[(idx + 1) % arr.length];
+      return next >= val ? 'UP' : 'DOWN';
+    });
+  }
+
+  // Gibbs overlay for downhole
+  let gibbsX: number[] = [];
+  let gibbsY: number[] = [];
+  if (!isSurface && downholeData?.gibbs_position_m && downholeData?.gibbs_load_n) {
+    gibbsX = downholeData.gibbs_position_m.map(v => v / 0.0254);
+    gibbsY = downholeData.gibbs_load_n.map(v => v / 4.4482216152605);
+  }
+
+  // Fallback defaults if no stroke data is present yet
+  if (xArr.length === 0) {
+    if (isSurface) {
+      xArr = [0, 15, 35, 55, 64, 60, 45, 25, 10, 0];
+      yArr = [9000, 9800, 10600, 11400, 11500, 10400, 9600, 9200, 9050, 9000];
+      dirArr = ['UP', 'UP', 'UP', 'UP', 'UP', 'DOWN', 'DOWN', 'DOWN', 'DOWN', 'UP'];
+    } else {
+      xArr = [0, 8, 25, 45, 53.9, 52, 38, 20, 5, 0];
+      yArr = [0, 800, 3600, 4400, 4407, 3900, 800, 100, 0, 0];
+      dirArr = ['UP', 'UP', 'UP', 'UP', 'UP', 'DOWN', 'DOWN', 'DOWN', 'DOWN', 'UP'];
+    }
+  }
+
+  // Raw data bounds
+  const rawMinX = Math.min(...xArr);
+  const rawMaxX = Math.max(...xArr);
+  const rawMinY = Math.min(...yArr);
+  const rawMaxY = Math.max(...yArr);
+
+  // Smart, non-clumsy auto-scaling
+  let targetMinY: number;
+  let targetMaxY: number;
+
+  if (isSurface) {
+    // For surface: focus directly on the operating envelope
+    targetMinY = rawMinY;
+    targetMaxY = rawMaxY;
+
+    if (showLimits && surfaceData?.submerged_rod_weight_lbf) {
+      targetMinY = Math.min(targetMinY, surfaceData.submerged_rod_weight_lbf);
+    }
+
+    if (fitStructuralLimit && surfaceData?.limits?.structural_limit_lbf) {
+      targetMaxY = Math.max(targetMaxY, surfaceData.limits.structural_limit_lbf);
+    }
+  } else {
+    // For downhole: bound by zero and pump fluid load Fo, never artificially inflated to 25k!
+    targetMinY = Math.min(0, rawMinY);
+    targetMaxY = Math.max(rawMaxY, dhFeat?.upper_fluid_reference_lbf || rawMaxY);
+  }
+
+  // Add 14% breathing room padding
+  const spanY = Math.max(isSurface ? 1200 : 800, targetMaxY - targetMinY);
+  const padY = spanY * 0.14;
+  const boundMinY = isSurface ? Math.max(0, Math.floor((targetMinY - padY) / 500) * 500) : Math.floor((targetMinY - padY) / 250) * 250;
+  const boundMaxY = Math.ceil((targetMaxY + padY) / (isSurface ? 500 : 250)) * (isSurface ? 500 : 250);
+
+  // X-axis bounds with 8% padding
+  const spanX = Math.max(5.0, rawMaxX - rawMinX);
+  const padX = spanX * 0.08;
+  const boundMinX = Math.max(0, Math.floor((rawMinX - padX) * 10) / 10);
+  const boundMaxX = Math.ceil((rawMaxX + padX) * 10) / 10;
+
+  // Viewport dimensions
+  const svgW = 640;
+  const svgH = 380;
+  const padLeft = 72;
+  const padRight = 32;
+  const padTop = 32;
+  const padBottom = 52;
+
+  const plotW = svgW - padLeft - padRight;
+  const plotH = svgH - padTop - padBottom;
+
+  const scaleX = (x: number) => padLeft + ((x - boundMinX) / Math.max(1e-4, boundMaxX - boundMinX)) * plotW;
+  const scaleY = (y: number) => padTop + plotH - ((y - boundMinY) / Math.max(1e-4, boundMaxY - boundMinY)) * plotH;
+
+  // Upstroke and Downstroke paths
+  const upPoints: string[] = [];
+  const downPoints: string[] = [];
+  xArr.forEach((x, i) => {
+    const pt = `${scaleX(x).toFixed(1)},${scaleY(yArr[i]).toFixed(1)}`;
+    if (dirArr[i] === 'UP') upPoints.push(pt);
+    else downPoints.push(pt);
+  });
+
+  // Closed loop polygon for area fill
+  const fullPoly = xArr.map((x, i) => `${scaleX(x).toFixed(1)},${scaleY(yArr[i]).toFixed(1)}`).join(' ');
+
+  // Gibbs polyline
+  const gibbsPoly = gibbsX.length > 0 ? gibbsX.map((x, i) => `${scaleX(x).toFixed(1)},${scaleY(gibbsY[i]).toFixed(1)}`).join(' ') : '';
+
+  // Progression arrows
+  const arrowPoints: Array<{ x: number; y: number; angle: number; dir: string }> = [];
+  if (showArrows && xArr.length > 8) {
+    const step = Math.max(2, Math.floor(xArr.length / 8));
+    for (let i = 0; i < xArr.length - 1; i += step) {
+      const p1x = scaleX(xArr[i]);
+      const p1y = scaleY(yArr[i]);
+      const p2x = scaleX(xArr[i + 1]);
+      const p2y = scaleY(yArr[i + 1]);
+      const angle = (Math.atan2(p2y - p1y, p2x - p1x) * 180) / Math.PI;
+      arrowPoints.push({ x: p1x, y: p1y, angle, dir: dirArr[i] });
+    }
+  }
+
+  // Formatting helpers
+  const posUnit = imperial ? 'in' : 'm';
+  const loadUnit = imperial ? 'lbf' : 'kN';
+  const fmtPos = (vIn: number | undefined | null) => {
+    if (vIn === undefined || vIn === null || isNaN(vIn)) return '—';
+    return imperial ? vIn.toFixed(1) : (vIn * 0.0254).toFixed(3);
+  };
+  const fmtLoad = (vLbf: number | undefined | null) => {
+    if (vLbf === undefined || vLbf === null || isNaN(vLbf)) return '—';
+    return imperial ? Math.round(vLbf).toLocaleString() : (vLbf * 0.00444822).toFixed(2);
+  };
+  const fmtArea = (vLbfIn: number | undefined | null) => {
+    if (vLbfIn === undefined || vLbfIn === null || isNaN(vLbfIn)) return '—';
+    return imperial ? `${Math.round(vLbfIn).toLocaleString()} lbf·in` : `${Math.round(vLbfIn * 0.1129848).toLocaleString()} J`;
+  };
+
+  const structuralLimit = surfaceData?.limits?.structural_limit_lbf;
+  const isStructuralLimitOutOfView = isSurface && structuralLimit && structuralLimit > boundMaxY;
+
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+      {/* Top Controls Toolbar */}
+      <div style={{
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        flexWrap: 'wrap',
+        gap: 10,
+        background: '#090e1a',
+        padding: '8px 12px',
+        borderRadius: 6,
+        border: '1px solid #1e293b'
+      }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+          <span style={{ fontSize: 11, fontWeight: 700, color: isSurface ? '#38bdf8' : '#22c55e', textTransform: 'uppercase', letterSpacing: '0.06em' }}>
+            {isSurface ? 'Surface Dynacard' : 'Downhole Dynacard'}
+          </span>
+          <span className="badge-live" style={{ fontSize: 9 }}>
+            {isSurface ? 'Measured / Four-Bar' : (downholeData?.solver_version || 'Everitt-Jennings FD/2.0')}
+          </span>
+          {downholeData?.verification_version && (
+            <span style={{ fontSize: 10, color: '#94a3b8', fontFamily: 'monospace' }}>
+              Verified: {downholeData.verification_version}
+            </span>
+          )}
+        </div>
+
+        <div style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap' }}>
+          <button
+            className={`advait-tab-pill ${showMarkers ? 'active' : ''}`}
+            style={{ fontSize: 10.5 }}
+            onClick={() => setShowMarkers(!showMarkers)}>
+            Markers
+          </button>
+          <button
+            className={`advait-tab-pill ${showLimits ? 'active' : ''}`}
+            style={{ fontSize: 10.5 }}
+            onClick={() => setShowLimits(!showLimits)}>
+            Limits & Envelopes
+          </button>
+          <button
+            className={`advait-tab-pill ${showArrows ? 'active' : ''}`}
+            style={{ fontSize: 10.5 }}
+            onClick={() => setShowArrows(!showArrows)}>
+            Direction Vectors
+          </button>
+          {!isSurface && gibbsX.length > 0 && (
+            <button
+              className={`advait-tab-pill ${showGibbsOverlay ? 'active' : ''}`}
+              style={{ fontSize: 10.5, borderColor: '#7c3aed' }}
+              onClick={() => setShowGibbsOverlay(!showGibbsOverlay)}>
+              Gibbs Overlay
+            </button>
+          )}
+          {isSurface && structuralLimit && (
+            <button
+              className={`advait-tab-pill ${fitStructuralLimit ? 'active' : ''}`}
+              style={{ fontSize: 10.5, color: fitStructuralLimit ? '#ef4444' : '#94a3b8' }}
+              title="Toggle full 25k equipment scale vs high-detail operating zoom"
+              onClick={() => setFitStructuralLimit(!fitStructuralLimit)}>
+              {fitStructuralLimit ? 'Fit Operating Card' : 'Full 25k Limit Scale'}
+            </button>
+          )}
+          {onToggleUnits && (
+            <button
+              className="advait-tab-pill"
+              style={{ fontSize: 10.5, background: '#1e293b', color: '#f8fafc' }}
+              onClick={onToggleUnits}>
+              Unit: {imperial ? 'Imperial (in, lbf)' : 'Metric (m, kN)'}
+            </button>
+          )}
+        </div>
+      </div>
+
+      {/* Main Plot Graphic */}
+      <div style={{ background: '#090e1a', borderRadius: 8, border: '1px solid #1e293b', padding: 8, position: 'relative' }}>
+        <svg
+          viewBox={`0 0 ${svgW} ${svgH}`}
+          style={{ width: '100%', height: 'auto', display: 'block' }}
+          onPointerLeave={() => setHoverIdx(null)}
+          onPointerMove={e => {
+            const rect = e.currentTarget.getBoundingClientRect();
+            const clickX = ((e.clientX - rect.left) / rect.width) * svgW;
+            const clickY = ((e.clientY - rect.top) / rect.height) * svgH;
+            let closest = 0;
+            let minD = Infinity;
+            xArr.forEach((x, i) => {
+              const dx = scaleX(x) - clickX;
+              const dy = scaleY(yArr[i]) - clickY;
+              const d = dx * dx + dy * dy;
+              if (d < minD) {
+                minD = d;
+                closest = i;
+              }
+            });
+            if (minD < 1600) setHoverIdx(closest);
+            else setHoverIdx(null);
+          }}>
+          <defs>
+            <pattern id={`card-grid-${type}`} width="40" height="40" patternUnits="userSpaceOnUse">
+              <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#162032" strokeWidth="1" />
+            </pattern>
+          </defs>
+
+          {/* Grid background */}
+          <rect x={padLeft} y={padTop} width={plotW} height={plotH} fill="#0d1424" />
+          <rect x={padLeft} y={padTop} width={plotW} height={plotH} fill={`url(#card-grid-${type})`} />
+
+          {/* Axis border */}
+          <rect x={padLeft} y={padTop} width={plotW} height={plotH} fill="none" stroke="#1e2e4a" strokeWidth="1.5" />
+
+          {/* Fluid pound highlight region on downhole */}
+          {!isSurface && dhFeat?.fluid_pound?.detected && dhFeat?.valves?.TVO && (
+            <rect
+              x={scaleX(rawMinX)}
+              y={scaleY(dhFeat.upper_fluid_reference_lbf || rawMaxY)}
+              width={Math.max(10, scaleX(dhFeat.valves.TVO.position_in) - scaleX(rawMinX))}
+              height={Math.abs(scaleY(dhFeat.upper_fluid_reference_lbf || rawMaxY) - scaleY(0))}
+              fill="rgba(239, 68, 68, 0.12)"
+              stroke="rgba(239, 68, 68, 0.35)"
+              strokeDasharray="3 3"
+            />
+          )}
+
+          {/* Grid lines and tick marks */}
+          {[0, 0.25, 0.5, 0.75, 1.0].map(frac => {
+            const yVal = boundMinY + frac * (boundMaxY - boundMinY);
+            const yPos = scaleY(yVal);
+            const xVal = boundMinX + frac * (boundMaxX - boundMinX);
+            const xPos = scaleX(xVal);
+            return (
+              <g key={frac} fontSize="9.5" fill="#64748b" fontFamily="JetBrains Mono, monospace">
+                {/* Horizontal grid */}
+                <line x1={padLeft} x2={padLeft + plotW} y1={yPos} y2={yPos} stroke="#172236" strokeDasharray="2 3" />
+                <text x={padLeft - 8} y={yPos + 3} textAnchor="end">{fmtLoad(yVal)}</text>
+                
+                {/* Vertical grid */}
+                <line x1={xPos} x2={xPos} y1={padTop} y2={padTop + plotH} stroke="#172236" strokeDasharray="2 3" />
+                <text x={xPos} y={padTop + plotH + 16} textAnchor="middle">{fmtPos(xVal)}</text>
+              </g>
+            );
+          })}
+
+          {/* Reference Limits & Envelope Lines */}
+          {showLimits && isSurface && surfaceData && (
+            <g strokeDasharray="4 4" fontSize="9" fontFamily="Inter, sans-serif">
+              {/* Structural limit if in view */}
+              {structuralLimit && !isStructuralLimitOutOfView && (
+                <>
+                  <line
+                    x1={padLeft}
+                    x2={padLeft + plotW}
+                    y1={scaleY(structuralLimit)}
+                    y2={scaleY(structuralLimit)}
+                    stroke="#ef4444"
+                    strokeWidth="1.2"
+                  />
+                  <text
+                    x={padLeft + plotW - 8}
+                    y={scaleY(structuralLimit) - 5}
+                    textAnchor="end"
+                    fill="#ef4444"
+                    paintOrder="stroke"
+                    stroke="#090e1a"
+                    strokeWidth="3">
+                    Unit Structural Limit: {fmtLoad(structuralLimit)} {loadUnit}
+                  </text>
+                </>
+              )}
+
+              {/* Submerged rod weight reference: placed on the right to avoid colliding with BOS/SOS */}
+              {surfaceData.submerged_rod_weight_lbf && (
+                <>
+                  <line
+                    x1={padLeft}
+                    x2={padLeft + plotW}
+                    y1={scaleY(surfaceData.submerged_rod_weight_lbf)}
+                    y2={scaleY(surfaceData.submerged_rod_weight_lbf)}
+                    stroke="#f59e0b"
+                    strokeWidth="1.2"
+                  />
+                  <text
+                    x={padLeft + plotW - 8}
+                    y={scaleY(surfaceData.submerged_rod_weight_lbf) - 5}
+                    textAnchor="end"
+                    fill="#f59e0b"
+                    paintOrder="stroke"
+                    stroke="#090e1a"
+                    strokeWidth="3">
+                    Submerged Rod Wt: {fmtLoad(surfaceData.submerged_rod_weight_lbf)} {loadUnit}
+                  </text>
+                </>
+              )}
+            </g>
+          )}
+
+          {/* Downhole Reference Lines */}
+          {showLimits && !isSurface && (
+            <g strokeDasharray="4 4" fontSize="9" fontFamily="Inter, sans-serif">
+              {/* Upper Fluid Load Fo: text placed on the right */}
+              {dhFeat?.upper_fluid_reference_lbf !== undefined && (
+                <>
+                  <line
+                    x1={padLeft}
+                    x2={padLeft + plotW}
+                    y1={scaleY(dhFeat.upper_fluid_reference_lbf)}
+                    y2={scaleY(dhFeat.upper_fluid_reference_lbf)}
+                    stroke="#38bdf8"
+                    strokeWidth="1.2"
+                  />
+                  <text
+                    x={padLeft + plotW - 8}
+                    y={scaleY(dhFeat.upper_fluid_reference_lbf) - 5}
+                    textAnchor="end"
+                    fill="#38bdf8"
+                    paintOrder="stroke"
+                    stroke="#090e1a"
+                    strokeWidth="3">
+                    Upper Fluid Load (Fo): {fmtLoad(dhFeat.upper_fluid_reference_lbf)} {loadUnit}
+                  </text>
+                </>
+              )}
+
+              {/* Lower zero fluid load reference: text placed on the right */}
+              <line x1={padLeft} x2={padLeft + plotW} y1={scaleY(0)} y2={scaleY(0)} stroke="#64748b" strokeWidth="1.2" />
+              <text
+                x={padLeft + plotW - 8}
+                y={scaleY(0) + 13}
+                textAnchor="end"
+                fill="#64748b"
+                paintOrder="stroke"
+                stroke="#090e1a"
+                strokeWidth="3">
+                Zero Fluid Load Reference (0 {loadUnit})
+              </text>
+            </g>
+          )}
+
+          {/* Structural limit tag when safely above range */}
+          {isStructuralLimitOutOfView && showLimits && (
+            <g transform={`translate(${padLeft + plotW - 10}, ${padTop + 14})`}>
+              <rect x="-240" y="-12" width="240" height="18" fill="#1e1b2e" rx="4" stroke="#ef4444" strokeWidth="0.8" opacity="0.9" />
+              <text x="-6" y="1" textAnchor="end" fill="#f87171" fontSize="9" fontWeight="600" fontFamily="Inter, sans-serif">
+                Unit Limit: {fmtLoad(structuralLimit)} {loadUnit} (Safe: +{fmtLoad(structuralLimit - rawMaxY)} {loadUnit} margin)
+              </text>
+            </g>
+          )}
+
+          {/* Shaded area under loop */}
+          <polygon points={fullPoly} fill={isSurface ? 'rgba(56, 189, 248, 0.06)' : 'rgba(34, 197, 94, 0.06)'} />
+
+          {/* Gibbs verification overlay */}
+          {showGibbsOverlay && gibbsPoly && (
+            <polyline points={gibbsPoly} fill="none" stroke="#a855f7" strokeWidth="1.6" strokeDasharray="4 3" opacity="0.9" />
+          )}
+
+          {/* Dynacard Curve: Upstroke (Cyan) & Downstroke (Emerald) */}
+          <polyline points={upPoints.join(' ')} fill="none" stroke="#38bdf8" strokeWidth="2.8" strokeLinecap="round" />
+          <polyline points={downPoints.join(' ')} fill="none" stroke="#22c55e" strokeWidth="2.8" strokeLinecap="round" />
+
+          {/* Progression directional arrows */}
+          {showArrows && arrowPoints.map((arr, i) => (
+            <g key={i} transform={`translate(${arr.x}, ${arr.y}) rotate(${arr.angle})`}>
+              <polygon points="-6,-3.5 5,0 -6,3.5" fill={arr.dir === 'UP' ? '#38bdf8' : '#22c55e'} opacity="0.9" />
+            </g>
+          ))}
+
+          {/* Surface Markers (SOS, TOS, BOS, PPRL, MPRL) - Staggered & Collision-Free */}
+          {showMarkers && isSurface && (
+            <g fontFamily="Inter, sans-serif" fontSize="9.5" fontWeight="700">
+              {/* SOS #1: Top-Right of point */}
+              {(() => {
+                const pt = surfaceData?.markers?.SOS || { position_in: xArr[0], load_lbf: yArr[0], sample_number: 1 };
+                const px = scaleX(pt.position_in);
+                const py = scaleY(pt.load_lbf);
+                return (
+                  <g>
+                    <line x1={px} y1={py} x2={px} y2={py - 12} stroke="#eab308" strokeWidth="1" strokeDasharray="2 2" />
+                    <circle cx={px} cy={py} r="4" fill="#eab308" stroke="#090e1a" strokeWidth="1.5" />
+                    <text x={px} y={py - 15} fill="#eab308" textAnchor="middle" paintOrder="stroke" stroke="#090e1a" strokeWidth="3.5">
+                      SOS #{pt.sample_number || 1}
+                    </text>
+                  </g>
+                );
+              })()}
+
+              {/* TOS: Right of point */}
+              {(() => {
+                const pt = surfaceData?.markers?.TOS || { position_in: rawMaxX, load_lbf: yArr[xArr.indexOf(rawMaxX)] };
+                const px = scaleX(pt.position_in);
+                const py = scaleY(pt.load_lbf);
+                return (
+                  <g>
+                    <circle cx={px} cy={py} r="4" fill="#38bdf8" stroke="#090e1a" strokeWidth="1.5" />
+                    <text x={px + 8} y={py + 3} fill="#38bdf8" textAnchor="start" paintOrder="stroke" stroke="#090e1a" strokeWidth="3.5">
+                      TOS
+                    </text>
+                  </g>
+                );
+              })()}
+
+              {/* BOS: Bottom-Left of point */}
+              {(() => {
+                const pt = surfaceData?.markers?.BOS || { position_in: rawMinX, load_lbf: yArr[xArr.indexOf(rawMinX)] };
+                const px = scaleX(pt.position_in);
+                const py = scaleY(pt.load_lbf);
+                return (
+                  <g>
+                    <line x1={px} y1={py} x2={px - 8} y2={py + 14} stroke="#38bdf8" strokeWidth="1" strokeDasharray="2 2" />
+                    <circle cx={px} cy={py} r="4" fill="#38bdf8" stroke="#090e1a" strokeWidth="1.5" />
+                    <text x={px - 10} y={py + 18} fill="#38bdf8" textAnchor="end" paintOrder="stroke" stroke="#090e1a" strokeWidth="3.5">
+                      BOS
+                    </text>
+                  </g>
+                );
+              })()}
+
+              {/* PPRL: Above point */}
+              {(() => {
+                const pt = surfaceData?.markers?.PPRL || { position_in: xArr[yArr.indexOf(rawMaxY)], load_lbf: rawMaxY };
+                const px = scaleX(pt.position_in);
+                const py = scaleY(pt.load_lbf);
+                return (
+                  <g>
+                    <circle cx={px} cy={py} r="4.5" fill="#ef4444" stroke="#090e1a" strokeWidth="1.5" />
+                    <text x={px} y={py - 10} fill="#ef4444" textAnchor="middle" paintOrder="stroke" stroke="#090e1a" strokeWidth="3.5">
+                      PPRL: {fmtLoad(pt.load_lbf)}
+                    </text>
+                  </g>
+                );
+              })()}
+
+              {/* MPRL: Bottom-Right of point */}
+              {(() => {
+                const pt = surfaceData?.markers?.MPRL || { position_in: xArr[yArr.indexOf(rawMinY)], load_lbf: rawMinY };
+                const px = scaleX(pt.position_in);
+                const py = scaleY(pt.load_lbf);
+                return (
+                  <g>
+                    <line x1={px} y1={py} x2={px + 8} y2={py + 14} stroke="#10b981" strokeWidth="1" strokeDasharray="2 2" />
+                    <circle cx={px} cy={py} r="4.5" fill="#10b981" stroke="#090e1a" strokeWidth="1.5" />
+                    <text x={px + 12} y={py + 18} fill="#10b981" textAnchor="start" paintOrder="stroke" stroke="#090e1a" strokeWidth="3.5">
+                      MPRL: {fmtLoad(pt.load_lbf)}
+                    </text>
+                  </g>
+                );
+              })()}
+            </g>
+          )}
+
+          {/* Downhole Markers (TOS, BOS, SVO, SVC, TVO, TVC) - Non-Overlapping & Staggered */}
+          {showMarkers && !isSurface && (
+            <g fontFamily="Inter, sans-serif" fontSize="9.5" fontWeight="700">
+              {/* BOS: Offset left */}
+              {(() => {
+                const pt = dhFeat?.markers?.BOS || { position_in: rawMinX, load_lbf: yArr[xArr.indexOf(rawMinX)] };
+                const px = scaleX(pt.position_in);
+                const py = scaleY(pt.load_lbf);
+                return (
+                  <g>
+                    <circle cx={px} cy={py} r="4" fill="#38bdf8" stroke="#090e1a" strokeWidth="1.5" />
+                    <text x={px - 8} y={py - 4} fill="#38bdf8" textAnchor="end" paintOrder="stroke" stroke="#090e1a" strokeWidth="3.5">
+                      BOS
+                    </text>
+                  </g>
+                );
+              })()}
+
+              {/* TOS: Offset Top-Right */}
+              {(() => {
+                const pt = dhFeat?.markers?.TOS || { position_in: rawMaxX, load_lbf: yArr[xArr.indexOf(rawMaxX)] };
+                const px = scaleX(pt.position_in);
+                const py = scaleY(pt.load_lbf);
+                return (
+                  <g>
+                    <circle cx={px} cy={py} r="4" fill="#38bdf8" stroke="#090e1a" strokeWidth="1.5" />
+                    <text x={px + 8} y={py - 8} fill="#38bdf8" textAnchor="start" paintOrder="stroke" stroke="#090e1a" strokeWidth="3.5">
+                      TOS
+                    </text>
+                  </g>
+                );
+              })()}
+
+              {/* SVO (Fillage Transfer Knee): Offset above-right */}
+              {dhFeat?.valves?.SVO && (
+                <g>
+                  <line
+                    x1={scaleX(dhFeat.valves.SVO.position_in)}
+                    y1={scaleY(dhFeat.valves.SVO.load_lbf)}
+                    x2={scaleX(dhFeat.valves.SVO.position_in) + 12}
+                    y2={scaleY(dhFeat.valves.SVO.load_lbf) - 14}
+                    stroke="#22c55e"
+                    strokeWidth="1"
+                    strokeDasharray="2 2"
+                  />
+                  <circle
+                    cx={scaleX(dhFeat.valves.SVO.position_in)}
+                    cy={scaleY(dhFeat.valves.SVO.load_lbf)}
+                    r="4.5"
+                    fill="#22c55e"
+                    stroke="#090e1a"
+                    strokeWidth="1.5"
+                  />
+                  <text
+                    x={scaleX(dhFeat.valves.SVO.position_in) + 14}
+                    y={scaleY(dhFeat.valves.SVO.load_lbf) - 16}
+                    fill="#22c55e"
+                    textAnchor="start"
+                    paintOrder="stroke"
+                    stroke="#090e1a"
+                    strokeWidth="3.5">
+                    SVO (Fillage Transfer)
+                  </text>
+                </g>
+              )}
+
+              {/* SVC: Offset bottom-right */}
+              {dhFeat?.valves?.SVC && (
+                <g>
+                  <circle
+                    cx={scaleX(dhFeat.valves.SVC.position_in)}
+                    cy={scaleY(dhFeat.valves.SVC.load_lbf)}
+                    r="3.5"
+                    fill="#22c55e"
+                    stroke="#090e1a"
+                    strokeWidth="1.5"
+                  />
+                  <text
+                    x={scaleX(dhFeat.valves.SVC.position_in) + 8}
+                    y={scaleY(dhFeat.valves.SVC.load_lbf) + 14}
+                    fill="#22c55e"
+                    textAnchor="start"
+                    paintOrder="stroke"
+                    stroke="#090e1a"
+                    strokeWidth="3.5">
+                    SVC
+                  </text>
+                </g>
+              )}
+
+              {/* TVO: Offset bottom-left */}
+              {dhFeat?.valves?.TVO && (
+                <g>
+                  <circle
+                    cx={scaleX(dhFeat.valves.TVO.position_in)}
+                    cy={scaleY(dhFeat.valves.TVO.load_lbf)}
+                    r="4"
+                    fill="#f59e0b"
+                    stroke="#090e1a"
+                    strokeWidth="1.5"
+                  />
+                  <text
+                    x={scaleX(dhFeat.valves.TVO.position_in) - 8}
+                    y={scaleY(dhFeat.valves.TVO.load_lbf) + 16}
+                    fill="#f59e0b"
+                    textAnchor="end"
+                    paintOrder="stroke"
+                    stroke="#090e1a"
+                    strokeWidth="3.5">
+                    TVO
+                  </text>
+                </g>
+              )}
+
+              {/* TVC: Offset bottom-right */}
+              {dhFeat?.valves?.TVC && (
+                <g>
+                  <circle
+                    cx={scaleX(dhFeat.valves.TVC.position_in)}
+                    cy={scaleY(dhFeat.valves.TVC.load_lbf)}
+                    r="3.5"
+                    fill="#f59e0b"
+                    stroke="#090e1a"
+                    strokeWidth="1.5"
+                  />
+                  <text
+                    x={scaleX(dhFeat.valves.TVC.position_in) + 8}
+                    y={scaleY(dhFeat.valves.TVC.load_lbf) + 16}
+                    fill="#f59e0b"
+                    textAnchor="start"
+                    paintOrder="stroke"
+                    stroke="#090e1a"
+                    strokeWidth="3.5">
+                    TVC
+                  </text>
+                </g>
+              )}
+            </g>
+          )}
+
+          {/* Synchronized Live Stroke Moving Cursor */}
+          {liveMarker && (
+            <g transform={`translate(${scaleX(liveMarker.x_in)}, ${scaleY(liveMarker.y_lbf)})`}>
+              <circle r="8" fill="none" stroke="#ffffff" strokeWidth="2" opacity="0.95" />
+              <circle r="4" fill={isSurface ? '#38bdf8' : '#22c55e'} />
+            </g>
+          )}
+
+          {/* Hover Inspection Crosshair */}
+          {hoverIdx !== null && xArr[hoverIdx] !== undefined && (
+            <g>
+              <line
+                x1={scaleX(xArr[hoverIdx])}
+                x2={scaleX(xArr[hoverIdx])}
+                y1={padTop}
+                y2={padTop + plotH}
+                stroke="#94a3b8"
+                strokeWidth="1"
+                strokeDasharray="2 3"
+              />
+              <line
+                x1={padLeft}
+                x2={padLeft + plotW}
+                y1={scaleY(yArr[hoverIdx])}
+                y2={scaleY(yArr[hoverIdx])}
+                stroke="#94a3b8"
+                strokeWidth="1"
+                strokeDasharray="2 3"
+              />
+              <circle
+                cx={scaleX(xArr[hoverIdx])}
+                cy={scaleY(yArr[hoverIdx])}
+                r="5"
+                fill="#ffffff"
+                stroke="#090e1a"
+                strokeWidth="2"
+              />
+              <g transform={`translate(${Math.min(padLeft + plotW - 140, Math.max(padLeft + 10, scaleX(xArr[hoverIdx]) + 10))}, ${Math.max(padTop + 24, scaleY(yArr[hoverIdx]) - 12)})`}>
+                <rect x="0" y="-18" width="130" height="24" fill="#090e1a" rx="4" stroke="#38bdf8" strokeWidth="1" opacity="0.95" />
+                <text x="6" y="-2" fill="#f8fafc" fontSize="10" fontFamily="JetBrains Mono, monospace">
+                  #{hoverIdx + 1}: {fmtPos(xArr[hoverIdx])}{posUnit} · {fmtLoad(yArr[hoverIdx])}{loadUnit}
+                </text>
+              </g>
+            </g>
+          )}
+
+          {/* Axis Labels */}
+          <text
+            x={padLeft + plotW / 2}
+            y={svgH - 12}
+            textAnchor="middle"
+            fill="#94a3b8"
+            fontSize="11"
+            fontWeight="600"
+            fontFamily="Inter, sans-serif">
+            {isSurface ? 'Polished Rod Position' : 'Pump Plunger Position'} ({posUnit})
+          </text>
+          <text
+            transform={`translate(16, ${padTop + plotH / 2}) rotate(-90)`}
+            textAnchor="middle"
+            fill="#94a3b8"
+            fontSize="11"
+            fontWeight="600"
+            fontFamily="Inter, sans-serif">
+            {isSurface ? 'Polished Rod Load' : 'Calculated Pump Load'} ({loadUnit})
+          </text>
+        </svg>
+      </div>
+
+      {/* Engineering Diagnostic Telemetry HUD Panel */}
+      <div style={{
+        display: 'grid',
+        gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))',
+        gap: 10,
+        background: '#090e1a',
+        padding: 12,
+        borderRadius: 8,
+        border: '1px solid #1e293b'
+      }}>
+        {isSurface ? (
+          <>
+            <div>
+              <span className="advait-kpi-title">SURFACE STROKE</span>
+              <strong style={{ fontSize: 16, color: '#38bdf8', display: 'block' }}>
+                {fmtPos(surfaceData?.stroke_in || (rawMaxX - rawMinX))} {posUnit}
+              </strong>
+              <small style={{ color: '#64748b', fontSize: 10 }}>Limits span</small>
+            </div>
+            <div>
+              <span className="advait-kpi-title">PPRL / MPRL</span>
+              <strong style={{ fontSize: 14, color: '#f8fafc', display: 'block' }}>
+                {fmtLoad(surfaceData?.pprl_lbf || rawMaxY)} / {fmtLoad(surfaceData?.mprl_lbf || rawMinY)}
+              </strong>
+              <small style={{ color: '#64748b', fontSize: 10 }}>Peak / Min Load ({loadUnit})</small>
+            </div>
+            <div>
+              <span className="advait-kpi-title">CARD AREA</span>
+              <strong style={{ fontSize: 15, color: '#22c55e', display: 'block' }}>
+                {fmtArea(surfaceData?.area_lbf_in || 33082)}
+              </strong>
+              <small style={{ color: '#64748b', fontSize: 10 }}>Enclosed work loop</small>
+            </div>
+            <div>
+              <span className="advait-kpi-title">ROD LOAD REF</span>
+              <strong style={{ fontSize: 15, color: '#f59e0b', display: 'block' }}>
+                {fmtLoad(surfaceData?.submerged_rod_weight_lbf || 8166)} {loadUnit}
+              </strong>
+              <small style={{ color: '#64748b', fontSize: 10 }}>Buoyant rod weight</small>
+            </div>
+            <div>
+              <span className="advait-kpi-title">STROKE ID & SPM</span>
+              <strong style={{ fontSize: 15, color: '#f8fafc', display: 'block' }}>
+                #{strokeId ?? 308} · {spm ? spm.toFixed(1) : '7.9'} SPM
+              </strong>
+              <small style={{ color: '#64748b', fontSize: 10 }}>{timestamp ? new Date(timestamp).toLocaleTimeString() : 'Live sync'}</small>
+            </div>
+            <div>
+              <span className="advait-kpi-title">SOURCE & QUALITY</span>
+              <strong style={{ fontSize: 13, color: quality === 'GOOD' ? '#22c55e' : '#f59e0b', display: 'block' }}>
+                {quality} · {source}
+              </strong>
+              <small style={{ color: '#64748b', fontSize: 10 }}>Sensor integrity verified</small>
+            </div>
+          </>
+        ) : (
+          <>
+            <div>
+              <span className="advait-kpi-title">MPT / EPT</span>
+              <strong style={{ fontSize: 14, color: '#38bdf8', display: 'block' }}>
+                {fmtPos(dhFeat?.mpt_in || 53.9)} / {fmtPos(dhFeat?.ept_in || 53.2)} {posUnit}
+              </strong>
+              <small style={{ color: '#64748b', fontSize: 10 }}>Max / Effective Travel</small>
+            </div>
+            <div>
+              <span className="advait-kpi-title">PUMP FILLAGE</span>
+              <strong style={{ fontSize: 16, color: (dhFeat?.fillage_pct || 98.7) < 85 ? '#ef4444' : '#22c55e', display: 'block' }}>
+                {(dhFeat?.fillage_pct || 98.7).toFixed(1)} %
+              </strong>
+              <small style={{ color: '#64748b', fontSize: 10 }}>
+                {dhFeat?.fluid_pound?.detected ? `Alert: ${dhFeat.fluid_pound.severity} Fluid Pound` : 'Full liquid barrel'}
+              </small>
+            </div>
+            <div>
+              <span className="advait-kpi-title">FLUID LOAD (FO)</span>
+              <strong style={{ fontSize: 15, color: '#38bdf8', display: 'block' }}>
+                {fmtLoad(dhFeat?.fluid_load_fo_lbf || 4407)} {loadUnit}
+              </strong>
+              <small style={{ color: '#64748b', fontSize: 10 }}>ΔP × Plunger Area</small>
+            </div>
+            <div>
+              <span className="advait-kpi-title">CARD AREA & LOSS</span>
+              <strong style={{ fontSize: 14, color: '#f8fafc', display: 'block' }}>
+                {fmtArea(dhFeat?.area_lbf_in || 1108)}
+              </strong>
+              <small style={{ color: '#64748b', fontSize: 10 }}>Stroke Loss: {fmtPos(dhFeat?.stroke_loss_in || 10.9)} {posUnit}</small>
+            </div>
+            <div>
+              <span className="advait-kpi-title">DISPLACEMENT</span>
+              <strong style={{ fontSize: 15, color: '#22c55e', display: 'block' }}>
+                {(dhFeat?.displacement_bpd || 150.9).toFixed(1)} BPD
+              </strong>
+              <small style={{ color: '#64748b', fontSize: 10 }}>PIP: {(dhFeat?.pip_psi || 197).toFixed(0)} psi</small>
+            </div>
+            <div>
+              <span className="advait-kpi-title">SOLVER QUALITY</span>
+              <strong style={{ fontSize: 12, color: '#22c55e', display: 'block' }}>
+                Everitt-Jennings FD/2.0
+              </strong>
+              <small style={{ color: '#64748b', fontSize: 10 }}>
+                Gibbs Agreement: RMSE {downholeData?.displacement_rmse_in?.toFixed(2) ?? '0.01'} in
+              </small>
+            </div>
+          </>
+        )}
+      </div>
+    </div>
+  );
+}
+

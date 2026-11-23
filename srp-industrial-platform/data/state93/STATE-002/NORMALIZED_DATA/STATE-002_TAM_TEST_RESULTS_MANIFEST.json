@@ -1,0 +1,18 @@
+{
+  "state_id": "STATE-002",
+  "source_archive": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-002\\01_TAM\\Anchored With Rod Stretch.TAM_EXP",
+  "source_sha256": "66440314fc26c5edf74cab1f8c75ee88550c3b3a85044f5d58de02246da464eb",
+  "source_bytes": 5144,
+  "extracted_utc": "2026-11-18T04_44_29Z",
+  "method": "lossless extraction of vendor metadata.json and TestResults.json",
+  "synthetic_data": false,
+  "well_count": 1,
+  "test_count": 5,
+  "normalized_parameter_rows": 156,
+  "outputs": [
+    "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-002\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-002_TAM_TEST_RESULTS.json",
+    "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-002\\NORMALIZED_DATA\\STATE-002_TAM_TEST_RESULTS_LONG.csv",
+    "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-002\\07_MEASUREMENTS\\ACOUSTIC_TESTS\\STATE-002_TAM_ACU_RESULTS.json",
+    "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-002\\07_MEASUREMENTS\\POWER_TORQUE\\STATE-002_TAM_DYN_MECHANICAL_ELECTRICAL_RESULTS.json"
+  ]
+}

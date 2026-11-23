@@ -1,0 +1,244 @@
+{
+  "state": "C:\\Users\\HARSHIT\\AppData\\Local\\Temp\\srp-phase31-sites-pj77_gq9",
+  "stages": [
+    {
+      "active_wells": 30,
+      "duration_s": 30.075266000116244,
+      "broker_ack_rate_per_s": 1255.4169928157598,
+      "apm_persist_rate_per_s": 742.6035733121588,
+      "queued_before": 1199,
+      "queued_after": 18864,
+      "dropped_delta": 0,
+      "rejected_delta": 0,
+      "processing_error_delta": 0,
+      "ram_before_bytes": 538263552,
+      "ram_after_bytes": 662421504,
+      "cpu_core_equivalents": {
+        "broker": 0.33042101772139243,
+        "apm": 0.7398105805585893,
+        "US_TX_MIDLAND": 0.5003072957007876,
+        "US_NM_DELAWARE": 0.47900656971560346,
+        "US_ND_WILLISTON": 0.47381127069482687,
+        "US_OK_ANADARKO": 0.46342067265327364,
+        "US_CO_DJ": 0.34340926527333393,
+        "US_TX_EAGLEFORD": 0.3574365726294308
+      }
+    }
+  ],
+  "recovery": null,
+  "persisted_samples": 31645,
+  "completed_cards": 56,
+  "persisted_wells": 30,
+  "per_asset": [
+    {
+      "asset_id": "CO-DJ-001",
+      "samples": 193,
+      "min_sequence": 0,
+      "max_sequence": 192,
+      "run_count": 1
+    },
+    {
+      "asset_id": "CO-DJ-002",
+      "samples": 157,
+      "min_sequence": 0,
+      "max_sequence": 156,
+      "run_count": 1
+    },
+    {
+      "asset_id": "CO-DJ-003",
+      "samples": 124,
+      "min_sequence": 0,
+      "max_sequence": 123,
+      "run_count": 1
+    },
+    {
+      "asset_id": "CO-DJ-004",
+      "samples": 89,
+      "min_sequence": 0,
+      "max_sequence": 88,
+      "run_count": 1
+    },
+    {
+      "asset_id": "CO-DJ-005",
+      "samples": 54,
+      "min_sequence": 0,
+      "max_sequence": 53,
+      "run_count": 1
+    },
+    {
+      "asset_id": "ND-WIL-001",
+      "samples": 1508,
+      "min_sequence": 0,
+      "max_sequence": 1507,
+      "run_count": 1
+    },
+    {
+      "asset_id": "ND-WIL-002",
+      "samples": 1484,
+      "min_sequence": 0,
+      "max_sequence": 1483,
+      "run_count": 1
+    },
+    {
+      "asset_id": "ND-WIL-003",
+      "samples": 1460,
+      "min_sequence": 0,
+      "max_sequence": 1459,
+      "run_count": 1
+    },
+    {
+      "asset_id": "ND-WIL-004",
+      "samples": 1443,
+      "min_sequence": 0,
+      "max_sequence": 1442,
+      "run_count": 1
+    },
+    {
+      "asset_id": "ND-WIL-005",
+      "samples": 1407,
+      "min_sequence": 0,
+      "max_sequence": 1406,
+      "run_count": 1
+    },
+    {
+      "asset_id": "NM-DEL-001",
+      "samples": 1622,
+      "min_sequence": 0,
+      "max_sequence": 1621,
+      "run_count": 1
+    },
+    {
+      "asset_id": "NM-DEL-002",
+      "samples": 1605,
+      "min_sequence": 0,
+      "max_sequence": 1604,
+      "run_count": 1
+    },
+    {
+      "asset_id": "NM-DEL-003",
+      "samples": 1580,
+      "min_sequence": 0,
+      "max_sequence": 1579,
+      "run_count": 1
+    },
+    {
+      "asset_id": "NM-DEL-004",
+      "samples": 1555,
+      "min_sequence": 0,
+      "max_sequence": 1554,
+      "run_count": 1
+    },
+    {
+      "asset_id": "NM-DEL-005",
+      "samples": 1542,
+      "min_sequence": 0,
+      "max_sequence": 1541,
+      "run_count": 1
+    },
+    {
+      "asset_id": "OK-ANA-001",
+      "samples": 1375,
+      "min_sequence": 0,
+      "max_sequence": 1374,
+      "run_count": 1
+    },
+    {
+      "asset_id": "OK-ANA-002",
+      "samples": 1350,
+      "min_sequence": 0,
+      "max_sequence": 1349,
+      "run_count": 1
+    },
+    {
+      "asset_id": "OK-ANA-003",
+      "samples": 1322,
+      "min_sequence": 0,
+      "max_sequence": 1321,
+      "run_count": 1
+    },
+    {
+      "asset_id": "OK-ANA-004",
+      "samples": 1298,
+      "min_sequence": 0,
+      "max_sequence": 1297,
+      "run_count": 1
+    },
+    {
+      "asset_id": "OK-ANA-005",
+      "samples": 1263,
+      "min_sequence": 0,
+      "max_sequence": 1262,
+      "run_count": 1
+    },
+    {
+      "asset_id": "TX-EAG-001",
+      "samples": 230,
+      "min_sequence": 0,
+      "max_sequence": 229,
+      "run_count": 1
+    },
+    {
+      "asset_id": "TX-EAG-002",
+      "samples": 190,
+      "min_sequence": 0,
+      "max_sequence": 189,
+      "run_count": 1
+    },
+    {
+      "asset_id": "TX-EAG-003",
+      "samples": 161,
+      "min_sequence": 0,
+      "max_sequence": 160,
+      "run_count": 1
+    },
+    {
+      "asset_id": "TX-EAG-004",
+      "samples": 125,
+      "min_sequence": 0,
+      "max_sequence": 124,
+      "run_count": 1
+    },
+    {
+      "asset_id": "TX-EAG-005",
+      "samples": 102,
+      "min_sequence": 0,
+      "max_sequence": 101,
+      "run_count": 1
+    },
+    {
+      "asset_id": "TX-MID-001",
+      "samples": 1710,
+      "min_sequence": 0,
+      "max_sequence": 1709,
+      "run_count": 1
+    },
+    {
+      "asset_id": "TX-MID-002",
+      "samples": 1699,
+      "min_sequence": 0,
+      "max_sequence": 1698,
+      "run_count": 1
+    },
+    {
+      "asset_id": "TX-MID-003",
+      "samples": 1682,
+      "min_sequence": 0,
+      "max_sequence": 1681,
+      "run_count": 1
+    },
+    {
+      "asset_id": "TX-MID-004",
+      "samples": 1664,
+      "min_sequence": 0,
+      "max_sequence": 1663,
+      "run_count": 1
+    },
+    {
+      "asset_id": "TX-MID-005",
+      "samples": 1651,
+      "min_sequence": 0,
+      "max_sequence": 1650,
+      "run_count": 1
+    }
+  ]
+}

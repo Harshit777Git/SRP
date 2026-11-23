@@ -1,0 +1,39 @@
+{
+  "state_id": "STATE-005",
+  "state_name": "Bad Tail Bearing",
+  "source_application": "TAM",
+  "test_id": "1996-02-22_043000",
+  "selected_stroke_id": "5",
+  "reported_test_strokes": 5,
+  "exported_unique_strokes": 1,
+  "sample_count": 179,
+  "surface_load_unit": "lbf",
+  "pump_load_unit": "lbf",
+  "position_unit": "in",
+  "pdf_configuration_status": "ORIGINAL_PDF_COLLECTED_NOT_ENGINEERING_REVIEWED",
+  "vendor_comment": "Repaired Tail Bearing - After Repair Tail Bearing",
+  "diagnostic_label_status": "COMMENT_ONLY_NOT_FIELD_VERIFIED",
+  "txt_dyn_surface_max_position_difference_in": 0.0,
+  "txt_dyn_surface_max_load_difference_lbf": 0.005000000001018634,
+  "source_files": [
+    {
+      "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-005\\05_NUMERICAL_DATA\\TAM\\test_1996-02-22_043000\\Bad Tail Bearing_DYN_4294967295_02-22-1996_04-30-00.txt",
+      "bytes": 7314,
+      "sha256": "5b0ad3549157934bb5966137915a79b517b0f46a3da538cc145a86e8f770c35c",
+      "format": ".txt"
+    },
+    {
+      "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-005\\05_NUMERICAL_DATA\\TAM\\test_1996-02-22_043000\\Bad Tail Bearing_DYN_4294967295_02-22-1996_04-30-00.dyn",
+      "bytes": 3871,
+      "sha256": "97876c1120bac71ba62898e07256628e468beb4d1c3e72150766e734970812f4",
+      "format": ".dyn"
+    },
+    {
+      "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-005\\06_ENGINEERING_CONFIGURATION\\TAM\\Bad Tail Bearing_Summary.pdf",
+      "bytes": 182723,
+      "sha256": "fed9bac5d7522a11f8851fdeb29c80f36c0c282e46295a0b4230fe494dccba2c",
+      "format": ".pdf"
+    }
+  ],
+  "apm_reconstruction": "BLOCKED_REVIEWED_CONFIGURATION_REQUIRED"
+}

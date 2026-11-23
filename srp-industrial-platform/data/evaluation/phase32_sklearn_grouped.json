@@ -1,0 +1,324 @@
+{
+  "origin": "SYNTHETIC_ONLY",
+  "dataset_sha256": "a63191e90177cbb2255c34cc1c805353e5ac1cc53cde06a4b9138f1c67415285",
+  "classes": [
+    "gas_interference",
+    "healthy",
+    "incomplete_fillage",
+    "pump_wear",
+    "restricted_inflow",
+    "rod_friction",
+    "standing_valve_leak",
+    "traveling_valve_leak"
+  ],
+  "counts": {
+    "train": 480,
+    "calibration": 160,
+    "test": 160
+  },
+  "groups": {
+    "train": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+    ],
+    "calibration": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79
+    ],
+    "test": [
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99
+    ]
+  },
+  "selection_metric": "calibration_macro_f1_then_log_loss",
+  "candidates": {
+    "extra_trees_leaf1": {
+      "calibration_macro_f1": 0.658836104810574,
+      "calibration_log_loss": 0.8476088765668356,
+      "fit_seconds": 0.7079137999098748
+    },
+    "extra_trees_leaf3": {
+      "calibration_macro_f1": 0.6596588159490189,
+      "calibration_log_loss": 0.9159973138712244,
+      "fit_seconds": 0.6136608999222517
+    },
+    "random_forest_leaf2": {
+      "calibration_macro_f1": 0.6710133842649442,
+      "calibration_log_loss": 0.8492828920696478,
+      "fit_seconds": 0.9038454000838101
+    },
+    "hist_gradient_100": {
+      "calibration_macro_f1": 0.6301920265120733,
+      "calibration_log_loss": 0.768652365879857,
+      "fit_seconds": 3.3831998999230564
+    },
+    "hist_gradient_250": {
+      "calibration_macro_f1": 0.6458224158882053,
+      "calibration_log_loss": 0.8562481302166998,
+      "fit_seconds": 7.382237599929795
+    },
+    "logistic_c01": {
+      "calibration_macro_f1": 0.6748781412345242,
+      "calibration_log_loss": 0.8644752502441406,
+      "fit_seconds": 0.09842270007357001
+    },
+    "logistic_c1": {
+      "calibration_macro_f1": 0.7159413817469888,
+      "calibration_log_loss": 0.693459689617157,
+      "fit_seconds": 0.11779460008256137
+    },
+    "logistic_c10": {
+      "calibration_macro_f1": 0.6935952918473216,
+      "calibration_log_loss": 0.7567675113677979,
+      "fit_seconds": 0.16521440003998578
+    }
+  },
+  "selected": "logistic_c1",
+  "test": {
+    "macro_f1": 0.6311512356725122,
+    "accuracy": 0.6375,
+    "log_loss": 0.8079754114151001,
+    "per_class": {
+      "gas_interference": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 20.0
+      },
+      "healthy": {
+        "precision": 0.5416666666666666,
+        "recall": 0.65,
+        "f1-score": 0.5909090909090909,
+        "support": 20.0
+      },
+      "incomplete_fillage": {
+        "precision": 0.38461538461538464,
+        "recall": 0.25,
+        "f1-score": 0.30303030303030304,
+        "support": 20.0
+      },
+      "pump_wear": {
+        "precision": 0.5882352941176471,
+        "recall": 0.5,
+        "f1-score": 0.5405405405405406,
+        "support": 20.0
+      },
+      "restricted_inflow": {
+        "precision": 0.6,
+        "recall": 0.6,
+        "f1-score": 0.6,
+        "support": 20.0
+      },
+      "rod_friction": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 20.0
+      },
+      "standing_valve_leak": {
+        "precision": 0.48148148148148145,
+        "recall": 0.65,
+        "f1-score": 0.5531914893617021,
+        "support": 20.0
+      },
+      "traveling_valve_leak": {
+        "precision": 0.47368421052631576,
+        "recall": 0.45,
+        "f1-score": 0.46153846153846156,
+        "support": 20.0
+      },
+      "accuracy": 0.6375,
+      "macro avg": {
+        "precision": 0.6337103796759369,
+        "recall": 0.6375,
+        "f1-score": 0.6311512356725122,
+        "support": 160.0
+      },
+      "weighted avg": {
+        "precision": 0.6337103796759369,
+        "recall": 0.6375,
+        "f1-score": 0.6311512356725123,
+        "support": 160.0
+      }
+    },
+    "confusion": [
+      [
+        20,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        13,
+        0,
+        0,
+        1,
+        0,
+        5,
+        1
+      ],
+      [
+        0,
+        2,
+        5,
+        0,
+        7,
+        0,
+        5,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        10,
+        0,
+        0,
+        2,
+        8
+      ],
+      [
+        0,
+        0,
+        7,
+        0,
+        12,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0
+      ],
+      [
+        0,
+        6,
+        1,
+        0,
+        0,
+        0,
+        13,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        7,
+        0,
+        0,
+        1,
+        9
+      ]
+    ]
+  },
+  "field_test_wells": 0,
+  "deployed": false,
+  "limitation": "Previous grouped holdout reused; 57 new cards are too sparse per class and include classes absent from this 8-class model."
+}

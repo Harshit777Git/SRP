@@ -1,0 +1,43 @@
+{
+  "phase": "PHASE3_1",
+  "decision": "NO-GO",
+  "model_training_performed": false,
+  "field_fault_validation": false,
+  "independent_qrod_comparisons": 0,
+  "fleet_wells": 30,
+  "site_groups": 6,
+  "synthetic_completed_strokes": 90,
+  "synthetic_validated_strokes": 90,
+  "raw_dynamometer_samples": 42150,
+  "electrical_samples": 8439,
+  "pressure_samples": 856,
+  "fault_sensitivity_cases": 600,
+  "fault_study_failed_cases": 0,
+  "weak_surface_changes_under_500n": {
+    "standing_valve_leak@0.2": 29,
+    "restricted_inflow@0.2": 29,
+    "position_sensor_fault@0.2": 30,
+    "restricted_inflow@0.8": 1,
+    "position_sensor_fault@0.8": 30,
+    "traveling_valve_leak@0.2": 16,
+    "pump_wear@0.2": 9,
+    "standing_valve_leak@0.8": 6,
+    "abnormal_speed@0.2": 1
+  },
+  "broker_only_rate_per_s": 1864.9612399959894,
+  "apm_only_rate_per_s": 1646.2716657924584,
+  "combined_30_well_rate_per_s": 1140.4730186096297,
+  "combined_30_well_apm_rate_per_s": 718.624636008475,
+  "thirty_minute_stable_run_completed": false,
+  "five_well_restart_recovery_passed": true,
+  "browser_e2e_30_wells_completed": false,
+  "gates": {
+    "mqtt": "FAIL_COMBINED_QUEUE_GROWTH",
+    "continuous_physics": "PARTIAL_THREE_STROKES_PER_WELL",
+    "qrod": "FAIL_NO_INDEPENDENT_NUMERICAL_EXPORT",
+    "faults": "PARTIAL_TWO_SEVERITIES_NO_FIELD_PROOF",
+    "apm": "PARTIAL_API_AND_REPLAY_ONLY",
+    "dataset": "PARTIAL_HEALTHY_EXPORTS_ONLY",
+    "ml_boundary": "PASS_NO_MODEL_TRAINING"
+  }
+}

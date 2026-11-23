@@ -1,0 +1,7 @@
+{
+  "state_id": "STATE-047",
+  "source_state": "PFL_DHM_CoalBedPerfs",
+  "surface_card": null,
+  "downhole_card": null,
+  "reason": "No verified ordered numerical samples extracted"
+}

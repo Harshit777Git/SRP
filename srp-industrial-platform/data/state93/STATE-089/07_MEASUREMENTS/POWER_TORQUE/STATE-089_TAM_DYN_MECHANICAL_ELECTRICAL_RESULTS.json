@@ -1,0 +1,135 @@
+{
+  "provenance": {
+    "state_id": "STATE-089",
+    "source_archive": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-089\\01_TAM\\V11.TAM_EXP",
+    "source_sha256": "6b2b1dba3985a512f497b031c85a2ca75da88a0194ccf2fba7c6210a7973d6a7",
+    "source_bytes": 5933,
+    "extracted_utc": "2026-11-18T04_44_29Z",
+    "method": "lossless extraction of vendor metadata.json and TestResults.json",
+    "synthetic_data": false
+  },
+  "tests": [
+    {
+      "DateTime": "2004-03-29T22:54:21Z",
+      "LastModified": "2004-03-29T22:54:21Z",
+      "Type": "DYN",
+      "NumValues": {
+        "Rated Current": 38.0
+      },
+      "StrValues": {}
+    },
+    {
+      "DateTime": "2004-03-29T22:50:54Z",
+      "LastModified": "2004-03-29T22:50:54Z",
+      "Type": "DYN",
+      "NumValues": {
+        "Beam Loading": 49.41962379962206,
+        "Existing Counterbalance": 537.797375502391,
+        "Existing Cyclic Load Factor": 1.9518000879993909,
+        "Existing Max Gearbox Torque, DownStroke": 190.8945770263672,
+        "Existing Max Gearbox Torque, Upstroke": 108.78057098388672,
+        "Existing Min Gearbox Torque, DownStroke": -61.06269836425781,
+        "Existing Min Gearbox Torque, Upstroke": -85.25494384765625,
+        "Existing RMS Gearbox Torque": 83.70565564330845,
+        "In Balance Cyclic Load Factor": 1.790317113820474,
+        "In Balance Max Gearbox Torque, DownStroke": 150.222412109375,
+        "In Balance Max Gearbox Torque, Upstroke": 150.222412109375,
+        "In Balance Min Gearbox Torque, DownStroke": -55.81199264526367,
+        "In Balance Min Gearbox Torque, Upstroke": -67.95392608642578,
+        "In Balance RMS Gearbox Torque": 76.26915784933017,
+        "Polished Rod Power": 5.517153514776844,
+        "Rated Current": 38.0,
+        "Required Counterbalance Change": 46.244565172987585
+      },
+      "StrValues": {
+        "Out of Balance": "Yes, weights heavy",
+        "To Balance Move": "5308.0 weights IN 8.71"
+      }
+    },
+    {
+      "DateTime": "2004-03-29T22:49:16Z",
+      "LastModified": "2004-03-29T22:49:16Z",
+      "Type": "DYN",
+      "NumValues": {
+        "Beam Loading": 52.87785828113556,
+        "Existing Counterbalance": 537.797375502391,
+        "Existing Cyclic Load Factor": 1.8626652479571406,
+        "Existing Max Gearbox Torque, DownStroke": 286.9603576660156,
+        "Existing Max Gearbox Torque, Upstroke": 155.01519775390625,
+        "Existing Min Gearbox Torque, DownStroke": -61.06269836425781,
+        "Existing Min Gearbox Torque, Upstroke": -97.06440734863281,
+        "Existing RMS Gearbox Torque": 118.32245484586826,
+        "In Balance Cyclic Load Factor": 1.6182913656506424,
+        "In Balance Max Gearbox Torque, DownStroke": 219.03660583496094,
+        "In Balance Max Gearbox Torque, Upstroke": 219.03660583496094,
+        "In Balance Min Gearbox Torque, DownStroke": -53.10163497924805,
+        "In Balance Min Gearbox Torque, Upstroke": -69.55493927001953,
+        "In Balance RMS Gearbox Torque": 101.58034118295573,
+        "Polished Rod Power": 8.024715123098407,
+        "Rated Current": 38.0,
+        "Required Counterbalance Change": 70.11547181202965
+      },
+      "StrValues": {
+        "Out of Balance": "Yes, weights heavy",
+        "To Balance Move": "5308.0 weights IN 13.21"
+      }
+    },
+    {
+      "DateTime": "2004-03-29T22:32:22Z",
+      "LastModified": "2004-03-29T22:32:22Z",
+      "Type": "DYN",
+      "NumValues": {
+        "Beam Loading": 52.87785828113556,
+        "Existing Counterbalance": 537.797375502391,
+        "Existing Cyclic Load Factor": 1.8626652479571406,
+        "Existing Max Gearbox Torque, DownStroke": 286.9603576660156,
+        "Existing Max Gearbox Torque, Upstroke": 155.01519775390625,
+        "Existing Min Gearbox Torque, DownStroke": -61.06269836425781,
+        "Existing Min Gearbox Torque, Upstroke": -97.06440734863281,
+        "Existing RMS Gearbox Torque": 118.32245484586826,
+        "In Balance Cyclic Load Factor": 1.6182913656506424,
+        "In Balance Max Gearbox Torque, DownStroke": 219.03660583496094,
+        "In Balance Max Gearbox Torque, Upstroke": 219.03660583496094,
+        "In Balance Min Gearbox Torque, DownStroke": -53.10163497924805,
+        "In Balance Min Gearbox Torque, Upstroke": -69.55493927001953,
+        "In Balance RMS Gearbox Torque": 101.58034118295573,
+        "Polished Rod Power": 8.024715123098407,
+        "Rated Current": 38.0,
+        "Required Counterbalance Change": 70.11547181202965
+      },
+      "StrValues": {
+        "Out of Balance": "Yes, weights heavy",
+        "To Balance Move": "5308.0 weights IN 13.21"
+      }
+    },
+    {
+      "DateTime": "2004-03-29T22:25:42Z",
+      "LastModified": "2004-03-29T22:25:42Z",
+      "Type": "DYN",
+      "NumValues": {
+        "Beam Loading": 50.20437017083168,
+        "Existing Counterbalance": 537.797375502391,
+        "Existing Cyclic Load Factor": 1.9229253787434426,
+        "Existing Max Gearbox Torque, DownStroke": 241.48974609375,
+        "Existing Max Gearbox Torque, Upstroke": 111.7405014038086,
+        "Existing Min Gearbox Torque, DownStroke": -61.06269836425781,
+        "Existing Min Gearbox Torque, Upstroke": -83.68172454833984,
+        "Existing RMS Gearbox Torque": 95.37041170529528,
+        "In Balance Cyclic Load Factor": 1.7192073787597155,
+        "In Balance Max Gearbox Torque, DownStroke": 177.0598907470703,
+        "In Balance Max Gearbox Torque, Upstroke": 177.0598907470703,
+        "In Balance Min Gearbox Torque, DownStroke": -53.30409622192383,
+        "In Balance Min Gearbox Torque, Upstroke": -59.41547775268555,
+        "In Balance RMS Gearbox Torque": 84.46076063467636,
+        "Polished Rod Power": 6.326319276905827,
+        "Rated Current": 38.0,
+        "Required Counterbalance Change": 68.33232290061464
+      },
+      "StrValues": {
+        "Out of Balance": "Yes, weights heavy",
+        "To Balance Move": "5308.0 weights IN 12.87"
+      }
+    }
+  ],
+  "note": "Exact vendor result values only; invalid/sentinel values are preserved and no units are inferred."
+}

@@ -1,0 +1,14 @@
+{
+  "source_messages_checked": 4,
+  "ground_truth_confined_to_local_output": true,
+  "opaque_run_ids": true,
+  "forbidden_metadata_rejected": true,
+  "model_metadata_invariance": true,
+  "feature_contract": [
+    "surface_resampled.position_m",
+    "surface_resampled.load_n",
+    "downhole.position_m",
+    "downhole.load_n"
+  ],
+  "passed": true
+}

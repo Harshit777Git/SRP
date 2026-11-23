@@ -1,0 +1,5 @@
+{
+  "rows": 60000,
+  "active_power_exceeds_apparent_power": 50,
+  "liquid_rate_exceeds_surface_swept_volume_by_over_5pct": 60000
+}

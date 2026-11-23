@@ -1,0 +1,7 @@
+{
+  "state_id": "STATE-092",
+  "source_state": "Well5",
+  "surface_card": null,
+  "downhole_card": null,
+  "reason": "No verified ordered numerical samples extracted"
+}

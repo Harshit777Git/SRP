@@ -1,0 +1,24 @@
+{
+  "result": "PASS",
+  "injected_severity": 0.8,
+  "healthy_stroke": 8,
+  "alert_stroke": 11,
+  "status": "DYNACARD_CHANGE",
+  "version": "dynacard-change/1.1",
+  "reference_count": 3,
+  "reference_strokes": [
+    5,
+    6,
+    7
+  ],
+  "surface": {
+    "change_fraction": 0.24719239683516517,
+    "threshold_fraction": 0.050392611793726706
+  },
+  "downhole": {
+    "change_fraction": 0.4286074112924334,
+    "threshold_fraction": 0.04012007775094717
+  },
+  "symptom": "DELAYED_PUMP_UNLOADING",
+  "late_downstroke_excess_n": 3538.360697989613
+}

@@ -1,0 +1,87 @@
+{
+  "provenance": {
+    "state_id": "STATE-051",
+    "source_archive": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-051\\01_TAM\\PFL_High_liquid_low_gas.TAM_EXP",
+    "source_sha256": "bb8f2b6175f6b22f4e69ce5d648d285c43a93df60f7681dacbd8ffb89e5e1923",
+    "source_bytes": 3130,
+    "extracted_utc": "2026-11-18T04_44_29Z",
+    "method": "lossless extraction of vendor metadata.json and TestResults.json",
+    "synthetic_data": false
+  },
+  "archive_metadata": {
+    "DateExported": "2026-11-18T04_44_29Z",
+    "Source": "Tam",
+    "SourceVersion": "2.1.19"
+  },
+  "test_results": {
+    "Wells": [
+      {
+        "Company": "",
+        "Description": "",
+        "GPSBlock": "",
+        "ID": "{D7DFCD00-1376-4EC9-A301-7D356D17AFDE}",
+        "MajorGroup": "Examples",
+        "MinorGroup": "",
+        "Name": "PFL_High_liquid_low_gas",
+        "SavedAppVersion": "1.1.15",
+        "Sessions": [],
+        "Tests": [
+          {
+            "DateTime": "1990-09-06T08:38:00Z",
+            "FilePath": "",
+            "LastModified": "1990-09-06T08:38:00Z",
+            "NumValues": {
+              "ACU Acoustic Velocity": 1021.1484593837532,
+              "ACU Casing Pressure": 1.3076934814453125,
+              "ACU PBHP": 848.8251664699658,
+              "Annular Gas Flow": 1.315165923403259,
+              "Average Acoustic Velocity": 1021.1484593837532,
+              "Average Joints Per Second": 16.10644257703081,
+              "Back Pressure": 860.051821050378,
+              "Back Pressure on Formation Due to Liquid Loading": 860.051821050378,
+              "Buildup": 0.3122539520263672,
+              "Buildup Time": 120.0,
+              "Computed Gas Gravity from User Entered Velocity": 0.9416444052383963,
+              "Continuous Removal of Liquid Tubing ID": 2.441,
+              "Current Loaded EOT": 863.5251664699658,
+              "Distance to Liquid": 1207.5080532212883,
+              "Filter High End": 18.155088852988573,
+              "Filter Low End": 14.155088852988573,
+              "Flowing Gas EOT": 3.473345419587842,
+              "Fluid Above Pump": 2792.4919467787117,
+              "Gas Free Above Pump": 2539.7441551660704,
+              "Gas Production": 1.315165923403259,
+              "Gas/Liquid Interface Pressure": 1.9614540203906614,
+              "Interval Acoustic Velocity": 1024.2326332794755,
+              "Interval Joints Per Second": 16.155088852988573,
+              "Joints to Liquid": 38.09173669467786,
+              "Liquid Level - TVD": 1207.5080532212883,
+              "PIP LL": 848.8251664699658,
+              "Percent Liquid Above Pump": 90.9490234375,
+              "Producing Efficiency": 61.973416869218866,
+              "RTTT": 2.365,
+              "Selected Marker Depth": 0.0,
+              "Time to First Collar": 0.256,
+              "Time to Last Collar": 2.3000000000000003,
+              "User Entered Velocity": 1021.1484593837532
+            },
+            "Session": false,
+            "StrValues": {
+              "Acoustic Velocity Calc Method": "Collar Count",
+              "Continuous Removal of Liquid Method": "Turner",
+              "Gun Serial Number": "WG Unknown",
+              "IPR Method": "Vogel",
+              "Pressure Sensor Serial Number": "PT Well Gun",
+              "Pulse Type": "Explosion",
+              "Selected Marker Name": "",
+              "Shot Path": "Casing",
+              "Well State": "Producing"
+            },
+            "Type": "ACU"
+          }
+        ],
+        "Versions": []
+      }
+    ]
+  }
+}

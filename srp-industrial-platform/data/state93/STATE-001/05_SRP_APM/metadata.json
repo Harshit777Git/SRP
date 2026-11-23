@@ -1,0 +1,7 @@
+{
+  "state_id": "STATE-001",
+  "source_state": "Anchored but NOT Set",
+  "surface_card": null,
+  "downhole_card": null,
+  "reason": "No verified ordered numerical samples extracted"
+}

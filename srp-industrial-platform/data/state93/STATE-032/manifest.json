@@ -1,0 +1,57 @@
+{
+  "state_id": "STATE-032",
+  "name": "Leak Standing Valve",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Leak Standing Valve",
+  "source_files": [
+    {
+      "State ID": "STATE-032",
+      "Original State Name": "Leak Standing Valve",
+      "Application": "TAM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Leak Standing Valve\\Original TAM\\Leak Standing Valve.TAM_EXP",
+      "Extension": ".TAM_EXP",
+      "Bytes": 5312,
+      "SHA256": "799a714a858bba135b63b583676720eedb7a8c41e4eef104100d413b1488a0a5",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-032",
+      "Original State Name": "Leak Standing Valve",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Leak Standing Valve\\Original TWM\\2_2_Pump_Operation\\Leak Standing Valve.001",
+      "Extension": ".001",
+      "Bytes": 410409,
+      "SHA256": "9641fe5c8ab5663589ab1d005ec583ded56edab35f4c3a369e39fb2d6cf2d57d",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-032",
+      "Original State Name": "Leak Standing Valve",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Leak Standing Valve\\Original TWM\\Leak Standing Valve.001",
+      "Extension": ".001",
+      "Bytes": 410409,
+      "SHA256": "9641fe5c8ab5663589ab1d005ec583ded56edab35f4c3a369e39fb2d6cf2d57d",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "VENDOR_GUI_ACTION_REQUIRED",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

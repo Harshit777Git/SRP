@@ -1,0 +1,272 @@
+[
+  {
+    "site_id": "US_TX_MIDLAND",
+    "asset_id": "TX-MID-001",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  },
+  {
+    "site_id": "US_TX_MIDLAND",
+    "asset_id": "TX-MID-002",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  },
+  {
+    "site_id": "US_TX_MIDLAND",
+    "asset_id": "TX-MID-003",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  },
+  {
+    "site_id": "US_TX_MIDLAND",
+    "asset_id": "TX-MID-004",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  },
+  {
+    "site_id": "US_TX_MIDLAND",
+    "asset_id": "TX-MID-005",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  },
+  {
+    "site_id": "US_NM_DELAWARE",
+    "asset_id": "NM-DEL-001",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  },
+  {
+    "site_id": "US_NM_DELAWARE",
+    "asset_id": "NM-DEL-002",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  },
+  {
+    "site_id": "US_NM_DELAWARE",
+    "asset_id": "NM-DEL-003",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  },
+  {
+    "site_id": "US_NM_DELAWARE",
+    "asset_id": "NM-DEL-004",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  },
+  {
+    "site_id": "US_NM_DELAWARE",
+    "asset_id": "NM-DEL-005",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  },
+  {
+    "site_id": "US_ND_WILLISTON",
+    "asset_id": "ND-WIL-001",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  },
+  {
+    "site_id": "US_ND_WILLISTON",
+    "asset_id": "ND-WIL-002",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  },
+  {
+    "site_id": "US_ND_WILLISTON",
+    "asset_id": "ND-WIL-003",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  },
+  {
+    "site_id": "US_ND_WILLISTON",
+    "asset_id": "ND-WIL-004",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  },
+  {
+    "site_id": "US_ND_WILLISTON",
+    "asset_id": "ND-WIL-005",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  },
+  {
+    "site_id": "US_OK_ANADARKO",
+    "asset_id": "OK-ANA-001",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  },
+  {
+    "site_id": "US_OK_ANADARKO",
+    "asset_id": "OK-ANA-002",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  },
+  {
+    "site_id": "US_OK_ANADARKO",
+    "asset_id": "OK-ANA-003",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  },
+  {
+    "site_id": "US_OK_ANADARKO",
+    "asset_id": "OK-ANA-004",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  },
+  {
+    "site_id": "US_OK_ANADARKO",
+    "asset_id": "OK-ANA-005",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  },
+  {
+    "site_id": "US_CO_DJ",
+    "asset_id": "CO-DJ-001",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  },
+  {
+    "site_id": "US_CO_DJ",
+    "asset_id": "CO-DJ-002",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  },
+  {
+    "site_id": "US_CO_DJ",
+    "asset_id": "CO-DJ-003",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  },
+  {
+    "site_id": "US_CO_DJ",
+    "asset_id": "CO-DJ-004",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  },
+  {
+    "site_id": "US_CO_DJ",
+    "asset_id": "CO-DJ-005",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  },
+  {
+    "site_id": "US_TX_EAGLEFORD",
+    "asset_id": "TX-EAG-001",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  },
+  {
+    "site_id": "US_TX_EAGLEFORD",
+    "asset_id": "TX-EAG-002",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  },
+  {
+    "site_id": "US_TX_EAGLEFORD",
+    "asset_id": "TX-EAG-003",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  },
+  {
+    "site_id": "US_TX_EAGLEFORD",
+    "asset_id": "TX-EAG-004",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  },
+  {
+    "site_id": "US_TX_EAGLEFORD",
+    "asset_id": "TX-EAG-005",
+    "interface_compatible": true,
+    "training_performed": false,
+    "independent_physics_benchmark": false,
+    "fleet_mqtt_gate": false,
+    "decision": "NOT_READY_FOR_ML_EXPERIMENTATION"
+  }
+]

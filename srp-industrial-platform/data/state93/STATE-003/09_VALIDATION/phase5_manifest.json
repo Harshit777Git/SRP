@@ -1,0 +1,39 @@
+{
+  "state_id": "STATE-003",
+  "state_name": "Asphaltenes in Pump",
+  "source_application": "TAM",
+  "test_id": "1997-12-13_045700",
+  "selected_stroke_id": "1",
+  "reported_test_strokes": 5,
+  "exported_unique_strokes": 1,
+  "sample_count": 183,
+  "surface_load_unit": "lbf",
+  "pump_load_unit": "lbf",
+  "position_unit": "in",
+  "pdf_configuration_status": "ORIGINAL_PDF_COLLECTED_NOT_ENGINEERING_REVIEWED",
+  "vendor_comment": "Asphaltenes Sticking TV - TV goes on Seat at different Points",
+  "diagnostic_label_status": "COMMENT_ONLY_NOT_FIELD_VERIFIED",
+  "txt_dyn_surface_max_position_difference_in": 0.0,
+  "txt_dyn_surface_max_load_difference_lbf": 0.005000000001018634,
+  "source_files": [
+    {
+      "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-003\\05_NUMERICAL_DATA\\TAM\\test_1997-12-13_045700\\Asphaltenes in Pump_DYN_4294967295_12-13-1997_04-57-00.txt",
+      "bytes": 7496,
+      "sha256": "6be3ac42e24ed358795da9626bbbd150163c7cf018bb6d04568d8f1eab8e7c7a",
+      "format": ".txt"
+    },
+    {
+      "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-003\\05_NUMERICAL_DATA\\TAM\\test_1997-12-13_045700\\Asphaltenes in Pump_DYN_4294967295_12-13-1997_04-57-00.dyn",
+      "bytes": 3933,
+      "sha256": "4f67425e39b1ad596fa53ace8ca270a064bb0dc5f9ba95a2dce1e76b64d760f1",
+      "format": ".dyn"
+    },
+    {
+      "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-003\\06_ENGINEERING_CONFIGURATION\\TAM\\Asphaltenes in Pump_Summary.pdf",
+      "bytes": 183563,
+      "sha256": "592c8bc634406765fadd24fa8e38ee171c1a2872383363dd4d807d356683a817",
+      "format": ".pdf"
+    }
+  ],
+  "apm_reconstruction": "BLOCKED_REVIEWED_CONFIGURATION_REQUIRED"
+}

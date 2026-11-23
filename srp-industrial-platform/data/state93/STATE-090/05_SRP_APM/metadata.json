@@ -1,0 +1,7 @@
+{
+  "state_id": "STATE-090",
+  "source_state": "V11_StartUp_AMP_KW",
+  "surface_card": null,
+  "downhole_card": null,
+  "reason": "No verified ordered numerical samples extracted"
+}

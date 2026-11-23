@@ -1,0 +1,5524 @@
+{
+  "wells": [
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-001",
+        "rods": [
+          {
+            "length_m": 413.79648,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 482.71176,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 482.71176,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 1.6256,
+        "spm": 7.91,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 920.7874622812311,
+        "viscosity_pa_s": 0.0126,
+        "intake_head_m": 129.11328000000003,
+        "tubing_pa": 366801.0879876,
+        "casing_pa": 189605.82555749998,
+        "voltage_v": 480.0,
+        "damping_s": 0.608,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-001",
+        "fault": "Unanchored Tubing Slip",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-002",
+        "rods": [
+          {
+            "length_m": 578.8152,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 707.50176,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 7.08,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 940.7878838049369,
+        "viscosity_pa_s": 0.013300000000000001,
+        "intake_head_m": 205.31328000000008,
+        "tubing_pa": 444711.8453985,
+        "casing_pa": 278548.1946372,
+        "voltage_v": 480.0,
+        "damping_s": 0.554,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-003",
+        "rods": [
+          {
+            "length_m": 461.01000000000005,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 563.39232,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 1.8796,
+        "spm": 5.91,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 948.4958333333333,
+        "viscosity_pa_s": 0.0089,
+        "intake_head_m": 115.21440000000007,
+        "tubing_pa": 419890.7191437,
+        "casing_pa": 245453.3596308,
+        "voltage_v": 480.0,
+        "damping_s": 0.429,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-038",
+        "fault": "Traveling Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-004",
+        "rods": [
+          {
+            "length_m": 414.49752000000007,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 483.59568,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 483.59568,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 1.8796,
+        "spm": 6.31,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 914.05723880597,
+        "viscosity_pa_s": 0.0107,
+        "intake_head_m": 173.67504000000008,
+        "tubing_pa": 444711.8453985,
+        "casing_pa": 246832.31108939997,
+        "voltage_v": 480.0,
+        "damping_s": 0.573,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-005",
+        "rods": [
+          {
+            "length_m": 470.70264000000003,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 575.40144,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 1.8796,
+        "spm": 7.98,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 936.4601786777844,
+        "viscosity_pa_s": 0.0124,
+        "intake_head_m": 116.40312000000006,
+        "tubing_pa": 397827.4958061,
+        "casing_pa": 213048.0003537,
+        "voltage_v": 480.0,
+        "damping_s": 0.587,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-038",
+        "fault": "Traveling Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-006",
+        "rods": [
+          {
+            "length_m": 399.40992000000006,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 466.00872000000004,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 466.00872000000004,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 1.6256,
+        "spm": 5.83,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 966.5154229607249,
+        "viscosity_pa_s": 0.0108,
+        "intake_head_m": 129.32664,
+        "tubing_pa": 368180.03944619995,
+        "casing_pa": 264758.6800512,
+        "voltage_v": 480.0,
+        "damping_s": 0.454,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-007",
+        "rods": [
+          {
+            "length_m": 578.2056,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 706.8007200000001,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 6.6,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 959.7771980676329,
+        "viscosity_pa_s": 0.010199999999999999,
+        "intake_head_m": 154.32024,
+        "tubing_pa": 514348.89405779995,
+        "casing_pa": 267516.5829684,
+        "voltage_v": 480.0,
+        "damping_s": 0.416,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-008",
+        "rods": [
+          {
+            "length_m": 455.09688,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 530.9006400000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 530.99208,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 7.99,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 932.1290804257836,
+        "viscosity_pa_s": 0.0081,
+        "intake_head_m": 121.40183999999999,
+        "tubing_pa": 468154.0201947,
+        "casing_pa": 308195.6509971,
+        "voltage_v": 480.0,
+        "damping_s": 0.575,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-009",
+        "rods": [
+          {
+            "length_m": 484.29672000000005,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 591.89112,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 6.23,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 938.3413305237808,
+        "viscosity_pa_s": 0.0081,
+        "intake_head_m": 156.17952000000002,
+        "tubing_pa": 406790.68028699997,
+        "casing_pa": 185468.97118169998,
+        "voltage_v": 480.0,
+        "damping_s": 0.453,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-001",
+        "fault": "Unanchored Tubing Slip",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-010",
+        "rods": [
+          {
+            "length_m": 512.79552,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 626.7907200000001,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 1.8796,
+        "spm": 6.92,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 938.9886579572445,
+        "viscosity_pa_s": 0.0126,
+        "intake_head_m": 199.09536000000003,
+        "tubing_pa": 376453.7481978,
+        "casing_pa": 249590.2140066,
+        "voltage_v": 480.0,
+        "damping_s": 0.533,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-038",
+        "fault": "Traveling Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-011",
+        "rods": [
+          {
+            "length_m": 548.6095200000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 670.59048,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.1844,
+        "spm": 6.36,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 960.8515242080096,
+        "viscosity_pa_s": 0.014199999999999999,
+        "intake_head_m": 111.80064000000016,
+        "tubing_pa": 333016.77725189994,
+        "casing_pa": 276479.7674493,
+        "voltage_v": 480.0,
+        "damping_s": 0.463,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-001",
+        "fault": "Unanchored Tubing Slip",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-012",
+        "rods": [
+          {
+            "length_m": 490.91088,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 599.9988000000001,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 1.8796,
+        "spm": 6.46,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 925.3590380047505,
+        "viscosity_pa_s": 0.012199999999999999,
+        "intake_head_m": 112.50168000000019,
+        "tubing_pa": 334395.7287105,
+        "casing_pa": 277169.2431786,
+        "voltage_v": 480.0,
+        "damping_s": 0.598,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-032",
+        "fault": "Standing Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-013",
+        "rods": [
+          {
+            "length_m": 483.108,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 590.3976,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 1.8796,
+        "spm": 6.41,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 911.8753571428571,
+        "viscosity_pa_s": 0.0085,
+        "intake_head_m": 118.01855999999987,
+        "tubing_pa": 337843.107357,
+        "casing_pa": 179263.689618,
+        "voltage_v": 480.0,
+        "damping_s": 0.55,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-014",
+        "rods": [
+          {
+            "length_m": 454.70064,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 555.71136,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 6.76,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 918.9090963855421,
+        "viscosity_pa_s": 0.0135,
+        "intake_head_m": 119.11584000000005,
+        "tubing_pa": 359216.8549653,
+        "casing_pa": 306127.2238092,
+        "voltage_v": 480.0,
+        "damping_s": 0.608,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-031",
+        "fault": "Worn Pump Barrel",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-015",
+        "rods": [
+          {
+            "length_m": 513.31368,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 627.30888,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 7.26,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 960.8309976247031,
+        "viscosity_pa_s": 0.0091,
+        "intake_head_m": 191.53631999999993,
+        "tubing_pa": 346806.29183789995,
+        "casing_pa": 268895.534427,
+        "voltage_v": 480.0,
+        "damping_s": 0.448,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-031",
+        "fault": "Worn Pump Barrel",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-016",
+        "rods": [
+          {
+            "length_m": 490.91088,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 599.9988000000001,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 1.8796,
+        "spm": 7.09,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 929.5769863824747,
+        "viscosity_pa_s": 0.0125,
+        "intake_head_m": 142.0977600000001,
+        "tubing_pa": 428853.9036246,
+        "casing_pa": 242005.9809843,
+        "voltage_v": 480.0,
+        "damping_s": 0.525,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-032",
+        "fault": "Standing Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-017",
+        "rods": [
+          {
+            "length_m": 434.09616000000005,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 506.39472000000006,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 506.39472000000006,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 1.6256,
+        "spm": 7.93,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 936.2185207456404,
+        "viscosity_pa_s": 0.0095,
+        "intake_head_m": 189.37224000000015,
+        "tubing_pa": 406790.68028699997,
+        "casing_pa": 173747.88378359997,
+        "voltage_v": 480.0,
+        "damping_s": 0.471,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-031",
+        "fault": "Worn Pump Barrel",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-018",
+        "rods": [
+          {
+            "length_m": 440.89320000000004,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 514.41096,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 514.41096,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 1.8796,
+        "spm": 6.36,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 919.3380386240193,
+        "viscosity_pa_s": 0.0107,
+        "intake_head_m": 263.2252799999999,
+        "tubing_pa": 412306.48612139997,
+        "casing_pa": 230974.3693155,
+        "voltage_v": 480.0,
+        "damping_s": 0.618,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-019",
+        "rods": [
+          {
+            "length_m": 423.30624,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 493.80648,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 493.80648,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 1.8796,
+        "spm": 7.94,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 924.4374274718767,
+        "viscosity_pa_s": 0.015,
+        "intake_head_m": 215.1278400000001,
+        "tubing_pa": 401964.35018189996,
+        "casing_pa": 290958.7577646,
+        "voltage_v": 480.0,
+        "damping_s": 0.57,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-020",
+        "rods": [
+          {
+            "length_m": 548.39616,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 670.19424,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 6.23,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 924.2836778846153,
+        "viscosity_pa_s": 0.0087,
+        "intake_head_m": 116.58600000000001,
+        "tubing_pa": 508833.08822339994,
+        "casing_pa": 190984.77701609998,
+        "voltage_v": 480.0,
+        "damping_s": 0.624,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-022",
+        "fault": "Fluid Pound",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-021",
+        "rods": [
+          {
+            "length_m": 447.11112,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 521.60424,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 521.5128,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 1.8796,
+        "spm": 6.2,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 914.3709810314167,
+        "viscosity_pa_s": 0.0085,
+        "intake_head_m": 208.94040000000018,
+        "tubing_pa": 508833.08822339994,
+        "casing_pa": 194432.15566259998,
+        "voltage_v": 480.0,
+        "damping_s": 0.549,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-038",
+        "fault": "Traveling Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-022",
+        "rods": [
+          {
+            "length_m": 453.20712000000003,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 528.70608,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 528.70608,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 1.8796,
+        "spm": 7.07,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 913.0148573127228,
+        "viscosity_pa_s": 0.0124,
+        "intake_head_m": 200.71079999999984,
+        "tubing_pa": 476427.72894629993,
+        "casing_pa": 195811.10712119998,
+        "voltage_v": 480.0,
+        "damping_s": 0.457,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-022",
+        "fault": "Fluid Pound",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-023",
+        "rods": [
+          {
+            "length_m": 416.90544,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 486.39984,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 486.3084,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 5.9,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 914.4407109004737,
+        "viscosity_pa_s": 0.014,
+        "intake_head_m": 126.61392000000001,
+        "tubing_pa": 390932.7385131,
+        "casing_pa": 197879.53430909998,
+        "voltage_v": 480.0,
+        "damping_s": 0.425,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-031",
+        "fault": "Worn Pump Barrel",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-024",
+        "rods": [
+          {
+            "length_m": 428.2135200000001,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 499.59768,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 499.59768,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 1.6256,
+        "spm": 5.61,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 970.0605957320687,
+        "viscosity_pa_s": 0.0141,
+        "intake_head_m": 228.29520000000025,
+        "tubing_pa": 406790.68028699997,
+        "casing_pa": 301990.3694334,
+        "voltage_v": 480.0,
+        "damping_s": 0.594,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-032",
+        "fault": "Standing Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-025",
+        "rods": [
+          {
+            "length_m": 431.59680000000003,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 503.49912000000006,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 503.59056000000004,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 1.6256,
+        "spm": 6.29,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 968.7675313059033,
+        "viscosity_pa_s": 0.0116,
+        "intake_head_m": 122.89536000000021,
+        "tubing_pa": 347495.76756719995,
+        "casing_pa": 238558.6023378,
+        "voltage_v": 480.0,
+        "damping_s": 0.635,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-038",
+        "fault": "Traveling Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-026",
+        "rods": [
+          {
+            "length_m": 556.1076,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 679.61256,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 1.6256,
+        "spm": 7.06,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 961.0903187721369,
+        "viscosity_pa_s": 0.0103,
+        "intake_head_m": 179.5272,
+        "tubing_pa": 356458.9520481,
+        "casing_pa": 258553.39848749997,
+        "voltage_v": 480.0,
+        "damping_s": 0.462,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-001",
+        "fault": "Unanchored Tubing Slip",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-027",
+        "rods": [
+          {
+            "length_m": 447.99504,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 547.51224,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.1844,
+        "spm": 7.54,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 921.1652116875373,
+        "viscosity_pa_s": 0.01,
+        "intake_head_m": 153.80208000000005,
+        "tubing_pa": 359216.8549653,
+        "casing_pa": 302679.8451627,
+        "voltage_v": 480.0,
+        "damping_s": 0.516,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-028",
+        "rods": [
+          {
+            "length_m": 552.69384,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 675.5892,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 1.6256,
+        "spm": 7.97,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 934.7902766210589,
+        "viscosity_pa_s": 0.0145,
+        "intake_head_m": 131.1859199999999,
+        "tubing_pa": 488838.2920737,
+        "casing_pa": 179953.1653473,
+        "voltage_v": 480.0,
+        "damping_s": 0.561,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-038",
+        "fault": "Traveling Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-029",
+        "rods": [
+          {
+            "length_m": 444.70320000000004,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 543.48888,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.1844,
+        "spm": 5.89,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 932.2070348493796,
+        "viscosity_pa_s": 0.013,
+        "intake_head_m": 116.40312000000006,
+        "tubing_pa": 481943.5347807,
+        "casing_pa": 199258.48576769998,
+        "voltage_v": 480.0,
+        "damping_s": 0.436,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Prairie",
+      "well": {
+        "asset_id": "prairie-030",
+        "rods": [
+          {
+            "length_m": 417.78936000000004,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 487.40568,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 487.40568,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 1.6256,
+        "spm": 6.33,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 932.2424655482324,
+        "viscosity_pa_s": 0.013099999999999999,
+        "intake_head_m": 203.69784000000004,
+        "tubing_pa": 484011.9619686,
+        "casing_pa": 262690.2528633,
+        "voltage_v": 480.0,
+        "damping_s": 0.442,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-001",
+        "rods": [
+          {
+            "length_m": 540.50184,
+            "diameter_m": 0.028575,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 810.7070400000001,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 810.7070400000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 540.50184,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 5.65,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 929.1260256410256,
+        "viscosity_pa_s": 0.0040999999999999995,
+        "intake_head_m": 364.4188800000002,
+        "tubing_pa": 781865.4770262,
+        "casing_pa": 646038.7583540999,
+        "voltage_v": 480.0,
+        "damping_s": 0.427,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-038",
+        "fault": "Traveling Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-002",
+        "rods": [
+          {
+            "length_m": 468.11184000000003,
+            "diameter_m": 0.028575,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 702.1068,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 702.1068,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 467.98992000000004,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.6576,
+        "spm": 4.57,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 919.2171428571428,
+        "viscosity_pa_s": 0.006,
+        "intake_head_m": 391.21080000000006,
+        "tubing_pa": 580538.5640706,
+        "casing_pa": 681202.0205484,
+        "voltage_v": 480.0,
+        "damping_s": 0.609,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-003",
+        "rods": [
+          {
+            "length_m": 462.10728,
+            "diameter_m": 0.028575,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 693.1152000000001,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 693.1152000000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 462.10728,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 5.17,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 901.7667798594846,
+        "viscosity_pa_s": 0.006900000000000001,
+        "intake_head_m": 222.83928000000014,
+        "tubing_pa": 746702.2148319,
+        "casing_pa": 684649.3991949,
+        "voltage_v": 480.0,
+        "damping_s": 0.473,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-025",
+        "fault": "Severe Gas Lock",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-004",
+        "rods": [
+          {
+            "length_m": 508.7112,
+            "diameter_m": 0.028575,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 763.09728,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 763.09728,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 508.7112,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.6576,
+        "spm": 5.5,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 909.7476717112922,
+        "viscosity_pa_s": 0.0057,
+        "intake_head_m": 304.52567999999974,
+        "tubing_pa": 617080.7777234999,
+        "casing_pa": 716365.2827427,
+        "voltage_v": 480.0,
+        "damping_s": 0.65,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-024",
+        "fault": "Gas Interference",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-005",
+        "rods": [
+          {
+            "length_m": 562.8132,
+            "diameter_m": 0.028575,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 844.20456,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 844.20456,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 562.69128,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 6.0,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 869.3235624643468,
+        "viscosity_pa_s": 0.0057,
+        "intake_head_m": 439.2167999999997,
+        "tubing_pa": 894250.0209020999,
+        "casing_pa": 612254.4476184,
+        "voltage_v": 480.0,
+        "damping_s": 0.632,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-006",
+        "rods": [
+          {
+            "length_m": 570.5856,
+            "diameter_m": 0.028575,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 855.9088800000001,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 855.9088800000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 570.4941600000001,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 6.02,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 871.4315819861431,
+        "viscosity_pa_s": 0.0060999999999999995,
+        "intake_head_m": 321.8078400000004,
+        "tubing_pa": 567438.5252138999,
+        "casing_pa": 560543.7679208999,
+        "voltage_v": 480.0,
+        "damping_s": 0.403,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-032",
+        "fault": "Standing Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-007",
+        "rods": [
+          {
+            "length_m": 645.5054400000001,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 753.0998400000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 753.0084,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 5.3,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 918.2677752293578,
+        "viscosity_pa_s": 0.004200000000000001,
+        "intake_head_m": 360.8222400000002,
+        "tubing_pa": 870807.8461058999,
+        "casing_pa": 482633.01051,
+        "voltage_v": 480.0,
+        "damping_s": 0.528,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-024",
+        "fault": "Gas Interference",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-008",
+        "rods": [
+          {
+            "length_m": 500.90832000000006,
+            "diameter_m": 0.028575,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 751.39296,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 751.39296,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 500.7864,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 5.72,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 898.1614285714286,
+        "viscosity_pa_s": 0.004,
+        "intake_head_m": 318.79032000000007,
+        "tubing_pa": 914934.2927810999,
+        "casing_pa": 566749.0494846,
+        "voltage_v": 480.0,
+        "damping_s": 0.472,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-032",
+        "fault": "Standing Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-009",
+        "rods": [
+          {
+            "length_m": 570.4941600000001,
+            "diameter_m": 0.028575,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 855.6955200000001,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 855.6955200000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 570.40272,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 4.89,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 867.5224640184226,
+        "viscosity_pa_s": 0.0066,
+        "intake_head_m": 449.97623999999996,
+        "tubing_pa": 784623.3799433999,
+        "casing_pa": 658449.3214814999,
+        "voltage_v": 480.0,
+        "damping_s": 0.449,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-038",
+        "fault": "Traveling Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-010",
+        "rods": [
+          {
+            "length_m": 500.99976000000004,
+            "diameter_m": 0.028575,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 751.6063200000001,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 751.6063200000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 500.99976000000004,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 5.52,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 888.4497674418603,
+        "viscosity_pa_s": 0.0047,
+        "intake_head_m": 437.6013600000001,
+        "tubing_pa": 907350.0597588,
+        "casing_pa": 710849.4769083,
+        "voltage_v": 480.0,
+        "damping_s": 0.565,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-011",
+        "rods": [
+          {
+            "length_m": 458.38872000000003,
+            "diameter_m": 0.028575,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 687.5983200000001,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 687.5983200000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 458.51064,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 5.68,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 889.9883720930233,
+        "viscosity_pa_s": 0.0055,
+        "intake_head_m": 339.0899999999999,
+        "tubing_pa": 591570.1757394,
+        "casing_pa": 510212.039682,
+        "voltage_v": 480.0,
+        "damping_s": 0.438,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-024",
+        "fault": "Gas Interference",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-012",
+        "rods": [
+          {
+            "length_m": 532.39416,
+            "diameter_m": 0.028575,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 798.5150400000001,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 798.5150400000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 532.39416,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.6576,
+        "spm": 5.53,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 921.9929442208164,
+        "viscosity_pa_s": 0.007,
+        "intake_head_m": 450.00671999999986,
+        "tubing_pa": 768075.9624402,
+        "casing_pa": 725328.4672236,
+        "voltage_v": 480.0,
+        "damping_s": 0.582,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-024",
+        "fault": "Gas Interference",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-013",
+        "rods": [
+          {
+            "length_m": 561.50256,
+            "diameter_m": 0.028575,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 842.1928800000001,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 842.1928800000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 561.594,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 6.31,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 892.2350344629524,
+        "viscosity_pa_s": 0.0063,
+        "intake_head_m": 396.97152000000006,
+        "tubing_pa": 881149.9820454,
+        "casing_pa": 418511.76768509997,
+        "voltage_v": 480.0,
+        "damping_s": 0.57,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-014",
+        "rods": [
+          {
+            "length_m": 463.50936,
+            "diameter_m": 0.028575,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 695.18784,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 695.18784,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 463.50936,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.6576,
+        "spm": 4.84,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 921.7633457782883,
+        "viscosity_pa_s": 0.0064,
+        "intake_head_m": 326.10551999999984,
+        "tubing_pa": 745323.2633733,
+        "casing_pa": 459190.8357137999,
+        "voltage_v": 480.0,
+        "damping_s": 0.574,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-015",
+        "rods": [
+          {
+            "length_m": 498.59184,
+            "diameter_m": 0.028575,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 747.88776,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 747.88776,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 498.59184,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 6.07,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 896.0766656959813,
+        "viscosity_pa_s": 0.0037,
+        "intake_head_m": 332.87207999999964,
+        "tubing_pa": 788760.2343192,
+        "casing_pa": 602601.7874082,
+        "voltage_v": 480.0,
+        "damping_s": 0.462,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-024",
+        "fault": "Gas Interference",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-016",
+        "rods": [
+          {
+            "length_m": 519.9888000000001,
+            "diameter_m": 0.028575,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 780.01368,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 780.01368,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 519.89736,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 5.53,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 921.8831141868512,
+        "viscosity_pa_s": 0.0064,
+        "intake_head_m": 208.42223999999987,
+        "tubing_pa": 657070.3700228999,
+        "casing_pa": 618459.7291821,
+        "voltage_v": 480.0,
+        "damping_s": 0.542,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-025",
+        "fault": "Severe Gas Lock",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-017",
+        "rods": [
+          {
+            "length_m": 531.38832,
+            "diameter_m": 0.028575,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 797.2044000000001,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 797.2044000000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 531.38832,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 5.82,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 912.8327378190255,
+        "viscosity_pa_s": 0.0064,
+        "intake_head_m": 333.7864800000002,
+        "tubing_pa": 552959.5348986,
+        "casing_pa": 575712.2339655,
+        "voltage_v": 480.0,
+        "damping_s": 0.563,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-038",
+        "fault": "Traveling Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-018",
+        "rods": [
+          {
+            "length_m": 651.3880800000001,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 759.98832,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 759.98832,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.6576,
+        "spm": 6.03,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 893.4228669724769,
+        "viscosity_pa_s": 0.004200000000000001,
+        "intake_head_m": 264.96263999999974,
+        "tubing_pa": 565370.098026,
+        "casing_pa": 424717.0492488,
+        "voltage_v": 480.0,
+        "damping_s": 0.523,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-024",
+        "fault": "Gas Interference",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-019",
+        "rods": [
+          {
+            "length_m": 451.40880000000004,
+            "diameter_m": 0.028575,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 677.1132,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 677.1132,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 451.40880000000004,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 5.67,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 889.6244488863507,
+        "viscosity_pa_s": 0.006900000000000001,
+        "intake_head_m": 306.5373599999998,
+        "tubing_pa": 586054.369905,
+        "casing_pa": 477117.2046756,
+        "voltage_v": 480.0,
+        "damping_s": 0.402,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-025",
+        "fault": "Severe Gas Lock",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-020",
+        "rods": [
+          {
+            "length_m": 645.6883200000001,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 753.3132,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 753.19128,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.6576,
+        "spm": 4.64,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 864.585269804822,
+        "viscosity_pa_s": 0.0045,
+        "intake_head_m": 235.88472000000002,
+        "tubing_pa": 619149.2049114,
+        "casing_pa": 485390.9134272,
+        "voltage_v": 480.0,
+        "damping_s": 0.537,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-024",
+        "fault": "Gas Interference",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-021",
+        "rods": [
+          {
+            "length_m": 556.68672,
+            "diameter_m": 0.028575,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 835.0910400000001,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 835.0910400000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 556.80864,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 4.99,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 892.9654075774971,
+        "viscosity_pa_s": 0.0068,
+        "intake_head_m": 426.68952000000036,
+        "tubing_pa": 882528.933504,
+        "casing_pa": 632938.7194974,
+        "voltage_v": 480.0,
+        "damping_s": 0.529,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-024",
+        "fault": "Gas Interference",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-022",
+        "rods": [
+          {
+            "length_m": 457.29144,
+            "diameter_m": 0.028575,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 685.8914400000001,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 685.8914400000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 457.20000000000005,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 6.19,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 877.3642690058479,
+        "viscosity_pa_s": 0.004900000000000001,
+        "intake_head_m": 364.3884000000005,
+        "tubing_pa": 553649.0106278999,
+        "casing_pa": 714986.3312841,
+        "voltage_v": 480.0,
+        "damping_s": 0.432,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-038",
+        "fault": "Traveling Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-023",
+        "rods": [
+          {
+            "length_m": 644.8958400000001,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 752.3988,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 752.4902400000001,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 6.5,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 899.2686389684814,
+        "viscosity_pa_s": 0.0047,
+        "intake_head_m": 252.28296000000023,
+        "tubing_pa": 643970.3311662,
+        "casing_pa": 483322.48623929993,
+        "voltage_v": 480.0,
+        "damping_s": 0.518,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-024",
+        "rods": [
+          {
+            "length_m": 510.81432000000007,
+            "diameter_m": 0.028575,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 766.2062400000001,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 766.2062400000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 510.6924,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 4.59,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 906.625,
+        "viscosity_pa_s": 0.0055,
+        "intake_head_m": 442.9048800000005,
+        "tubing_pa": 814960.3120325999,
+        "casing_pa": 432301.2822711,
+        "voltage_v": 480.0,
+        "damping_s": 0.446,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-025",
+        "rods": [
+          {
+            "length_m": 445.58712,
+            "diameter_m": 0.028575,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 668.30448,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 668.30448,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 445.58712,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 4.79,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 882.4612361192286,
+        "viscosity_pa_s": 0.0052,
+        "intake_head_m": 179.0699999999997,
+        "tubing_pa": 959060.7394562999,
+        "casing_pa": 535722.6416661,
+        "voltage_v": 480.0,
+        "damping_s": 0.469,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-024",
+        "fault": "Gas Interference",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-026",
+        "rods": [
+          {
+            "length_m": 511.78968,
+            "diameter_m": 0.028575,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 767.69976,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 767.69976,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 511.9116,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 5.59,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 884.3541393206677,
+        "viscosity_pa_s": 0.006,
+        "intake_head_m": 286.51200000000017,
+        "tubing_pa": 850123.5742268999,
+        "casing_pa": 571575.3795897,
+        "voltage_v": 480.0,
+        "damping_s": 0.417,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-027",
+        "rods": [
+          {
+            "length_m": 656.20392,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 765.5966400000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 765.68808,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 5.24,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 906.4222360069243,
+        "viscosity_pa_s": 0.0047,
+        "intake_head_m": 384.20039999999995,
+        "tubing_pa": 931481.7102842999,
+        "casing_pa": 620528.15637,
+        "voltage_v": 480.0,
+        "damping_s": 0.602,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-038",
+        "fault": "Traveling Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-028",
+        "rods": [
+          {
+            "length_m": 525.99336,
+            "diameter_m": 0.028575,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 789.00528,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 789.00528,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 526.0848,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.6576,
+        "spm": 5.94,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 920.5302665121668,
+        "viscosity_pa_s": 0.006,
+        "intake_head_m": 265.17599999999993,
+        "tubing_pa": 829439.3023479,
+        "casing_pa": 742565.3604561,
+        "voltage_v": 480.0,
+        "damping_s": 0.544,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-025",
+        "fault": "Severe Gas Lock",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-029",
+        "rods": [
+          {
+            "length_m": 462.59496,
+            "diameter_m": 0.028575,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 693.90768,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 693.90768,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 462.68640000000005,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 5.84,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 917.088524684271,
+        "viscosity_pa_s": 0.0054,
+        "intake_head_m": 324.4900799999998,
+        "tubing_pa": 583985.9427171,
+        "casing_pa": 566059.5737552999,
+        "voltage_v": 480.0,
+        "damping_s": 0.518,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-038",
+        "fault": "Traveling Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Canyon",
+      "well": {
+        "asset_id": "canyon-030",
+        "rods": [
+          {
+            "length_m": 462.68640000000005,
+            "diameter_m": 0.028575,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 694.09056,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 694.09056,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 462.80832000000004,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.6576,
+        "spm": 5.93,
+        "plunger_m": 0.038099999999999995,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 895.237681498829,
+        "viscosity_pa_s": 0.0036,
+        "intake_head_m": 256.06248000000005,
+        "tubing_pa": 809444.5061982,
+        "casing_pa": 570196.4281311,
+        "voltage_v": 480.0,
+        "damping_s": 0.431,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-001",
+        "rods": [
+          {
+            "length_m": 546.59784,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 637.70256,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 637.794,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 6.64,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 967.9977998794453,
+        "viscosity_pa_s": 0.0157,
+        "intake_head_m": 217.68815999999993,
+        "tubing_pa": 567438.5252138999,
+        "casing_pa": 369558.9909048,
+        "voltage_v": 480.0,
+        "damping_s": 0.49,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-006",
+        "fault": "Blocked Intake",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-002",
+        "rods": [
+          {
+            "length_m": 534.98496,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 624.19992,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 624.19992,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 8.8,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 988.3475683060109,
+        "viscosity_pa_s": 0.010199999999999999,
+        "intake_head_m": 175.07711999999992,
+        "tubing_pa": 461948.738631,
+        "casing_pa": 328190.4471468,
+        "voltage_v": 480.0,
+        "damping_s": 0.647,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-022",
+        "fault": "Fluid Pound",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-003",
+        "rods": [
+          {
+            "length_m": 634.1059200000001,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 739.81056,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 739.902,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 7.18,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 982.430725854829,
+        "viscosity_pa_s": 0.0127,
+        "intake_head_m": 375.42215999999985,
+        "tubing_pa": 450227.6512329,
+        "casing_pa": 430232.8550832,
+        "voltage_v": 480.0,
+        "damping_s": 0.573,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-004",
+        "rods": [
+          {
+            "length_m": 555.0103200000001,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 647.4866400000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 647.60856,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.6576,
+        "spm": 6.38,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 956.4111820403176,
+        "viscosity_pa_s": 0.0156,
+        "intake_head_m": 176.29631999999992,
+        "tubing_pa": 553649.0106278999,
+        "casing_pa": 317848.3112073,
+        "voltage_v": 480.0,
+        "damping_s": 0.534,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-022",
+        "fault": "Fluid Pound",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-005",
+        "rods": [
+          {
+            "length_m": 583.3872,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 680.58792,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 680.58792,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.6576,
+        "spm": 8.56,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 964.4768526379623,
+        "viscosity_pa_s": 0.014,
+        "intake_head_m": 228.96575999999982,
+        "tubing_pa": 630870.2923094999,
+        "casing_pa": 370937.94236339995,
+        "voltage_v": 480.0,
+        "damping_s": 0.527,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-006",
+        "rods": [
+          {
+            "length_m": 636.08712,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 742.188,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 742.188,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 7.72,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 973.1251515151515,
+        "viscosity_pa_s": 0.0148,
+        "intake_head_m": 295.8693599999999,
+        "tubing_pa": 514348.89405779995,
+        "casing_pa": 264758.6800512,
+        "voltage_v": 480.0,
+        "damping_s": 0.643,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-077",
+        "fault": "Tagging Down Hard",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-007",
+        "rods": [
+          {
+            "length_m": 658.09368,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 767.7912,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 767.69976,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 8.72,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 949.8027884615383,
+        "viscosity_pa_s": 0.0128,
+        "intake_head_m": 288.67607999999996,
+        "tubing_pa": 531585.7872902999,
+        "casing_pa": 220632.233376,
+        "voltage_v": 480.0,
+        "damping_s": 0.554,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-077",
+        "fault": "Tagging Down Hard",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-008",
+        "rods": [
+          {
+            "length_m": 461.80248,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 538.70352,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 538.70352,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 7.6,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 985.8312350119903,
+        "viscosity_pa_s": 0.0121,
+        "intake_head_m": 163.79952000000003,
+        "tubing_pa": 379901.1268443,
+        "casing_pa": 386795.8841373,
+        "voltage_v": 480.0,
+        "damping_s": 0.648,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-006",
+        "fault": "Blocked Intake",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-009",
+        "rods": [
+          {
+            "length_m": 571.59144,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 666.9024000000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 666.81096,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.6576,
+        "spm": 8.36,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 980.8389393939393,
+        "viscosity_pa_s": 0.010199999999999999,
+        "intake_head_m": 158.4960000000001,
+        "tubing_pa": 704644.1953446,
+        "casing_pa": 401964.35018189996,
+        "voltage_v": 480.0,
+        "damping_s": 0.596,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-010",
+        "rods": [
+          {
+            "length_m": 566.40984,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 660.8064,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 660.71496,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 6.8,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 965.347217125382,
+        "viscosity_pa_s": 0.0105,
+        "intake_head_m": 225.33863999999994,
+        "tubing_pa": 681891.4962777001,
+        "casing_pa": 378522.17538569996,
+        "voltage_v": 480.0,
+        "damping_s": 0.422,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-011",
+        "rods": [
+          {
+            "length_m": 472.50096,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 551.20032,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 551.20032,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 6.58,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 962.0076236429433,
+        "viscosity_pa_s": 0.016300000000000002,
+        "intake_head_m": 226.58832000000007,
+        "tubing_pa": 487459.3406151,
+        "casing_pa": 313711.4568315,
+        "voltage_v": 480.0,
+        "damping_s": 0.604,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-031",
+        "fault": "Worn Pump Barrel",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-012",
+        "rods": [
+          {
+            "length_m": 638.1902400000001,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 744.5959200000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 744.68736,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.6576,
+        "spm": 7.07,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 991.7888263762854,
+        "viscosity_pa_s": 0.012,
+        "intake_head_m": 259.0800000000004,
+        "tubing_pa": 641212.428249,
+        "casing_pa": 207532.1945193,
+        "voltage_v": 480.0,
+        "damping_s": 0.621,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-077",
+        "fault": "Tagging Down Hard",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-013",
+        "rods": [
+          {
+            "length_m": 581.4060000000001,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 678.3019200000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 678.21048,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 6.39,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 985.9065426497276,
+        "viscosity_pa_s": 0.016399999999999998,
+        "intake_head_m": 294.5282400000001,
+        "tubing_pa": 409548.58320419997,
+        "casing_pa": 380590.6025736,
+        "voltage_v": 480.0,
+        "damping_s": 0.46,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-006",
+        "fault": "Blocked Intake",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-014",
+        "rods": [
+          {
+            "length_m": 488.50296000000003,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 569.91504,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 569.79312,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.6576,
+        "spm": 8.84,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 995.3506537530266,
+        "viscosity_pa_s": 0.0116,
+        "intake_head_m": 157.91687999999976,
+        "tubing_pa": 559854.2921916,
+        "casing_pa": 254416.54411169997,
+        "voltage_v": 480.0,
+        "damping_s": 0.599,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-032",
+        "fault": "Standing Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-015",
+        "rods": [
+          {
+            "length_m": 481.30968,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 561.50256,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 561.4111200000001,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 7.46,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 970.008478523896,
+        "viscosity_pa_s": 0.0176,
+        "intake_head_m": 226.31400000000008,
+        "tubing_pa": 506075.1853062,
+        "casing_pa": 372316.89382199995,
+        "voltage_v": 480.0,
+        "damping_s": 0.641,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-016",
+        "rods": [
+          {
+            "length_m": 630.60072,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 735.69576,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 735.60432,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 7.14,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 952.3048981426003,
+        "viscosity_pa_s": 0.0107,
+        "intake_head_m": 214.0000799999998,
+        "tubing_pa": 617080.7777234999,
+        "casing_pa": 293027.1849525,
+        "voltage_v": 480.0,
+        "damping_s": 0.431,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-031",
+        "fault": "Worn Pump Barrel",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-017",
+        "rods": [
+          {
+            "length_m": 593.5980000000001,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 692.5970400000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 692.5970400000001,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 7.55,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 978.7551334141904,
+        "viscosity_pa_s": 0.0116,
+        "intake_head_m": 301.99584000000004,
+        "tubing_pa": 565370.098026,
+        "casing_pa": 367490.56371689995,
+        "voltage_v": 480.0,
+        "damping_s": 0.566,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-018",
+        "rods": [
+          {
+            "length_m": 657.51456,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 767.09016,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 767.21208,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 8.15,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 988.0798165137613,
+        "viscosity_pa_s": 0.013300000000000001,
+        "intake_head_m": 221.40671999999995,
+        "tubing_pa": 671549.3603382,
+        "casing_pa": 333016.77725189994,
+        "voltage_v": 480.0,
+        "damping_s": 0.637,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-022",
+        "fault": "Fluid Pound",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-019",
+        "rods": [
+          {
+            "length_m": 458.78496,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 535.1983200000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 535.1983200000001,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.6576,
+        "spm": 6.9,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 958.6971402660217,
+        "viscosity_pa_s": 0.0116,
+        "intake_head_m": 244.17528000000016,
+        "tubing_pa": 479875.10759279993,
+        "casing_pa": 356458.9520481,
+        "voltage_v": 480.0,
+        "damping_s": 0.53,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-020",
+        "rods": [
+          {
+            "length_m": 465.00288,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 542.5135200000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 542.3916,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.6576,
+        "spm": 7.45,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 964.3590886998785,
+        "viscosity_pa_s": 0.0158,
+        "intake_head_m": 243.4132800000002,
+        "tubing_pa": 719123.1856599,
+        "casing_pa": 447469.74831570004,
+        "voltage_v": 480.0,
+        "damping_s": 0.415,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-006",
+        "fault": "Blocked Intake",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-021",
+        "rods": [
+          {
+            "length_m": 545.5005600000001,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 636.39192,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 636.5138400000001,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.6576,
+        "spm": 6.72,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 969.1679018663455,
+        "viscosity_pa_s": 0.016399999999999998,
+        "intake_head_m": 200.31456000000003,
+        "tubing_pa": 645349.2826247999,
+        "casing_pa": 338532.5830863,
+        "voltage_v": 480.0,
+        "damping_s": 0.426,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-022",
+        "rods": [
+          {
+            "length_m": 484.81488,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 565.58688,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 565.58688,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.6576,
+        "spm": 8.75,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 992.0919890842935,
+        "viscosity_pa_s": 0.015300000000000001,
+        "intake_head_m": 201.38135999999986,
+        "tubing_pa": 387485.3598666,
+        "casing_pa": 314400.9325608,
+        "voltage_v": 480.0,
+        "damping_s": 0.497,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-032",
+        "fault": "Standing Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-023",
+        "rods": [
+          {
+            "length_m": 480.09048,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 560.1919200000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 560.1919200000001,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.6576,
+        "spm": 8.83,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 974.2235191956123,
+        "viscosity_pa_s": 0.0115,
+        "intake_head_m": 237.16488000000004,
+        "tubing_pa": 479185.6318635,
+        "casing_pa": 359216.8549653,
+        "voltage_v": 480.0,
+        "damping_s": 0.419,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-031",
+        "fault": "Worn Pump Barrel",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-024",
+        "rods": [
+          {
+            "length_m": 576.40728,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 672.3888000000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 672.3888000000001,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 8.31,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 956.1144410876133,
+        "viscosity_pa_s": 0.0171,
+        "intake_head_m": 243.77904000000012,
+        "tubing_pa": 589501.7485514999,
+        "casing_pa": 391622.21424239996,
+        "voltage_v": 480.0,
+        "damping_s": 0.595,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-077",
+        "fault": "Tagging Down Hard",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-025",
+        "rods": [
+          {
+            "length_m": 645.414,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 753.0084,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 752.88648,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.6576,
+        "spm": 6.62,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 982.7467661241711,
+        "viscosity_pa_s": 0.0107,
+        "intake_head_m": 292.21176000000014,
+        "tubing_pa": 676375.6904433,
+        "casing_pa": 286132.4276595,
+        "voltage_v": 480.0,
+        "damping_s": 0.433,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-006",
+        "fault": "Blocked Intake",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-026",
+        "rods": [
+          {
+            "length_m": 632.0942400000001,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 737.49408,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 737.49408,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 7.05,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 971.7765853658536,
+        "viscosity_pa_s": 0.0123,
+        "intake_head_m": 233.38536,
+        "tubing_pa": 639833.4767904,
+        "casing_pa": 323364.1170417,
+        "voltage_v": 480.0,
+        "damping_s": 0.608,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-032",
+        "fault": "Standing Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-027",
+        "rods": [
+          {
+            "length_m": 473.202,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 552.11472,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 551.9928,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.6576,
+        "spm": 8.51,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 960.9465819721717,
+        "viscosity_pa_s": 0.0134,
+        "intake_head_m": 129.20471999999995,
+        "tubing_pa": 417822.29195579997,
+        "casing_pa": 225458.56348110002,
+        "voltage_v": 480.0,
+        "damping_s": 0.434,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-028",
+        "rods": [
+          {
+            "length_m": 528.00504,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 616.0008,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 615.90936,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.6576,
+        "spm": 6.41,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 993.9244915254237,
+        "viscosity_pa_s": 0.0104,
+        "intake_head_m": 211.50071999999977,
+        "tubing_pa": 437817.0881055,
+        "casing_pa": 243384.93244289997,
+        "voltage_v": 480.0,
+        "damping_s": 0.466,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-029",
+        "rods": [
+          {
+            "length_m": 617.89056,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 720.7910400000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 720.7910400000001,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 8.79,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 979.3579927007298,
+        "viscosity_pa_s": 0.0175,
+        "intake_head_m": 229.8801599999997,
+        "tubing_pa": 420580.194873,
+        "casing_pa": 220632.233376,
+        "voltage_v": 480.0,
+        "damping_s": 0.433,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-031",
+        "fault": "Worn Pump Barrel",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Mesa",
+      "well": {
+        "asset_id": "mesa-030",
+        "rods": [
+          {
+            "length_m": 568.69584,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 663.48864,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 663.3972,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 6.44,
+        "plunger_m": 0.044449999999999996,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 970.3275074716078,
+        "viscosity_pa_s": 0.015099999999999999,
+        "intake_head_m": 318.18072000000006,
+        "tubing_pa": 448159.224045,
+        "casing_pa": 238558.6023378,
+        "voltage_v": 480.0,
+        "damping_s": 0.53,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-032",
+        "fault": "Standing Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-001",
+        "rods": [
+          {
+            "length_m": 404.10384,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 493.80648,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 5.34,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 997.777612137203,
+        "viscosity_pa_s": 0.1152,
+        "intake_head_m": 98.41991999999993,
+        "tubing_pa": 712917.9040962,
+        "casing_pa": 415753.86476789997,
+        "voltage_v": 480.0,
+        "damping_s": 0.771,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-032",
+        "fault": "Standing Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-002",
+        "rods": [
+          {
+            "length_m": 557.6925600000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 681.59376,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.1336,
+        "spm": 5.27,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 992.1000720838792,
+        "viscosity_pa_s": 0.10579999999999999,
+        "intake_head_m": 113.7818400000001,
+        "tubing_pa": 495043.57363739994,
+        "casing_pa": 544685.826147,
+        "voltage_v": 480.0,
+        "damping_s": 0.795,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-003",
+        "rods": [
+          {
+            "length_m": 405.59736000000004,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 495.69624,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.1336,
+        "spm": 4.22,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 999.4859259259259,
+        "viscosity_pa_s": 0.06620000000000001,
+        "intake_head_m": 155.38703999999996,
+        "tubing_pa": 776349.6711917999,
+        "casing_pa": 535722.6416661,
+        "voltage_v": 480.0,
+        "damping_s": 1.048,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-010",
+        "fault": "High Fluid Damping",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-004",
+        "rods": [
+          {
+            "length_m": 566.50128,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 692.2922400000001,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.1336,
+        "spm": 5.77,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 1004.936430889033,
+        "viscosity_pa_s": 0.0565,
+        "intake_head_m": 198.3943200000001,
+        "tubing_pa": 704644.1953446,
+        "casing_pa": 325432.5442296,
+        "voltage_v": 480.0,
+        "damping_s": 0.855,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-031",
+        "fault": "Worn Pump Barrel",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-005",
+        "rods": [
+          {
+            "length_m": 446.19672,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 545.2872,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 5.94,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 1008.4198648648647,
+        "viscosity_pa_s": 0.0942,
+        "intake_head_m": 105.36936000000003,
+        "tubing_pa": 619838.6806407,
+        "casing_pa": 469532.97165329993,
+        "voltage_v": 480.0,
+        "damping_s": 0.919,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-031",
+        "fault": "Worn Pump Barrel",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-006",
+        "rods": [
+          {
+            "length_m": 570.70752,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 697.5957599999999,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 5.1,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 998.8373784834737,
+        "viscosity_pa_s": 0.1184,
+        "intake_head_m": 136.70280000000002,
+        "tubing_pa": 586054.369905,
+        "casing_pa": 300611.4179748,
+        "voltage_v": 480.0,
+        "damping_s": 1.066,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-010",
+        "fault": "High Fluid Damping",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-007",
+        "rods": [
+          {
+            "length_m": 494.50752000000006,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 604.29648,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 4.33,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 995.6253055916775,
+        "viscosity_pa_s": 0.09140000000000001,
+        "intake_head_m": 137.89152,
+        "tubing_pa": 737739.0303509999,
+        "casing_pa": 344737.86465,
+        "voltage_v": 480.0,
+        "damping_s": 0.997,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-008",
+        "rods": [
+          {
+            "length_m": 564.7029600000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 690.1891200000001,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 5.05,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 1001.0494692005243,
+        "viscosity_pa_s": 0.0466,
+        "intake_head_m": 156.30143999999996,
+        "tubing_pa": 514348.89405779995,
+        "casing_pa": 294406.1364111,
+        "voltage_v": 480.0,
+        "damping_s": 1.051,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-032",
+        "fault": "Standing Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-009",
+        "rods": [
+          {
+            "length_m": 436.19928,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 533.0952,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 4.5,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 992.4514332247556,
+        "viscosity_pa_s": 0.08070000000000001,
+        "intake_head_m": 155.29560000000004,
+        "tubing_pa": 611564.9718891,
+        "casing_pa": 401964.35018189996,
+        "voltage_v": 480.0,
+        "damping_s": 0.957,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-010",
+        "rods": [
+          {
+            "length_m": 410.1084,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 501.30456000000004,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 5.92,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 994.581138318994,
+        "viscosity_pa_s": 0.0466,
+        "intake_head_m": 83.11896000000002,
+        "tubing_pa": 519864.6998922,
+        "casing_pa": 444711.8453985,
+        "voltage_v": 480.0,
+        "damping_s": 0.987,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-031",
+        "fault": "Worn Pump Barrel",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-011",
+        "rods": [
+          {
+            "length_m": 395.59992000000005,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 483.4128,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.1336,
+        "spm": 4.5,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 1010.2849966821499,
+        "viscosity_pa_s": 0.0501,
+        "intake_head_m": 128.41224,
+        "tubing_pa": 766007.5352523,
+        "casing_pa": 339222.0588156,
+        "voltage_v": 480.0,
+        "damping_s": 1.031,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-032",
+        "fault": "Standing Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-012",
+        "rods": [
+          {
+            "length_m": 402.61032000000006,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 492.00816000000003,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 4.22,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 1006.6238630490956,
+        "viscosity_pa_s": 0.0627,
+        "intake_head_m": 78.33360000000005,
+        "tubing_pa": 503317.282389,
+        "casing_pa": 359216.8549653,
+        "voltage_v": 480.0,
+        "damping_s": 0.961,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-013",
+        "rods": [
+          {
+            "length_m": 398.80032000000006,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 465.18576,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 465.18576,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.1336,
+        "spm": 5.99,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 996.8319286657859,
+        "viscosity_pa_s": 0.0858,
+        "intake_head_m": 126.27864,
+        "tubing_pa": 551580.58344,
+        "casing_pa": 510212.039682,
+        "voltage_v": 480.0,
+        "damping_s": 1.063,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-038",
+        "fault": "Traveling Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-014",
+        "rods": [
+          {
+            "length_m": 556.99152,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 680.80128,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.1336,
+        "spm": 4.91,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 995.3034538818845,
+        "viscosity_pa_s": 0.1193,
+        "intake_head_m": 144.99336000000017,
+        "tubing_pa": 730154.7973287,
+        "casing_pa": 331637.8257933,
+        "voltage_v": 480.0,
+        "damping_s": 0.834,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-015",
+        "rods": [
+          {
+            "length_m": 360.60888,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 440.71032,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 5.45,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 1007.878128342246,
+        "viscosity_pa_s": 0.0782,
+        "intake_head_m": 138.01344000000006,
+        "tubing_pa": 628801.8651216,
+        "casing_pa": 304748.2723506,
+        "voltage_v": 480.0,
+        "damping_s": 0.962,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-016",
+        "rods": [
+          {
+            "length_m": 519.71448,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 635.2032,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.1336,
+        "spm": 6.19,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 1007.7748643282594,
+        "viscosity_pa_s": 0.0858,
+        "intake_head_m": 146.21255999999994,
+        "tubing_pa": 742565.3604561,
+        "casing_pa": 371627.41809269995,
+        "voltage_v": 480.0,
+        "damping_s": 0.882,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-032",
+        "fault": "Standing Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-017",
+        "rods": [
+          {
+            "length_m": 412.60776000000004,
+            "diameter_m": 0.0254,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 481.40112000000005,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 481.30968,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.1336,
+        "spm": 6.06,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 1004.2445478723403,
+        "viscosity_pa_s": 0.0683,
+        "intake_head_m": 183.91632000000004,
+        "tubing_pa": 445401.3211277999,
+        "casing_pa": 298542.9907869,
+        "voltage_v": 480.0,
+        "damping_s": 1.09,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-018",
+        "rods": [
+          {
+            "length_m": 496.79352000000006,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 607.19208,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 4.26,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 993.9818122977346,
+        "viscosity_pa_s": 0.0538,
+        "intake_head_m": 136.58087999999987,
+        "tubing_pa": 583296.4669878,
+        "casing_pa": 441264.466752,
+        "voltage_v": 480.0,
+        "damping_s": 0.962,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-010",
+        "fault": "High Fluid Damping",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-019",
+        "rods": [
+          {
+            "length_m": 435.49824,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 532.21128,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 4.95,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 997.2440797940798,
+        "viscosity_pa_s": 0.06570000000000001,
+        "intake_head_m": 148.40711999999996,
+        "tubing_pa": 654312.4671057,
+        "casing_pa": 488148.81634439994,
+        "voltage_v": 480.0,
+        "damping_s": 1.008,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-032",
+        "fault": "Standing Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-020",
+        "rods": [
+          {
+            "length_m": 584.9112,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 714.78648,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 5.17,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 994.3528145695363,
+        "viscosity_pa_s": 0.0682,
+        "intake_head_m": 162.39743999999996,
+        "tubing_pa": 455053.981338,
+        "casing_pa": 375764.27246849996,
+        "voltage_v": 480.0,
+        "damping_s": 1.078,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-038",
+        "fault": "Traveling Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-021",
+        "rods": [
+          {
+            "length_m": 489.204,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 597.98712,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.1336,
+        "spm": 4.78,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 1000.6642300194932,
+        "viscosity_pa_s": 0.0545,
+        "intake_head_m": 166.60367999999983,
+        "tubing_pa": 657070.3700228999,
+        "casing_pa": 395069.59288889996,
+        "voltage_v": 480.0,
+        "damping_s": 0.786,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-038",
+        "fault": "Traveling Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-022",
+        "rods": [
+          {
+            "length_m": 430.71288,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 526.3896,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 4.77,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 988.4050548741122,
+        "viscosity_pa_s": 0.0935,
+        "intake_head_m": 98.81615999999997,
+        "tubing_pa": 598464.9330324,
+        "casing_pa": 425406.5249781,
+        "voltage_v": 480.0,
+        "damping_s": 0.733,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-010",
+        "fault": "High Fluid Damping",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-023",
+        "rods": [
+          {
+            "length_m": 434.40096000000005,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 530.9006400000001,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 5.96,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 999.0550645994831,
+        "viscosity_pa_s": 0.07970000000000001,
+        "intake_head_m": 78.08976000000007,
+        "tubing_pa": 747391.6905612,
+        "casing_pa": 512969.9425992,
+        "voltage_v": 480.0,
+        "damping_s": 0.827,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-031",
+        "fault": "Worn Pump Barrel",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-024",
+        "rods": [
+          {
+            "length_m": 381.9144,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 466.70976,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 4.34,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 996.858183032732,
+        "viscosity_pa_s": 0.11309999999999999,
+        "intake_head_m": 77.63256000000001,
+        "tubing_pa": 444711.8453985,
+        "casing_pa": 500559.37947179994,
+        "voltage_v": 480.0,
+        "damping_s": 0.71,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-025",
+        "rods": [
+          {
+            "length_m": 454.39584,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 555.40656,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 4.74,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 995.6096395806029,
+        "viscosity_pa_s": 0.09259999999999999,
+        "intake_head_m": 152.79624,
+        "tubing_pa": 464706.64154820004,
+        "casing_pa": 339222.0588156,
+        "voltage_v": 480.0,
+        "damping_s": 0.737,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-010",
+        "fault": "High Fluid Damping",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-026",
+        "rods": [
+          {
+            "length_m": 377.4948,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 461.31480000000005,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.1336,
+        "spm": 5.7,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 1005.281892599869,
+        "viscosity_pa_s": 0.0995,
+        "intake_head_m": 106.00944000000004,
+        "tubing_pa": 736360.0788923999,
+        "casing_pa": 319227.26266589994,
+        "voltage_v": 480.0,
+        "damping_s": 1.058,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-004",
+        "fault": "Normal Operation",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-027",
+        "rods": [
+          {
+            "length_m": 379.41504000000003,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 463.69224,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 2.54,
+        "spm": 4.99,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 1000.2144859813083,
+        "viscosity_pa_s": 0.1011,
+        "intake_head_m": 112.71503999999993,
+        "tubing_pa": 756354.8750421,
+        "casing_pa": 286821.9033888,
+        "voltage_v": 480.0,
+        "damping_s": 0.847,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-086",
+        "fault": "High Wellbore Friction",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-028",
+        "rods": [
+          {
+            "length_m": 462.41208,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 565.0992,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 4.74,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 998.8816933867735,
+        "viscosity_pa_s": 0.0785,
+        "intake_head_m": 166.11599999999987,
+        "tubing_pa": 590880.7000101,
+        "casing_pa": 465396.1172775,
+        "voltage_v": 480.0,
+        "damping_s": 0.894,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-086",
+        "fault": "High Wellbore Friction",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-029",
+        "rods": [
+          {
+            "length_m": 518.4038400000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 633.70968,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 5.62,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 1000.0843381389253,
+        "viscosity_pa_s": 0.0964,
+        "intake_head_m": 129.9057600000001,
+        "tubing_pa": 749460.1177491,
+        "casing_pa": 332327.3015226,
+        "voltage_v": 480.0,
+        "damping_s": 0.9,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-031",
+        "fault": "Worn Pump Barrel",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    },
+    {
+      "site_id": "Delta",
+      "well": {
+        "asset_id": "delta-030",
+        "rods": [
+          {
+            "length_m": 523.3111200000001,
+            "diameter_m": 0.022224999999999998,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          },
+          {
+            "length_m": 639.50088,
+            "diameter_m": 0.019049999999999997,
+            "density": 7850.0,
+            "modulus": 204999998376.84363
+          }
+        ],
+        "stroke_m": 3.048,
+        "spm": 6.11,
+        "plunger_m": 0.05715,
+        "plunger_radial_clearance_m": 3.81e-05,
+        "fluid_kg_m3": 998.615238095238,
+        "viscosity_pa_s": 0.067,
+        "intake_head_m": 120.42648000000008,
+        "tubing_pa": 627422.913663,
+        "casing_pa": 442643.4182106,
+        "voltage_v": 480.0,
+        "damping_s": 0.917,
+        "dynamometer_hz": 20,
+        "electrical_hz": 5,
+        "pressure_hz": 1
+      },
+      "provenance": {
+        "source": "synthetic dataset",
+        "state_id": "STATE-038",
+        "fault": "Traveling Valve Leak",
+        "clearance_assumption": "input treated as diametral fit; radial clearance is half",
+        "geometry": "four-bar dimensions absent; existing defaults retained"
+      }
+    }
+  ]
+}

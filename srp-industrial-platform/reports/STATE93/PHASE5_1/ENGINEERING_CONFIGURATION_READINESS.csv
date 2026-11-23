@@ -1,0 +1,94 @@
+﻿state_id,state_name,summary_pdf_available,summary_pdf_path,engineering_review_status,solver_ready,missing_or_unverified
+STATE-001,Anchored but NOT Set,True,C:\Users\HARSHIT\OneDrive - TAS\Desktop\SRP\srp-industrial-platform\data\state93\STATE-001\06_ENGINEERING_CONFIGURATION\TAM\Anchored but NOT Set_Summary.pdf,PDF_COLLECTED_NOT_RECONCILED,False,Engineering values not reconciled
+STATE-002,Anchored With Rod Stretch,True,C:\Users\HARSHIT\OneDrive - TAS\Desktop\SRP\srp-industrial-platform\data\state93\STATE-002\06_ENGINEERING_CONFIGURATION\TAM\Anchored With Rod Stretch_Summary.pdf,PDF_COLLECTED_NOT_RECONCILED,False,Engineering values not reconciled
+STATE-003,Asphaltenes in Pump,True,C:\Users\HARSHIT\OneDrive - TAS\Desktop\SRP\srp-industrial-platform\data\state93\STATE-003\06_ENGINEERING_CONFIGURATION\TAM\Asphaltenes in Pump_Summary.pdf,PDF_COLLECTED_NOT_RECONCILED,False,Engineering values not reconciled
+STATE-004,average_well,True,C:\Users\HARSHIT\OneDrive - TAS\Desktop\SRP\srp-industrial-platform\data\state93\STATE-004\06_ENGINEERING_CONFIGURATION\TAM\average_well_Summary.pdf,PDF_COLLECTED_NOT_RECONCILED,False,Engineering values not reconciled
+STATE-005,Bad Tail Bearing,True,C:\Users\HARSHIT\OneDrive - TAS\Desktop\SRP\srp-industrial-platform\data\state93\STATE-005\06_ENGINEERING_CONFIGURATION\TAM\Bad Tail Bearing_Summary.pdf,PDF_COLLECTED_NOT_RECONCILED,False,Engineering values not reconciled
+STATE-006,BlockedIntake,True,C:\Users\HARSHIT\OneDrive - TAS\Desktop\SRP\srp-industrial-platform\data\state93\STATE-006\06_ENGINEERING_CONFIGURATION\TAM\STATE-006_BlockedIntake_Summary.pdf,PDF_COLLECTED_NOT_RECONCILED,False,Engineering values not reconciled
+STATE-007,Calculate_PlungerClearance,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-008,Conventional,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-009,Damping_10API,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-010,Damping_High,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-011,Damping_Negative_Acc,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-012,Damping_RodString,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-013,Damping_ShallowWell,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-014,Damping_VeryHigh,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-015,Deep_well,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-016,Dyno_CardOptions,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-017,Dyno_HydraulicPump,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-018,Dyno_Normal_GradientSet_0,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-019,DynoChangeSPM,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-020,FHMUF814,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-021,FlatLoadLineBuoy,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-022,FluidPoundUnAnchoredTubing,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-023,Flumping,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-024,Gas Interference,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-025,GasLocked_wTag,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-026,GearboxBalance,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-027,Gunk in Pump,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-028,HighSpeed,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-029,INF 1824,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-030,Leak Hole In Pump Barrel,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-031,Leak Pump Barrel Worn,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-032,Leak Standing Valve,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-033,Leak SV Bad,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-034,Leak Tubing Hole,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-035,Leak Tubing Hole HT,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-036,Leak Tubing Hole PRT,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-037,Leak TV Unanchored,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-038,Leak TV(best),False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-039,LeaveCsgValveClosed,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-040,Light Load Motor,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-041,MarkII,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-042,Motor - Burn Up,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-043,Need Gas Separator,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-044,NR-6,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-045,PFL_Anomaly,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-046,PFL_DHM_CasingWtChange,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-047,PFL_DHM_CoalBedPerfs,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-048,PFL_Gaseous_noisy,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-049,PFL_Gaslift,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-050,PFL_High,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-051,PFL_High_liquid_low_gas,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-052,PFL_Imp_Exp,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-053,PFL_Liner,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-054,PFL_Lot of Gas2,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-055,PFL_SBHP,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-056,PFL_Tubing_anchor,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-057,Plunger_Normal Cycle,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-058,PRT Bending Polished Rod,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-059,PRT RodRotator,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-060,Red Raider 1,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-061,ReverseMark,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-062,RodPart_3000,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-063,RodPart_5365,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-064,RodPart_NoPlunger,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-065,RotoFlex,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-066,RotoFlex_Electric,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-067,RVOGTA8,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-068,RVOGTA8DOWN10MIN,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-069,RvogtXa8,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-070,Sandia,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-071,Stick_Release_Upstroke,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-072,StrokeProcessind3,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-073,StrokeProcessing,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-074,StrokeProcessing1,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-075,Stuffing Box,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-076,SV_StuckOpenHT,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-077,Tagging Down Hard,True,C:\Users\HARSHIT\OneDrive - TAS\Desktop\SRP\srp-industrial-platform\data\state93\pilot\Tagging Down Hard\original\user_exports\Tagging Down Hard_Summary.pdf,REVIEWED_WITH_RECORDED_ASSUMPTIONS,True,61-ft rod-depth gap; pump intake conditions
+STATE-078,Tagging Fiberglass Rods on Downstroke,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-079,Tagging Hard FG,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-080,Tagging Unanchored,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-081,TBG Fluid Grad,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-082,Trash Sticks SV Open,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-083,Trash Sticks TV Open,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-084,TV Action Erratic,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-085,TV Double Valve,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-086,Unaccounted Wellbore Friction,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-087,Undertravel,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-088,UseBackPressureRequlator,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-089,V11,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-090,V11_StartUp_AMP_KW,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-091,VariableSlippagePump,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-092,Well5,False,,NOT_COLLECTED,False,Summary PDF and engineering review
+STATE-093,Well6,False,,NOT_COLLECTED,False,Summary PDF and engineering review

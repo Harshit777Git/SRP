@@ -1,0 +1,11 @@
+# Fault separability
+
+| Mechanisms | Observation and limitation |
+|---|---|
+| Traveling-valve leakage and pump wear | The 17 Nov 2026 physics revision removes the former shared-conductance implementation. Traveling-valve leakage remains a valve path; pump wear now changes annular plunger/barrel slippage using `q = π D δ³ Δp/(12 μ L)`. In the one-well synthetic pilot, 80% pump wear changed phase-aligned surface load by 0.343% of healthy load range (34.94 N RMSE), versus 5.18% for an 80% traveling-valve leak. At 100% modeled wear the change was 0.535%. These default-parameter signatures are weak and unvalidated against pump inspections; retain component-level uncertainty and do not claim causal separation in the field. |
+| Restricted inflow and incomplete fillage | The two affect intake loading and liquid charge. Shared delayed compression and unloading creates overlapping cards. The new restricted-inflow and incomplete-fillage formulations change the feature distribution relative to the archived training cohort. To separate them, seek independently measured intake pressure, inflow response and service evidence. |
+| Standing-valve leakage and healthy | Leakage can change the measured waveform less than the healthy tolerance. The original seed-13 model classified 10 of 20 standing-valve cases healthy. The remediated physics baseline classified eight of 20 that way. A valve test is needed to confirm the mechanism. |
+| Gas interference, underfill and other hydraulic changes | Delayed unloading is an observable symptom shared by several mechanisms. The APM reports a prioritized investigation with the measured load residual. |
+| Excess friction or sensor effects | Hydraulic work or measured stroke/load shifts can support triage. Surface and reconstructed downhole data alone cannot confirm mechanical contact or instrument calibration error. |
+
+The available signals support symptom triage more readily than causal identification. Severity coverage and class accuracy are distinct. Low-intensity effects can be below both engineering alert thresholds and model noise. [Measured severity coverage](FAULT_MONITOR_COVERAGE.md) · [Controlled collision and fresh test evidence](../data/evaluation/remediation_fresh.json).

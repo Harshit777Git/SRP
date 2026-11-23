@@ -1,0 +1,52 @@
+{
+  "source": "https://doi.org/10.1371/journal.pone.0326973.s001",
+  "zip_sha256": "c7375399a502ef3d07ae4542b10b4c589b150c5b0372f79e2ed882f6f8bdfd0f",
+  "files": [
+    {
+      "file": "DC1.xlsx",
+      "sha256": "1b4db893c733633af6841dfbc8408e15dceef1797eef15b4d45fff8bc119413c",
+      "rows": 144
+    },
+    {
+      "file": "DC2.xlsx",
+      "sha256": "09be020e1810ef6eb1c57d9481ab083a47ae95874bb0f77889adb891bc6f2149",
+      "rows": 144
+    },
+    {
+      "file": "DC3.xlsx",
+      "sha256": "90479a57f47aceea4bb3f9a5ce1808607431ea55b54010ac82a7def7ff6822fe",
+      "rows": 144
+    },
+    {
+      "file": "DC4.xlsx",
+      "sha256": "338878c7f74f4250253578fee4f3ae84aba49515f4532c7be9fa7b180693fb3f",
+      "rows": 144
+    },
+    {
+      "file": "ED1.xlsx",
+      "sha256": "84d32bb542d90afc3d19c42783e27f406ef241510af62ea3ccad92f82518848e",
+      "rows": 14870
+    },
+    {
+      "file": "ED2.xlsx",
+      "sha256": "697f3e2f5a17019a79b04f7aa3214b02a2a73e154f567573c8cb955f7a262f22",
+      "rows": 5621
+    },
+    {
+      "file": "ED3.xlsx",
+      "sha256": "7344cddee677f6f57dfeb016930dfda64c772e29411374e5c99492484d62ddea",
+      "rows": 17222
+    },
+    {
+      "file": "ED4.xlsx",
+      "sha256": "738a99c340fb824d3045cd38c9121183df617580bec2a80908ccfa5784f854f7",
+      "rows": 3986
+    }
+  ],
+  "numerical_surface_points": 576,
+  "electrical_rows": 41699,
+  "verified_fault_labels": 0,
+  "well_ids_available": false,
+  "units_verified": false,
+  "training_status": "REAL_UNLABELED_REFERENCE_ONLY"
+}

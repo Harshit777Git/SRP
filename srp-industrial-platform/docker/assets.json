@@ -1,0 +1,5 @@
+[
+  {"asset_id":"SRP_001","rods":[{"length_m":450,"diameter_m":0.0222}],"stroke_m":1.65,"spm":8},
+  {"asset_id":"SRP_002","rods":[{"length_m":650,"diameter_m":0.0254},{"length_m":550,"diameter_m":0.0222}]},
+  {"asset_id":"SRP_003","rods":[{"length_m":800,"diameter_m":0.0286},{"length_m":750,"diameter_m":0.0254},{"length_m":650,"diameter_m":0.0222}],"stroke_m":2.55,"spm":5}
+]

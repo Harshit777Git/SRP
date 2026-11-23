@@ -1,0 +1,249 @@
+{
+  "origin": "SYNTHETIC_NEW_RUNS_HELD_OUT_VIRTUAL_CONFIGURATIONS",
+  "model_sha256": "be791160cf685178adf3dd5f93a979fa40b601972004f22eb684f95a8536d678",
+  "capture_dataset_id": "phase32-fault-training-candidate-3129-each-v3",
+  "capture_manifest_sha256": "85db43dfff60915abb7e11c453c779c2787a578b0a9291cf41bda3f429bae976",
+  "virtual_test_assets": [
+    "CO-DJ-002",
+    "ND-WIL-002",
+    "NM-DEL-004",
+    "OK-ANA-001",
+    "TX-EAG-004",
+    "TX-EAG-005"
+  ],
+  "new_cards_before_deduplication": 12,
+  "new_unique_cards_after_exact_deduplication": 12,
+  "excluded_duplicate_runs": [],
+  "classes_present": [
+    "gas_interference",
+    "incomplete_fillage",
+    "load_cell_drift",
+    "position_sensor_fault",
+    "restricted_inflow",
+    "standing_valve_leak",
+    "traveling_valve_or_plunger_leakage"
+  ],
+  "macro_f1_present_classes": 0.9047619047619048,
+  "accuracy": 0.9166666666666666,
+  "per_class": {
+    "abnormal_speed": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "gas_interference": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1-score": 0.6666666666666666,
+      "support": 1.0
+    },
+    "healthy": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "incomplete_fillage": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "load_cell_drift": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "position_sensor_fault": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "restricted_inflow": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "rod_friction": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "standing_valve_leak": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "traveling_valve_or_plunger_leakage": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "accuracy": 0.9166666666666666,
+    "macro avg": {
+      "precision": 0.65,
+      "recall": 0.65,
+      "f1-score": 0.6333333333333333,
+      "support": 12.0
+    },
+    "weighted avg": {
+      "precision": 0.9583333333333334,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.9166666666666666,
+      "support": 12.0
+    }
+  },
+  "confusion": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "selective_threshold": 0.7,
+  "coverage": 0.9166666666666666,
+  "accepted_accuracy": 1.0,
+  "accuracy_by_severity": {
+    "0.4": {
+      "cards": 2,
+      "accuracy": 0.5
+    },
+    "0.6": {
+      "cards": 4,
+      "accuracy": 1.0
+    },
+    "0.8": {
+      "cards": 2,
+      "accuracy": 1.0
+    },
+    "1.0": {
+      "cards": 4,
+      "accuracy": 1.0
+    }
+  },
+  "real_test_wells": 0,
+  "field_ready": false,
+  "limitation": "New synthetic runs use frozen test configurations, not physical field wells. Fault labels are simulator injections. Configured sensor noise and bias are zero."
+}

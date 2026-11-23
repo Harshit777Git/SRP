@@ -1,0 +1,104 @@
+{
+  "provenance": {
+    "state_id": "STATE-063",
+    "source_archive": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-063\\01_TAM\\RodPart_5365.TAM_EXP",
+    "source_sha256": "24571b9ccee5ec571abdaa06ae21b217a4ff328f281409197a63de37864283ba",
+    "source_bytes": 4329,
+    "extracted_utc": "2026-11-18T04_44_29Z",
+    "method": "lossless extraction of vendor metadata.json and TestResults.json",
+    "synthetic_data": false
+  },
+  "archive_metadata": {
+    "DateExported": "2026-11-18T04_44_29Z",
+    "Source": "Tam",
+    "SourceVersion": "2.1.19"
+  },
+  "test_results": {
+    "Wells": [
+      {
+        "Company": "",
+        "Description": "",
+        "GPSBlock": "",
+        "ID": "{4BFE6FF5-AF94-40F0-A465-B3A0EBE18D6F}",
+        "MajorGroup": "Examples",
+        "MinorGroup": "",
+        "Name": "RodPart_5365",
+        "SavedAppVersion": "1.1.15",
+        "Sessions": [],
+        "Tests": [
+          {
+            "DateTime": "2003-06-13T20:58:32Z",
+            "FilePath": "",
+            "LastModified": "2003-06-13T20:58:32Z",
+            "NumValues": {
+              "Acquisition Rate": 30.0,
+              "Adjusted Displacement": 297.7525882008688,
+              "Adjusted EPT": 187.89630325023595,
+              "Adjusted Fillage": 97.66266656330504,
+              "Average Fillage": 41.78550612649225,
+              "Beam Loading": 43.383879739730084,
+              "Calculated Buoyant Rod Weight": 14565.12586469489,
+              "Calculated Buoyant Rod Weight + Fo Max": 20190.168838705024,
+              "Computed Stroke Length": 199.43463134765625,
+              "DYN Casing Pressure": 0.0,
+              "DYN Tubing Pressure": 150.0,
+              "Damping Factor Down Stroke": 0.1,
+              "Damping Factor Up Stroke": 0.1,
+              "Effective Plunger Travel": 80.6249008178711,
+              "Existing Counterbalance": 2291.954,
+              "Existing Cyclic Load Factor": 4.7606328121124735,
+              "Existing Max Gearbox Torque, DownStroke": 786.0819702148438,
+              "Existing Max Gearbox Torque, Upstroke": 247.5783233642578,
+              "Existing Min Gearbox Torque, DownStroke": 91.53519439697266,
+              "Existing Min Gearbox Torque, Upstroke": -640.3980712890625,
+              "Existing RMS Gearbox Torque": 431.09399341360137,
+              "Fo Max Line": 5625.042974010134,
+              "Gas Free Fillage": 192.39317321777344,
+              "In Balance Cyclic Load Factor": 4.340094840485216,
+              "In Balance Max Gearbox Torque, DownStroke": 385.6681213378906,
+              "In Balance Max Gearbox Torque, Upstroke": 385.6681213378906,
+              "In Balance Min Gearbox Torque, DownStroke": -412.07696533203125,
+              "In Balance Min Gearbox Torque, Upstroke": -176.51034545898438,
+              "In Balance RMS Gearbox Torque": 241.84311989837786,
+              "Maximum Counterbalance": 2416.562,
+              "Maximum Plunger Stroke": 192.39317321777344,
+              "Maximum Rod Loading % Goodman": 15.467472099083231,
+              "Maximum Rod Stress": 16847.61174304099,
+              "Measured Fluid Load": -1543.3672666549683,
+              "Minimum Polished Rod Load": 9124.783515930176,
+              "Minimum Rod Stress": -185.41445702157253,
+              "Number of Strokes": 5.0,
+              "PIP DYN": 4600.033212012329,
+              "Peak Polished Rod Load": 13232.083320617676,
+              "Polished Rod Power": 4.871406622852946,
+              "Polished Rod to Pump Efficiency": -72.97365807093517,
+              "Pump Discharge Pressure": 3183.1231801530616,
+              "Pump Displacement": 127.76341246048077,
+              "Pump HP": -0.06675568625212154,
+              "Rated Current": 54.0,
+              "Required Counterbalance Change": 564.5813703687521,
+              "Rod/Tubing Stretch": 211.02468759146197,
+              "Stroke Number": 5.0,
+              "Strokes Per Minute": 6.056566023008975,
+              "Tubing Stretch": 118007.10289389722,
+              "Unaccounted Friction": 0.0,
+              "Unanchored Tubing Stretch on Pump Card": 565.2636655948867,
+              "Volumetric Efficiency": 41.906321034899854
+            },
+            "Session": false,
+            "StrValues": {
+              "DYN Load Cell Serial Number": "HT 5007",
+              "Downstroke Crank Angles": "166.7° => 334.3°",
+              "Out of Balance": "Yes, weights heavy",
+              "Rod Taper % Goodman": "15.5% 8.8% 6.9% 4.0% ",
+              "To Balance Move": "15576.0 weights IN 36.25",
+              "Upstroke Crank Angles": "335.2° => 165.8°"
+            },
+            "Type": "DYN"
+          }
+        ],
+        "Versions": []
+      }
+    ]
+  }
+}

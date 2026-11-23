@@ -1,0 +1,423 @@
+[
+  {
+    "fault": "incomplete_fillage",
+    "stroke": 11,
+    "status": "DYNACARD_CHANGE",
+    "version": "dynacard-change/1.3",
+    "reference_count": 3,
+    "reference_strokes": [
+      5,
+      6,
+      7
+    ],
+    "measurements": [
+      {
+        "label": "Stroke rate",
+        "delta": 0.0,
+        "threshold": 0.002,
+        "unit": "SPM"
+      },
+      {
+        "label": "Surface travel",
+        "delta": 1.1257661469699087e-13,
+        "threshold": 0.0032999870153234525,
+        "unit": "m"
+      },
+      {
+        "label": "Mean surface load",
+        "delta": 1648.3689910883331,
+        "threshold": 30.95046104754465,
+        "unit": "N"
+      },
+      {
+        "label": "Downhole stroke work",
+        "delta": -8371.352081681327,
+        "threshold": 335.00182868665837,
+        "unit": "J"
+      }
+    ],
+    "downhole_work_delta_j": -8371.352081681327,
+    "surface": {
+      "change_fraction": 0.2917848799184496,
+      "threshold_fraction": 0.015
+    },
+    "downhole": {
+      "change_fraction": 0.5030832046691376,
+      "threshold_fraction": 0.02347366090195123
+    },
+    "symptom": "DELAYED_PUMP_UNLOADING",
+    "late_downstroke_excess_n": 4952.3537552335
+  },
+  {
+    "fault": "gas_interference",
+    "stroke": 16,
+    "status": "DYNACARD_CHANGE",
+    "version": "dynacard-change/1.3",
+    "reference_count": 3,
+    "reference_strokes": [
+      5,
+      6,
+      7
+    ],
+    "measurements": [
+      {
+        "label": "Stroke rate",
+        "delta": 0.0,
+        "threshold": 0.002,
+        "unit": "SPM"
+      },
+      {
+        "label": "Surface travel",
+        "delta": 2.2737367544323206e-13,
+        "threshold": 0.0032999870153234525,
+        "unit": "m"
+      },
+      {
+        "label": "Mean surface load",
+        "delta": 793.9022039068914,
+        "threshold": 30.95046104754465,
+        "unit": "N"
+      },
+      {
+        "label": "Downhole stroke work",
+        "delta": -7137.605185966263,
+        "threshold": 335.00182868665837,
+        "unit": "J"
+      }
+    ],
+    "downhole_work_delta_j": -7137.605185966263,
+    "surface": {
+      "change_fraction": 0.25541131913543147,
+      "threshold_fraction": 0.015
+    },
+    "downhole": {
+      "change_fraction": 0.43776145815575923,
+      "threshold_fraction": 0.02347366090195123
+    },
+    "symptom": "DELAYED_PUMP_UNLOADING",
+    "late_downstroke_excess_n": 4686.534686886603
+  },
+  {
+    "fault": "traveling_valve_leak",
+    "stroke": 21,
+    "status": "DYNACARD_CHANGE",
+    "version": "dynacard-change/1.3",
+    "reference_count": 3,
+    "reference_strokes": [
+      5,
+      6,
+      7
+    ],
+    "measurements": [
+      {
+        "label": "Stroke rate",
+        "delta": 0.0,
+        "threshold": 0.002,
+        "unit": "SPM"
+      },
+      {
+        "label": "Surface travel",
+        "delta": 3.3928415632544784e-13,
+        "threshold": 0.0032999870153234525,
+        "unit": "m"
+      },
+      {
+        "label": "Mean surface load",
+        "delta": -105.90386526691327,
+        "threshold": 30.95046104754465,
+        "unit": "N"
+      },
+      {
+        "label": "Downhole stroke work",
+        "delta": 71.33361528542991,
+        "threshold": 335.00182868665837,
+        "unit": "J"
+      }
+    ],
+    "downhole_work_delta_j": 71.33361528542991,
+    "surface": {
+      "change_fraction": 0.05202057300735321,
+      "threshold_fraction": 0.015
+    },
+    "downhole": {
+      "change_fraction": 0.051367758548663406,
+      "threshold_fraction": 0.02347366090195123
+    }
+  },
+  {
+    "fault": "standing_valve_leak",
+    "stroke": 26,
+    "status": "DYNACARD_CHANGE",
+    "version": "dynacard-change/1.3",
+    "reference_count": 3,
+    "reference_strokes": [
+      5,
+      6,
+      7
+    ],
+    "measurements": [
+      {
+        "label": "Stroke rate",
+        "delta": 0.0,
+        "threshold": 0.002,
+        "unit": "SPM"
+      },
+      {
+        "label": "Surface travel",
+        "delta": 4.531930386519889e-13,
+        "threshold": 0.0032999870153234525,
+        "unit": "m"
+      },
+      {
+        "label": "Mean surface load",
+        "delta": 37.540843286604286,
+        "threshold": 30.95046104754465,
+        "unit": "N"
+      },
+      {
+        "label": "Downhole stroke work",
+        "delta": -9.432670836285979,
+        "threshold": 335.00182868665837,
+        "unit": "J"
+      }
+    ],
+    "downhole_work_delta_j": -9.432670836285979,
+    "surface": {
+      "change_fraction": 0.023642257955938186,
+      "threshold_fraction": 0.015
+    },
+    "downhole": {
+      "change_fraction": 0.017027102362579278,
+      "threshold_fraction": 0.02347366090195123
+    },
+    "symptom": "SURFACE_WAVEFORM_CHANGE"
+  },
+  {
+    "fault": "rod_friction",
+    "stroke": 31,
+    "status": "DYNACARD_CHANGE",
+    "version": "dynacard-change/1.3",
+    "reference_count": 3,
+    "reference_strokes": [
+      5,
+      6,
+      7
+    ],
+    "measurements": [
+      {
+        "label": "Stroke rate",
+        "delta": 0.0,
+        "threshold": 0.002,
+        "unit": "SPM"
+      },
+      {
+        "label": "Surface travel",
+        "delta": 5.6710192097853e-13,
+        "threshold": 0.0032999870153234525,
+        "unit": "m"
+      },
+      {
+        "label": "Mean surface load",
+        "delta": -76.59518290181222,
+        "threshold": 30.95046104754465,
+        "unit": "N"
+      },
+      {
+        "label": "Downhole stroke work",
+        "delta": 8534.429296459743,
+        "threshold": 335.00182868665837,
+        "unit": "J"
+      }
+    ],
+    "downhole_work_delta_j": 8534.429296459743,
+    "surface": {
+      "change_fraction": 0.24914048823210488,
+      "threshold_fraction": 0.015
+    },
+    "downhole": {
+      "change_fraction": 0.42682625841479455,
+      "threshold_fraction": 0.02347366090195123
+    },
+    "symptom": "PUMP_STROKE_WORK_CHANGE"
+  },
+  {
+    "fault": "pump_wear",
+    "stroke": 36,
+    "status": "DYNACARD_CHANGE",
+    "version": "dynacard-change/1.3",
+    "reference_count": 3,
+    "reference_strokes": [
+      5,
+      6,
+      7
+    ],
+    "measurements": [
+      {
+        "label": "Stroke rate",
+        "delta": 0.0,
+        "threshold": 0.002,
+        "unit": "SPM"
+      },
+      {
+        "label": "Surface travel",
+        "delta": 6.814548925149211e-13,
+        "threshold": 0.0032999870153234525,
+        "unit": "m"
+      },
+      {
+        "label": "Mean surface load",
+        "delta": -151.89778813506382,
+        "threshold": 30.95046104754465,
+        "unit": "N"
+      },
+      {
+        "label": "Downhole stroke work",
+        "delta": 97.54971221612686,
+        "threshold": 335.00182868665837,
+        "unit": "J"
+      }
+    ],
+    "downhole_work_delta_j": 97.54971221612686,
+    "surface": {
+      "change_fraction": 0.06618783731631922,
+      "threshold_fraction": 0.015
+    },
+    "downhole": {
+      "change_fraction": 0.07353068556565232,
+      "threshold_fraction": 0.02347366090195123
+    }
+  },
+  {
+    "fault": "restricted_inflow",
+    "stroke": 41,
+    "status": "DYNACARD_CHANGE",
+    "version": "dynacard-change/1.3",
+    "reference_count": 3,
+    "reference_strokes": [
+      5,
+      6,
+      7
+    ],
+    "measurements": [
+      {
+        "label": "Stroke rate",
+        "delta": 0.0,
+        "threshold": 0.002,
+        "unit": "SPM"
+      },
+      {
+        "label": "Surface travel",
+        "delta": 6.257216966787382e-13,
+        "threshold": 0.0032999870153234525,
+        "unit": "m"
+      },
+      {
+        "label": "Mean surface load",
+        "delta": 1770.6679882863245,
+        "threshold": 30.95046104754465,
+        "unit": "N"
+      },
+      {
+        "label": "Downhole stroke work",
+        "delta": -8279.870508224934,
+        "threshold": 335.00182868665837,
+        "unit": "J"
+      }
+    ],
+    "downhole_work_delta_j": -8279.870508224934,
+    "surface": {
+      "change_fraction": 0.29701423123873244,
+      "threshold_fraction": 0.015
+    },
+    "downhole": {
+      "change_fraction": 0.5124703281796624,
+      "threshold_fraction": 0.02347366090195123
+    },
+    "symptom": "DELAYED_PUMP_UNLOADING",
+    "late_downstroke_excess_n": 5023.530733808493
+  },
+  {
+    "fault": "load_cell_drift",
+    "stroke": 46,
+    "status": "DYNACARD_CHANGE",
+    "version": "dynacard-change/1.3",
+    "reference_count": 3,
+    "reference_strokes": [
+      5,
+      6,
+      7
+    ],
+    "measurements": [
+      {
+        "label": "Stroke rate",
+        "delta": 0.0,
+        "threshold": 0.002,
+        "unit": "SPM"
+      },
+      {
+        "label": "Surface travel",
+        "delta": -4.3920422854171193e-13,
+        "threshold": 0.0032999870153234525,
+        "unit": "m"
+      },
+      {
+        "label": "Mean surface load",
+        "delta": 2399.9999920983537,
+        "threshold": 30.95046104754465,
+        "unit": "N"
+      }
+    ],
+    "symptom": "POLISHED_ROD_LOAD_OFFSET",
+    "surface_load_delta_n": 2399.9999920983537
+  },
+  {
+    "fault": "position_sensor_fault",
+    "stroke": 51,
+    "status": "DYNACARD_CHANGE",
+    "version": "dynacard-change/1.3",
+    "reference_count": 3,
+    "reference_strokes": [
+      5,
+      6,
+      7
+    ],
+    "measurements": [
+      {
+        "label": "Stroke rate",
+        "delta": 0.0,
+        "threshold": 0.002,
+        "unit": "SPM"
+      },
+      {
+        "label": "Surface travel",
+        "delta": -0.593997662759185,
+        "threshold": 0.0032999870153234525,
+        "unit": "m"
+      }
+    ],
+    "symptom": "MEASURED_TRAVEL_CHANGE",
+    "surface_travel_delta_m": -0.593997662759185
+  },
+  {
+    "fault": "abnormal_speed",
+    "stroke": 56,
+    "status": "STROKE_RATE_CHANGE",
+    "version": "dynacard-change/1.3",
+    "reference_count": 3,
+    "reference_strokes": [
+      5,
+      6,
+      7
+    ],
+    "measurements": [
+      {
+        "label": "Stroke rate",
+        "delta": 2.24,
+        "threshold": 0.002,
+        "unit": "SPM"
+      }
+    ],
+    "reference_spm": 8.0,
+    "current_spm": 10.24
+  }
+]

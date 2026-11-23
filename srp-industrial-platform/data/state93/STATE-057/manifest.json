@@ -1,0 +1,35 @@
+{
+  "state_id": "STATE-057",
+  "name": "Plunger_Normal Cycle",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Plunger_Normal Cycle",
+  "source_files": [
+    {
+      "State ID": "STATE-057",
+      "Original State Name": "Plunger_Normal Cycle",
+      "Application": "TAM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Plunger_Normal Cycle\\Original TAM\\Plunger_Normal Cycle.TAM_EXP",
+      "Extension": ".TAM_EXP",
+      "Bytes": 1356871,
+      "SHA256": "e9ceb567ac23a6559703df7d4f15ed69867dfd2f995c199fdf0af39bab0672e1",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "VENDOR_GUI_ACTION_REQUIRED",
+    "02_TWM": "UNSUPPORTED_CONVERSION",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

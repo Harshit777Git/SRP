@@ -1,0 +1,47 @@
+{
+  "manufactured_solutions": [
+    {
+      "depth_m": 450.0,
+      "position_rmse_m": 3.3899041668058185e-06,
+      "load_rmse_n": 0.002931543578532854,
+      "dc_load_error_n": 1.1641532182693481e-10,
+      "solver_quality": {
+        "status": "VALID",
+        "agreement_passed": true,
+        "field_validated": false,
+        "damping_source": "configured/calibrated viscous coefficient",
+        "coulomb_contact_n_m": 0
+      },
+      "passed": true
+    },
+    {
+      "depth_m": 1200.0,
+      "position_rmse_m": 3.349890291468392e-06,
+      "load_rmse_n": 0.00796302221244775,
+      "dc_load_error_n": 1.318767317570746e-11,
+      "solver_quality": {
+        "status": "VALID",
+        "agreement_passed": true,
+        "field_validated": false,
+        "damping_source": "configured/calibrated viscous coefficient",
+        "coulomb_contact_n_m": 0
+      },
+      "passed": true
+    },
+    {
+      "depth_m": 2200.0,
+      "position_rmse_m": 3.2280843954875038e-06,
+      "load_rmse_n": 0.013781541469631287,
+      "dc_load_error_n": 6.639311322942376e-11,
+      "solver_quality": {
+        "status": "VALID",
+        "agreement_passed": true,
+        "field_validated": false,
+        "damping_source": "configured/calibrated viscous coefficient",
+        "coulomb_contact_n_m": 0
+      },
+      "passed": true
+    }
+  ],
+  "surface_area_and_missing_metadata": "PASS"
+}

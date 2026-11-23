@@ -1,0 +1,3 @@
+# STATE-077 QRod status
+
+QRod 3.1 opened and its design-input screen was inspected. No native design was saved or reopened. The source PDF identifies a Lufkin C-640D-356-144 conventional unit, 144-in stroke, 4563-ft pump intake, three API D rod sections totaling 4502 ft, 1.75-in plunger, tubing dimensions and reported fluid properties. The 61-ft rod-to-pump-depth gap is unexplained. Pump intake pressure/working fluid level and QRod-specific design assumptions are not verified for the DYN test. A native design made now would be assumption-based, not matched. Status: BLOCKED_MISSING_VERIFIED_INPUTS.

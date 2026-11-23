@@ -1,0 +1,42 @@
+# Virtual environments & runtimes
+.runtime/
+.venv/
+env/
+venv/
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Node & frontend build
+node_modules/
+dist/
+build/
+.next/
+
+# Large simulation state databases and logs
+state/
+**/state/
+**/outputs/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.log
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Scratch and test files
+test_*.py
+monitor_*.py
+check_db.py
+run_apm.py
+
+# Generated massive synthetic stroke bundles
+srp-industrial-platform/data/generated/balanced_independent_strokes*/

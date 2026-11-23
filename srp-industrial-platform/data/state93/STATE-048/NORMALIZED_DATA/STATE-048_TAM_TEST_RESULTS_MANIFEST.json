@@ -1,0 +1,17 @@
+{
+  "state_id": "STATE-048",
+  "source_archive": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-048\\01_TAM\\PFL_Gaseous_noisy.TAM_EXP",
+  "source_sha256": "1c2b2e523438f8f424e69327b050f659439ac013c05d2abf7718909757907c7d",
+  "source_bytes": 2959,
+  "extracted_utc": "2026-11-18T04_44_29Z",
+  "method": "lossless extraction of vendor metadata.json and TestResults.json",
+  "synthetic_data": false,
+  "well_count": 1,
+  "test_count": 1,
+  "normalized_parameter_rows": 42,
+  "outputs": [
+    "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-048\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-048_TAM_TEST_RESULTS.json",
+    "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-048\\NORMALIZED_DATA\\STATE-048_TAM_TEST_RESULTS_LONG.csv",
+    "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-048\\07_MEASUREMENTS\\ACOUSTIC_TESTS\\STATE-048_TAM_ACU_RESULTS.json"
+  ]
+}

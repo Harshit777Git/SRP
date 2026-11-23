@@ -1,0 +1,91 @@
+{
+  "verified_pdf": {
+    "pump_intake_depth_ft": 4563,
+    "rod_sections_ft_diameter_in": [
+      [
+        1552,
+        1
+      ],
+      [
+        2750,
+        0.875
+      ],
+      [
+        200,
+        1
+      ]
+    ],
+    "surface_unit": "Lufkin C-640D-356-144",
+    "stroke_in": 144,
+    "plunger_diameter_in": 1.75
+  },
+  "assumptions": {
+    "fluid_density_kg_m3": 988.6033229491172,
+    "fluid_density_method": "60 BPD oil at 29 API plus 300 BPD water at SG 1.010; production-weighted approximation",
+    "rod_density_kg_m3": 7850,
+    "rod_modulus_pa": 205000000000.0,
+    "damping_s": 0.6,
+    "damping_note": "APM model assumption; TAM's 0.1 damping factor has different/unknown units",
+    "uniform_sample_timebase": "assumed; source points have order but no per-point times",
+    "rod_depth_gap_ft": 61,
+    "rod_depth_gap_note": "4502-ft listed rod taper versus 4563-ft intake depth",
+    "pressure_boundary": "not used by inverse solver; omitted",
+    "matched_test_identity": "inferred from DYN filename local time versus TAM UTC timestamp; not independently confirmed in GUI"
+  },
+  "apm_well": {
+    "asset_id": "STATE077",
+    "rods": [
+      {
+        "length_m": 473.0496,
+        "diameter_m": 0.0254,
+        "density": 7850,
+        "modulus": 205000000000.0
+      },
+      {
+        "length_m": 838.2,
+        "diameter_m": 0.022224999999999998,
+        "density": 7850,
+        "modulus": 205000000000.0
+      },
+      {
+        "length_m": 60.96,
+        "diameter_m": 0.0254,
+        "density": 7850,
+        "modulus": 205000000000.0
+      }
+    ],
+    "stroke_m": 3.6576,
+    "spm": 10.384282394052468,
+    "crank_m": 0.6,
+    "rocker_m": 2,
+    "pitman_m": 3.4,
+    "pivot_x_m": 2.4,
+    "pivot_y_m": 2.1,
+    "mechanism": "four_bar",
+    "damping_s": 0.6,
+    "plunger_m": 0.044449999999999996,
+    "plunger_length_m": 0.9,
+    "plunger_radial_clearance_m": 3.81e-05,
+    "pump_wear_clearance_growth_m": 7.62e-05,
+    "fluid_kg_m3": 988.6033229491172,
+    "chamber_gas_fraction": 0.015,
+    "viscosity_pa_s": 0.015,
+    "intake_head_m": 100,
+    "tubing_pa": 350000,
+    "casing_pa": 150000,
+    "voltage_v": 480,
+    "gear_ratio": 100,
+    "running_efficiency": 0.85,
+    "physics_step_s": 0.002,
+    "dynamometer_hz": 50,
+    "electrical_hz": 10,
+    "pressure_hz": 1,
+    "noise_position_m": 0,
+    "noise_load_n": 0,
+    "position_bias_m": 0,
+    "load_bias_n": 0,
+    "sensor_latency_s": 0,
+    "missing_probability": 0,
+    "seed": 42
+  }
+}

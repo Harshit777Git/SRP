@@ -1,0 +1,239 @@
+{
+  "dataset_id": "production-optimization-la0024-public-controller-export",
+  "repository_url": "https://github.com/mulzahrian/production_optimization",
+  "acquired_at_utc": "2026-11-18T04:13:54.613864+00:00",
+  "acquisition_method": "HTTPS raw GitHub file download",
+  "license_status": "NO_DATA_LICENSE_FOUND; source maintainer says all rights reserved",
+  "permission": "RESTRICTED",
+  "measurement_origin": "SCADA-export claim in public source audit; not independently authenticated",
+  "training_eligible": false,
+  "fault_labels": 0,
+  "local_use": "Restricted local surface-card plotting/import-format inspection only; no redistribution or supervised training.",
+  "files": [
+    {
+      "file": "data\\external_reference\\production_optimization\\ExportedDynaCards_2020-9-28.csv",
+      "source_url": "https://raw.githubusercontent.com/mulzahrian/production_optimization/main/csv_file/ExportedDynaCards_2020-9-28.csv",
+      "sha256": "6b5db610af3d962c5990274caa287ee5c0df460404489cdd37dcad384399fda0",
+      "rows": 33,
+      "columns": [
+        "Card Time",
+        "Card Type",
+        "Downhole Loads",
+        "Downhole Positions",
+        "Hours Since Gauge Off",
+        "PositionLimit",
+        "SPM",
+        "Stroke Length",
+        "Stroke Period",
+        "Surface Loads",
+        "Surface Max Load",
+        "Surface Min Load",
+        "Surface Positions",
+        "Well Name"
+      ],
+      "card_type_counts": {
+        "Current": 33
+      },
+      "well_counts": {
+        "LA-0024": 33
+      },
+      "duplicate_timestamps_within_file": 0,
+      "surface_point_count_min": 132,
+      "surface_point_count_max": 134,
+      "surface_point_count_values": [
+        132,
+        133,
+        134
+      ],
+      "downhole_position_point_total": 0,
+      "downhole_load_point_total": 0,
+      "downhole_load_equals_position_rows": 0,
+      "surface_point_pair_total": 4392,
+      "timestamp_min": "2020-09-28T16:45:53+00:00",
+      "timestamp_max": "2020-09-30T15:25:53+00:00",
+      "unique_surface_trace_fingerprints": 33,
+      "duplicate_surface_trace_copies": 0,
+      "scalar_profiles": {
+        "Stroke Period": {
+          "count": 33,
+          "missing": 0,
+          "minimum": 6.5,
+          "median": 6.55,
+          "mean": 8.005278787878789,
+          "maximum": 30.62724,
+          "standard_deviation_population": 5.716913735347473
+        },
+        "SPM": {
+          "count": 33,
+          "missing": 0,
+          "minimum": 9.09090909090909,
+          "median": 9.16030534351145,
+          "mean": 9.156307472310248,
+          "maximum": 9.23076923076923,
+          "standard_deviation_population": 0.04848349392733027
+        },
+        "Stroke Length": {
+          "count": 33,
+          "missing": 0,
+          "minimum": 68.0,
+          "median": 68.0,
+          "mean": 68.0,
+          "maximum": 68.0,
+          "standard_deviation_population": 0.0
+        },
+        "Surface Max Load": {
+          "count": 33,
+          "missing": 0,
+          "minimum": 9020.0,
+          "median": 9152.0,
+          "mean": 9147.151515151516,
+          "maximum": 9284.0,
+          "standard_deviation_population": 63.40448373979853
+        },
+        "Surface Min Load": {
+          "count": 33,
+          "missing": 0,
+          "minimum": 2612.0,
+          "median": 2824.0,
+          "mean": 2824.969696969697,
+          "maximum": 3112.0,
+          "standard_deviation_population": 111.13968411308653
+        },
+        "PositionLimit": {
+          "count": 33,
+          "missing": 0,
+          "minimum": 68.0,
+          "median": 68.0,
+          "mean": 68.0,
+          "maximum": 68.0,
+          "standard_deviation_population": 0.0
+        },
+        "Hours Since Gauge Off": {
+          "count": 33,
+          "missing": 0,
+          "minimum": 8.166667,
+          "median": 8.166667,
+          "mean": 14.076262727272727,
+          "maximum": 23.95,
+          "standard_deviation_population": 7.5245869624867305
+        }
+      }
+    },
+    {
+      "file": "data\\external_reference\\production_optimization\\ExportedDynaCards_2020-10-2.csv",
+      "source_url": "https://raw.githubusercontent.com/mulzahrian/production_optimization/main/csv_file/ExportedDynaCards_2020-10-2.csv",
+      "sha256": "037c5b01211b92f58276eb8362cd48d0713972cc12772c24d0b76327cc06b654",
+      "rows": 43,
+      "columns": [
+        "Card Time",
+        "Card Type",
+        "Downhole Loads",
+        "Downhole Positions",
+        "Hours Since Gauge Off",
+        "PositionLimit",
+        "SPM",
+        "Stroke Length",
+        "Stroke Period",
+        "Surface Loads",
+        "Surface Max Load",
+        "Surface Min Load",
+        "Surface Positions",
+        "Well Name"
+      ],
+      "card_type_counts": {
+        "Current": 41,
+        "Full": 2
+      },
+      "well_counts": {
+        "LA-0024": 43
+      },
+      "duplicate_timestamps_within_file": 0,
+      "surface_point_count_min": 132,
+      "surface_point_count_max": 134,
+      "surface_point_count_values": [
+        132,
+        133,
+        134
+      ],
+      "downhole_position_point_total": 5770,
+      "downhole_load_point_total": 5770,
+      "downhole_load_equals_position_rows": 43,
+      "surface_point_pair_total": 5727,
+      "timestamp_min": "2020-10-03T06:25:51+00:00",
+      "timestamp_max": "2020-10-04T14:45:49+00:00",
+      "unique_surface_trace_fingerprints": 42,
+      "duplicate_surface_trace_copies": 1,
+      "scalar_profiles": {
+        "Stroke Period": {
+          "count": 43,
+          "missing": 0,
+          "minimum": 6.5,
+          "median": 6.55,
+          "mean": 6.559302325581395,
+          "maximum": 6.6,
+          "standard_deviation_population": 0.03098351766156786
+        },
+        "SPM": {
+          "count": 43,
+          "missing": 0,
+          "minimum": 9.09090909090909,
+          "median": 9.16030534351145,
+          "mean": 9.147518556359316,
+          "maximum": 9.23076923076923,
+          "standard_deviation_population": 0.04324111216963017
+        },
+        "Stroke Length": {
+          "count": 43,
+          "missing": 0,
+          "minimum": 68.0,
+          "median": 68.0,
+          "mean": 68.0,
+          "maximum": 68.0,
+          "standard_deviation_population": 0.0
+        },
+        "Surface Max Load": {
+          "count": 43,
+          "missing": 0,
+          "minimum": 8652.0,
+          "median": 8840.0,
+          "mean": 8839.720930232557,
+          "maximum": 9124.0,
+          "standard_deviation_population": 106.19646680528201
+        },
+        "Surface Min Load": {
+          "count": 43,
+          "missing": 0,
+          "minimum": 2928.0,
+          "median": 3112.0,
+          "mean": 3099.1627906976746,
+          "maximum": 3240.0,
+          "standard_deviation_population": 74.07630579736073
+        },
+        "PositionLimit": {
+          "count": 43,
+          "missing": 0,
+          "minimum": 68.0,
+          "median": 68.0,
+          "mean": 68.0,
+          "maximum": 68.0,
+          "standard_deviation_population": 0.0
+        },
+        "Hours Since Gauge Off": {
+          "count": 43,
+          "missing": 0,
+          "minimum": 23.95,
+          "median": 23.95,
+          "mean": 23.95,
+          "maximum": 23.95,
+          "standard_deviation_population": 0.0
+        }
+      }
+    }
+  ],
+  "normalized_point_file": "data\\external_reference\\production_optimization\\normalized\\LA-0024_surface_points.csv",
+  "normalized_point_file_sha256": "2164b746f8903bbc53d36b85abc743873bb0fe258184b80c46fbd8566edfa51f",
+  "normalized_card_metadata_file": "data\\external_reference\\production_optimization\\normalized\\LA-0024_card_metadata.csv",
+  "normalized_card_metadata_file_sha256": "9f6cb50612f18238cd9ce261e233096344c965bd2765cb72307ae77ba6384102",
+  "normalized_point_rows": 10119,
+  "source_license_and_content_audit_url": "https://github.com/vamseeachanta/digitalmodel/issues/1873"
+}

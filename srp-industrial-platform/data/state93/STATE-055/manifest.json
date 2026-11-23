@@ -1,0 +1,35 @@
+{
+  "state_id": "STATE-055",
+  "name": "PFL_SBHP",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\PFL_SBHP",
+  "source_files": [
+    {
+      "State ID": "STATE-055",
+      "Original State Name": "PFL_SBHP",
+      "Application": "TAM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\PFL_SBHP\\Original TAM\\PFL_SBHP.TAM_EXP",
+      "Extension": ".TAM_EXP",
+      "Bytes": 7895,
+      "SHA256": "52a77b0ecee1a3f367e16c53bc91fd00ac782a769e25a0ecb604042b1f063866",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "VENDOR_GUI_ACTION_REQUIRED",
+    "02_TWM": "UNSUPPORTED_CONVERSION",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

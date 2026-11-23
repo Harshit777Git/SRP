@@ -1,0 +1,68 @@
+{
+  "state_id": "STATE-089",
+  "name": "V11",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\V11",
+  "source_files": [
+    {
+      "State ID": "STATE-089",
+      "Original State Name": "V11",
+      "Application": "TAM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\V11\\Original TAM\\V11.TAM_EXP",
+      "Extension": ".TAM_EXP",
+      "Bytes": 5933,
+      "SHA256": "6b2b1dba3985a512f497b031c85a2ca75da88a0194ccf2fba7c6210a7973d6a7",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-089",
+      "Original State Name": "V11",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\V11\\Original TWM\\3_5_HowToCBELoad_Detail\\V11.029",
+      "Extension": ".029",
+      "Bytes": 2118053,
+      "SHA256": "c20fac3e5eea11a6ff942d179f93ee17c682d582b010ad20f9c5e8904c526431",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-089",
+      "Original State Name": "V11",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\V11\\Original TWM\\V11.029",
+      "Extension": ".029",
+      "Bytes": 2118053,
+      "SHA256": "c20fac3e5eea11a6ff942d179f93ee17c682d582b010ad20f9c5e8904c526431",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-089",
+      "Original State Name": "V11",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\V11\\Original TWM\\V11_StartUp_AMP_KW.029",
+      "Extension": ".029",
+      "Bytes": 2118053,
+      "SHA256": "c20fac3e5eea11a6ff942d179f93ee17c682d582b010ad20f9c5e8904c526431",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "VENDOR_GUI_ACTION_REQUIRED",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

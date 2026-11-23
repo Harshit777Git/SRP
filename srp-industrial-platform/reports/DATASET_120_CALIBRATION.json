@@ -1,0 +1,2882 @@
+[
+  {
+    "asset_id": "prairie-001",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.007443555288715948,
+    "kinematic_test_rmse_m": 0.007518339433920414,
+    "fitted_phase_rad": 0.09612296012854997,
+    "fitted_stroke_m": 1.6265764051604317,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      6219.229295049025,
+      14500.865141797085
+    ],
+    "source_load_range_lbf": [
+      8974.8,
+      11529.9
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "prairie-002",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.011793939952329163,
+    "kinematic_test_rmse_m": 0.011772412520896591,
+    "fitted_phase_rad": -6.187049614060555,
+    "fitted_stroke_m": 2.5417515067185232,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      4673.601107831642,
+      12398.34211317234
+    ],
+    "source_load_range_lbf": [
+      4638.0,
+      12471.6
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "prairie-003",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.008768981502323376,
+    "kinematic_test_rmse_m": 0.008581605296209714,
+    "fitted_phase_rad": 0.09603845678338059,
+    "fitted_stroke_m": 1.8809486290796007,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      4296.881913348043,
+      9459.008336618663
+    ],
+    "source_load_range_lbf": [
+      4490.8,
+      9207.4
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "prairie-004",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.008833937493454711,
+    "kinematic_test_rmse_m": 0.008656441086749993,
+    "fitted_phase_rad": 0.09598534125299596,
+    "fitted_stroke_m": 1.8806855708703676,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      6545.333004341131,
+      14272.058456426474
+    ],
+    "source_load_range_lbf": [
+      6599.6,
+      14040.4
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "prairie-005",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.008789770610909393,
+    "kinematic_test_rmse_m": 0.008680958847839529,
+    "fitted_phase_rad": -6.187146994733956,
+    "fitted_stroke_m": 1.8810117052815158,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      3735.7963022943986,
+      10339.123613384394
+    ],
+    "source_load_range_lbf": [
+      3881.4,
+      9984.4
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "prairie-006",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.0076124440355941495,
+    "kinematic_test_rmse_m": 0.007643381230858375,
+    "fitted_phase_rad": -6.187188334415451,
+    "fitted_stroke_m": 1.6268021551048575,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      6459.185421613309,
+      13279.291173533811
+    ],
+    "source_load_range_lbf": [
+      6519.9,
+      13342.5
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "prairie-007",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.011757819752102747,
+    "kinematic_test_rmse_m": 0.011863060539302464,
+    "fitted_phase_rad": -6.187092011605985,
+    "fitted_stroke_m": 2.54163221526829,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      4837.846738710323,
+      12845.415378272903
+    ],
+    "source_load_range_lbf": [
+      4664.8,
+      12650.6
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "prairie-008",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.01184342918087225,
+    "kinematic_test_rmse_m": 0.011655565641735713,
+    "fitted_phase_rad": -6.18707336721627,
+    "fitted_stroke_m": 2.5419028569986772,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      6272.587659541531,
+      16889.36808176778
+    ],
+    "source_load_range_lbf": [
+      6408.6,
+      16763.2
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "prairie-009",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.011816334693885393,
+    "kinematic_test_rmse_m": 0.011691558350553842,
+    "fitted_phase_rad": 0.09608554363516565,
+    "fitted_stroke_m": 2.541674131334708,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      4428.129880242749,
+      10423.857042334314
+    ],
+    "source_load_range_lbf": [
+      6006.1,
+      8344.8
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "prairie-010",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.008776970448668504,
+    "kinematic_test_rmse_m": 0.008797434887813831,
+    "fitted_phase_rad": 0.0961576777714633,
+    "fitted_stroke_m": 1.880843839267819,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      4487.256813541398,
+      10709.694383881808
+    ],
+    "source_load_range_lbf": [
+      4743.4,
+      10466.0
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "prairie-011",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.010145998824850953,
+    "kinematic_test_rmse_m": 0.01022386704031608,
+    "fitted_phase_rad": 0.09602427601677618,
+    "fitted_stroke_m": 2.186043403213534,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      4640.760096886398,
+      11566.012142506279
+    ],
+    "source_load_range_lbf": [
+      6680.3,
+      9414.7
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "prairie-012",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.008674447103393976,
+    "kinematic_test_rmse_m": 0.008870978251331886,
+    "fitted_phase_rad": -6.187027033252396,
+    "fitted_stroke_m": 1.8809455471475358,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      4377.958225776674,
+      10283.496940683126
+    ],
+    "source_load_range_lbf": [
+      4346.2,
+      10162.1
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "prairie-013",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.008634132701066395,
+    "kinematic_test_rmse_m": 0.008784268806219155,
+    "fitted_phase_rad": 0.09607363231680363,
+    "fitted_stroke_m": 1.8807972716524652,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      4374.036160851075,
+      10091.201614898197
+    ],
+    "source_load_range_lbf": [
+      4495.0,
+      9947.0
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "prairie-014",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.011834223165086826,
+    "kinematic_test_rmse_m": 0.011731058982406697,
+    "fitted_phase_rad": 0.09608795296076932,
+    "fitted_stroke_m": 2.5413862538449226,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      3826.185488853777,
+      9995.390663723045
+    ],
+    "source_load_range_lbf": [
+      3816.2,
+      9887.6
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "prairie-015",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.011792421809161395,
+    "kinematic_test_rmse_m": 0.011768896352506568,
+    "fitted_phase_rad": -6.187124723472627,
+    "fitted_stroke_m": 2.5417160258769904,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      4156.738171687811,
+      11393.257105219176
+    ],
+    "source_load_range_lbf": [
+      4044.5,
+      11224.7
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "prairie-016",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.008785807951612948,
+    "kinematic_test_rmse_m": 0.008736954910019709,
+    "fitted_phase_rad": -6.187156714127685,
+    "fitted_stroke_m": 1.8807177502750578,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      4247.591380191572,
+      10308.098610572017
+    ],
+    "source_load_range_lbf": [
+      4298.3,
+      10295.5
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "prairie-017",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.0075747973378790506,
+    "kinematic_test_rmse_m": 0.007620961513722819,
+    "fitted_phase_rad": 0.09606573934492428,
+    "fitted_stroke_m": 1.6266678033094255,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      6536.487227780537,
+      15142.667808479837
+    ],
+    "source_load_range_lbf": [
+      6509.3,
+      15010.3
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "prairie-018",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.00869918675841328,
+    "kinematic_test_rmse_m": 0.008640922626439255,
+    "fitted_phase_rad": 0.09603147152756769,
+    "fitted_stroke_m": 1.880825663342163,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      7115.2856274358,
+      14891.660993811305
+    ],
+    "source_load_range_lbf": [
+      6963.2,
+      14740.6
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "prairie-019",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.008803184604892237,
+    "kinematic_test_rmse_m": 0.008781444182270455,
+    "fitted_phase_rad": 0.09606121993672437,
+    "fitted_stroke_m": 1.8806725444239372,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      6090.5447198727,
+      14965.164536392578
+    ],
+    "source_load_range_lbf": [
+      6070.1,
+      14907.0
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "prairie-020",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.011796121522245998,
+    "kinematic_test_rmse_m": 0.011748315546679407,
+    "fitted_phase_rad": 0.09612028346185456,
+    "fitted_stroke_m": 2.5418375306106906,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      4436.1981447620055,
+      11705.176009325574
+    ],
+    "source_load_range_lbf": [
+      6733.9,
+      8622.1
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "prairie-021",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.008698847929987685,
+    "kinematic_test_rmse_m": 0.008680365126727933,
+    "fitted_phase_rad": 0.09610698459815575,
+    "fitted_stroke_m": 1.8808435442174547,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      7211.5745571939715,
+      14920.771228488897
+    ],
+    "source_load_range_lbf": [
+      7570.4,
+      14634.4
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "prairie-022",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.008708252297955467,
+    "kinematic_test_rmse_m": 0.00883871293506267,
+    "fitted_phase_rad": 0.09598222145961009,
+    "fitted_stroke_m": 1.8808380847317467,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      7028.212460027358,
+      15411.76132910215
+    ],
+    "source_load_range_lbf": [
+      9776.3,
+      12098.5
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "prairie-023",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.011821743467525748,
+    "kinematic_test_rmse_m": 0.011791671168478764,
+    "fitted_phase_rad": -6.187103076458095,
+    "fitted_stroke_m": 2.5417025634136414,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      6565.705373526549,
+      14517.168560861015
+    ],
+    "source_load_range_lbf": [
+      6592.5,
+      14442.2
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "prairie-024",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.0075363145377067755,
+    "kinematic_test_rmse_m": 0.007522089665158303,
+    "fitted_phase_rad": 0.09606422662630626,
+    "fitted_stroke_m": 1.6266644400552004,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      7089.605786283822,
+      14110.473963664579
+    ],
+    "source_load_range_lbf": [
+      7160.8,
+      14030.7
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "prairie-025",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.007526552615739092,
+    "kinematic_test_rmse_m": 0.007475631538712126,
+    "fitted_phase_rad": 0.09611792500976708,
+    "fitted_stroke_m": 1.6267428797448111,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      6725.817581786886,
+      14740.413636386043
+    ],
+    "source_load_range_lbf": [
+      7178.9,
+      14216.8
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "prairie-026",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.0076043859588755,
+    "kinematic_test_rmse_m": 0.007538321885084897,
+    "fitted_phase_rad": 0.09615516896935025,
+    "fitted_stroke_m": 1.626717677790959,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      4927.37162271272,
+      11656.947922213929
+    ],
+    "source_load_range_lbf": [
+      6812.5,
+      9560.2
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "prairie-027",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.010166540176688093,
+    "kinematic_test_rmse_m": 0.010117192787997395,
+    "fitted_phase_rad": 0.0960057360175606,
+    "fitted_stroke_m": 2.185991173196941,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      3699.0094985689625,
+      9578.7391315311
+    ],
+    "source_load_range_lbf": [
+      3829.3,
+      9381.2
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "prairie-028",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.0075067221608353316,
+    "kinematic_test_rmse_m": 0.007564333642587337,
+    "fitted_phase_rad": 0.09611674145591226,
+    "fitted_stroke_m": 1.626697006861646,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      4558.18872486306,
+      11727.193667767315
+    ],
+    "source_load_range_lbf": [
+      4763.0,
+      11564.8
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "prairie-029",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.010142469031045782,
+    "kinematic_test_rmse_m": 0.010211251394613274,
+    "fitted_phase_rad": 0.09603948494349233,
+    "fitted_stroke_m": 2.1857338387487997,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      4090.2424867227355,
+      9276.118494249613
+    ],
+    "source_load_range_lbf": [
+      4083.2,
+      9267.0
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "prairie-030",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.007636449511558429,
+    "kinematic_test_rmse_m": 0.007533137110228134,
+    "fitted_phase_rad": 0.0960423944811234,
+    "fitted_stroke_m": 1.626612576306722,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      6776.8579655907415,
+      14021.338398431477
+    ],
+    "source_load_range_lbf": [
+      6714.4,
+      14080.1
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-001",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.013347157683319715,
+    "kinematic_test_rmse_m": 0.013297840058160168,
+    "fitted_phase_rad": 0.0906423232913573,
+    "fitted_stroke_m": 3.0520476392236784,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      14958.349517280822,
+      28563.753739822932
+    ],
+    "source_load_range_lbf": [
+      16952.2,
+      24766.7
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-002",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.015981206938194666,
+    "kinematic_test_rmse_m": 0.01616651074554661,
+    "fitted_phase_rad": 0.09059624200995871,
+    "fitted_stroke_m": 3.662595006295048,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      13490.977086420575,
+      24464.227797495063
+    ],
+    "source_load_range_lbf": [
+      13435.8,
+      24694.6
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-003",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.011196472601764571,
+    "kinematic_test_rmse_m": 0.011140483634278133,
+    "fitted_phase_rad": 0.09055875460767868,
+    "fitted_stroke_m": 2.543611422545886,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      13470.389923283457,
+      23826.689879427042
+    ],
+    "source_load_range_lbf": [
+      17129.0,
+      19959.9
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-004",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.016072555321351076,
+    "kinematic_test_rmse_m": 0.016128095429040198,
+    "fitted_phase_rad": 0.09062797347877932,
+    "fitted_stroke_m": 3.6625550733182566,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      13439.78984254621,
+      27783.606875172616
+    ],
+    "source_load_range_lbf": [
+      18514.9,
+      23471.5
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-005",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.01119355281702113,
+    "kinematic_test_rmse_m": 0.011023829767429763,
+    "fitted_phase_rad": 0.0906632140125692,
+    "fitted_stroke_m": 2.543433600365685,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      15953.04676744873,
+      28738.714933743868
+    ],
+    "source_load_range_lbf": [
+      15809.5,
+      28752.6
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-006",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.011168618624523782,
+    "kinematic_test_rmse_m": 0.011191888261016886,
+    "fitted_phase_rad": 0.09063541640245115,
+    "fitted_stroke_m": 2.5435391403041554,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      16551.774975072014,
+      28633.37374221139
+    ],
+    "source_load_range_lbf": [
+      19222.7,
+      29074.1
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-007",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.01335543109304587,
+    "kinematic_test_rmse_m": 0.013269892983385219,
+    "fitted_phase_rad": -6.192579460629015,
+    "fitted_stroke_m": 3.052117663042253,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      10130.595997351935,
+      20170.703065133457
+    ],
+    "source_load_range_lbf": [
+      12696.8,
+      17210.7
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-008",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.013433298652513748,
+    "kinematic_test_rmse_m": 0.013376591857413214,
+    "fitted_phase_rad": 0.09066809510925825,
+    "fitted_stroke_m": 3.0522035083503893,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      14059.449387959614,
+      26397.82787731571
+    ],
+    "source_load_range_lbf": [
+      15995.0,
+      26660.4
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-009",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.011104651352876251,
+    "kinematic_test_rmse_m": 0.011129552748494434,
+    "fitted_phase_rad": 0.09058681307073387,
+    "fitted_stroke_m": 2.543452607232772,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      17280.57677074339,
+      27769.393720422024
+    ],
+    "source_load_range_lbf": [
+      18511.7,
+      25563.4
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-010",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.011187741619679897,
+    "kinematic_test_rmse_m": 0.011109924799826032,
+    "fitted_phase_rad": 0.09055383864024884,
+    "fitted_stroke_m": 2.54351181428561,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      14639.166350297464,
+      25207.558678972073
+    ],
+    "source_load_range_lbf": [
+      14489.0,
+      25352.6
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-011",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.013434983099865312,
+    "kinematic_test_rmse_m": 0.013286268166760718,
+    "fitted_phase_rad": 0.0906117101737031,
+    "fitted_stroke_m": 3.052107837179011,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      12749.36571731638,
+      23953.302266887273
+    ],
+    "source_load_range_lbf": [
+      17502.2,
+      20152.2
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-012",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.01605962100558397,
+    "kinematic_test_rmse_m": 0.01599285076862368,
+    "fitted_phase_rad": 0.09065842564556718,
+    "fitted_stroke_m": 3.6625823915875135,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      14033.596076630623,
+      29000.731683666298
+    ],
+    "source_load_range_lbf": [
+      19165.3,
+      24288.8
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-013",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.013423005330609151,
+    "kinematic_test_rmse_m": 0.013511408260729803,
+    "fitted_phase_rad": 0.09058888282755978,
+    "fitted_stroke_m": 3.0523046093570274,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      15131.208224926206,
+      29767.458720929233
+    ],
+    "source_load_range_lbf": [
+      15026.0,
+      29667.3
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-014",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.016105305573624558,
+    "kinematic_test_rmse_m": 0.016015746705522096,
+    "fitted_phase_rad": 0.09062463150012548,
+    "fitted_stroke_m": 3.6627438329205337,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      12830.190859465665,
+      24843.88238626
+    ],
+    "source_load_range_lbf": [
+      12682.1,
+      24879.7
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-015",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.011117683175471002,
+    "kinematic_test_rmse_m": 0.011213420840778502,
+    "fitted_phase_rad": -6.192587935294053,
+    "fitted_stroke_m": 2.5433664076023716,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      13834.948787318284,
+      26060.40853776821
+    ],
+    "source_load_range_lbf": [
+      18604.6,
+      22105.9
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-016",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.013355284914716332,
+    "kinematic_test_rmse_m": 0.01335620317865703,
+    "fitted_phase_rad": 0.09062235631700455,
+    "fitted_stroke_m": 3.052195328069312,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      14376.142767420544,
+      27285.527767058746
+    ],
+    "source_load_range_lbf": [
+      19577.8,
+      22634.5
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-017",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.013371507153384294,
+    "kinematic_test_rmse_m": 0.013471350499717162,
+    "fitted_phase_rad": 0.09058895219312024,
+    "fitted_stroke_m": 3.0521618561450086,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      14529.599551754582,
+      28406.515380033597
+    ],
+    "source_load_range_lbf": [
+      16094.2,
+      25842.8
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-018",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.016123881873249438,
+    "kinematic_test_rmse_m": 0.016192578810467276,
+    "fitted_phase_rad": 0.0906022574039202,
+    "fitted_stroke_m": 3.6626517331435777,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      9678.80837520263,
+      21158.66612867486
+    ],
+    "source_load_range_lbf": [
+      13639.8,
+      17779.7
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-019",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.013407672771555863,
+    "kinematic_test_rmse_m": 0.013417756210515329,
+    "fitted_phase_rad": -6.192517472013136,
+    "fitted_stroke_m": 3.0523850677173896,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      12867.477537348796,
+      23573.43580073615
+    ],
+    "source_load_range_lbf": [
+      17271.3,
+      19698.8
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-020",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.016013716715179205,
+    "kinematic_test_rmse_m": 0.016174926556416322,
+    "fitted_phase_rad": 0.09062607009715036,
+    "fitted_stroke_m": 3.6624663759854483,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      10409.898980564809,
+      20005.422922299
+    ],
+    "source_load_range_lbf": [
+      13795.6,
+      16930.3
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-021",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.011207299351837473,
+    "kinematic_test_rmse_m": 0.011259357027947073,
+    "fitted_phase_rad": 0.09062963686107917,
+    "fitted_stroke_m": 2.5434180788586547,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      16471.997207842636,
+      27499.820365435207
+    ],
+    "source_load_range_lbf": [
+      20506.6,
+      24526.7
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-022",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.011157916674524208,
+    "kinematic_test_rmse_m": 0.011189323151946875,
+    "fitted_phase_rad": 0.09060728439598226,
+    "fitted_stroke_m": 2.5432726237011014,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      13039.229836452607,
+      23513.617035454157
+    ],
+    "source_load_range_lbf": [
+      14429.4,
+      21634.1
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-023",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.013370490830767858,
+    "kinematic_test_rmse_m": 0.013464498440959307,
+    "fitted_phase_rad": -6.192542207767382,
+    "fitted_stroke_m": 3.0522920042233377,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      9277.424630156947,
+      21056.8266215366
+    ],
+    "source_load_range_lbf": [
+      9435.4,
+      21297.8
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-024",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.013413008311722137,
+    "kinematic_test_rmse_m": 0.013629321742650522,
+    "fitted_phase_rad": 0.09063220972540985,
+    "fitted_stroke_m": 3.052382925873462,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      14946.726432481591,
+      26009.853854010904
+    ],
+    "source_load_range_lbf": [
+      14856.2,
+      25976.4
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-025",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.011135085376561467,
+    "kinematic_test_rmse_m": 0.01122990773062234,
+    "fitted_phase_rad": 0.09063412491711272,
+    "fitted_stroke_m": 2.5435316658773623,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      13231.669962843931,
+      22608.978702959164
+    ],
+    "source_load_range_lbf": [
+      16388.6,
+      19856.8
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-026",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.013376497516814405,
+    "kinematic_test_rmse_m": 0.013359658587630602,
+    "fitted_phase_rad": -6.192558863518186,
+    "fitted_stroke_m": 3.0522232145439174,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      14636.80059487992,
+      26580.080835295885
+    ],
+    "source_load_range_lbf": [
+      14700.1,
+      26764.5
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-027",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.01338911229909698,
+    "kinematic_test_rmse_m": 0.013320602042300764,
+    "fitted_phase_rad": 0.09055169924387393,
+    "fitted_stroke_m": 3.052056440780863,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      10324.029458274392,
+      20440.00764837279
+    ],
+    "source_load_range_lbf": [
+      11622.4,
+      18630.5
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-028",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.016096449778286184,
+    "kinematic_test_rmse_m": 0.016107228431405163,
+    "fitted_phase_rad": 0.09059836329680637,
+    "fitted_stroke_m": 3.6625529549425258,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      13826.308758334162,
+      29254.171915457067
+    ],
+    "source_load_range_lbf": [
+      19960.7,
+      23446.2
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-029",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.013388692958322288,
+    "kinematic_test_rmse_m": 0.013520373666491226,
+    "fitted_phase_rad": -6.192513860861138,
+    "fitted_stroke_m": 3.052235060539309,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      12893.321853566416,
+      24400.31844774021
+    ],
+    "source_load_range_lbf": [
+      14268.0,
+      22941.3
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "canyon-030",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.016039248506234227,
+    "kinematic_test_rmse_m": 0.016030817751579846,
+    "fitted_phase_rad": 0.09063487675230794,
+    "fitted_stroke_m": 3.6624917120319993,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      12229.349908643602,
+      25160.34378516813
+    ],
+    "source_load_range_lbf": [
+      12234.8,
+      25523.8
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-001",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.001730887827755916,
+    "kinematic_test_rmse_m": 0.0017674134986977116,
+    "fitted_phase_rad": -6.198843429379658,
+    "fitted_stroke_m": 2.5414612101067324,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      7813.533232315111,
+      19377.77230971568
+    ],
+    "source_load_range_lbf": [
+      7755.6,
+      19529.2
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-002",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.0019399612105375898,
+    "kinematic_test_rmse_m": 0.00213247465311248,
+    "fitted_phase_rad": 0.08440060494949377,
+    "fitted_stroke_m": 3.0498044605385326,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      6074.90385505025,
+      21582.244175245505
+    ],
+    "source_load_range_lbf": [
+      11969.4,
+      15202.9
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-003",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.00177824921036053,
+    "kinematic_test_rmse_m": 0.0018094118562923729,
+    "fitted_phase_rad": 0.08436003474064938,
+    "fitted_stroke_m": 2.5416782163416496,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      8734.92123895988,
+      22136.993581258652
+    ],
+    "source_load_range_lbf": [
+      8725.5,
+      22145.3
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-004",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.0024310882334465257,
+    "kinematic_test_rmse_m": 0.0024581336004658,
+    "fitted_phase_rad": 0.08434987403692976,
+    "fitted_stroke_m": 3.6596095845107395,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      7446.71777407104,
+      20545.675162234085
+    ],
+    "source_load_range_lbf": [
+      12155.1,
+      14491.3
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-005",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.0023672534785201807,
+    "kinematic_test_rmse_m": 0.00233694646698972,
+    "fitted_phase_rad": -6.1988163805139225,
+    "fitted_stroke_m": 3.6596138820478346,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      6656.064602294054,
+      23824.69266419861
+    ],
+    "source_load_range_lbf": [
+      6854.7,
+      23630.2
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-006",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.0017477728555669058,
+    "kinematic_test_rmse_m": 0.0018677048161019878,
+    "fitted_phase_rad": -6.1987960383159795,
+    "fitted_stroke_m": 2.5415320994118695,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      8482.038906204005,
+      22539.583875816486
+    ],
+    "source_load_range_lbf": [
+      6008.1,
+      24907.3
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-007",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.0018079367683899875,
+    "kinematic_test_rmse_m": 0.0017052591698844056,
+    "fitted_phase_rad": 0.08438396286834317,
+    "fitted_stroke_m": 2.541468399926763,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      8549.16938706721,
+      22956.361074762408
+    ],
+    "source_load_range_lbf": [
+      5623.9,
+      26104.7
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-008",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.0016876789274004951,
+    "kinematic_test_rmse_m": 0.0016945922947955339,
+    "fitted_phase_rad": 0.08439031747951148,
+    "fitted_stroke_m": 2.5412464723414714,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      6012.874628933792,
+      17280.89950293804
+    ],
+    "source_load_range_lbf": [
+      6045.0,
+      17387.8
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-009",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.0023974594848464523,
+    "kinematic_test_rmse_m": 0.0023491769189872983,
+    "fitted_phase_rad": 0.08439959798354556,
+    "fitted_stroke_m": 3.6596374630638993,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      6695.105177121835,
+      23631.36365034666
+    ],
+    "source_load_range_lbf": [
+      6384.4,
+      23613.5
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-010",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.0020526006972739763,
+    "kinematic_test_rmse_m": 0.0020019206926158296,
+    "fitted_phase_rad": -6.198840479764061,
+    "fitted_stroke_m": 3.049577228249983,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      7677.04771301239,
+      20286.8442648226
+    ],
+    "source_load_range_lbf": [
+      7672.4,
+      20094.0
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-011",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.0020623754919020156,
+    "kinematic_test_rmse_m": 0.0020969438752243994,
+    "fitted_phase_rad": 0.08432411786004952,
+    "fitted_stroke_m": 3.049777235812369,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      6654.675471206352,
+      17255.371138062645
+    ],
+    "source_load_range_lbf": [
+      6790.1,
+      17165.9
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-012",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.002306255258467037,
+    "kinematic_test_rmse_m": 0.0022677306261627834,
+    "fitted_phase_rad": 0.08435407445922699,
+    "fitted_stroke_m": 3.65957258111709,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      7547.656023810063,
+      24673.265224795166
+    ],
+    "source_load_range_lbf": [
+      4552.4,
+      26946.1
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-013",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.0020082682226548586,
+    "kinematic_test_rmse_m": 0.0020654175690675014,
+    "fitted_phase_rad": -6.198881112366784,
+    "fitted_stroke_m": 3.0497559038302255,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      8246.713375314686,
+      20719.978636791264
+    ],
+    "source_load_range_lbf": [
+      8030.8,
+      21065.5
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-014",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.0023691304907206743,
+    "kinematic_test_rmse_m": 0.0024846633357031877,
+    "fitted_phase_rad": 0.08441599771416808,
+    "fitted_stroke_m": 3.659678356860232,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      4861.823375749446,
+      21353.70954629579
+    ],
+    "source_load_range_lbf": [
+      4706.5,
+      21315.0
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-015",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.002028752989001158,
+    "kinematic_test_rmse_m": 0.001993028174675271,
+    "fitted_phase_rad": 0.08437276584844926,
+    "fitted_stroke_m": 3.0496905216718786,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      6253.8760013506035,
+      18245.89423776862
+    ],
+    "source_load_range_lbf": [
+      6211.9,
+      18257.3
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-016",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.0016834113459347796,
+    "kinematic_test_rmse_m": 0.00186333108631549,
+    "fitted_phase_rad": 0.08434679262216348,
+    "fitted_stroke_m": 2.5414462506351416,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      9095.775899467633,
+      22122.902811505628
+    ],
+    "source_load_range_lbf": [
+      8983.1,
+      22077.1
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-017",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.0020104236930093824,
+    "kinematic_test_rmse_m": 0.0020374014365669327,
+    "fitted_phase_rad": 0.08438913007006148,
+    "fitted_stroke_m": 3.0496347304549074,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      7429.4815442105,
+      22488.455308042132
+    ],
+    "source_load_range_lbf": [
+      7301.5,
+      22570.5
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-018",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.002015547732303659,
+    "kinematic_test_rmse_m": 0.0020405673765563448,
+    "fitted_phase_rad": 0.08436378760927116,
+    "fitted_stroke_m": 3.049640438841718,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      8042.641300708129,
+      24195.594959156595
+    ],
+    "source_load_range_lbf": [
+      14438.0,
+      17864.7
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-019",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.002404862060404924,
+    "kinematic_test_rmse_m": 0.002464278344811184,
+    "fitted_phase_rad": 0.08434214045332925,
+    "fitted_stroke_m": 3.6596135223852286,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      5861.587090859791,
+      17856.4752534032
+    ],
+    "source_load_range_lbf": [
+      5812.6,
+      17998.1
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-020",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.002462660220657067,
+    "kinematic_test_rmse_m": 0.002326953014846504,
+    "fitted_phase_rad": 0.08433424136764288,
+    "fitted_stroke_m": 3.659647414426332,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      6171.504134635638,
+      18283.55612816281
+    ],
+    "source_load_range_lbf": [
+      5845.8,
+      18516.9
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-021",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.0023936639475484506,
+    "kinematic_test_rmse_m": 0.0023985208848610728,
+    "fitted_phase_rad": -6.198867230708747,
+    "fitted_stroke_m": 3.6595606649742347,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      7589.880433675652,
+      20286.342005180282
+    ],
+    "source_load_range_lbf": [
+      7271.8,
+      20307.4
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-022",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.002288129800790495,
+    "kinematic_test_rmse_m": 0.0023281020052048572,
+    "fitted_phase_rad": -6.1988324674953725,
+    "fitted_stroke_m": 3.6598236734604996,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      5068.464326838203,
+      20776.398470002805
+    ],
+    "source_load_range_lbf": [
+      5192.5,
+      20797.8
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-023",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.002379224608170631,
+    "kinematic_test_rmse_m": 0.0023789509205333122,
+    "fitted_phase_rad": 0.08439808570060457,
+    "fitted_stroke_m": 3.659439791096767,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      5255.87629921133,
+      20240.560610537173
+    ],
+    "source_load_range_lbf": [
+      5086.5,
+      20255.1
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-024",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.0020240534001890777,
+    "kinematic_test_rmse_m": 0.002061314031842358,
+    "fitted_phase_rad": 0.08433831443549096,
+    "fitted_stroke_m": 3.0498772714623006,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      7408.237075500287,
+      22285.012605614647
+    ],
+    "source_load_range_lbf": [
+      4121.4,
+      24220.8
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-025",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.0023393356684887675,
+    "kinematic_test_rmse_m": 0.0024446036456302685,
+    "fitted_phase_rad": 0.08442019455184387,
+    "fitted_stroke_m": 3.6596628492980523,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      8580.432387202214,
+      23621.351769311048
+    ],
+    "source_load_range_lbf": [
+      8443.1,
+      23829.1
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-026",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.0017947718250978374,
+    "kinematic_test_rmse_m": 0.0017284121436930608,
+    "fitted_phase_rad": 0.08429056121379,
+    "fitted_stroke_m": 2.5413226105903224,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      8998.245148264306,
+      21914.47862385915
+    ],
+    "source_load_range_lbf": [
+      9290.0,
+      22150.4
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-027",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.002472947513578927,
+    "kinematic_test_rmse_m": 0.0024924871059990804,
+    "fitted_phase_rad": 0.08432775056168287,
+    "fitted_stroke_m": 3.6597621963886366,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      4496.946065577681,
+      19213.498757725327
+    ],
+    "source_load_range_lbf": [
+      4538.3,
+      19297.4
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-028",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.002407680702213422,
+    "kinematic_test_rmse_m": 0.0024688717869339153,
+    "fitted_phase_rad": -6.198848185645121,
+    "fitted_stroke_m": 3.6595280048605767,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      6725.525024325017,
+      20084.08149665485
+    ],
+    "source_load_range_lbf": [
+      6704.4,
+      19938.1
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-029",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.002034848215493569,
+    "kinematic_test_rmse_m": 0.0019212974960295176,
+    "fitted_phase_rad": 0.0843228452521082,
+    "fitted_stroke_m": 3.049724575882713,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      7418.364362773319,
+      23275.333941318833
+    ],
+    "source_load_range_lbf": [
+      7490.2,
+      23311.3
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "mesa-030",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.0016994379045831036,
+    "kinematic_test_rmse_m": 0.0019153873762891422,
+    "fitted_phase_rad": 0.08435127407726342,
+    "fitted_stroke_m": 2.5414662160986237,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      8341.253191206863,
+      19825.458140238257
+    ],
+    "source_load_range_lbf": [
+      8422.4,
+      19552.3
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-001",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.010413806976067924,
+    "kinematic_test_rmse_m": 0.01042751923820389,
+    "fitted_phase_rad": 0.09185285605240848,
+    "fitted_stroke_m": 3.0500608469737673,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      2746.877568678184,
+      11170.900408253105
+    ],
+    "source_load_range_lbf": [
+      2715.2,
+      11019.5
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-002",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.0073177522277008845,
+    "kinematic_test_rmse_m": 0.007179089350999765,
+    "fitted_phase_rad": 0.09179673035141477,
+    "fitted_stroke_m": 2.135050798326524,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      4500.110411183484,
+      14472.556658328509
+    ],
+    "source_load_range_lbf": [
+      4490.7,
+      14350.1
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-003",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.0073175853629397925,
+    "kinematic_test_rmse_m": 0.007219178254046817,
+    "fitted_phase_rad": 0.0918653681837962,
+    "fitted_stroke_m": 2.1351441068809343,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      3671.8970537794958,
+      10051.853956022424
+    ],
+    "source_load_range_lbf": [
+      2531.9,
+      11255.9
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-004",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.007307059831301172,
+    "kinematic_test_rmse_m": 0.007175970786256952,
+    "fitted_phase_rad": 0.09180007675088799,
+    "fitted_stroke_m": 2.1349878842038983,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      4426.905369297314,
+      14807.90800186494
+    ],
+    "source_load_range_lbf": [
+      4401.2,
+      14615.7
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-005",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.01031574345559372,
+    "kinematic_test_rmse_m": 0.010321712769536804,
+    "fitted_phase_rad": -6.191390216124196,
+    "fitted_stroke_m": 3.05003165310425,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      3059.0234732803906,
+      12691.713272538866
+    ],
+    "source_load_range_lbf": [
+      3067.4,
+      12618.9
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-006",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.00869136920548302,
+    "kinematic_test_rmse_m": 0.008732427980273844,
+    "fitted_phase_rad": 0.09181191222933148,
+    "fitted_stroke_m": 2.5415976761811914,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      4343.538618651216,
+      15111.176254512378
+    ],
+    "source_load_range_lbf": [
+      2961.5,
+      16591.2
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-007",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.010423762876032742,
+    "kinematic_test_rmse_m": 0.010255460202225888,
+    "fitted_phase_rad": 0.09181722379934121,
+    "fitted_stroke_m": 3.049892535020549,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      3979.4308759250825,
+      12997.890587111206
+    ],
+    "source_load_range_lbf": [
+      4008.3,
+      13139.8
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-008",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.008643105846808705,
+    "kinematic_test_rmse_m": 0.008670811013364567,
+    "fitted_phase_rad": 0.09174352462798806,
+    "fitted_stroke_m": 2.541703373836787,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      4606.256357962351,
+      14897.436559457736
+    ],
+    "source_load_range_lbf": [
+      4381.3,
+      14798.4
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-009",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.010323032106094442,
+    "kinematic_test_rmse_m": 0.010474412696543183,
+    "fitted_phase_rad": -6.191355093047623,
+    "fitted_stroke_m": 3.0502119605607256,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      3609.683383882536,
+      11411.013117234977
+    ],
+    "source_load_range_lbf": [
+      3536.9,
+      11275.1
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-010",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.008648173192580936,
+    "kinematic_test_rmse_m": 0.008620825385362539,
+    "fitted_phase_rad": 0.09186505073226917,
+    "fitted_stroke_m": 2.541680118532533,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      2992.955893829774,
+      11276.749917835703
+    ],
+    "source_load_range_lbf": [
+      3127.1,
+      11116.9
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-011",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.007210883720021829,
+    "kinematic_test_rmse_m": 0.007361701732839501,
+    "fitted_phase_rad": -6.191391653194467,
+    "fitted_stroke_m": 2.1351030490445635,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      3507.795800071267,
+      10128.741353523421
+    ],
+    "source_load_range_lbf": [
+      3462.5,
+      10287.6
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-012",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.008680169777774685,
+    "kinematic_test_rmse_m": 0.008589767131946284,
+    "fitted_phase_rad": -6.191377489172409,
+    "fitted_stroke_m": 2.541758492803451,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      3571.9668784347655,
+      10444.197215052385
+    ],
+    "source_load_range_lbf": [
+      3442.6,
+      10500.5
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-013",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.007334679062736022,
+    "kinematic_test_rmse_m": 0.007323530485122054,
+    "fitted_phase_rad": -6.191325044324795,
+    "fitted_stroke_m": 2.1350474783126816,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      5497.662299263406,
+      17141.308140709694
+    ],
+    "source_load_range_lbf": [
+      5525.0,
+      17146.3
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-014",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.007241203329781858,
+    "kinematic_test_rmse_m": 0.007190855804711314,
+    "fitted_phase_rad": -6.191301872179448,
+    "fitted_stroke_m": 2.1350854767455876,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      4610.577491766579,
+      14454.698453098708
+    ],
+    "source_load_range_lbf": [
+      4571.9,
+      14345.7
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-015",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.008597688778096461,
+    "kinematic_test_rmse_m": 0.008695055837709718,
+    "fitted_phase_rad": -6.191383838614226,
+    "fitted_stroke_m": 2.5418646863775964,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      2847.236657396316,
+      9529.03105587418
+    ],
+    "source_load_range_lbf": [
+      2815.2,
+      9645.6
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-016",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.007267570455525833,
+    "kinematic_test_rmse_m": 0.007310285872917414,
+    "fitted_phase_rad": 0.09185341702862818,
+    "fitted_stroke_m": 2.1351408315735805,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      3833.0425839713107,
+      13972.532184042268
+    ],
+    "source_load_range_lbf": [
+      3949.2,
+      13996.5
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-017",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.0072630916889496015,
+    "kinematic_test_rmse_m": 0.00726964042896895,
+    "fitted_phase_rad": 0.09176030720203703,
+    "fitted_stroke_m": 2.1351467435788862,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      5541.842350482075,
+      17709.503463709232
+    ],
+    "source_load_range_lbf": [
+      5592.0,
+      17549.2
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-018",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.01034127805297489,
+    "kinematic_test_rmse_m": 0.01042028546599738,
+    "fitted_phase_rad": 0.09180246995256142,
+    "fitted_stroke_m": 3.05016445861636,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      4211.273381099042,
+      12979.858300262962
+    ],
+    "source_load_range_lbf": [
+      2763.5,
+      14144.8
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-019",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.01038209996969997,
+    "kinematic_test_rmse_m": 0.010393389731074853,
+    "fitted_phase_rad": 0.09185350662882251,
+    "fitted_stroke_m": 3.0501512457799502,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      3468.2540502408992,
+      11639.365108910391
+    ],
+    "source_load_range_lbf": [
+      3410.3,
+      11479.4
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-020",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.00869664453357357,
+    "kinematic_test_rmse_m": 0.008652574167186662,
+    "fitted_phase_rad": -6.191383814398062,
+    "fitted_stroke_m": 2.541682996869151,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      4491.830492522037,
+      15287.648240475077
+    ],
+    "source_load_range_lbf": [
+      4558.7,
+      15330.8
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-021",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.007306186905344469,
+    "kinematic_test_rmse_m": 0.007334213921172201,
+    "fitted_phase_rad": -6.191324938891611,
+    "fitted_stroke_m": 2.135022515328804,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      4279.690485350436,
+      12340.58756214028
+    ],
+    "source_load_range_lbf": [
+      4320.9,
+      12368.7
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-022",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.00867271347348687,
+    "kinematic_test_rmse_m": 0.008593395577932778,
+    "fitted_phase_rad": 0.09175707406831947,
+    "fitted_stroke_m": 2.541864246233234,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      3590.545972836278,
+      11322.797833547169
+    ],
+    "source_load_range_lbf": [
+      2434.8,
+      12509.3
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-023",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.008666012983213605,
+    "kinematic_test_rmse_m": 0.008627729383558184,
+    "fitted_phase_rad": 0.09184890277233002,
+    "fitted_stroke_m": 2.5418326538012157,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      3151.448311524695,
+      11981.679460967689
+    ],
+    "source_load_range_lbf": [
+      3248.4,
+      12014.3
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-024",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.008667841616275299,
+    "kinematic_test_rmse_m": 0.00869884315267888,
+    "fitted_phase_rad": 0.09179779689105823,
+    "fitted_stroke_m": 2.5419642453779367,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      3120.7826737249893,
+      9821.803318391992
+    ],
+    "source_load_range_lbf": [
+      3088.4,
+      9754.3
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-025",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.00869454584122326,
+    "kinematic_test_rmse_m": 0.008710735637734827,
+    "fitted_phase_rad": 0.09183233320187302,
+    "fitted_stroke_m": 2.54153896640809,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      3870.1485318438768,
+      11711.517449984107
+    ],
+    "source_load_range_lbf": [
+      2817.9,
+      12676.0
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-026",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.00735494333293957,
+    "kinematic_test_rmse_m": 0.007194141471104137,
+    "fitted_phase_rad": -6.191371330997545,
+    "fitted_stroke_m": 2.135154413757419,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      2924.5642409483744,
+      10240.111281529147
+    ],
+    "source_load_range_lbf": [
+      2897.5,
+      10139.8
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-027",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.008647564254606343,
+    "kinematic_test_rmse_m": 0.00857631932758964,
+    "fitted_phase_rad": 0.09178773367405382,
+    "fitted_stroke_m": 2.541833431120723,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      2982.2677249951553,
+      10168.269524975483
+    ],
+    "source_load_range_lbf": [
+      2139.2,
+      11062.6
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-028",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.010322342341489573,
+    "kinematic_test_rmse_m": 0.010462677388098762,
+    "fitted_phase_rad": 0.0918344506717391,
+    "fitted_stroke_m": 3.050102972875899,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      3794.0173927281257,
+      12018.701977839415
+    ],
+    "source_load_range_lbf": [
+      2636.6,
+      13260.8
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-029",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.010362627715065888,
+    "kinematic_test_rmse_m": 0.010471789860922306,
+    "fitted_phase_rad": 0.09188070004371264,
+    "fitted_stroke_m": 3.050128631556743,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      3678.630451579161,
+      14429.50052353914
+    ],
+    "source_load_range_lbf": [
+      3619.9,
+      14488.0
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  },
+  {
+    "asset_id": "delta-030",
+    "train_strokes": 4,
+    "test_strokes": 1,
+    "kinematic_train_rmse_m": 0.010373329620375387,
+    "kinematic_test_rmse_m": 0.010253642199999807,
+    "fitted_phase_rad": 0.0917870053580456,
+    "fitted_stroke_m": 3.0501010477607657,
+    "finite_forward_physics": true,
+    "power_factor_range": [
+      0.8499999999999999,
+      0.8500000000000001
+    ],
+    "forward_load_range_lbf": [
+      3557.8850658067454,
+      14770.088078250597
+    ],
+    "source_load_range_lbf": [
+      3554.8,
+      14699.4
+    ],
+    "status": "KINEMATICS_FITTED_PHYSICS_CHECKED",
+    "field_validated": false
+  }
+]

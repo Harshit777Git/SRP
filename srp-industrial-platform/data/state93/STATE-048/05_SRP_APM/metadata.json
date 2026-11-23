@@ -1,0 +1,7 @@
+{
+  "state_id": "STATE-048",
+  "source_state": "PFL_Gaseous_noisy",
+  "surface_card": null,
+  "downhole_card": null,
+  "reason": "No verified ordered numerical samples extracted"
+}

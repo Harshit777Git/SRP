@@ -1,0 +1,7 @@
+{
+  "state_id": "STATE-040",
+  "source_state": "Light Load Motor",
+  "surface_card": null,
+  "downhole_card": null,
+  "reason": "No verified ordered numerical samples extracted"
+}

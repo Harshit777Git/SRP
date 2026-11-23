@@ -1,0 +1,46 @@
+{
+  "state_id": "STATE-087",
+  "name": "Undertravel",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Undertravel",
+  "source_files": [
+    {
+      "State ID": "STATE-087",
+      "Original State Name": "Undertravel",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Undertravel\\Original TWM\\3_7_TroubleShooting\\Undertravel.001",
+      "Extension": ".001",
+      "Bytes": 277212,
+      "SHA256": "5c4b0a4f3c876dbacbe266fd28804c42347571b5ab5c916b74b246d6ff40bc12",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-087",
+      "Original State Name": "Undertravel",
+      "Application": "QROD",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Undertravel\\QRod reference\\UnderTravel_NoAnchor.qrd",
+      "Extension": ".qrd",
+      "Bytes": 1393,
+      "SHA256": "34ac372d8d78108286247c3c632a63c8f18a74bcfd8f58af5b0d1439fa2be4d7",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "UNSUPPORTED_CONVERSION",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "VENDOR_GUI_ACTION_REQUIRED",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

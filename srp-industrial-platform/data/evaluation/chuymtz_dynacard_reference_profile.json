@@ -1,0 +1,17 @@
+{
+  "dataset_id": "chuymtz-dynacard-everitt-reference",
+  "status": "REFERENCE_PROFILE_ONLY_UNVERIFIED_UNITS_AND_ORIGIN",
+  "source": "Everitt/case1s.mat",
+  "point_count": 456,
+  "all_finite": true,
+  "position_range_raw": 53.94432,
+  "load_range_raw": 7186.9,
+  "closed_loop_area_raw_units_squared": 195500.90763498843,
+  "first_last_delta_raw": [
+    0.012709999999999999,
+    -739.2999999999997
+  ],
+  "adjacent_duplicate_pairs": 0,
+  "training_eligible": false,
+  "note": "Raw numeric diagnostics only; no conversion or physical interpretation because record provenance and units are unverified."
+}

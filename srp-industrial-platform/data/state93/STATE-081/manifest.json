@@ -1,0 +1,46 @@
+{
+  "state_id": "STATE-081",
+  "name": "TBG Fluid Grad",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\TBG Fluid Grad",
+  "source_files": [
+    {
+      "State ID": "STATE-081",
+      "Original State Name": "TBG Fluid Grad",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\TBG Fluid Grad\\Original TWM\\1_3_Surface_Pump_Card_Reference\\TBG Fluid Grad.001",
+      "Extension": ".001",
+      "Bytes": 493013,
+      "SHA256": "4a910ae3855841f14fd4e3d9e17f3712b5d6b6ed74276bb972326f220c2a7d7f",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-081",
+      "Original State Name": "TBG Fluid Grad",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\TBG Fluid Grad\\Original TWM\\1_3_Surface_Pump_Card_Reference\\TBG Fluid Grad.002",
+      "Extension": ".002",
+      "Bytes": 147805,
+      "SHA256": "61e4c997ce1667919d6f67e0ff273a6722f8fc031fc7d6b9292ea98728eae9c9",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "UNSUPPORTED_CONVERSION",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

@@ -1,0 +1,27 @@
+{
+  "label": "FAULT_TYPE_UNDETERMINED",
+  "confidence": null,
+  "evidence": "Calculated downhole card work 1366 J per stroke, 17% of the ideal hydrostatic work. Reduced hydraulic work is consistent with incomplete fillage, gas or leakage.",
+  "model_version": "rules/1.1",
+  "suspected_causes": [
+    {
+      "cause": "Incomplete liquid fillage or restricted supply",
+      "evidence": "Late downstroke load exceeded reference by 5074 N",
+      "basis": "ENGINEERING_HYPOTHESIS"
+    },
+    {
+      "cause": "Gas interference",
+      "evidence": "Late downstroke load exceeded reference by 5074 N",
+      "basis": "ENGINEERING_HYPOTHESIS"
+    }
+  ],
+  "status": "INSUFFICIENT_EVIDENCE",
+  "investigation": "Review stroke quality, operating trend and downhole reconstruction",
+  "stroke_id": 9,
+  "quality": "GOOD",
+  "severity": null,
+  "limitation_flags": [
+    "NO_FIELD_VALIDATION"
+  ],
+  "timestamp": "2026-11-16T11:21:50.106805+00:00"
+}

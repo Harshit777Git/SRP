@@ -1,0 +1,13 @@
+{
+  "state": "STATE-077",
+  "source_files": {
+    "TATE-077_Tagging_Down_Hard_Card_Data.txt": "f324c9749bee2ccfe013776aa2bf47685fd53e71e9bb18140391c3c6822af54b",
+    "Tagging Down Hard_DYN_4294967295_03-13-2003_02-09-20.dyn": "3534bb53331a49622b4e041fcb7403a8c2fe8b19b02d09d7f9e231473c9852bf",
+    "Tagging Down Hard_Summary.pdf": "9763edf680c255b7a7eba2a19688243dae860d76b4661ae9f9d9b05950203625"
+  },
+  "surface_points": 174,
+  "vendor_pump_points": 174,
+  "apm_solver_status": "SOLVED",
+  "apm_database_import": "NOT_RUN",
+  "note": "Numerical APM solver executed directly; application database and UI import not verified"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "srp-industrial-platform",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sim": "vite apps/srp-simulator/frontend --host 0.0.0.0 --port 3001",
+    "apm": "vite apps/srp-apm/frontend --host 0.0.0.0 --port 3002",
+    "build": "tsc --noEmit && vite build apps/srp-simulator/frontend && vite build apps/srp-apm/frontend"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^7.3.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "aedes": "^1.0.0",
+    "typescript": "^5.9.0",
+    "vite": "^7.3.0"
+  }
+}

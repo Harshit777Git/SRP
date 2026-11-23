@@ -1,0 +1,22 @@
+{
+  "wells": 30,
+  "mechanisms": [
+    "incomplete_fillage",
+    "gas_interference",
+    "traveling_valve_leak",
+    "standing_valve_leak",
+    "rod_friction",
+    "pump_wear",
+    "restricted_inflow",
+    "load_cell_drift",
+    "position_sensor_fault",
+    "abnormal_speed"
+  ],
+  "severities": [
+    0.2,
+    0.8
+  ],
+  "cases": 600,
+  "failed": 0,
+  "study": "MATCHED_SYNTHETIC_SENSITIVITY_NOT_DIAGNOSTIC_ACCURACY"
+}

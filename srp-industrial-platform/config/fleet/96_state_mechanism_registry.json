@@ -1,0 +1,1496 @@
+[
+  {
+    "state_id": "STATE-001",
+    "state_name": "Anchored but NOT Set",
+    "base_well_config_id": "WELL_CONFIG_STATE-001",
+    "primary_mechanism": "unanchored_tubing",
+    "secondary_mechanisms": [
+      "tubing_stretch"
+    ],
+    "fault_parameters": {
+      "tubing_anchored": false,
+      "tubing_stiffness_n_m": 3800000.0
+    },
+    "source_test_id": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-001\\05_NUMERICAL_DATA\\TAM\\test_1995-06-07_215400\\Anchored but NOT Set_DYN_4294967295_06-07-1995_21-54-00.dyn",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-001\\01_TAM\\Anchored but NOT Set.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-002",
+    "state_name": "Anchored With Rod Stretch",
+    "base_well_config_id": "WELL_CONFIG_STATE-002",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-002\\05_NUMERICAL_DATA\\TAM\\test_2002-01-11_012908\\Anchored With Rod Stretch_DYN_4294967295_01-11-2002_01-29-08.dyn",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-002\\01_TAM\\Anchored With Rod Stretch.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-003",
+    "state_name": "Asphaltenes in Pump",
+    "base_well_config_id": "WELL_CONFIG_STATE-003",
+    "primary_mechanism": "rod_friction",
+    "secondary_mechanisms": [
+      "coulomb_contact_drag"
+    ],
+    "fault_parameters": {
+      "contact_friction_severity": 0.75
+    },
+    "source_test_id": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-003\\05_NUMERICAL_DATA\\TAM\\test_1997-12-13_045700\\Asphaltenes in Pump_DYN_4294967295_12-13-1997_04-57-00.dyn",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-003\\01_TAM\\Asphaltenes in Pump.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-004",
+    "state_name": "average_well",
+    "base_well_config_id": "WELL_CONFIG_STATE-004",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-004\\05_NUMERICAL_DATA\\TAM\\test_1995-02-25_100152\\average_well_DYN_4294967295_02-25-1995_10-01-52.dyn",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-004\\01_TAM\\average_well.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-005",
+    "state_name": "Bad Tail Bearing",
+    "base_well_config_id": "WELL_CONFIG_STATE-005",
+    "primary_mechanism": "rod_friction",
+    "secondary_mechanisms": [
+      "coulomb_contact_drag"
+    ],
+    "fault_parameters": {
+      "contact_friction_severity": 0.75
+    },
+    "source_test_id": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-005\\05_NUMERICAL_DATA\\TAM\\test_1996-02-22_043000\\Bad Tail Bearing_DYN_4294967295_02-22-1996_04-30-00.dyn",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-005\\01_TAM\\Bad Tail Bearing.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-006",
+    "state_name": "BlockedIntake",
+    "base_well_config_id": "WELL_CONFIG_STATE-006",
+    "primary_mechanism": "restricted_inflow",
+    "secondary_mechanisms": [
+      "intake_pressure_drop"
+    ],
+    "fault_parameters": {
+      "inflow_restriction_ratio": 0.72
+    },
+    "source_test_id": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\BlockedIntake_test-2007-08-16_192307_stroke-1.dyn",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-007",
+    "state_name": "Calculate_PlungerClearance",
+    "base_well_config_id": "WELL_CONFIG_STATE-007",
+    "primary_mechanism": "pump_wear",
+    "secondary_mechanisms": [
+      "annular_poiseuille_slippage"
+    ],
+    "fault_parameters": {
+      "radial_clearance_growth_multiplier": 4.5
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-008",
+    "state_name": "Conventional",
+    "base_well_config_id": "WELL_CONFIG_STATE-008",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-009",
+    "state_name": "Damping_10API",
+    "base_well_config_id": "WELL_CONFIG_STATE-009",
+    "primary_mechanism": "abnormal_speed",
+    "secondary_mechanisms": [
+      "viscous_shear_damping"
+    ],
+    "fault_parameters": {
+      "viscous_damping_multiplier": 2.8
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-010",
+    "state_name": "Damping_High",
+    "base_well_config_id": "WELL_CONFIG_STATE-010",
+    "primary_mechanism": "abnormal_speed",
+    "secondary_mechanisms": [
+      "viscous_shear_damping"
+    ],
+    "fault_parameters": {
+      "viscous_damping_multiplier": 2.8
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-011",
+    "state_name": "Damping_Negative_Acc",
+    "base_well_config_id": "WELL_CONFIG_STATE-011",
+    "primary_mechanism": "abnormal_speed",
+    "secondary_mechanisms": [
+      "viscous_shear_damping"
+    ],
+    "fault_parameters": {
+      "viscous_damping_multiplier": 2.8
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-012",
+    "state_name": "Damping_RodString",
+    "base_well_config_id": "WELL_CONFIG_STATE-012",
+    "primary_mechanism": "abnormal_speed",
+    "secondary_mechanisms": [
+      "viscous_shear_damping"
+    ],
+    "fault_parameters": {
+      "viscous_damping_multiplier": 2.8
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-013",
+    "state_name": "Damping_ShallowWell",
+    "base_well_config_id": "WELL_CONFIG_STATE-013",
+    "primary_mechanism": "abnormal_speed",
+    "secondary_mechanisms": [
+      "viscous_shear_damping"
+    ],
+    "fault_parameters": {
+      "viscous_damping_multiplier": 2.8
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-014",
+    "state_name": "Damping_VeryHigh",
+    "base_well_config_id": "WELL_CONFIG_STATE-014",
+    "primary_mechanism": "abnormal_speed",
+    "secondary_mechanisms": [
+      "viscous_shear_damping"
+    ],
+    "fault_parameters": {
+      "viscous_damping_multiplier": 2.8
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-015",
+    "state_name": "Deep_well",
+    "base_well_config_id": "WELL_CONFIG_STATE-015",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-015\\01_TAM\\Deep_well.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-016",
+    "state_name": "Dyno_CardOptions",
+    "base_well_config_id": "WELL_CONFIG_STATE-016",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-017",
+    "state_name": "Dyno_HydraulicPump",
+    "base_well_config_id": "WELL_CONFIG_STATE-017",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-018",
+    "state_name": "Dyno_Normal_GradientSet_0",
+    "base_well_config_id": "WELL_CONFIG_STATE-018",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-019",
+    "state_name": "DynoChangeSPM",
+    "base_well_config_id": "WELL_CONFIG_STATE-019",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-020",
+    "state_name": "FHMUF814",
+    "base_well_config_id": "WELL_CONFIG_STATE-020",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-021",
+    "state_name": "FlatLoadLineBuoy",
+    "base_well_config_id": "WELL_CONFIG_STATE-021",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-022",
+    "state_name": "FluidPoundUnAnchoredTubing",
+    "base_well_config_id": "WELL_CONFIG_STATE-022",
+    "primary_mechanism": "unanchored_tubing",
+    "secondary_mechanisms": [
+      "tubing_stretch"
+    ],
+    "fault_parameters": {
+      "tubing_anchored": false,
+      "tubing_stiffness_n_m": 3800000.0
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-022\\01_TAM\\FluidPoundUnAnchoredTubing.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-023",
+    "state_name": "Flumping",
+    "base_well_config_id": "WELL_CONFIG_STATE-023",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-023\\01_TAM\\Flumping.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-024",
+    "state_name": "Gas Interference",
+    "base_well_config_id": "WELL_CONFIG_STATE-024",
+    "primary_mechanism": "gas_interference",
+    "secondary_mechanisms": [
+      "polytropic_compression"
+    ],
+    "fault_parameters": {
+      "chamber_gas_fraction": 0.45,
+      "polytropic_exponent": 1.28
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-024\\01_TAM\\Gas Interference.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-025",
+    "state_name": "GasLocked_wTag",
+    "base_well_config_id": "WELL_CONFIG_STATE-025",
+    "primary_mechanism": "tagging_down",
+    "secondary_mechanisms": [
+      "mechanical_contact"
+    ],
+    "fault_parameters": {
+      "bottom_tag_clearance_m": -0.02,
+      "impact_stiffness_n_m": 25000000.0
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-026",
+    "state_name": "GearboxBalance",
+    "base_well_config_id": "WELL_CONFIG_STATE-026",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-026\\01_TAM\\GearboxBalance.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-027",
+    "state_name": "Gunk in Pump",
+    "base_well_config_id": "WELL_CONFIG_STATE-027",
+    "primary_mechanism": "rod_friction",
+    "secondary_mechanisms": [
+      "coulomb_contact_drag"
+    ],
+    "fault_parameters": {
+      "contact_friction_severity": 0.75
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-027\\01_TAM\\Gunk in Pump.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-028",
+    "state_name": "HighSpeed",
+    "base_well_config_id": "WELL_CONFIG_STATE-028",
+    "primary_mechanism": "abnormal_speed",
+    "secondary_mechanisms": [
+      "viscous_shear_damping"
+    ],
+    "fault_parameters": {
+      "viscous_damping_multiplier": 2.8
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-029",
+    "state_name": "INF 1824",
+    "base_well_config_id": "WELL_CONFIG_STATE-029",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-030",
+    "state_name": "Leak Hole In Pump Barrel",
+    "base_well_config_id": "WELL_CONFIG_STATE-030",
+    "primary_mechanism": "pump_wear",
+    "secondary_mechanisms": [
+      "annular_poiseuille_slippage"
+    ],
+    "fault_parameters": {
+      "radial_clearance_growth_multiplier": 4.5
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-030\\01_TAM\\Leak Hole In Pump Barrel.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-031",
+    "state_name": "Leak Pump Barrel Worn",
+    "base_well_config_id": "WELL_CONFIG_STATE-031",
+    "primary_mechanism": "pump_wear",
+    "secondary_mechanisms": [
+      "annular_poiseuille_slippage"
+    ],
+    "fault_parameters": {
+      "radial_clearance_growth_multiplier": 4.5
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-032",
+    "state_name": "Leak Standing Valve",
+    "base_well_config_id": "WELL_CONFIG_STATE-032",
+    "primary_mechanism": "standing_valve_leak",
+    "secondary_mechanisms": [
+      "valve_orifice_leakage"
+    ],
+    "fault_parameters": {
+      "standing_valve_leak_severity": 0.65
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-032\\01_TAM\\Leak Standing Valve.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-033",
+    "state_name": "Leak SV Bad",
+    "base_well_config_id": "WELL_CONFIG_STATE-033",
+    "primary_mechanism": "standing_valve_leak",
+    "secondary_mechanisms": [
+      "valve_orifice_leakage"
+    ],
+    "fault_parameters": {
+      "standing_valve_leak_severity": 0.65
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-034",
+    "state_name": "Leak Tubing Hole",
+    "base_well_config_id": "WELL_CONFIG_STATE-034",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-034\\01_TAM\\Leak Tubing Hole.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-035",
+    "state_name": "Leak Tubing Hole HT",
+    "base_well_config_id": "WELL_CONFIG_STATE-035",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-036",
+    "state_name": "Leak Tubing Hole PRT",
+    "base_well_config_id": "WELL_CONFIG_STATE-036",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-037",
+    "state_name": "Leak TV Unanchored",
+    "base_well_config_id": "WELL_CONFIG_STATE-037",
+    "primary_mechanism": "unanchored_tubing",
+    "secondary_mechanisms": [
+      "tubing_stretch"
+    ],
+    "fault_parameters": {
+      "tubing_anchored": false,
+      "tubing_stiffness_n_m": 3800000.0
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-037\\01_TAM\\Leak TV Unanchored.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-038",
+    "state_name": "Leak TV(best)",
+    "base_well_config_id": "WELL_CONFIG_STATE-038",
+    "primary_mechanism": "traveling_valve_leak",
+    "secondary_mechanisms": [
+      "valve_orifice_leakage"
+    ],
+    "fault_parameters": {
+      "traveling_valve_leak_severity": 0.65
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-039",
+    "state_name": "LeaveCsgValveClosed",
+    "base_well_config_id": "WELL_CONFIG_STATE-039",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-040",
+    "state_name": "Light Load Motor",
+    "base_well_config_id": "WELL_CONFIG_STATE-040",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-041",
+    "state_name": "MarkII",
+    "base_well_config_id": "WELL_CONFIG_STATE-041",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-042",
+    "state_name": "Motor - Burn Up",
+    "base_well_config_id": "WELL_CONFIG_STATE-042",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-043",
+    "state_name": "Need Gas Separator",
+    "base_well_config_id": "WELL_CONFIG_STATE-043",
+    "primary_mechanism": "gas_interference",
+    "secondary_mechanisms": [
+      "polytropic_compression"
+    ],
+    "fault_parameters": {
+      "chamber_gas_fraction": 0.45,
+      "polytropic_exponent": 1.28
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-043\\01_TAM\\Need Gas Separator.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-044",
+    "state_name": "NR-6",
+    "base_well_config_id": "WELL_CONFIG_STATE-044",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-045",
+    "state_name": "PFL_Anomaly",
+    "base_well_config_id": "WELL_CONFIG_STATE-045",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-045\\01_TAM\\PFL_Anomaly.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-046",
+    "state_name": "PFL_DHM_CasingWtChange",
+    "base_well_config_id": "WELL_CONFIG_STATE-046",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-046\\01_TAM\\PFL_DHM_CasingWtChange.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-047",
+    "state_name": "PFL_DHM_CoalBedPerfs",
+    "base_well_config_id": "WELL_CONFIG_STATE-047",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-047\\01_TAM\\PFL_DHM_CoalBedPerfs.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-048",
+    "state_name": "PFL_Gaseous_noisy",
+    "base_well_config_id": "WELL_CONFIG_STATE-048",
+    "primary_mechanism": "gas_interference",
+    "secondary_mechanisms": [
+      "polytropic_compression"
+    ],
+    "fault_parameters": {
+      "chamber_gas_fraction": 0.45,
+      "polytropic_exponent": 1.28
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-048\\01_TAM\\PFL_Gaseous_noisy.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-049",
+    "state_name": "PFL_Gaslift",
+    "base_well_config_id": "WELL_CONFIG_STATE-049",
+    "primary_mechanism": "gas_interference",
+    "secondary_mechanisms": [
+      "polytropic_compression"
+    ],
+    "fault_parameters": {
+      "chamber_gas_fraction": 0.45,
+      "polytropic_exponent": 1.28
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-049\\01_TAM\\PFL_Gaslift.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-050",
+    "state_name": "PFL_High",
+    "base_well_config_id": "WELL_CONFIG_STATE-050",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-050\\01_TAM\\PFL_High.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-051",
+    "state_name": "PFL_High_liquid_low_gas",
+    "base_well_config_id": "WELL_CONFIG_STATE-051",
+    "primary_mechanism": "gas_interference",
+    "secondary_mechanisms": [
+      "polytropic_compression"
+    ],
+    "fault_parameters": {
+      "chamber_gas_fraction": 0.45,
+      "polytropic_exponent": 1.28
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-051\\01_TAM\\PFL_High_liquid_low_gas.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-052",
+    "state_name": "PFL_Imp_Exp",
+    "base_well_config_id": "WELL_CONFIG_STATE-052",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-052\\01_TAM\\PFL_Imp_Exp.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-053",
+    "state_name": "PFL_Liner",
+    "base_well_config_id": "WELL_CONFIG_STATE-053",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-053\\01_TAM\\PFL_Liner.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-054",
+    "state_name": "PFL_Lot of Gas2",
+    "base_well_config_id": "WELL_CONFIG_STATE-054",
+    "primary_mechanism": "gas_interference",
+    "secondary_mechanisms": [
+      "polytropic_compression"
+    ],
+    "fault_parameters": {
+      "chamber_gas_fraction": 0.45,
+      "polytropic_exponent": 1.28
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-054\\01_TAM\\PFL_Lot of Gas2.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-055",
+    "state_name": "PFL_SBHP",
+    "base_well_config_id": "WELL_CONFIG_STATE-055",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-055\\01_TAM\\PFL_SBHP.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-056",
+    "state_name": "PFL_Tubing_anchor",
+    "base_well_config_id": "WELL_CONFIG_STATE-056",
+    "primary_mechanism": "unanchored_tubing",
+    "secondary_mechanisms": [
+      "tubing_stretch"
+    ],
+    "fault_parameters": {
+      "tubing_anchored": false,
+      "tubing_stiffness_n_m": 3800000.0
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-056\\01_TAM\\PFL_Tubing_anchor.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-057",
+    "state_name": "Plunger_Normal Cycle",
+    "base_well_config_id": "WELL_CONFIG_STATE-057",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-057\\01_TAM\\Plunger_Normal Cycle.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-058",
+    "state_name": "PRT Bending Polished Rod",
+    "base_well_config_id": "WELL_CONFIG_STATE-058",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-059",
+    "state_name": "PRT RodRotator",
+    "base_well_config_id": "WELL_CONFIG_STATE-059",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-060",
+    "state_name": "Red Raider 1",
+    "base_well_config_id": "WELL_CONFIG_STATE-060",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-061",
+    "state_name": "ReverseMark",
+    "base_well_config_id": "WELL_CONFIG_STATE-061",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-062",
+    "state_name": "RodPart_3000",
+    "base_well_config_id": "WELL_CONFIG_STATE-062",
+    "primary_mechanism": "rod_parting",
+    "secondary_mechanisms": [
+      "loss_of_tensile_continuity"
+    ],
+    "fault_parameters": {
+      "parting_depth_fraction": 0.65
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-063",
+    "state_name": "RodPart_5365",
+    "base_well_config_id": "WELL_CONFIG_STATE-063",
+    "primary_mechanism": "rod_parting",
+    "secondary_mechanisms": [
+      "loss_of_tensile_continuity"
+    ],
+    "fault_parameters": {
+      "parting_depth_fraction": 0.65
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-063\\01_TAM\\RodPart_5365.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-064",
+    "state_name": "RodPart_NoPlunger",
+    "base_well_config_id": "WELL_CONFIG_STATE-064",
+    "primary_mechanism": "rod_parting",
+    "secondary_mechanisms": [
+      "loss_of_tensile_continuity"
+    ],
+    "fault_parameters": {
+      "parting_depth_fraction": 0.65
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-064\\01_TAM\\RodPart_NoPlunger.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-065",
+    "state_name": "RotoFlex",
+    "base_well_config_id": "WELL_CONFIG_STATE-065",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-066",
+    "state_name": "RotoFlex_Electric",
+    "base_well_config_id": "WELL_CONFIG_STATE-066",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-067",
+    "state_name": "RVOGTA8",
+    "base_well_config_id": "WELL_CONFIG_STATE-067",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-068",
+    "state_name": "RVOGTA8DOWN10MIN",
+    "base_well_config_id": "WELL_CONFIG_STATE-068",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-069",
+    "state_name": "RvogtXa8",
+    "base_well_config_id": "WELL_CONFIG_STATE-069",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-070",
+    "state_name": "Sandia",
+    "base_well_config_id": "WELL_CONFIG_STATE-070",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-071",
+    "state_name": "Stick_Release_Upstroke",
+    "base_well_config_id": "WELL_CONFIG_STATE-071",
+    "primary_mechanism": "rod_friction",
+    "secondary_mechanisms": [
+      "coulomb_contact_drag"
+    ],
+    "fault_parameters": {
+      "contact_friction_severity": 0.75
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-072",
+    "state_name": "StrokeProcessind3",
+    "base_well_config_id": "WELL_CONFIG_STATE-072",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-073",
+    "state_name": "StrokeProcessing",
+    "base_well_config_id": "WELL_CONFIG_STATE-073",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-074",
+    "state_name": "StrokeProcessing1",
+    "base_well_config_id": "WELL_CONFIG_STATE-074",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-075",
+    "state_name": "Stuffing Box",
+    "base_well_config_id": "WELL_CONFIG_STATE-075",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-076",
+    "state_name": "SV_StuckOpenHT",
+    "base_well_config_id": "WELL_CONFIG_STATE-076",
+    "primary_mechanism": "standing_valve_leak",
+    "secondary_mechanisms": [
+      "valve_orifice_leakage"
+    ],
+    "fault_parameters": {
+      "standing_valve_leak_severity": 0.65
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-077",
+    "state_name": "Tagging Down Hard",
+    "base_well_config_id": "WELL_CONFIG_STATE-077",
+    "primary_mechanism": "tagging_down",
+    "secondary_mechanisms": [
+      "mechanical_contact"
+    ],
+    "fault_parameters": {
+      "bottom_tag_clearance_m": -0.02,
+      "impact_stiffness_n_m": 25000000.0
+    },
+    "source_test_id": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-077\\05_NUMERICAL_DATA\\TAM\\test_2003-03-13_020920\\Tagging Down Hard_DYN_4294967295_03-13-2003_02-09-20.dyn",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-077\\01_TAM\\Tagging Down Hard.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-078",
+    "state_name": "Tagging Fiberglass Rods on Downstroke",
+    "base_well_config_id": "WELL_CONFIG_STATE-078",
+    "primary_mechanism": "tagging_down",
+    "secondary_mechanisms": [
+      "mechanical_contact"
+    ],
+    "fault_parameters": {
+      "bottom_tag_clearance_m": -0.02,
+      "impact_stiffness_n_m": 25000000.0
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-078\\01_TAM\\Tagging Fiberglass Rods on Downstroke.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-079",
+    "state_name": "Tagging Hard FG",
+    "base_well_config_id": "WELL_CONFIG_STATE-079",
+    "primary_mechanism": "tagging_down",
+    "secondary_mechanisms": [
+      "mechanical_contact"
+    ],
+    "fault_parameters": {
+      "bottom_tag_clearance_m": -0.02,
+      "impact_stiffness_n_m": 25000000.0
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-080",
+    "state_name": "Tagging Unanchored",
+    "base_well_config_id": "WELL_CONFIG_STATE-080",
+    "primary_mechanism": "unanchored_tubing",
+    "secondary_mechanisms": [
+      "tubing_stretch"
+    ],
+    "fault_parameters": {
+      "tubing_anchored": false,
+      "tubing_stiffness_n_m": 3800000.0
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-080\\01_TAM\\Tagging Unanchored.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-081",
+    "state_name": "TBG Fluid Grad",
+    "base_well_config_id": "WELL_CONFIG_STATE-081",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-082",
+    "state_name": "Trash Sticks SV Open",
+    "base_well_config_id": "WELL_CONFIG_STATE-082",
+    "primary_mechanism": "standing_valve_leak",
+    "secondary_mechanisms": [
+      "valve_orifice_leakage"
+    ],
+    "fault_parameters": {
+      "standing_valve_leak_severity": 0.65
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-082\\01_TAM\\Trash Sticks SV Open.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-083",
+    "state_name": "Trash Sticks TV Open",
+    "base_well_config_id": "WELL_CONFIG_STATE-083",
+    "primary_mechanism": "traveling_valve_leak",
+    "secondary_mechanisms": [
+      "valve_orifice_leakage"
+    ],
+    "fault_parameters": {
+      "traveling_valve_leak_severity": 0.65
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-083\\01_TAM\\Trash Sticks TV Open.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-084",
+    "state_name": "TV Action Erratic",
+    "base_well_config_id": "WELL_CONFIG_STATE-084",
+    "primary_mechanism": "traveling_valve_leak",
+    "secondary_mechanisms": [
+      "valve_orifice_leakage"
+    ],
+    "fault_parameters": {
+      "traveling_valve_leak_severity": 0.65
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-084\\01_TAM\\TV Action Erratic.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-085",
+    "state_name": "TV Double Valve",
+    "base_well_config_id": "WELL_CONFIG_STATE-085",
+    "primary_mechanism": "traveling_valve_leak",
+    "secondary_mechanisms": [
+      "valve_orifice_leakage"
+    ],
+    "fault_parameters": {
+      "traveling_valve_leak_severity": 0.65
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-086",
+    "state_name": "Unaccounted Wellbore Friction",
+    "base_well_config_id": "WELL_CONFIG_STATE-086",
+    "primary_mechanism": "rod_friction",
+    "secondary_mechanisms": [
+      "coulomb_contact_drag"
+    ],
+    "fault_parameters": {
+      "contact_friction_severity": 0.75
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-086\\01_TAM\\Unaccounted Wellbore Friction.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-087",
+    "state_name": "Undertravel",
+    "base_well_config_id": "WELL_CONFIG_STATE-087",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-087\\05_NUMERICAL_DATA\\VENDOR_REFERENCE\\Undertravel_DYN_4294967295_05-05-2004_14-06-57.dyn",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-088",
+    "state_name": "UseBackPressureRequlator",
+    "base_well_config_id": "WELL_CONFIG_STATE-088",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-089",
+    "state_name": "V11",
+    "base_well_config_id": "WELL_CONFIG_STATE-089",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-089\\01_TAM\\V11.TAM_EXP",
+    "verification_status": "PHYSICALLY_CALIBRATED"
+  },
+  {
+    "state_id": "STATE-090",
+    "state_name": "V11_StartUp_AMP_KW",
+    "base_well_config_id": "WELL_CONFIG_STATE-090",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-091",
+    "state_name": "VariableSlippagePump",
+    "base_well_config_id": "WELL_CONFIG_STATE-091",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-092",
+    "state_name": "Well5",
+    "base_well_config_id": "WELL_CONFIG_STATE-092",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-093",
+    "state_name": "Well6",
+    "base_well_config_id": "WELL_CONFIG_STATE-093",
+    "primary_mechanism": "healthy",
+    "secondary_mechanisms": [
+      "nominal_full_fillage"
+    ],
+    "fault_parameters": {
+      "incomplete_fillage_fraction": 0.0,
+      "tubing_anchored": true
+    },
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "CALIBRATION_PENDING"
+  },
+  {
+    "state_id": "STATE-094",
+    "state_name": "UNIDENTIFIED_STATE-094",
+    "base_well_config_id": "WELL_CONFIG_STATE-094",
+    "primary_mechanism": "unidentified_state",
+    "secondary_mechanisms": [],
+    "fault_parameters": {},
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "SOURCE_STATE_NOT_IDENTIFIED"
+  },
+  {
+    "state_id": "STATE-095",
+    "state_name": "UNIDENTIFIED_STATE-095",
+    "base_well_config_id": "WELL_CONFIG_STATE-095",
+    "primary_mechanism": "unidentified_state",
+    "secondary_mechanisms": [],
+    "fault_parameters": {},
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "SOURCE_STATE_NOT_IDENTIFIED"
+  },
+  {
+    "state_id": "STATE-096",
+    "state_name": "UNIDENTIFIED_STATE-096",
+    "base_well_config_id": "WELL_CONFIG_STATE-096",
+    "primary_mechanism": "unidentified_state",
+    "secondary_mechanisms": [],
+    "fault_parameters": {},
+    "source_test_id": "N/A",
+    "tam_exp_path": "",
+    "verification_status": "SOURCE_STATE_NOT_IDENTIFIED"
+  }
+]

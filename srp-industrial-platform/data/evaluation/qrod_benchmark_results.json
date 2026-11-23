@@ -1,0 +1,79 @@
+[
+  {
+    "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\external_reference\\onedrive_2026-11-16_2\\TWM Example Dyno Files\\1_4_QRod_Quick_Rod_Design\\ChangePIP.qrd",
+    "sha256": "fffb3f4b6874fd42cd505fd0f09bce7c76fb5480b24fc5a710acd9b23eca12f8",
+    "status": "REFERENCE_EXPORT_UNAVAILABLE",
+    "numerical_prediction_available": false,
+    "equivalent_inputs_verified": false
+  },
+  {
+    "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\external_reference\\onedrive_2026-11-16_2\\TWM Example Dyno Files\\1_4_QRod_Quick_Rod_Design\\SlowDownTakeOffAnchor.qrd",
+    "sha256": "9d22ed06846b70d0729f04b795ed1533a5a8309ad46273aeeb262ea5c6ea271c",
+    "status": "REFERENCE_EXPORT_UNAVAILABLE",
+    "numerical_prediction_available": false,
+    "equivalent_inputs_verified": false
+  },
+  {
+    "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\external_reference\\onedrive_2026-11-16_2\\TWM Example Dyno Files\\3_7_TroubleShooting\\UnderTravel_NoAnchor.qrd",
+    "sha256": "34ac372d8d78108286247c3c632a63c8f18a74bcfd8f58af5b0d1439fa2be4d7",
+    "status": "REFERENCE_EXPORT_UNAVAILABLE",
+    "numerical_prediction_available": false,
+    "equivalent_inputs_verified": false
+  },
+  {
+    "path": "state/vendor/echometer-session20.zip",
+    "member": "Session 20 TAM and QRod Examples/Fluid Load Function of PIP.qrd",
+    "sha256": "311a5b51505088daa46f4a2329b56fbfdb8ffcc145628ed4bd5b79ba8ecc9581",
+    "status": "REFERENCE_EXPORT_UNAVAILABLE",
+    "numerical_prediction_available": false,
+    "equivalent_inputs_verified": false
+  },
+  {
+    "path": "state/vendor/echometer-session20.zip",
+    "member": "Session 20 TAM and QRod Examples/Hole in Tubing - PIP PFL.qrd",
+    "sha256": "653a14c34c5a7408816b5731cc552a8e1bbd5f3ef933dc07ba94c14936414cfe",
+    "status": "REFERENCE_EXPORT_UNAVAILABLE",
+    "numerical_prediction_available": false,
+    "equivalent_inputs_verified": false
+  },
+  {
+    "path": "state/vendor/echometer-session20.zip",
+    "member": "Session 20 TAM and QRod Examples/Overtravel.qrd",
+    "sha256": "df257bea576487c8208ae89d451ca3bc14a58e9294809a052c8b646c6dc58cb8",
+    "status": "REFERENCE_EXPORT_UNAVAILABLE",
+    "numerical_prediction_available": false,
+    "equivalent_inputs_verified": false
+  },
+  {
+    "path": "state/vendor/echometer-session20.zip",
+    "member": "Session 20 TAM and QRod Examples/SlippageExample.qrd",
+    "sha256": "bc6972b7e4ad44551b027af0db72f6fbfaaa42fbdddd4303682b8d634075b25e",
+    "status": "REFERENCE_EXPORT_UNAVAILABLE",
+    "numerical_prediction_available": false,
+    "equivalent_inputs_verified": false
+  },
+  {
+    "path": "state/vendor/echometer-session20.zip",
+    "member": "Session 20 TAM and QRod Examples/SlowDownTakeOffAnchor.qrd",
+    "sha256": "9d22ed06846b70d0729f04b795ed1533a5a8309ad46273aeeb262ea5c6ea271c",
+    "status": "REFERENCE_EXPORT_UNAVAILABLE",
+    "numerical_prediction_available": false,
+    "equivalent_inputs_verified": false
+  },
+  {
+    "path": "state/vendor/echometer-session20.zip",
+    "member": "Session 20 TAM and QRod Examples/TTU_TestWell.qrd",
+    "sha256": "f42093dafa66daf06b7ff630323a3368e04915ac5573c2dc7799f6d7e0a2adb4",
+    "status": "REFERENCE_EXPORT_UNAVAILABLE",
+    "numerical_prediction_available": false,
+    "equivalent_inputs_verified": false
+  },
+  {
+    "path": "state/vendor/echometer-session20.zip",
+    "member": "Session 20 TAM and QRod Examples/UnderTravel_NoAnchor.qrd",
+    "sha256": "34ac372d8d78108286247c3c632a63c8f18a74bcfd8f58af5b0d1439fa2be4d7",
+    "status": "REFERENCE_EXPORT_UNAVAILABLE",
+    "numerical_prediction_available": false,
+    "equivalent_inputs_verified": false
+  }
+]

@@ -1,0 +1,339 @@
+     MANUFACTURER  C' WEIGHTS   WEIGHT    TYPE      BASE       AUX
+
+       LUFKIN       130RO      4841     MASTER
+       LUFKIN       OOROL      4898     MASTER               OOSL
+       LUFKIN       OORO       3894     MASTER               OOS
+       LUFKIN       OOR        3842     MASTER               OOS
+
+       LUFKIN       ORO        3397     MASTER               OS
+       LUFKIN       OR         3358     MASTER               OS
+       LUFKIN       OARO       2700     MASTER               OAS
+       LUFKIN       1RO        2075     MASTER               1S
+
+       LUFKIN       1R         2036     MASTER               1S
+       LUFKIN       2RO        1708     MASTER               2S
+       LUFKIN       2AR        1430     MASTER               3BS
+       LUFKIN       3CRO       1331     MASTER               3BS
+
+       LUFKIN       3R         1177     MASTER
+       LUFKIN       5ARO        913     MASTER               5A
+       LUFKIN       5A         1025     MASTER               5A
+       LUFKIN       5RO         784     MASTER
+
+       LUFKIN       5CRO        662     MASTER               5C
+       LUFKIN       5C          662     MASTER               5C
+       LUFKIN       6RO         504     MASTER               6
+       LUFKIN       7RO         315     MASTER               7
+
+       LUFKIN       130D       2659       AUX
+       LUFKIN       OOSL       1445       AUX      OOROL
+       LUFKIN       OOS        1175       AUX      OORO
+       LUFKIN       OS         1128       AUX      ORO
+
+       LUFKIN       OAS         836       AUX      OARO
+       LUFKIN       1S          638       AUX      1RO
+       LUFKIN       2S          612       AUX      2RO
+       LUFKIN       3BS         572       AUX      3CRO
+
+       LUFKIN       5A          366       AUX      5ARO
+       LUFKIN       5AS         366       AUX      5ARO
+       LUFKIN       5CS         327       AUX      5CRO
+       LUFKIN       6           190       AUX      6RO
+
+       LUFKIN       7           141       AUX      7RO
+
+
+      AMERICAN       A          250
+      AMERICAN       B          400
+      AMERICAN       D          550
+      AMERICAN       F          715
+
+      AMERICAN       H          870
+      AMERICAN       J         1060
+      AMERICAN       L         1225
+      AMERICAN       N         1560
+
+      AMERICAN       P         1720
+      AMERICAN       R         2060
+      AMERICAN       S         2500
+      AMERICAN       SE-12      483
+
+      AMERICAN       SF16       240
+      AMERICAN       SG        3520
+      AMERICAN       X         3470
+      AMERICAN       PJR OR L  1520
+
+      AMERICAN       RJR OR L  1830
+      AMERICAN       XJR OR L  3180
+      AMERICAN       YJR OR L  4680
+      AMERICAN     T8D57        575
+
+      AMERICAN     T9D78        575
+      AMERICAN     T9D64        130
+      AMERICAN     T9D79        207
+      AMERICAN     T12D-57      550
+
+      AMERICAN     T12D-57-1    550
+      AMERICAN     T12D56       240
+      AMERICAN     T13F         110
+      AMERICAN     T13F26       300
+
+      AMERICAN     T14A-52      770
+      AMERICAN     T14A-52-1    770
+      AMERICAN     T14A53       380
+      AMERICAN     T17A-57      995
+
+      AMERICAN     T17A-57-1    995
+      AMERICAN     T17A58       615
+      AMERICAN     T20A57      1100
+      AMERICAN     T20A58       830
+
+      AMERICAN     T25F         200
+      AMERICAN     T25F58       600
+      AMERICAN     T27A57      1400
+      AMERICAN     T27A58      1240
+
+      AMERICAN     T36F         760
+      AMERICAN     T36F6       1810
+
+      BETHLEHEM     #95        2925     MASTER
+      BETHLEHEM     #78        2550     MASTER
+      BETHLEHEM     #68        2490     MASTER
+      BETHLEHEM     #50        2305     MASTER
+      
+      BETHLEHEM     #95        7515       AUX
+      BETHLEHEM     #78        7425       AUX
+      BETHLEHEM     #68        7318       AUX
+      BETHLEHEM     #50        7305       AUX
+
+      #17337 CRANKS, 17338-41 WTS
+
+      BETHLEHEM     HEAVY      3300     1 MASTER & AUX 
+      BETHLEHEM     STANDARD   2543     1 MASTER   
+      BETHLEHEM     LIGHT      2043     1 MASTER & CLAMP 
+
+      #17393 CRANKS, 17394-97 WTS
+
+      BETHLEHEM     HEAVY      4433     1 MASTER & AUX
+      BETHLEHEM     STANDARD   3398     1 MASTER      
+      BETHLEHEM     LIGHT      2685     1 MASTER & CLAMP 
+
+      #17075 CRANKS, 17080, 17090, 17091, 17103 WTS, 17119 FILLERS 
+
+      BETHLEHEM     HEAVY      2643     1 MASTER & AUX
+      BETHLEHEM     STANDARD   1978     1 MASTER
+      BETHLEHEM     LIGHT      1548     1 MASTER & CLAMP 
+
+      #17170 CRANKS, 17166-69 WTS, 17171 FILLERS
+
+      BETHLEHEM     HEAVY      2310     1 MASTER & AUX
+      BETHLEHEM     STANDARD   1760     1 MASTER
+      BETHLEHEM     LIGHT      1388     1 MASTER & CLAMP
+
+      BETHLEHEM     LEAF        110     #5533
+      BETHLEHEM     BEAM        400     #7152A
+
+      BIG M         114        1325     MASTER      570 AUX
+      BIG M         114        1400     MASTER      609 AUX
+      BIG M                     130     BEAM
+
+      CABOT         A-2910     2135     MASTER
+      CABOT         3 3/4"      737       AUX
+      CABOT         1 1/2"      295       AUX
+      
+      CMI           507-7527   1724     MASTER
+      CMI           507-7526   1724     MASTER
+      CMI           507-7502   1337     MASTER
+      CMI           507-7501   1337     MASTER
+      
+      CMI           507-7577   1576     MASTER
+      CMI           507-7576   1576     MASTER
+      CMI           507-7508    830     MASTER
+      CMI           507-7507    830     MASTER
+
+      CMI           507-7556    916     MASTER
+      CMI           507-7555    916     MASTER
+      CMI           507-7522    585     MASTER
+      CMI           507-7521    585     MASTER
+
+      CMI           507-7573   1262     MASTER
+      CMI           507-7572   1262     MASTER
+      CMI           507-7546    415     MASTER
+      CMI           507-7545    415     MASTER
+
+      CMI           507-7541   1050       AUX
+      CMI           507-7534   1050       AUX
+      CMI           507-7529    525       AUX
+      CMI           507-7528   1050       AUX
+
+      CMI           507-7538    710       AUX
+      CMI           507-7531    710       AUX
+      CMI           507-7506    355       AUX
+      CMI           507-7505    710       AUX
+
+      CMI           507-7568    668       AUX
+      CMI           507-7567    668       AUX
+      CMI           507-7566    334       AUX
+      CMI           507-7565    668       AUX
+
+      CMI           507-7539    410       AUX
+      CMI           507-7532    410       AUX
+      CMI           507-7512    205       AUX
+      CMI           507-7511    410       AUX
+
+      CMI           507-7540    270       AUX
+      CMI           507-7533    270       AUX
+      CMI           507-7524    135       AUX
+      CMI           507-7523    270       AUX
+
+      CMI           507-7571    528       AUX
+      CMI           507-7570    528       AUX
+      CMI           507-7569    264       AUX
+      CMI           507-7562    528       AUX
+
+      CMI           507-7553    270       AUX
+      CMI           507-7552    270       AUX
+      CMI           507-7547    135       AUX
+      CMI           507-7548    270       AUX
+
+      DARCO         1          5460     MASTER
+      DARCO         2          4380     MASTER
+      DARCO         3          3750     MASTER
+      DARCO         4          3395     MASTER
+
+      DARCO         5          2755     MASTER
+      DARCO         6          2200     MASTER
+      DARCO         7          1650     MASTER
+      DARCO         8          1100     MASTER
+
+      IDECO         WH-1H      1031     MASTER
+      IDECO         WH-1        384       AUX
+
+      JENSEN        57          355     MASTER      
+      JENSEN        14          515     MASTER
+      JENSEN        114         900     MASTER
+      JENSEN        22         1400     MASTER
+      JENSEN        320        1730     MASTER
+
+      LEGRAND       7095       1690     MASTER
+
+      LINDSAY       114         750     MASTER
+      LINDSAY       160        1000     MASTER
+      LINDSAY       228        1250     MASTER
+      LINDSAY       320        1750     MASTER
+
+      LINDSAY       456        3400     MASTER
+      LINDSAY       640        5650     MASTER
+  
+      NATIONAL      1040026    1760     ESTIMATED (K1)
+      NATIONAL      1040027    1550     ESTIMATED (K2)
+
+      NATIONAL TYPE TU COUNTERWEIGHTS
+
+      NATIONAL      OW-8       1926     MASTER
+      NATIONAL      RD-19       500     MASTER
+      NATIONAL      RY-18       650     MASTER
+      NATIONAL      OP-27      1373     MASTER
+
+      NATIONAL      RN-35      1625     MASTER
+      NATIONAL      OR-27      1530     MASTER       
+      NATIONAL      OT-23      2356     MASTER
+      NATIONAL      RK-36      1225     MASTER
+
+      NATIONAL      OZ-10      1160     MASTER
+      NATIONAL      OF-42      1620     MASTER
+      NATIONAL      PV-39-A     410     BEAM
+      NATIONAL      RY-38-A     450     BEAM
+
+      NATIONAL      RU-41-A     385     BEAM
+      NATIONAL      PM-41-A     250     BEAM
+      NATIONAL      PM-70-A     350     BEAM
+
+      NATIONAL TYPE D COUNTERWEIGHTS
+
+      NATIONAL      OR-27      1530     MASTER
+      NATIONAL      OW-8       1925     MASTER
+      NATIONAL      OT-23      2350     MASTER
+      NATIONAL      OH-30      1620     MASTER
+
+      NATIONAL      OF-42      2000     MASTER
+      NATIONAL      OF-67      2700     MASTER
+      NATIONAL      SY-26      3330     MASTER
+      NATIONAL      RW-26      4510     MASTER
+
+      NATIONAL      OR-24      1240     MASTER
+      NATIONAL      SR-25      1240     MASTER
+      NATIONAL      SN-48      1730     MASTER
+      NATIONAL      SY-25      2350     MASTER
+
+      NATIONAL      RW-25      3910     MASTER
+      NATIONAL      RD-19       860     MASTER
+      NATIONAL      QA-64-A     225     BEAM
+      NATIONAL      1007180     100     BEAM
+
+      NATIONAL      SE-22-A     310     BEAM
+      NATIONAL      RU-41-A     385     BEAM
+      NATIONAL      RD-143-A    560     BEAM
+
+      NATIONAL TYPE E COUNTERWEIGHTS
+
+      NATIONAL      1009680     125     BEAM
+      NATIONAL      1012182     400     BEAM
+      NATIONAL      1014682     500     BEAM
+
+      NATIONAL TYPE F COUNTERWEIGHTS
+
+      NATIONAL      1040027    1487     MASTER
+      NATIONAL      1118802    1555     MASTER
+      NATIONAL      1111302     745     MASTER
+      NATIONAL      1037054     649     
+
+      NATIONAL      1111312     738     
+      NATIONAL      1113812    1035     
+      NATIONAL      1121302    1900     
+      NATIONAL      1123812    2030     
+
+      NATIONAL      1123802    1080     
+      NATIONAL      1116252    1240     
+      NATIONAL      1038023    1005     MASTER
+      NATIONAL      1038024     863     AUX
+
+      NATIONAL      10370537    805     
+
+      OCS           9240        480     MASTER
+      OCS           9240A       315     MASTER
+      OCS           9240B       315     MASTER
+      OCS           9240C       480     MASTER
+
+      OCS           37176       735     MASTER
+      OCS           37177       110       AUX
+      OCS           9238         75       AUX
+
+      PARKERSBURG   A           376     WING WEIGHT 
+      PARKERSBURG   B           746     WING WEIGHT
+      PARKERSBURG   1           807     WING & CLAMP
+      PARKERSBURG   2           989     WING & CLAMP
+
+      PARKERSBURG   3           1374    WING & CLAMP
+      PARKERSBURG   1           337       AUX
+      PARKERSBURG   2           436       AUX
+      PARKERSBURG   3           756       AUX
+
+      PARKERSBURG   B374114      84       AUX SLUG
+      PARKERSBURG   B374113     124       AUX SLUG
+
+      SENTRY        #5         2551      MAIN
+      SENTRY        #4         1915      MAIN
+      SENTRY        #3         1387      MAIN
+      SENTRY        #1          840      MAIN
+
+      SENTRY        #0          768      MAIN
+      SENTRY        #5         1258       AUX
+      SENTRY        #4         1055       AUX
+      SENTRY        #3          728       AUX
+
+      SENTRY        #1          324       AUX
+
+To calculate the weight (lbs) of counterweights not 
+listed determine the volume of the counterweight 
+in cubic inches and multiply by 0.3

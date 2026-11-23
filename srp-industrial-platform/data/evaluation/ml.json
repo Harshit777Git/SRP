@@ -1,0 +1,189 @@
+{
+  "origin": "SIMULATED",
+  "split": {
+    "train": "SRP_001",
+    "calibration": "SRP_002",
+    "test": "SRP_003"
+  },
+  "dataset_sha256": "b186501ac13be07565bdb6b8921d8f95944dbc121ad7b7197e5d06702e090b2b",
+  "tabular": {
+    "samples": 12,
+    "accuracy": 0.6666666666666666,
+    "macro_f1": 0.5555555555555555,
+    "by_class": {
+      "gas_interference": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "healthy": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 4.0
+      },
+      "traveling_valve_leak": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1-score": 0.6666666666666666,
+        "support": 4.0
+      },
+      "accuracy": 0.6666666666666666,
+      "macro avg": {
+        "precision": 0.5,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.5555555555555555,
+        "support": 12.0
+      },
+      "weighted avg": {
+        "precision": 0.5,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.5555555555555555,
+        "support": 12.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        4,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        4
+      ],
+      [
+        0,
+        0,
+        4
+      ]
+    ],
+    "calibration_bins": [
+      {
+        "n": 8,
+        "mean_confidence": 0.4986216016418164,
+        "accuracy": 0.5
+      },
+      {
+        "n": 4,
+        "mean_confidence": 0.6209392109929863,
+        "accuracy": 1.0
+      }
+    ],
+    "expected_calibration_error": 0.12727252857446028,
+    "abstention_fraction": 1.0,
+    "mean_batch_inference_ms": 2.513308330283811,
+    "labels": [
+      "gas_interference",
+      "healthy",
+      "traveling_valve_leak"
+    ],
+    "predictions": [
+      "gas_interference",
+      "traveling_valve_leak",
+      "traveling_valve_leak",
+      "gas_interference",
+      "traveling_valve_leak",
+      "traveling_valve_leak",
+      "gas_interference",
+      "traveling_valve_leak",
+      "traveling_valve_leak",
+      "gas_interference",
+      "traveling_valve_leak",
+      "traveling_valve_leak"
+    ]
+  },
+  "domain_aware_test_abstention_fraction": 1.0,
+  "longitudinal_metrics": {
+    "false_alarms_per_day": null,
+    "detection_latency": null,
+    "reason": "isolated steady-state strokes have no monitored day or onset trajectory"
+  },
+  "cnn": {
+    "temperature": 10.0,
+    "samples": 12,
+    "accuracy": 0.3333333333333333,
+    "macro_f1": 0.16666666666666666,
+    "by_class": {
+      "gas_interference": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "f1-score": 0.5,
+        "support": 4.0
+      },
+      "healthy": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 4.0
+      },
+      "traveling_valve_leak": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 4.0
+      },
+      "accuracy": 0.3333333333333333,
+      "macro avg": {
+        "precision": 0.1111111111111111,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.16666666666666666,
+        "support": 12.0
+      },
+      "weighted avg": {
+        "precision": 0.1111111111111111,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.16666666666666666,
+        "support": 12.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        4,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        0
+      ]
+    ],
+    "calibration_bins": [
+      {
+        "n": 12,
+        "mean_confidence": 0.9941256642341614,
+        "accuracy": 0.3333333333333333
+      }
+    ],
+    "expected_calibration_error": 0.6607923309008281,
+    "abstention_fraction": 0.0,
+    "mean_batch_inference_ms": 0.4657500054842482,
+    "labels": [
+      "gas_interference",
+      "healthy",
+      "traveling_valve_leak"
+    ],
+    "predictions": [
+      "gas_interference",
+      "gas_interference",
+      "gas_interference",
+      "gas_interference",
+      "gas_interference",
+      "gas_interference",
+      "gas_interference",
+      "gas_interference",
+      "gas_interference",
+      "gas_interference",
+      "gas_interference",
+      "gas_interference"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "state_id": "STATE-077",
+  "name": "Tagging Down Hard",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Tagging Down Hard",
+  "source_files": [
+    {
+      "State ID": "STATE-077",
+      "Original State Name": "Tagging Down Hard",
+      "Application": "TAM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Tagging Down Hard\\Original TAM\\Tagging Down Hard.TAM_EXP",
+      "Extension": ".TAM_EXP",
+      "Bytes": 412916,
+      "SHA256": "d14a92d3e7dd87c342f522616d5b244f6f84eea9e31987f95047ee90364a8be2",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-077",
+      "Original State Name": "Tagging Down Hard",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Tagging Down Hard\\Original TWM\\1_8_Dyno_Analysis_Advanced\\Tagging Down Hard.001",
+      "Extension": ".001",
+      "Bytes": 565694,
+      "SHA256": "75aacc3ea081489d8a4fe59bb66261aafd1995ac58a3743e0ee0d3c5fe8578ff",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-077",
+      "Original State Name": "Tagging Down Hard",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Tagging Down Hard\\Original TWM\\2_3_ControlRunTime\\Tagging Down Hard.001",
+      "Extension": ".001",
+      "Bytes": 565694,
+      "SHA256": "75aacc3ea081489d8a4fe59bb66261aafd1995ac58a3743e0ee0d3c5fe8578ff",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-077",
+      "Original State Name": "Tagging Down Hard",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Tagging Down Hard\\Original TWM\\Tagging Down Hard.001",
+      "Extension": ".001",
+      "Bytes": 565694,
+      "SHA256": "75aacc3ea081489d8a4fe59bb66261aafd1995ac58a3743e0ee0d3c5fe8578ff",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "VENDOR_GUI_ACTION_REQUIRED",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

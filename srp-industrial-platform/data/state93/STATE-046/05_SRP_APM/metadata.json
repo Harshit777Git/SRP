@@ -1,0 +1,7 @@
+{
+  "state_id": "STATE-046",
+  "source_state": "PFL_DHM_CasingWtChange",
+  "surface_card": null,
+  "downhole_card": null,
+  "reason": "No verified ordered numerical samples extracted"
+}

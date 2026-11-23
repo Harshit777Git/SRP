@@ -1,0 +1,14 @@
+[
+  {
+    "benchmark_duration_s": 15,
+    "startup_s": 34.97054250002839,
+    "active_wells": 30,
+    "published_delta": 300,
+    "published_messages_per_s": 20.0,
+    "dropped_delta": 0,
+    "topic_count": 60,
+    "queued_before": 1244,
+    "queued_after": 9882,
+    "ack_lag_after_s": 36.0666229724884
+  }
+]

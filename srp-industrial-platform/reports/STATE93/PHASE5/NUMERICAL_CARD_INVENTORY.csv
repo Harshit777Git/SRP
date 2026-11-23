@@ -1,0 +1,7 @@
+﻿State ID,State,Test ID,Selected stroke ID,Surface points,Vendor Pump points,APM Pump points,TXT/DYN surface agreement,Source manifest
+STATE-001,Anchored but NOT Set,1995-06-07_215400,4,251,251,0,True,C:\Users\HARSHIT\OneDrive - TAS\Desktop\SRP\srp-industrial-platform\data\state93\STATE-001\09_VALIDATION\phase5_manifest.json
+STATE-002,Anchored With Rod Stretch,2002-01-11_012908,99,271,271,0,True,C:\Users\HARSHIT\OneDrive - TAS\Desktop\SRP\srp-industrial-platform\data\state93\STATE-002\09_VALIDATION\phase5_manifest.json
+STATE-003,Asphaltenes in Pump,1997-12-13_045700,1,183,183,0,True,C:\Users\HARSHIT\OneDrive - TAS\Desktop\SRP\srp-industrial-platform\data\state93\STATE-003\09_VALIDATION\phase5_manifest.json
+STATE-004,average_well,1995-02-25_100152,7,140,140,0,True,C:\Users\HARSHIT\OneDrive - TAS\Desktop\SRP\srp-industrial-platform\data\state93\STATE-004\09_VALIDATION\phase5_manifest.json
+STATE-005,Bad Tail Bearing,1996-02-22_043000,5,179,179,0,True,C:\Users\HARSHIT\OneDrive - TAS\Desktop\SRP\srp-industrial-platform\data\state93\STATE-005\09_VALIDATION\phase5_manifest.json
+STATE-077,Tagging Down Hard,2003-03-13_020920,1 (pilot identity),174,174,174,True,C:\Users\HARSHIT\OneDrive - TAS\Desktop\SRP\srp-industrial-platform\data\STATE93\pilot\STATE-077\source_manifest.json

@@ -1,0 +1,25 @@
+{
+  "source": "data\\training\\real_labeled\\field_strokes.csv",
+  "ready": false,
+  "eligible_strokes": 0,
+  "eligible_wells": 0,
+  "class_counts": {},
+  "rejected": [],
+  "required_columns": [
+    "well_id",
+    "run_id",
+    "stroke_id",
+    "source_file_sha256",
+    "measured_origin",
+    "surface_load_unit",
+    "surface_position_unit",
+    "sample_count",
+    "label",
+    "label_evidence",
+    "evidence_date",
+    "reviewer",
+    "training_permission",
+    "equipment_configuration_id"
+  ],
+  "reason": "No measured, independently labeled field stroke manifest is present."
+}

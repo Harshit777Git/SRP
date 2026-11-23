@@ -1,0 +1,24 @@
+{
+  "origin": "MATCHED_SIMULATOR_FORWARD_TRUTH_NOT_INDEPENDENT_FIELD_REFERENCE",
+  "matched_cards": 57,
+  "load_rmse_fraction": {
+    "median": 0.012166781264751982,
+    "p95": 0.0710311610095735,
+    "max": 0.1427769351011379
+  },
+  "displacement_centered_rmse_m": {
+    "median": 0.0027992957454621,
+    "p95": 0.04858539099421982,
+    "max": 0.15738530568730993
+  },
+  "card_area_error_fraction": {
+    "median": 0.0036682114516794297,
+    "p95": 0.2124383673534429,
+    "max": 0.4198151743974681
+  },
+  "absolute_phase_error_deg": {
+    "median": 0.04150403503174649
+  },
+  "measured_or_vendor_matched_cases": 0,
+  "production_error": "UNAVAILABLE_NO_INDEPENDENT_MEASURED_PRODUCTION"
+}

@@ -1,0 +1,80 @@
+{
+  "state": "C:\\Users\\HARSHIT\\AppData\\Local\\Temp\\srp-phase31-sites-xxcsk8ay",
+  "stages": [
+    {
+      "active_wells": 5,
+      "duration_s": 10.090849399799481,
+      "broker_ack_rate_per_s": 314.4433014789669,
+      "apm_persist_rate_per_s": 255.47898872132888,
+      "queued_before": 17,
+      "queued_after": 0,
+      "dropped_delta": 0,
+      "rejected_delta": 0,
+      "processing_error_delta": 0,
+      "ram_before_bytes": 467369984,
+      "ram_after_bytes": 485937152,
+      "cpu_core_equivalents": {
+        "broker": 0.10529341563863924,
+        "apm": 0.1378104998799837,
+        "US_TX_MIDLAND": 0.33600987049389286,
+        "US_NM_DELAWARE": 0.006193730331684661,
+        "US_ND_WILLISTON": 0.00929059549752699,
+        "US_OK_ANADARKO": 0.007742162914605826,
+        "US_CO_DJ": 0.0030968651658423306,
+        "US_TX_EAGLEFORD": 0.007742162914605826
+      }
+    }
+  ],
+  "recovery": {
+    "before": 1,
+    "during": 928,
+    "after": 3,
+    "sent_after_restart": 6182,
+    "apm_accepted_after_restart": 5078,
+    "drops": 0,
+    "final_queued": 0,
+    "final_apm_accepted": 7737,
+    "drained": true
+  },
+  "persisted_samples": 7737,
+  "completed_cards": 15,
+  "persisted_wells": 5,
+  "observed_sequence_gaps": 0,
+  "per_asset": [
+    {
+      "asset_id": "TX-MID-001",
+      "samples": 1568,
+      "min_sequence": 0,
+      "max_sequence": 1567,
+      "run_count": 1
+    },
+    {
+      "asset_id": "TX-MID-002",
+      "samples": 1556,
+      "min_sequence": 0,
+      "max_sequence": 1555,
+      "run_count": 1
+    },
+    {
+      "asset_id": "TX-MID-003",
+      "samples": 1548,
+      "min_sequence": 0,
+      "max_sequence": 1547,
+      "run_count": 1
+    },
+    {
+      "asset_id": "TX-MID-004",
+      "samples": 1537,
+      "min_sequence": 0,
+      "max_sequence": 1536,
+      "run_count": 1
+    },
+    {
+      "asset_id": "TX-MID-005",
+      "samples": 1528,
+      "min_sequence": 0,
+      "max_sequence": 1527,
+      "run_count": 1
+    }
+  ]
+}

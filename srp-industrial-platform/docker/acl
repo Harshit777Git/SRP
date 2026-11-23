@@ -1,0 +1,12 @@
+user simulator
+topic write srp/v1/+/telemetry/+
+topic write srp/v1/+/events/stroke
+topic write srp/v1/+/status
+topic write srp/v1/+/simulation/ground_truth
+
+user apm
+topic read srp/v1/+/telemetry/dynamometer
+topic read srp/v1/+/telemetry/electrical
+topic read srp/v1/+/telemetry/pressure
+topic read srp/v1/+/events/stroke
+topic read srp/v1/+/status

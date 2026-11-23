@@ -1,0 +1,7 @@
+{
+  "state_id": "STATE-014",
+  "source_state": "Damping_VeryHigh",
+  "surface_card": null,
+  "downhole_card": null,
+  "reason": "No verified ordered numerical samples extracted"
+}

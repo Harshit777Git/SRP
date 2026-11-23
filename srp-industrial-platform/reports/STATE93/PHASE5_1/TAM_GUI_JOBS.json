@@ -1,0 +1,33 @@
+{
+  "states": {
+    "STATE-006": {
+      "2007-08-16_192600": {
+        "reported_strokes": 14,
+        "pilot_stroke": 0,
+        "well": "BlockedIntake",
+        "test_display": "08/16/2007 07:26:00PM",
+        "history_row": 2,
+        "history_total_rows": 3,
+        "tab_click_sequence": "0.659,0.659,0.432",
+        "source": "TAM Express TWM Import from original BlockedIntake.019",
+        "imported_tests_reported": 4,
+        "imported_dyn_tests_reported": 2,
+        "zero_stroke_valve_test_excluded": true
+      },
+      "2007-08-16_192307": {
+        "reported_strokes": 18,
+        "pilot_stroke": 0,
+        "well": "BlockedIntake",
+        "test_display": "08/16/2007 07:23:07PM",
+        "history_row": 3,
+        "history_total_rows": 3,
+        "tab_click_sequence": [
+          0.659,
+          0.659,
+          0.432,
+          0.432
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "state_id": "STATE-031",
+  "name": "Leak Pump Barrel Worn",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Leak Pump Barrel Worn",
+  "source_files": [
+    {
+      "State ID": "STATE-031",
+      "Original State Name": "Leak Pump Barrel Worn",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Leak Pump Barrel Worn\\Original TWM\\1_8_Dyno_Analysis_Advanced\\Leak Pump Barrel Worn.004",
+      "Extension": ".004",
+      "Bytes": 320519,
+      "SHA256": "36aaae852ecd4ea74aa967b2a2b1d4272825ccabf4d642333c621269c8c8c77c",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "UNSUPPORTED_CONVERSION",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

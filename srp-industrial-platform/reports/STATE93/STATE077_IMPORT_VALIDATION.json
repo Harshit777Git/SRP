@@ -1,0 +1,49 @@
+{
+  "database": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\state\\state93\\apm.db",
+  "asset_id": "STATE-077",
+  "stroke_id": "1",
+  "version": "faa955c2ea369d59",
+  "rows_before": 3,
+  "rows_after": 3,
+  "second_import_created_duplicate": false,
+  "readback_passed": true,
+  "surface_points": 174,
+  "vendor_pump_points": 174,
+  "apm_pump_points": 174,
+  "source_audit": {
+    "points": 174,
+    "surface_position_max_difference_in": 0.0,
+    "surface_load_max_difference_lbf": 0.005999999997584382,
+    "summary_pages": 6,
+    "source_files": [
+      {
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\pilot\\Tagging Down Hard\\original\\user_exports\\TATE-077_Tagging_Down_Hard_Card_Data.txt",
+        "sha256": "f324c9749bee2ccfe013776aa2bf47685fd53e71e9bb18140391c3c6822af54b",
+        "bytes": 7103
+      },
+      {
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\pilot\\Tagging Down Hard\\original\\user_exports\\Tagging Down Hard_DYN_4294967295_03-13-2003_02-09-20.dyn",
+        "sha256": "3534bb53331a49622b4e041fcb7403a8c2fe8b19b02d09d7f9e231473c9852bf",
+        "bytes": 3773
+      },
+      {
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\pilot\\Tagging Down Hard\\original\\user_exports\\Tagging Down Hard_Summary.pdf",
+        "sha256": "9763edf680c255b7a7eba2a19688243dae860d76b4661ae9f9d9b05950203625",
+        "bytes": 183913
+      }
+    ]
+  },
+  "metrics": {
+    "load_rmse_lbf": 627.3106625247694,
+    "load_mae_lbf": 559.5822183278813,
+    "displacement_rmse_in": 1.4218893705299334,
+    "displacement_mae_in": 1.3715657574612647,
+    "stroke_length_error_in": -0.14298107072195876,
+    "card_area_error_percent": 5.4438532531811195,
+    "maximum_load_difference_lbf": 746.437851339364,
+    "minimum_load_difference_lbf": 1055.252636035516,
+    "load_correlation": 0.9931106249645918,
+    "best_circular_shift_samples": 0,
+    "phase_basis": "ORDERED_SAMPLE_INDEX; TIMEBASE_ESTIMATED_FROM_SPM"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "provenance": {
+    "state_id": "STATE-045",
+    "source_archive": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-045\\01_TAM\\PFL_Anomaly.TAM_EXP",
+    "source_sha256": "45b530a7936ab37dfb4b8796395d7486a1cf07db50d6f6ea1afee5d641d1db78",
+    "source_bytes": 5247,
+    "extracted_utc": "2026-11-18T04_44_29Z",
+    "method": "lossless extraction of vendor metadata.json and TestResults.json",
+    "synthetic_data": false
+  },
+  "tests": [
+    {
+      "DateTime": "2000-12-07T16:28:00Z",
+      "LastModified": "2000-12-07T16:28:00Z",
+      "Type": "DYN",
+      "NumValues": {
+        "Beam Loading": 84.62300565507677,
+        "Polished Rod Power": 21.509238619728496,
+        "Rated Current": 91.0
+      },
+      "StrValues": {
+        "Out of Balance": "Unknown",
+        "To Balance Move": "Loading cannot be balanced, must add weights to balance"
+      }
+    },
+    {
+      "DateTime": "2000-12-07T16:19:56Z",
+      "LastModified": "2000-12-07T16:19:56Z",
+      "Type": "DYN",
+      "NumValues": {
+        "Beam Loading": 83.85121822357178,
+        "Polished Rod Power": 21.609284183747857,
+        "Rated Current": 91.0
+      },
+      "StrValues": {
+        "Out of Balance": "Unknown",
+        "To Balance Move": "Loading cannot be balanced, must add weights to balance"
+      }
+    }
+  ],
+  "note": "Exact vendor result values only; invalid/sentinel values are preserved and no units are inferred."
+}

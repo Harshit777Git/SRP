@@ -1,0 +1,60 @@
+{
+  "dataset_id": "twm-ui-example-export-20261117",
+  "source": "Installed Echometer TWM Recall Mode export",
+  "source_application": "Echometer Total Well Management",
+  "source_archive": "C:\\Users\\HARSHIT\\Downloads\\OneDrive_2026-11-16 (2).zip",
+  "source_archive_sha256": "be9c65a61c26cbf420f05a6761ca8a713239afe06fcf288652b4b9fc57e2b1b4",
+  "base_well": "Examples",
+  "selection": "All Valid Dates; all data sets in Examples group",
+  "result_module": "Dynamometer",
+  "selected_results": [
+    "Pump Displacement",
+    "PPRL",
+    "MPRL",
+    "SPM",
+    "Effective Plunger Stroke",
+    "Pump Volumetric Fillage"
+  ],
+  "delimiter": "comma",
+  "export_date": "2026-11-17",
+  "file": "data/external_reference/twm_export_20261117.csv",
+  "sha256": "9d8a6da7ba2bdab9be58adbcf4018f4ac7955a943f5bf10c4336d8fc1154365f",
+  "data_rows": 45,
+  "columns": [
+    "Well",
+    "Date",
+    "Pump Displacement (BBL/D)",
+    "PPRL (lb)",
+    "MPRL (lb)",
+    "SPM (spm)",
+    "Effective Plunger Stroke (in)",
+    "Pump Volumetric Fillage (%)",
+    ""
+  ],
+  "trailing_blank_column": true,
+  "missing_or_X_counts": {
+    "Pump Volumetric Fillage (%)": 24,
+    "MPRL (lb)": 10,
+    "SPM (spm)": 10,
+    "PPRL (lb)": 10,
+    "Effective Plunger Stroke (in)": 10,
+    "Pump Displacement (BBL/D)": 10
+  },
+  "suspect_ranges": {
+    "SPM (spm)": "4444..30202",
+    "Effective Plunger Stroke (in)": "3..245.4",
+    "PPRL (lb)": "2.2..878.1",
+    "MPRL (lb)": "1650..15991"
+  },
+  "provenance": "TWM tutorial demonstration; measured vs calculated origin unknown",
+  "label_status": "No independently verified fault labels",
+  "training_eligible": false,
+  "permission": "PERMISSION_UNVERIFIED",
+  "limitations": [
+    "Calculated summary export, not raw card traces or full load-position arrays",
+    "Header/unit and scale concern: reported SPM values 4444–30202; values preserved without rescaling",
+    "Three stroke-length discrepancy prompts were encountered; preselected Well File Stroke Length retained; this is an application setting, not independent verification",
+    "Fault names/comments are tutorial descriptors, not adjudicated ground truth"
+  ],
+  "original_files_preserved": true
+}

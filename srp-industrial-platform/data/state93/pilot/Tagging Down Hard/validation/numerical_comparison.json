@@ -1,0 +1,18 @@
+{
+  "sample_count": 174,
+  "solver_status": "SOLVED",
+  "solver_version": "harmonic-transfer/1.0",
+  "spm": 10.384282394052468,
+  "load_rmse_klbf_index_aligned": 0.6273106625247695,
+  "position_rmse_in_index_aligned": 1.4218893705299334,
+  "diagnostic_best_circular_shift_samples": 0,
+  "load_rmse_klbf_shifted": 0.6273106625247695,
+  "position_rmse_in_shifted": 1.4218893705299334,
+  "surface_stroke_in": 144.0,
+  "apm_downhole_stroke_in": 130.51967792927803,
+  "tam_pump_stroke_in": 130.662659,
+  "stroke_length_error_in": -0.14298107072195876,
+  "apm_card_area_klbf_in": 340.1516834894248,
+  "tam_card_area_klbf_in": 322.5903388343433,
+  "card_area_error_percent": 5.443853253181148
+}

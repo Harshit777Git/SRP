@@ -1,0 +1,79 @@
+{
+  "state_id": "STATE-078",
+  "name": "Tagging Fiberglass Rods on Downstroke",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Tagging Fiberglass Rods on Downstroke",
+  "source_files": [
+    {
+      "State ID": "STATE-078",
+      "Original State Name": "Tagging Fiberglass Rods on Downstroke",
+      "Application": "TAM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Tagging Fiberglass Rods on Downstroke\\Original TAM\\Tagging Fiberglass Rods on Downstroke.TAM_EXP",
+      "Extension": ".TAM_EXP",
+      "Bytes": 9585,
+      "SHA256": "f3bf2dc77a95ba7d54ee290113a1b28472f006f20b0931ad245c79ccc18c2d02",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-078",
+      "Original State Name": "Tagging Fiberglass Rods on Downstroke",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Tagging Fiberglass Rods on Downstroke\\Original TWM\\1_8_Dyno_Analysis_Advanced\\Tagging Fiberglass Rods on Downstroke.001",
+      "Extension": ".001",
+      "Bytes": 347808,
+      "SHA256": "8c6372558e8903a6891f5f427067ec7310ad098df679f16d8e5be6f7ccb1686b",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-078",
+      "Original State Name": "Tagging Fiberglass Rods on Downstroke",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Tagging Fiberglass Rods on Downstroke\\Original TWM\\1_8_Dyno_Analysis_Advanced\\Tagging Fiberglass Rods on Downstroke.002",
+      "Extension": ".002",
+      "Bytes": 531945,
+      "SHA256": "726dc75193a5da5ed3c86318ed5db2592c08b433c4b3b2d0dbf1ac1ef85c66ba",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-078",
+      "Original State Name": "Tagging Fiberglass Rods on Downstroke",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Tagging Fiberglass Rods on Downstroke\\Original TWM\\Tagging Fiberglass Rods on Downstroke.001",
+      "Extension": ".001",
+      "Bytes": 347808,
+      "SHA256": "8c6372558e8903a6891f5f427067ec7310ad098df679f16d8e5be6f7ccb1686b",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-078",
+      "Original State Name": "Tagging Fiberglass Rods on Downstroke",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Tagging Fiberglass Rods on Downstroke\\Original TWM\\Tagging Fiberglass Rods on Downstroke.002",
+      "Extension": ".002",
+      "Bytes": 531945,
+      "SHA256": "726dc75193a5da5ed3c86318ed5db2592c08b433c4b3b2d0dbf1ac1ef85c66ba",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "VENDOR_GUI_ACTION_REQUIRED",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

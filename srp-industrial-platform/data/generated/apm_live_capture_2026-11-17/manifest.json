@@ -1,0 +1,27 @@
+{
+  "dataset_id": "phase32-apm-live-synthetic-2026-11-17",
+  "origin": "SYNTHETIC_SIMULATOR_TELEMETRY",
+  "training_permission": "INTERNAL_SYNTHETIC_EXPERIMENTS_ONLY",
+  "fault_labels": "NONE_INDEPENDENTLY_VERIFIED",
+  "run_ids": [
+    "541e0d6f26084ed5a0bf05c599de4b03"
+  ],
+  "wells": [
+    "CO-DJ-001"
+  ],
+  "telemetry_samples": 3129,
+  "surface_downhole_cards": 7,
+  "solved_downhole_cards": 7,
+  "stroke_jobs": 7,
+  "completed_jobs": 7,
+  "failed_jobs": 0,
+  "source_counts": {
+    "SIMULATOR": 3129
+  },
+  "artifacts": {
+    "cards.jsonl": "50b8220c0eefa19eba6ef945e97c10662b306db1ba7ac2085201f1317d1665da",
+    "stroke_jobs.json": "2a1876a4fd4670cac0e625fe54b39f51a7d027d2c234028276fe206081dba2a7",
+    "telemetry.csv": "6aaea975d7d1afcf48d2b15eb02667dc6e9aa1e148dd591ee42183dba7efaa77",
+    "telemetry.jsonl": "0a1ed6002d681c33007206e5b5c9a8b62ced2213129bdab2d75b07dbc987f44b"
+  }
+}

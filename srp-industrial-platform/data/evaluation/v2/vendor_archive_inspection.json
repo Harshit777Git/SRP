@@ -1,0 +1,19 @@
+{
+  "filename": "echometer-session20.zip",
+  "size_bytes": 869402,
+  "sha256": "5759fb66647f308fd1451d49a3c44e3e96f8a554d48f8fd57e79c021df479a59",
+  "first_bytes_hex": "504b0304140000000800e05c3d5179a6b38cc5020000da0600003f0000005365",
+  "parser_status": "UNVERIFIED",
+  "archive_entries": [
+    "Session 20 TAM and QRod Examples/Fluid Load Function of PIP.qrd",
+    "Session 20 TAM and QRod Examples/Hole in Tubing - PIP PFL.qrd",
+    "Session 20 TAM and QRod Examples/Overtravel.qrd",
+    "Session 20 TAM and QRod Examples/Overtravel_DYN_4294967295_09-18-2002_12-52-16.dyn",
+    "Session 20 TAM and QRod Examples/QRod-Session_20_TAM Data.TAM_EXP",
+    "Session 20 TAM and QRod Examples/SlippageExample.qrd",
+    "Session 20 TAM and QRod Examples/SlowDownTakeOffAnchor.qrd",
+    "Session 20 TAM and QRod Examples/TTU_TestWell.qrd",
+    "Session 20 TAM and QRod Examples/Undertravel_DYN_4294967295_05-05-2004_14-06-57.dyn",
+    "Session 20 TAM and QRod Examples/UnderTravel_NoAnchor.qrd"
+  ]
+}

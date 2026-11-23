@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "state_id": "STATE-030",
+    "source_archive": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-030\\01_TAM\\Leak Hole In Pump Barrel.TAM_EXP",
+    "source_sha256": "7d095d5276280e097307ff61a176d7f9171a7ca1317e5efb04bbc187efef66aa",
+    "source_bytes": 5771,
+    "extracted_utc": "2026-11-18T04_44_29Z",
+    "method": "lossless extraction of vendor metadata.json and TestResults.json",
+    "synthetic_data": false
+  },
+  "tests": [
+    {
+      "DateTime": "2001-07-06T15:11:59Z",
+      "LastModified": "2001-07-06T15:11:59Z",
+      "Type": "DYN",
+      "NumValues": {
+        "Rated Current": 77.0
+      },
+      "StrValues": {}
+    },
+    {
+      "DateTime": "2001-07-06T15:01:00Z",
+      "LastModified": "2001-07-06T15:01:00Z",
+      "Type": "DYN",
+      "NumValues": {
+        "Beam Loading": 90.10809601330367,
+        "Existing Counterbalance": 1140.093974840698,
+        "Existing Cyclic Load Factor": 2.323271968323201,
+        "Existing Max Gearbox Torque, DownStroke": 261.1958923339844,
+        "Existing Max Gearbox Torque, Upstroke": 628.0614624023438,
+        "Existing Min Gearbox Torque, DownStroke": -680.6868286132812,
+        "Existing Min Gearbox Torque, Upstroke": 21.896326065063477,
+        "Existing RMS Gearbox Torque": 302.89116741014266,
+        "In Balance Cyclic Load Factor": 1.7897984621467282,
+        "In Balance Max Gearbox Torque, DownStroke": 399.10296630859375,
+        "In Balance Max Gearbox Torque, Upstroke": 399.10296630859375,
+        "In Balance Min Gearbox Torque, DownStroke": -372.53228759765625,
+        "In Balance Min Gearbox Torque, Upstroke": -230.45013427734375,
+        "In Balance RMS Gearbox Torque": 235.73540031949122,
+        "Polished Rod Power": 18.42919669720688,
+        "Rated Current": 77.0,
+        "Required Counterbalance Change": 308.17711464481056
+      },
+      "StrValues": {
+        "Out of Balance": "Yes, rod heavy",
+        "To Balance Move": "15576.0 weights OUT 19.79"
+      }
+    }
+  ],
+  "note": "Exact vendor result values only; invalid/sentinel values are preserved and no units are inferred."
+}

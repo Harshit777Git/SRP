@@ -1,0 +1,7 @@
+{
+  "state_id": "STATE-061",
+  "source_state": "ReverseMark",
+  "surface_card": null,
+  "downhole_card": null,
+  "reason": "No verified ordered numerical samples extracted"
+}

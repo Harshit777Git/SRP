@@ -1,0 +1,46 @@
+{
+  "state_id": "STATE-079",
+  "name": "Tagging Hard FG",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Tagging Hard FG",
+  "source_files": [
+    {
+      "State ID": "STATE-079",
+      "Original State Name": "Tagging Hard FG",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Tagging Hard FG\\Original TWM\\2_7_HighSpeedDynoData\\Tagging Hard FG.007",
+      "Extension": ".007",
+      "Bytes": 436607,
+      "SHA256": "51e843b742e5db3bbd06fe14cc47b4d9290da30a0a790fb932e2df89cfc0dff4",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-079",
+      "Original State Name": "Tagging Hard FG",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Tagging Hard FG\\Original TWM\\2_7_HighSpeedDynoData\\Tagging Hard FG.008",
+      "Extension": ".008",
+      "Bytes": 1512103,
+      "SHA256": "21f08ef3cd0e739bfd110d3438d878091ece490c54b7bb75f9a03913a40f494f",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "UNSUPPORTED_CONVERSION",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

@@ -1,0 +1,99 @@
+{
+  "archives": [
+    {
+      "path": "state/vendor/echometer-session09.zip",
+      "sha256": "467a3d71a4120bc6f7b0bdd212fa50ec86adfd8f9cf3989ace2fd73e9ad7255b",
+      "surface_cards": [],
+      "tam_containers": [
+        {
+          "name": "Ask Echometer DYN Workbook and Data Sets/Ask Echometer DYN Workshop.TAM_EXP",
+          "members": 62,
+          "test_files": {
+            "DYN": 23,
+            "ACU": 16,
+            "CBE": 2
+          },
+          "example_well_folders": 9,
+          "extracted_strokes": 0,
+          "training_permission_verified": false
+        }
+      ],
+      "entries": [
+        "Ask Echometer DYN Workbook and Data Sets/Ask Echometer DYN Workshop.TAM_EXP",
+        "Ask Echometer DYN Workbook and Data Sets/Ask Echometer Dynamometer Workbook.pdf"
+      ]
+    },
+    {
+      "path": "state/vendor/echometer-session20.zip",
+      "sha256": "5759fb66647f308fd1451d49a3c44e3e96f8a554d48f8fd57e79c021df479a59",
+      "surface_cards": [
+        {
+          "file": "Overtravel_DYN_4294967295_09-18-2002_12-52-16.dyn",
+          "sha256": "823fef51648e11c62ac64d338ac746c91796943f6982d319a6e067f5870e82b7",
+          "points": 132,
+          "record_type": "surface demonstration trace",
+          "travel_m": 1.8429402054,
+          "area_j": 52738.135288857025,
+          "label": null,
+          "well_id_verified": false,
+          "training_permission_verified": false
+        },
+        {
+          "file": "Undertravel_DYN_4294967295_05-05-2004_14-06-57.dyn",
+          "sha256": "c22962b487c50179a5377103529187684c75c29b19b6f6dfb03ab25d19a67d6f",
+          "points": 216,
+          "record_type": "surface demonstration trace",
+          "travel_m": 1.1529639373999998,
+          "area_j": 12936.045163195955,
+          "label": null,
+          "well_id_verified": false,
+          "training_permission_verified": false
+        }
+      ],
+      "tam_containers": [
+        {
+          "name": "Session 20 TAM and QRod Examples/QRod-Session_20_TAM Data.TAM_EXP",
+          "members": 12,
+          "test_files": {
+            "DYN": 4,
+            "ACU": 2,
+            "CBE": 1
+          },
+          "example_well_folders": 2,
+          "extracted_strokes": 0,
+          "training_permission_verified": false
+        }
+      ],
+      "entries": [
+        "Session 20 TAM and QRod Examples/Fluid Load Function of PIP.qrd",
+        "Session 20 TAM and QRod Examples/Hole in Tubing - PIP PFL.qrd",
+        "Session 20 TAM and QRod Examples/Overtravel.qrd",
+        "Session 20 TAM and QRod Examples/Overtravel_DYN_4294967295_09-18-2002_12-52-16.dyn",
+        "Session 20 TAM and QRod Examples/QRod-Session_20_TAM Data.TAM_EXP",
+        "Session 20 TAM and QRod Examples/SlippageExample.qrd",
+        "Session 20 TAM and QRod Examples/SlowDownTakeOffAnchor.qrd",
+        "Session 20 TAM and QRod Examples/TTU_TestWell.qrd",
+        "Session 20 TAM and QRod Examples/Undertravel_DYN_4294967295_05-05-2004_14-06-57.dyn",
+        "Session 20 TAM and QRod Examples/UnderTravel_NoAnchor.qrd"
+      ]
+    }
+  ],
+  "installed": {
+    "twm_extension_counts": {
+      ".001": 30,
+      ".bwf": 39,
+      ".002": 5,
+      ".009": 1,
+      ".011": 1,
+      ".012": 2,
+      ".004": 1,
+      ".018": 1,
+      ".014": 1,
+      ".003": 1,
+      ".073": 1,
+      ".100": 1
+    },
+    "tam_demo_folders": 39,
+    "tam_demo_dynamometer_test_files": 68
+  }
+}

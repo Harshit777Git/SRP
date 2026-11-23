@@ -1,0 +1,42 @@
+[
+  {
+    "field": "Canyon",
+    "asset_id": "canyon-001",
+    "range_normalized_rmse": {
+      "surface_load": 0.0001939966982469549,
+      "pump_position": 4.200728096037541e-05,
+      "pump_load": 0.00040374093413511153
+    },
+    "passed": true
+  },
+  {
+    "field": "Delta",
+    "asset_id": "delta-001",
+    "range_normalized_rmse": {
+      "surface_load": 9.770710068880451e-05,
+      "pump_position": 1.2241290964675983e-05,
+      "pump_load": 0.0003636987529621102
+    },
+    "passed": true
+  },
+  {
+    "field": "Mesa",
+    "asset_id": "mesa-001",
+    "range_normalized_rmse": {
+      "surface_load": 0.00023887791912334484,
+      "pump_position": 2.8821226223353127e-05,
+      "pump_load": 0.0004429877266339696
+    },
+    "passed": true
+  },
+  {
+    "field": "Prairie",
+    "asset_id": "prairie-001",
+    "range_normalized_rmse": {
+      "surface_load": 0.00029468847178146576,
+      "pump_position": 5.0306021065235645e-05,
+      "pump_load": 0.0005790579672531694
+    },
+    "passed": true
+  }
+]

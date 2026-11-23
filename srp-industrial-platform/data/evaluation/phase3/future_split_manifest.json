@@ -1,0 +1,47 @@
+{
+  "schema_version": "phase3.1",
+  "status": "PREPARED_NOT_TRAINED",
+  "configuration_sha256": "084c3d9f036d19dcef835b0dfafe74fc073150558edc9d6924cbc98bb240d945",
+  "split_unit": "complete_virtual_well_configuration",
+  "splits": {
+    "future_train": [
+      "CO-DJ-001",
+      "CO-DJ-002",
+      "CO-DJ-003",
+      "ND-WIL-001",
+      "ND-WIL-002",
+      "ND-WIL-003",
+      "NM-DEL-001",
+      "NM-DEL-002",
+      "NM-DEL-003",
+      "OK-ANA-001",
+      "OK-ANA-002",
+      "OK-ANA-003",
+      "TX-EAG-001",
+      "TX-EAG-002",
+      "TX-EAG-003",
+      "TX-MID-001",
+      "TX-MID-002",
+      "TX-MID-003"
+    ],
+    "future_calibration": [
+      "CO-DJ-004",
+      "ND-WIL-004",
+      "NM-DEL-004",
+      "OK-ANA-004",
+      "TX-EAG-004",
+      "TX-MID-004"
+    ],
+    "held_out_well": [
+      "CO-DJ-005",
+      "ND-WIL-005",
+      "NM-DEL-005",
+      "OK-ANA-005",
+      "TX-EAG-005",
+      "TX-MID-005"
+    ]
+  },
+  "scenario_coverage": "ONLY_ONE_HEALTHY_STROKE_PER_WELL_GENERATED",
+  "ood_fault_scenarios": "NOT_GENERATED",
+  "adjacent_stroke_leakage": "NOT_APPLICABLE_SINGLE_STROKE"
+}

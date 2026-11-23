@@ -1,0 +1,79 @@
+{
+  "state_id": "STATE-024",
+  "name": "Gas Interference",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Gas Interference",
+  "source_files": [
+    {
+      "State ID": "STATE-024",
+      "Original State Name": "Gas Interference",
+      "Application": "TAM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Gas Interference\\Original TAM\\Gas Interference.TAM_EXP",
+      "Extension": ".TAM_EXP",
+      "Bytes": 31102,
+      "SHA256": "f99e1c2028a6f71fe430baa9376be8869960ae06a9aff5cbe1f40e9c65c2114c",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-024",
+      "Original State Name": "Gas Interference",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Gas Interference\\Original TWM\\1_6_Dynamometer Analysis\\Gas Interference.001",
+      "Extension": ".001",
+      "Bytes": 81343,
+      "SHA256": "128cf9651150ad3e9f33222abbb0380c418c9cddced1569f6ee2ee29f2dd69c9",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-024",
+      "Original State Name": "Gas Interference",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Gas Interference\\Original TWM\\2_1_PumpIntakePressuureDYNO_PFL_VC_08\\Gas Interference.001",
+      "Extension": ".001",
+      "Bytes": 81113,
+      "SHA256": "0a334d2372e323da7e0a8b2c498da01f21527fc6e68b4cdf8fe0d81d1b16ac99",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-024",
+      "Original State Name": "Gas Interference",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Gas Interference\\Original TWM\\Gas Interference.001",
+      "Extension": ".001",
+      "Bytes": 81343,
+      "SHA256": "128cf9651150ad3e9f33222abbb0380c418c9cddced1569f6ee2ee29f2dd69c9",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-024",
+      "Original State Name": "Gas Interference",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Gas Interference\\Original TWM\\GasInterference.avi",
+      "Extension": ".avi",
+      "Bytes": 7821824,
+      "SHA256": "d240f423e230ca58eefd447d565e7442119f3358cc4f7644c9adb5712bab5930",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "VENDOR_GUI_ACTION_REQUIRED",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

@@ -1,0 +1,28 @@
+{
+  "phase": "PHASE3",
+  "decision": "NO_GO",
+  "model_training_performed": false,
+  "vendor_numerical_surface_cards": 2,
+  "qrod_design_files": 10,
+  "qrod_numerical_comparisons": 0,
+  "sites": 6,
+  "wells": 30,
+  "synthetic_validated_strokes": 30,
+  "surface_cards": 30,
+  "reconstructed_downhole_cards": 30,
+  "raw_sensor_samples": 14030,
+  "mqtt_published_in_15s": 300,
+  "mqtt_rate_per_s": 20.0,
+  "mqtt_queued_after": 9882,
+  "gates": {
+    "extraction": "PARTIAL_VENDOR_GUI_BLOCKED",
+    "qrod_benchmark": "FAIL_NO_NUMERICAL_REFERENCE",
+    "physics": "PARTIAL_SYNTHETIC_SELF_CONSISTENCY_ONLY",
+    "fault_fidelity": "PARTIAL_EIGHT_CLASSES_STUDIED",
+    "fleet": "PASS_CONFIGURATION_AND_OFFLINE_EXECUTION",
+    "mqtt": "FAIL_BACKLOG_AND_LOW_THROUGHPUT",
+    "dynacards": "PASS_THIRTY_SYNTHETIC_STROKES",
+    "data_readiness": "PARTIAL_SPLIT_PREPARED_NO_INDEPENDENT_BENCHMARK",
+    "ml_boundary": "PASS_NO_TRAINING"
+  }
+}

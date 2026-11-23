@@ -1,0 +1,35 @@
+{
+  "state_id": "STATE-049",
+  "name": "PFL_Gaslift",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\PFL_Gaslift",
+  "source_files": [
+    {
+      "State ID": "STATE-049",
+      "Original State Name": "PFL_Gaslift",
+      "Application": "TAM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\PFL_Gaslift\\Original TAM\\PFL_Gaslift.TAM_EXP",
+      "Extension": ".TAM_EXP",
+      "Bytes": 2897,
+      "SHA256": "e8d363d19e6fffabde78fcd0721199a68123311f568dce603888265dbe660794",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "VENDOR_GUI_ACTION_REQUIRED",
+    "02_TWM": "UNSUPPORTED_CONVERSION",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

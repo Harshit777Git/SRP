@@ -1,0 +1,7 @@
+{
+  "state_id": "STATE-020",
+  "source_state": "FHMUF814",
+  "surface_card": null,
+  "downhole_card": null,
+  "reason": "No verified ordered numerical samples extracted"
+}

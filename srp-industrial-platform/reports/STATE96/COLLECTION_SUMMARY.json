@@ -1,0 +1,15 @@
+{
+  "requested_states": 96,
+  "identified_states": 93,
+  "unidentified_states": 3,
+  "states_with_tam_exp": 39,
+  "tam_exp_files": 39,
+  "states_with_dyn": 8,
+  "dyn_files": 25,
+  "states_with_field_summary": 7,
+  "field_summary_files": 7,
+  "states_with_test_history": 1,
+  "test_history_files": 1,
+  "matrix": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\reports\\STATE96\\96_STATE_ACQUISITION_MATRIX.csv",
+  "asset_manifest": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\reports\\STATE96\\COLLECTED_ASSET_MANIFEST.csv"
+}

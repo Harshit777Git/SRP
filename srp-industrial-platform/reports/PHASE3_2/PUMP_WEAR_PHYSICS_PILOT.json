@@ -1,0 +1,170 @@
+{
+  "status": "SYNTHETIC_MECHANISM_PILOT_ONLY",
+  "physics_change": "pump wear uses annular plunger/barrel clearance leakage; traveling-valve leakage remains a separate valve path",
+  "well_configuration": {
+    "asset_id": "SRP_001",
+    "rods": [
+      {
+        "length_m": 450.0,
+        "diameter_m": 0.0222,
+        "density": 7850.0,
+        "modulus": 205000000000.0
+      }
+    ],
+    "stroke_m": 1.65,
+    "spm": 8.0,
+    "crank_m": 0.6,
+    "rocker_m": 2.0,
+    "pitman_m": 3.4,
+    "pivot_x_m": 2.4,
+    "pivot_y_m": 2.1,
+    "mechanism": "four_bar",
+    "damping_s": 0.6,
+    "plunger_m": 0.04445,
+    "plunger_length_m": 0.9,
+    "plunger_radial_clearance_m": 3.81e-05,
+    "pump_wear_clearance_growth_m": 7.62e-05,
+    "fluid_kg_m3": 880.0,
+    "chamber_gas_fraction": 0.015,
+    "viscosity_pa_s": 0.015,
+    "intake_head_m": 100.0,
+    "tubing_pa": 350000.0,
+    "casing_pa": 150000.0,
+    "voltage_v": 480.0,
+    "gear_ratio": 100.0,
+    "running_efficiency": 0.85,
+    "physics_step_s": 0.002,
+    "dynamometer_hz": 50,
+    "electrical_hz": 10,
+    "pressure_hz": 1,
+    "noise_position_m": 0.0,
+    "noise_load_n": 0.0,
+    "position_bias_m": 0.0,
+    "load_bias_n": 0.0,
+    "sensor_latency_s": 0.0,
+    "missing_probability": 0.0,
+    "seed": 42
+  },
+  "comparison_fault_severity": 0.8,
+  "pump_wear_severity_sweep": [
+    {
+      "severity": 0.1,
+      "effective_radial_clearance_m": 4.5719999999999996e-05,
+      "load_curve_rmse_vs_healthy_n": 1.5511095312750631,
+      "load_curve_rmse_vs_healthy_fraction_of_range": 0.00015227953051166616,
+      "card_area_j": 10064.745273947425
+    },
+    {
+      "severity": 0.2,
+      "effective_radial_clearance_m": 5.334e-05,
+      "load_curve_rmse_vs_healthy_n": 3.707006010334996,
+      "load_curve_rmse_vs_healthy_fraction_of_range": 0.00036393376707169055,
+      "card_area_j": 10064.991569494985
+    },
+    {
+      "severity": 0.3,
+      "effective_radial_clearance_m": 6.096e-05,
+      "load_curve_rmse_vs_healthy_n": 6.565187375780871,
+      "load_curve_rmse_vs_healthy_fraction_of_range": 0.0006445345290884819,
+      "card_area_j": 10065.316281442187
+    },
+    {
+      "severity": 0.4,
+      "effective_radial_clearance_m": 6.858e-05,
+      "load_curve_rmse_vs_healthy_n": 10.241303641588928,
+      "load_curve_rmse_vs_healthy_fraction_of_range": 0.0010054357083903577,
+      "card_area_j": 10065.734100836073
+    },
+    {
+      "severity": 0.5,
+      "effective_radial_clearance_m": 7.62e-05,
+      "load_curve_rmse_vs_healthy_n": 14.82729854083431,
+      "load_curve_rmse_vs_healthy_fraction_of_range": 0.0014556638425775761,
+      "card_area_j": 10066.25571172812
+    },
+    {
+      "severity": 0.6,
+      "effective_radial_clearance_m": 8.382e-05,
+      "load_curve_rmse_vs_healthy_n": 20.402683777516398,
+      "load_curve_rmse_vs_healthy_fraction_of_range": 0.0020030249599873205,
+      "card_area_j": 10066.888248597084
+    },
+    {
+      "severity": 0.7,
+      "effective_radial_clearance_m": 9.144e-05,
+      "load_curve_rmse_vs_healthy_n": 27.091215882539093,
+      "load_curve_rmse_vs_healthy_fraction_of_range": 0.0026596688063621147,
+      "card_area_j": 10067.647470305683
+    },
+    {
+      "severity": 0.8,
+      "effective_radial_clearance_m": 9.905999999999999e-05,
+      "load_curve_rmse_vs_healthy_n": 34.940379869211874,
+      "load_curve_rmse_vs_healthy_fraction_of_range": 0.0034302572030545523,
+      "card_area_j": 10068.537907593369
+    },
+    {
+      "severity": 0.9,
+      "effective_radial_clearance_m": 0.00010668,
+      "load_curve_rmse_vs_healthy_n": 44.076607597955665,
+      "load_curve_rmse_vs_healthy_fraction_of_range": 0.004327202545165311,
+      "card_area_j": 10069.579560075974
+    },
+    {
+      "severity": 1.0,
+      "effective_radial_clearance_m": 0.00011429999999999999,
+      "load_curve_rmse_vs_healthy_n": 54.52645524714841,
+      "load_curve_rmse_vs_healthy_fraction_of_range": 0.005353111974417165,
+      "card_area_j": 10070.769441604103
+    }
+  ],
+  "sampling_rate_hz": 50,
+  "phase_alignment": "surface loads interpolated onto 144 crank-angle bins for relative within-simulator comparison",
+  "results": {
+    "pump_wear": {
+      "samples": 374,
+      "stroke_length_m": 1.6499935076617713,
+      "minimum_load_n": 9955.496707077413,
+      "maximum_load_n": 20269.74232015758,
+      "card_area_j": 10068.537907593369,
+      "load_curve_rmse_vs_healthy_n": 34.940379869211874,
+      "load_curve_rmse_vs_healthy_fraction_of_range": 0.0034302572030545523,
+      "card_area_delta_vs_healthy_j": 3.9360270991346624
+    },
+    "traveling_valve_leak": {
+      "samples": 374,
+      "stroke_length_m": 1.6499935076617713,
+      "minimum_load_n": 10189.09223255294,
+      "maximum_load_n": 20263.61533162117,
+      "card_area_j": 10135.40071924514,
+      "load_curve_rmse_vs_healthy_n": 528.0992503059214,
+      "load_curve_rmse_vs_healthy_fraction_of_range": 0.05184592337205339,
+      "card_area_delta_vs_healthy_j": 70.79883875090673
+    },
+    "standing_valve_leak": {
+      "samples": 374,
+      "stroke_length_m": 1.6499935076617713,
+      "minimum_load_n": 9926.736968344296,
+      "maximum_load_n": 20088.547079743366,
+      "card_area_j": 10054.022043379839,
+      "load_curve_rmse_vs_healthy_n": 244.78957127061994,
+      "load_curve_rmse_vs_healthy_fraction_of_range": 0.024032113938852264,
+      "card_area_delta_vs_healthy_j": -10.57983711439556
+    },
+    "healthy": {
+      "samples": 375,
+      "stroke_length_m": 1.6499935076617025,
+      "minimum_load_n": 9932.96984758713,
+      "maximum_load_n": 20248.00697277324,
+      "card_area_j": 10064.601880494234,
+      "load_curve_rmse_vs_healthy_n": 0.0,
+      "load_curve_rmse_vs_healthy_fraction_of_range": 0.0,
+      "card_area_delta_vs_healthy_j": 0.0
+    }
+  },
+  "limitations": [
+    "No field data or pump inspection clearance is available; defaults are illustrative.",
+    "The pilot shows simulator output separation only, not diagnostic accuracy or physical validation.",
+    "The annular flow model omits Couette flow, eccentricity, non-Newtonian fluids and transient effects."
+  ]
+}

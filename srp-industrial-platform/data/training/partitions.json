@@ -1,0 +1,21 @@
+{
+  "schema": "srp-data-partitions/1",
+  "synthetic": {
+    "archive": "data/training/v2_full_runs.npz",
+    "manifest": "data/training/v2_full_runs.json",
+    "runs": 800,
+    "purpose": "supervised synthetic development only"
+  },
+  "real_labeled": {
+    "directory": "data/training/real_labeled",
+    "eligible_cards": 0,
+    "eligibility": "Document owner permission, raw acquisition, independently verified fault label, well ID, timestamp, engineering units and diagnostic reference before admission"
+  },
+  "real_unlabeled": {
+    "directory": "data/training/real_unlabeled",
+    "eligible_cards": 0,
+    "purpose": "Unsupervised adaptation or benchmark only, after source and reuse eligibility are checked",
+    "demonstration_assets": "See data/evaluation/real_acquisition_audit.json for vendor archives processed under demonstration use",
+    "quarantine": "LA-0024 public controller traces withheld from retention and training pending data rights"
+  }
+}

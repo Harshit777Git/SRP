@@ -1,0 +1,337 @@
+{
+  "origin": "HELD_OUT_SYNTHETIC_WELLS",
+  "artifact_sha256": "be791160cf685178adf3dd5f93a979fa40b601972004f22eb684f95a8536d678",
+  "classes": [
+    "abnormal_speed",
+    "gas_interference",
+    "healthy",
+    "incomplete_fillage",
+    "load_cell_drift",
+    "position_sensor_fault",
+    "restricted_inflow",
+    "rod_friction",
+    "standing_valve_leak",
+    "traveling_valve_or_plunger_leakage"
+  ],
+  "independent_virtual_wells": 6,
+  "unique_test_strokes": 540,
+  "excluded_duplicate_records": [
+    "balanced-v1-healthy-00038.json",
+    "balanced-v1-healthy-00041.json",
+    "balanced-v1-healthy-00045.json",
+    "balanced-v1-healthy-00051.json",
+    "balanced-v1-healthy-00058.json",
+    "balanced-v1-healthy-00059.json",
+    "balanced-v1-healthy-00068.json",
+    "balanced-v1-healthy-00071.json",
+    "balanced-v1-healthy-00075.json",
+    "balanced-v1-healthy-00081.json",
+    "balanced-v1-healthy-00088.json",
+    "balanced-v1-healthy-00089.json",
+    "balanced-v1-healthy-00098.json",
+    "balanced-v1-healthy-00101.json",
+    "balanced-v1-healthy-00105.json",
+    "balanced-v1-healthy-00111.json",
+    "balanced-v1-healthy-00118.json",
+    "balanced-v1-healthy-00119.json",
+    "balanced-v1-healthy-00128.json",
+    "balanced-v1-healthy-00131.json",
+    "balanced-v1-healthy-00135.json",
+    "balanced-v1-healthy-00141.json",
+    "balanced-v1-healthy-00148.json",
+    "balanced-v1-healthy-00149.json",
+    "balanced-v1-healthy-00158.json",
+    "balanced-v1-healthy-00161.json",
+    "balanced-v1-healthy-00165.json",
+    "balanced-v1-healthy-00171.json",
+    "balanced-v1-healthy-00178.json",
+    "balanced-v1-healthy-00179.json",
+    "balanced-v1-healthy-00188.json",
+    "balanced-v1-healthy-00191.json",
+    "balanced-v1-healthy-00195.json",
+    "balanced-v1-healthy-00201.json",
+    "balanced-v1-healthy-00208.json",
+    "balanced-v1-healthy-00209.json",
+    "balanced-v1-healthy-00218.json",
+    "balanced-v1-healthy-00221.json",
+    "balanced-v1-healthy-00225.json",
+    "balanced-v1-healthy-00231.json",
+    "balanced-v1-healthy-00238.json",
+    "balanced-v1-healthy-00239.json",
+    "balanced-v1-healthy-00248.json",
+    "balanced-v1-healthy-00251.json",
+    "balanced-v1-healthy-00255.json",
+    "balanced-v1-healthy-00261.json",
+    "balanced-v1-healthy-00268.json",
+    "balanced-v1-healthy-00269.json",
+    "balanced-v1-traveling_valve_leak-00015.json",
+    "balanced-v1-traveling_valve_leak-00041.json",
+    "balanced-v1-traveling_valve_leak-00059.json",
+    "balanced-v1-traveling_valve_leak-00111.json",
+    "balanced-v1-traveling_valve_leak-00128.json",
+    "balanced-v1-traveling_valve_leak-00268.json"
+  ],
+  "macro_f1": 0.5383493646193469,
+  "per_class": {
+    "abnormal_speed": {
+      "precision": 0.2,
+      "recall": 0.14814814814814814,
+      "f1-score": 0.1702127659574468,
+      "support": 54.0
+    },
+    "gas_interference": {
+      "precision": 0.34146341463414637,
+      "recall": 0.5185185185185185,
+      "f1-score": 0.4117647058823529,
+      "support": 54.0
+    },
+    "healthy": {
+      "precision": 0.03333333333333333,
+      "recall": 0.16666666666666666,
+      "f1-score": 0.05555555555555555,
+      "support": 6.0
+    },
+    "incomplete_fillage": {
+      "precision": 0.6578947368421053,
+      "recall": 0.46296296296296297,
+      "f1-score": 0.5434782608695652,
+      "support": 54.0
+    },
+    "load_cell_drift": {
+      "precision": 0.5714285714285714,
+      "recall": 0.8148148148148148,
+      "f1-score": 0.6717557251908397,
+      "support": 54.0
+    },
+    "position_sensor_fault": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 54.0
+    },
+    "restricted_inflow": {
+      "precision": 0.8787878787878788,
+      "recall": 0.5370370370370371,
+      "f1-score": 0.6666666666666666,
+      "support": 54.0
+    },
+    "rod_friction": {
+      "precision": 1.0,
+      "recall": 0.7407407407407407,
+      "f1-score": 0.851063829787234,
+      "support": 54.0
+    },
+    "standing_valve_leak": {
+      "precision": 0.3137254901960784,
+      "recall": 0.5925925925925926,
+      "f1-score": 0.41025641025641024,
+      "support": 54.0
+    },
+    "traveling_valve_or_plunger_leakage": {
+      "precision": 1.0,
+      "recall": 0.43137254901960786,
+      "f1-score": 0.6027397260273972,
+      "support": 102.0
+    },
+    "accuracy": 0.5648148148148148,
+    "macro avg": {
+      "precision": 0.5996633425222113,
+      "recall": 0.541285403050109,
+      "f1-score": 0.5383493646193469,
+      "support": 540.0
+    },
+    "weighted avg": {
+      "precision": 0.6855892684481374,
+      "recall": 0.5648148148148148,
+      "f1-score": 0.5869879575501773,
+      "support": 540.0
+    }
+  },
+  "confusion": [
+    [
+      8,
+      12,
+      5,
+      0,
+      5,
+      0,
+      1,
+      0,
+      23,
+      0
+    ],
+    [
+      2,
+      28,
+      2,
+      13,
+      3,
+      0,
+      0,
+      0,
+      6,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      2,
+      19,
+      2,
+      25,
+      2,
+      0,
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      2,
+      2,
+      2,
+      0,
+      44,
+      0,
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      54,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      3,
+      3,
+      3,
+      0,
+      9,
+      0,
+      29,
+      0,
+      7,
+      0
+    ],
+    [
+      3,
+      1,
+      1,
+      0,
+      2,
+      0,
+      3,
+      40,
+      4,
+      0
+    ],
+    [
+      4,
+      7,
+      6,
+      0,
+      5,
+      0,
+      0,
+      0,
+      32,
+      0
+    ],
+    [
+      15,
+      9,
+      8,
+      0,
+      6,
+      0,
+      0,
+      0,
+      20,
+      44
+    ]
+  ],
+  "log_loss": 1.2942387409781195,
+  "expected_calibration_error": 0.1364329625187683,
+  "calibration_bins": [
+    {
+      "lower": 0.2,
+      "count": 8,
+      "accuracy": 0.375,
+      "confidence": 0.27055944398147824
+    },
+    {
+      "lower": 0.30000000000000004,
+      "count": 50,
+      "accuracy": 0.16,
+      "confidence": 0.3530448023627437
+    },
+    {
+      "lower": 0.4,
+      "count": 104,
+      "accuracy": 0.15384615384615385,
+      "confidence": 0.4412957113617342
+    },
+    {
+      "lower": 0.5,
+      "count": 87,
+      "accuracy": 0.3103448275862069,
+      "confidence": 0.548949533747649
+    },
+    {
+      "lower": 0.6000000000000001,
+      "count": 55,
+      "accuracy": 0.45454545454545453,
+      "confidence": 0.6397588814854125
+    },
+    {
+      "lower": 0.7000000000000001,
+      "count": 26,
+      "accuracy": 0.7692307692307693,
+      "confidence": 0.7498797352304971
+    },
+    {
+      "lower": 0.8,
+      "count": 23,
+      "accuracy": 0.8695652173913043,
+      "confidence": 0.8527865497364333
+    },
+    {
+      "lower": 0.9,
+      "count": 187,
+      "accuracy": 0.9946524064171123,
+      "confidence": 0.9868615130779845
+    }
+  ],
+  "confidence_threshold": 0.7,
+  "coverage": 0.43703703703703706,
+  "accepted_accuracy": 0.9576271186440678,
+  "real_test_wells": 0,
+  "field_ready": false,
+  "deployment_gates": {
+    "macro_f1": 0.9,
+    "minimum_recall": 0.85,
+    "minimum_precision": 0.85,
+    "minimum_coverage": 0.7,
+    "minimum_real_test_wells": 10
+  },
+  "limitation": "Uncalibrated candidate probabilities. No noise robustness or independently labeled field validation. Combined leakage output cannot identify the failed component."
+}

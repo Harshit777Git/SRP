@@ -1,0 +1,79 @@
+{
+  "state_id": "STATE-005",
+  "name": "Bad Tail Bearing",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Bad Tail Bearing",
+  "source_files": [
+    {
+      "State ID": "STATE-005",
+      "Original State Name": "Bad Tail Bearing",
+      "Application": "TAM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Bad Tail Bearing\\Original TAM\\Bad Tail Bearing.TAM_EXP",
+      "Extension": ".TAM_EXP",
+      "Bytes": 7846,
+      "SHA256": "542a493ea4ba479b0a703884b37e4489f055fb14873f3339d0417a691003d1cf",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-005",
+      "Original State Name": "Bad Tail Bearing",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Bad Tail Bearing\\Original TWM\\3_6_ System Efficiency of Sucker Rod Pumping\\Bad Tail Bearing.001",
+      "Extension": ".001",
+      "Bytes": 92794,
+      "SHA256": "d68092cd48bc6da32a3d537a7e482938cae3fa94c60197a439466a181e892ce4",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-005",
+      "Original State Name": "Bad Tail Bearing",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Bad Tail Bearing\\Original TWM\\3_6_ System Efficiency of Sucker Rod Pumping\\Bad Tail Bearing.002",
+      "Extension": ".002",
+      "Bytes": 147776,
+      "SHA256": "8b6d391ac698962f99a58ff3601d572130a710feabb4913bf5b2b3f751ab53aa",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-005",
+      "Original State Name": "Bad Tail Bearing",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Bad Tail Bearing\\Original TWM\\Bad Tail Bearing.001",
+      "Extension": ".001",
+      "Bytes": 92794,
+      "SHA256": "d68092cd48bc6da32a3d537a7e482938cae3fa94c60197a439466a181e892ce4",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-005",
+      "Original State Name": "Bad Tail Bearing",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Bad Tail Bearing\\Original TWM\\Bad Tail Bearing.002",
+      "Extension": ".002",
+      "Bytes": 147776,
+      "SHA256": "8b6d391ac698962f99a58ff3601d572130a710feabb4913bf5b2b3f751ab53aa",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "VENDOR_GUI_ACTION_REQUIRED",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

@@ -1,0 +1,2 @@
+﻿State ID,State,Exported stroke count,load_rmse_lbf,load_mae_lbf,displacement_rmse_in,displacement_mae_in,stroke_length_error_in,card_area_error_percent,maximum_load_difference_lbf,minimum_load_difference_lbf,load_correlation,best_circular_shift_samples,phase_basis
+STATE-077,Tagging Down Hard,1,627.3106625247694,559.5822183278813,1.4218893705299334,1.3715657574612647,-0.14298107072195876,5.4438532531811195,746.437851339364,1055.252636035516,0.9931106249645918,0,ORDERED_SAMPLE_INDEX; TIMEBASE_ESTIMATED_FROM_SPM

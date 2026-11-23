@@ -1,0 +1,13 @@
+{
+  "adapter": "backend.interchange.import_file",
+  "source_records": 174,
+  "cards": 1,
+  "dataset_id": "c6a4eea244ac2ddbef9e16758d9b7299d916b5eb8e8c183405616dadf0635412",
+  "quality": "DEGRADED",
+  "warnings": [
+    "No timestamp alignment"
+  ],
+  "csv_reimport_records": 174,
+  "dyn_csv_max_si_difference": 0.026689329679356888,
+  "database_import": "NOT_RUN"
+}

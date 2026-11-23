@@ -1,0 +1,7 @@
+{
+  "state_id": "STATE-057",
+  "source_state": "Plunger_Normal Cycle",
+  "surface_card": null,
+  "downhole_card": null,
+  "reason": "No verified ordered numerical samples extracted"
+}

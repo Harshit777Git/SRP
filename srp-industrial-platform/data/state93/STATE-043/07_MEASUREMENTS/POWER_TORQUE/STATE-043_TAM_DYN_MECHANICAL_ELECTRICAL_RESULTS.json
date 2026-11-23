@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "state_id": "STATE-043",
+    "source_archive": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-043\\01_TAM\\Need Gas Separator.TAM_EXP",
+    "source_sha256": "2bc67d20e1a384117c6f66b8a3ea1579e1a6969df38c2680e5a0737514ac1d10",
+    "source_bytes": 581397,
+    "extracted_utc": "2026-11-18T04_44_29Z",
+    "method": "lossless extraction of vendor metadata.json and TestResults.json",
+    "synthetic_data": false
+  },
+  "tests": [
+    {
+      "DateTime": "2003-08-15T22:30:03Z",
+      "LastModified": "2003-08-15T22:30:03Z",
+      "Type": "DYN",
+      "NumValues": {
+        "Rated Current": 70.0
+      },
+      "StrValues": {}
+    },
+    {
+      "DateTime": "2003-08-15T22:25:23Z",
+      "LastModified": "2003-08-15T22:25:23Z",
+      "Type": "DYN",
+      "NumValues": {
+        "Beam Loading": 58.25751040463156,
+        "Existing Counterbalance": 433.3203681840962,
+        "Existing Cyclic Load Factor": 1.9062724023622597,
+        "Existing Max Gearbox Torque, DownStroke": 107.24673461914062,
+        "Existing Max Gearbox Torque, Upstroke": 162.0618133544922,
+        "Existing Min Gearbox Torque, DownStroke": -53.46678924560547,
+        "Existing Min Gearbox Torque, Upstroke": -44.569664001464844,
+        "Existing RMS Gearbox Torque": 62.575469938158314,
+        "In Balance Cyclic Load Factor": 2.113864748906637,
+        "In Balance Max Gearbox Torque, DownStroke": 124.55701446533203,
+        "In Balance Max Gearbox Torque, Upstroke": 124.55701446533203,
+        "In Balance Min Gearbox Torque, DownStroke": -50.24645233154297,
+        "In Balance Min Gearbox Torque, Upstroke": -80.754638671875,
+        "In Balance RMS Gearbox Torque": 68.14075656076392,
+        "Maximum Counterbalance": 347.14152,
+        "Polished Rod Power": 1.256494262294752,
+        "Rated Current": 70.0,
+        "Required Counterbalance Change": 45.11530649604759
+      },
+      "StrValues": {
+        "Out of Balance": "Yes, rod heavy",
+        "To Balance Move": "Loading cannot be balanced, must add weights to balance"
+      }
+    }
+  ],
+  "note": "Exact vendor result values only; invalid/sentinel values are preserved and no units are inferred."
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "fault_code": "gas_interference",
+    "fault_name": "gas interference",
+    "dataset_id": "synthetic-v2-full",
+    "independent_runs": 100,
+    "virtual_configurations": 100,
+    "cards": 100,
+    "verified_field_wells": 0,
+    "label_origin": "simulation scenario",
+    "label_reliability": "synthetic mechanism only",
+    "training_eligible": "synthetic development only"
+  },
+  {
+    "fault_code": "healthy",
+    "fault_name": "healthy",
+    "dataset_id": "synthetic-v2-full",
+    "independent_runs": 100,
+    "virtual_configurations": 100,
+    "cards": 100,
+    "verified_field_wells": 0,
+    "label_origin": "simulation scenario",
+    "label_reliability": "synthetic mechanism only",
+    "training_eligible": "synthetic development only"
+  },
+  {
+    "fault_code": "incomplete_fillage",
+    "fault_name": "incomplete fillage",
+    "dataset_id": "synthetic-v2-full",
+    "independent_runs": 100,
+    "virtual_configurations": 100,
+    "cards": 100,
+    "verified_field_wells": 0,
+    "label_origin": "simulation scenario",
+    "label_reliability": "synthetic mechanism only",
+    "training_eligible": "synthetic development only"
+  },
+  {
+    "fault_code": "pump_wear",
+    "fault_name": "pump wear",
+    "dataset_id": "synthetic-v2-full",
+    "independent_runs": 100,
+    "virtual_configurations": 100,
+    "cards": 100,
+    "verified_field_wells": 0,
+    "label_origin": "simulation scenario",
+    "label_reliability": "synthetic mechanism only",
+    "training_eligible": "synthetic development only"
+  },
+  {
+    "fault_code": "restricted_inflow",
+    "fault_name": "restricted inflow",
+    "dataset_id": "synthetic-v2-full",
+    "independent_runs": 100,
+    "virtual_configurations": 100,
+    "cards": 100,
+    "verified_field_wells": 0,
+    "label_origin": "simulation scenario",
+    "label_reliability": "synthetic mechanism only",
+    "training_eligible": "synthetic development only"
+  },
+  {
+    "fault_code": "rod_friction",
+    "fault_name": "rod friction",
+    "dataset_id": "synthetic-v2-full",
+    "independent_runs": 100,
+    "virtual_configurations": 100,
+    "cards": 100,
+    "verified_field_wells": 0,
+    "label_origin": "simulation scenario",
+    "label_reliability": "synthetic mechanism only",
+    "training_eligible": "synthetic development only"
+  },
+  {
+    "fault_code": "standing_valve_leak",
+    "fault_name": "standing valve leak",
+    "dataset_id": "synthetic-v2-full",
+    "independent_runs": 100,
+    "virtual_configurations": 100,
+    "cards": 100,
+    "verified_field_wells": 0,
+    "label_origin": "simulation scenario",
+    "label_reliability": "synthetic mechanism only",
+    "training_eligible": "synthetic development only"
+  },
+  {
+    "fault_code": "traveling_valve_leak",
+    "fault_name": "traveling valve leak",
+    "dataset_id": "synthetic-v2-full",
+    "independent_runs": 100,
+    "virtual_configurations": 100,
+    "cards": 100,
+    "verified_field_wells": 0,
+    "label_origin": "simulation scenario",
+    "label_reliability": "synthetic mechanism only",
+    "training_eligible": "synthetic development only"
+  }
+]

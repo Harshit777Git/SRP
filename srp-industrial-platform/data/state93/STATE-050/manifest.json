@@ -1,0 +1,35 @@
+{
+  "state_id": "STATE-050",
+  "name": "PFL_High",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\PFL_High",
+  "source_files": [
+    {
+      "State ID": "STATE-050",
+      "Original State Name": "PFL_High",
+      "Application": "TAM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\PFL_High\\Original TAM\\PFL_High.TAM_EXP",
+      "Extension": ".TAM_EXP",
+      "Bytes": 16980,
+      "SHA256": "191b20488b7dde3d3c510b95befc37ad0b8f3605df313d5e97ea6a0eb0d0bb2a",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "VENDOR_GUI_ACTION_REQUIRED",
+    "02_TWM": "UNSUPPORTED_CONVERSION",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

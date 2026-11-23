@@ -1,0 +1,662 @@
+[
+  {
+    "asset_id": "TX-MID-001",
+    "site_id": "US_TX_MIDLAND",
+    "reference_001_vs_002": {
+      "load_rmse_n": 6.568331790014952,
+      "load_rmse_range_fraction": 0.0006456278392277003,
+      "pump_position_rmse_m": 1.2865611954726391e-05,
+      "pump_position_rmse_stroke_fraction": 8.872835830845787e-06
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 16.19477332965501,
+      "load_rmse_range_fraction": 0.0015893545145079509,
+      "pump_position_rmse_m": 3.227529924918491e-05,
+      "pump_position_rmse_stroke_fraction": 2.2258827068403387e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 32.52627409462204,
+      "load_rmse_range_fraction": 0.0031921274549578274,
+      "pump_position_rmse_m": 8.233158064870027e-05,
+      "pump_position_rmse_stroke_fraction": 5.67804004473795e-05
+    }
+  },
+  {
+    "asset_id": "TX-MID-002",
+    "site_id": "US_TX_MIDLAND",
+    "reference_001_vs_002": {
+      "load_rmse_n": 7.59207474703582,
+      "load_rmse_range_fraction": 0.0004594789251235025,
+      "pump_position_rmse_m": 2.5608953950420254e-05,
+      "pump_position_rmse_stroke_fraction": 1.5711014693509358e-05
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 19.113266621999948,
+      "load_rmse_range_fraction": 0.0011565417327840282,
+      "pump_position_rmse_m": 5.163184392811806e-05,
+      "pump_position_rmse_stroke_fraction": 3.1675977870011084e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 41.04411942539581,
+      "load_rmse_range_fraction": 0.002483575306075799,
+      "pump_position_rmse_m": 0.00012137987684325464,
+      "pump_position_rmse_stroke_fraction": 7.446618211242616e-05
+    }
+  },
+  {
+    "asset_id": "TX-MID-003",
+    "site_id": "US_TX_MIDLAND",
+    "reference_001_vs_002": {
+      "load_rmse_n": 9.822829561759345,
+      "load_rmse_range_fraction": 0.0004204962241083634,
+      "pump_position_rmse_m": 3.150713987364543e-05,
+      "pump_position_rmse_stroke_fraction": 1.7407259598699133e-05
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 23.322064107879097,
+      "load_rmse_range_fraction": 0.000998281779510085,
+      "pump_position_rmse_m": 6.287719771746279e-05,
+      "pump_position_rmse_stroke_fraction": 3.473878326931646e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 45.36111690862952,
+      "load_rmse_range_fraction": 0.001941645314867875,
+      "pump_position_rmse_m": 0.00014917531151760341,
+      "pump_position_rmse_stroke_fraction": 8.241729918099636e-05
+    }
+  },
+  {
+    "asset_id": "TX-MID-004",
+    "site_id": "US_TX_MIDLAND",
+    "reference_001_vs_002": {
+      "load_rmse_n": 6.006826520256368,
+      "load_rmse_range_fraction": 0.00021235597001026982,
+      "pump_position_rmse_m": 3.109452728948623e-05,
+      "pump_position_rmse_stroke_fraction": 1.562539059773177e-05
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 13.657553577394149,
+      "load_rmse_range_fraction": 0.00048285810612198264,
+      "pump_position_rmse_m": 6.338381285442079e-05,
+      "pump_position_rmse_stroke_fraction": 3.1851162238402404e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 31.339540522424603,
+      "load_rmse_range_fraction": 0.0011079986688420046,
+      "pump_position_rmse_m": 0.00014954825617421747,
+      "pump_position_rmse_stroke_fraction": 7.514987747448115e-05
+    }
+  },
+  {
+    "asset_id": "TX-MID-005",
+    "site_id": "US_TX_MIDLAND",
+    "reference_001_vs_002": {
+      "load_rmse_n": 7.64691296790484,
+      "load_rmse_range_fraction": 0.00020694558914543344,
+      "pump_position_rmse_m": 5.462436555213417e-05,
+      "pump_position_rmse_stroke_fraction": 2.517251868761943e-05
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 17.36748450207437,
+      "load_rmse_range_fraction": 0.00046993331714889093,
+      "pump_position_rmse_m": 0.00011130273078724395,
+      "pump_position_rmse_stroke_fraction": 5.129158100794652e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 41.90786202959264,
+      "load_rmse_range_fraction": 0.0011339523933838714,
+      "pump_position_rmse_m": 0.0002643250570621509,
+      "pump_position_rmse_stroke_fraction": 0.00012180878205629074
+    }
+  },
+  {
+    "asset_id": "NM-DEL-001",
+    "site_id": "US_NM_DELAWARE",
+    "reference_001_vs_002": {
+      "load_rmse_n": 3.0761305242619743,
+      "load_rmse_range_fraction": 0.00012727905751733966,
+      "pump_position_rmse_m": 1.783948224199418e-05,
+      "pump_position_rmse_stroke_fraction": 1.1659792315028876e-05
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 6.89461518422283,
+      "load_rmse_range_fraction": 0.00028533074709148794,
+      "pump_position_rmse_m": 3.5920636754642125e-05,
+      "pump_position_rmse_stroke_fraction": 2.3477540362511192e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 16.210107291646672,
+      "load_rmse_range_fraction": 0.000670848466574728,
+      "pump_position_rmse_m": 8.462983005752288e-05,
+      "pump_position_rmse_stroke_fraction": 5.5313614416681626e-05
+    }
+  },
+  {
+    "asset_id": "NM-DEL-002",
+    "site_id": "US_NM_DELAWARE",
+    "reference_001_vs_002": {
+      "load_rmse_n": 7.1078810786213875,
+      "load_rmse_range_fraction": 0.00038936680539599847,
+      "pump_position_rmse_m": 3.38066646766506e-05,
+      "pump_position_rmse_stroke_fraction": 1.9769979343070527e-05
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 15.546332090730601,
+      "load_rmse_range_fraction": 0.000851655359825115,
+      "pump_position_rmse_m": 7.024988992856922e-05,
+      "pump_position_rmse_stroke_fraction": 4.108180697577147e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 33.771383326768664,
+      "load_rmse_range_fraction": 0.0018500556562856367,
+      "pump_position_rmse_m": 0.00016841695399763323,
+      "pump_position_rmse_stroke_fraction": 9.848944678224165e-05
+    }
+  },
+  {
+    "asset_id": "NM-DEL-003",
+    "site_id": "US_NM_DELAWARE",
+    "reference_001_vs_002": {
+      "load_rmse_n": 2.8786426112784276,
+      "load_rmse_range_fraction": 0.00014888660714130862,
+      "pump_position_rmse_m": 1.652816814494092e-05,
+      "pump_position_rmse_stroke_fraction": 8.745062510550752e-06
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 7.254700441573249,
+      "load_rmse_range_fraction": 0.00037526905325021784,
+      "pump_position_rmse_m": 3.3306151582099794e-05,
+      "pump_position_rmse_stroke_fraction": 1.7622302424391426e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 16.057703166974314,
+      "load_rmse_range_fraction": 0.0008306282407350083,
+      "pump_position_rmse_m": 7.847671125317159e-05,
+      "pump_position_rmse_stroke_fraction": 4.152206944612254e-05
+    }
+  },
+  {
+    "asset_id": "NM-DEL-004",
+    "site_id": "US_NM_DELAWARE",
+    "reference_001_vs_002": {
+      "load_rmse_n": 7.260096807934179,
+      "load_rmse_range_fraction": 0.0002144667507073136,
+      "pump_position_rmse_m": 5.4091379355514945e-05,
+      "pump_position_rmse_stroke_fraction": 2.6131101137929928e-05
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 16.247869378618468,
+      "load_rmse_range_fraction": 0.00047989645459405256,
+      "pump_position_rmse_m": 0.00010819094471563448,
+      "pump_position_rmse_stroke_fraction": 5.226615686745627e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 38.437072513004075,
+      "load_rmse_range_fraction": 0.0011352759179759967,
+      "pump_position_rmse_m": 0.0002598923150801022,
+      "pump_position_rmse_stroke_fraction": 0.0001255518430338658
+    }
+  },
+  {
+    "asset_id": "NM-DEL-005",
+    "site_id": "US_NM_DELAWARE",
+    "reference_001_vs_002": {
+      "load_rmse_n": 14.797540768284401,
+      "load_rmse_range_fraction": 0.00030685636844143794,
+      "pump_position_rmse_m": 7.772592882660767e-05,
+      "pump_position_rmse_stroke_fraction": 3.454485725627008e-05
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 34.89827031688696,
+      "load_rmse_range_fraction": 0.0007235175767956673,
+      "pump_position_rmse_m": 0.00016046300335358473,
+      "pump_position_rmse_stroke_fraction": 7.131689037937099e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 80.95654266926056,
+      "load_rmse_range_fraction": 0.001678406438082843,
+      "pump_position_rmse_m": 0.00038243441324442,
+      "pump_position_rmse_stroke_fraction": 0.00016997085033085334
+    }
+  },
+  {
+    "asset_id": "ND-WIL-001",
+    "site_id": "US_ND_WILLISTON",
+    "reference_001_vs_002": {
+      "load_rmse_n": 4.871694710105521,
+      "load_rmse_range_fraction": 0.0001826997845323959,
+      "pump_position_rmse_m": 3.00389336666467e-05,
+      "pump_position_rmse_stroke_fraction": 1.865772277431472e-05
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 11.740102541842809,
+      "load_rmse_range_fraction": 0.0004402618391562924,
+      "pump_position_rmse_m": 6.13813792735507e-05,
+      "pump_position_rmse_stroke_fraction": 3.812508029413087e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 26.54844347973186,
+      "load_rmse_range_fraction": 0.0009955847073281998,
+      "pump_position_rmse_m": 0.0001457973740050507,
+      "pump_position_rmse_stroke_fraction": 9.055737515841657e-05
+    }
+  },
+  {
+    "asset_id": "ND-WIL-002",
+    "site_id": "US_ND_WILLISTON",
+    "reference_001_vs_002": {
+      "load_rmse_n": 7.559006210370561,
+      "load_rmse_range_fraction": 0.0001895515192189438,
+      "pump_position_rmse_m": 4.204844469529638e-05,
+      "pump_position_rmse_stroke_fraction": 2.349075122642256e-05
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 18.497787655937458,
+      "load_rmse_range_fraction": 0.00046377841456483323,
+      "pump_position_rmse_m": 8.729803422100966e-05,
+      "pump_position_rmse_stroke_fraction": 4.876985152011713e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 41.26205842388673,
+      "load_rmse_range_fraction": 0.0010345265278990945,
+      "pump_position_rmse_m": 0.00020266340061557834,
+      "pump_position_rmse_stroke_fraction": 0.00011321977688021137
+    }
+  },
+  {
+    "asset_id": "ND-WIL-003",
+    "site_id": "US_ND_WILLISTON",
+    "reference_001_vs_002": {
+      "load_rmse_n": 5.90456433165485,
+      "load_rmse_range_fraction": 0.0002706690410682841,
+      "pump_position_rmse_m": 3.299232976073809e-05,
+      "pump_position_rmse_stroke_fraction": 1.674737551306502e-05
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 14.748233691940097,
+      "load_rmse_range_fraction": 0.0006761646540274799,
+      "pump_position_rmse_m": 6.729418302729506e-05,
+      "pump_position_rmse_stroke_fraction": 3.415948377020054e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 32.06138200392187,
+      "load_rmse_range_fraction": 0.0014699233632412634,
+      "pump_position_rmse_m": 0.00015939134317138965,
+      "pump_position_rmse_stroke_fraction": 8.090931125451251e-05
+    }
+  },
+  {
+    "asset_id": "ND-WIL-004",
+    "site_id": "US_ND_WILLISTON",
+    "reference_001_vs_002": {
+      "load_rmse_n": 8.251124676703519,
+      "load_rmse_range_fraction": 0.0002599781578057266,
+      "pump_position_rmse_m": 5.954166388656151e-05,
+      "pump_position_rmse_stroke_fraction": 2.769379715654024e-05
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 20.034367433925613,
+      "load_rmse_range_fraction": 0.0006312340770616723,
+      "pump_position_rmse_m": 0.00012083763922069235,
+      "pump_position_rmse_stroke_fraction": 5.620355312590342e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 44.04234413247866,
+      "load_rmse_range_fraction": 0.001387666894988672,
+      "pump_position_rmse_m": 0.0002834178638190438,
+      "pump_position_rmse_stroke_fraction": 0.00013182226224141573
+    }
+  },
+  {
+    "asset_id": "ND-WIL-005",
+    "site_id": "US_ND_WILLISTON",
+    "reference_001_vs_002": {
+      "load_rmse_n": 3.614648422344926,
+      "load_rmse_range_fraction": 0.00011860124720564082,
+      "pump_position_rmse_m": 3.878202463115836e-05,
+      "pump_position_rmse_stroke_fraction": 1.664464576444565e-05
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 8.678001120305415,
+      "load_rmse_range_fraction": 0.00028475767483824514,
+      "pump_position_rmse_m": 7.775030164818467e-05,
+      "pump_position_rmse_stroke_fraction": 3.3369228175186555e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 19.00285014987975,
+      "load_rmse_range_fraction": 0.0006235545892380471,
+      "pump_position_rmse_m": 0.00018171847599704696,
+      "pump_position_rmse_stroke_fraction": 7.799076223049226e-05
+    }
+  },
+  {
+    "asset_id": "OK-ANA-001",
+    "site_id": "US_OK_ANADARKO",
+    "reference_001_vs_002": {
+      "load_rmse_n": 6.002792073027469,
+      "load_rmse_range_fraction": 0.00019221477035578588,
+      "pump_position_rmse_m": 3.8486623522026746e-05,
+      "pump_position_rmse_stroke_fraction": 2.2773150013033578e-05
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 13.742843308691468,
+      "load_rmse_range_fraction": 0.00044018186560085905,
+      "pump_position_rmse_m": 7.804366062183387e-05,
+      "pump_position_rmse_stroke_fraction": 4.617968084132182e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 32.105593454292716,
+      "load_rmse_range_fraction": 0.001028338874677813,
+      "pump_position_rmse_m": 0.00018485459419087755,
+      "pump_position_rmse_stroke_fraction": 0.00010938141668099264
+    }
+  },
+  {
+    "asset_id": "OK-ANA-002",
+    "site_id": "US_OK_ANADARKO",
+    "reference_001_vs_002": {
+      "load_rmse_n": 8.295934750539963,
+      "load_rmse_range_fraction": 0.00017335500305600977,
+      "pump_position_rmse_m": 6.372922687845381e-05,
+      "pump_position_rmse_stroke_fraction": 3.4079800469761395e-05
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 18.96204803094437,
+      "load_rmse_range_fraction": 0.00039625495375704786,
+      "pump_position_rmse_m": 0.00012974765133920926,
+      "pump_position_rmse_stroke_fraction": 6.938377076963061e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 43.55061877279823,
+      "load_rmse_range_fraction": 0.0009100888469296068,
+      "pump_position_rmse_m": 0.0003090317793873922,
+      "pump_position_rmse_stroke_fraction": 0.00016525763603603862
+    }
+  },
+  {
+    "asset_id": "OK-ANA-003",
+    "site_id": "US_OK_ANADARKO",
+    "reference_001_vs_002": {
+      "load_rmse_n": 5.667490416278531,
+      "load_rmse_range_fraction": 0.00010933072192306264,
+      "pump_position_rmse_m": 5.052617630078532e-05,
+      "pump_position_rmse_stroke_fraction": 2.4646915268675768e-05
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 12.427205609537618,
+      "load_rmse_range_fraction": 0.00023972246841653813,
+      "pump_position_rmse_m": 0.00010172798209972923,
+      "pump_position_rmse_stroke_fraction": 4.9623405902306946e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 28.91706919823899,
+      "load_rmse_range_fraction": 0.0005578141559236354,
+      "pump_position_rmse_m": 0.00024189513050140366,
+      "pump_position_rmse_stroke_fraction": 0.00011799762463483106
+    }
+  },
+  {
+    "asset_id": "OK-ANA-004",
+    "site_id": "US_OK_ANADARKO",
+    "reference_001_vs_002": {
+      "load_rmse_n": 13.046437881602253,
+      "load_rmse_range_fraction": 0.0004001264211989044,
+      "pump_position_rmse_m": 7.537752765088324e-05,
+      "pump_position_rmse_stroke_fraction": 3.380158190622567e-05
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 32.98564863583239,
+      "load_rmse_range_fraction": 0.0010113386578932489,
+      "pump_position_rmse_m": 0.00015471133178897274,
+      "pump_position_rmse_stroke_fraction": 6.937727882913576e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 70.34927866116445,
+      "load_rmse_range_fraction": 0.002156906048761252,
+      "pump_position_rmse_m": 0.0003821633193501484,
+      "pump_position_rmse_stroke_fraction": 0.00017137368580724143
+    }
+  },
+  {
+    "asset_id": "OK-ANA-005",
+    "site_id": "US_OK_ANADARKO",
+    "reference_001_vs_002": {
+      "load_rmse_n": 5.634243953693852,
+      "load_rmse_range_fraction": 0.00016750918082788428,
+      "pump_position_rmse_m": 5.1933398125836415e-05,
+      "pump_position_rmse_stroke_fraction": 2.1549127853044154e-05
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 13.739210687388207,
+      "load_rmse_range_fraction": 0.000408474033449259,
+      "pump_position_rmse_m": 0.00010428339985282269,
+      "pump_position_rmse_stroke_fraction": 4.3271120270880785e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 29.646472508388534,
+      "load_rmse_range_fraction": 0.0008814053789975095,
+      "pump_position_rmse_m": 0.00024406154335843356,
+      "pump_position_rmse_stroke_fraction": 0.00010127034994125873
+    }
+  },
+  {
+    "asset_id": "CO-DJ-001",
+    "site_id": "US_CO_DJ",
+    "reference_001_vs_002": {
+      "load_rmse_n": 6.723789791490743,
+      "load_rmse_range_fraction": 0.00022357148650656503,
+      "pump_position_rmse_m": 5.5541881200255976e-05,
+      "pump_position_rmse_stroke_fraction": 3.1379593898449705e-05
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 16.241557867130346,
+      "load_rmse_range_fraction": 0.0005398882385249198,
+      "pump_position_rmse_m": 0.00011532725355520674,
+      "pump_position_rmse_stroke_fraction": 6.515664042667047e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 36.26844259897997,
+      "load_rmse_range_fraction": 0.0012056051364649745,
+      "pump_position_rmse_m": 0.00027354553648723456,
+      "pump_position_rmse_stroke_fraction": 0.00015454550084024552
+    }
+  },
+  {
+    "asset_id": "CO-DJ-002",
+    "site_id": "US_CO_DJ",
+    "reference_001_vs_002": {
+      "load_rmse_n": 4.535571558333862,
+      "load_rmse_range_fraction": 0.00012903476759265473,
+      "pump_position_rmse_m": 3.696843914748389e-05,
+      "pump_position_rmse_stroke_fraction": 1.895817392178661e-05
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 10.272672964868574,
+      "load_rmse_range_fraction": 0.0002922580806327188,
+      "pump_position_rmse_m": 7.464551059350995e-05,
+      "pump_position_rmse_stroke_fraction": 3.82797490223128e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 23.799340486716215,
+      "load_rmse_range_fraction": 0.0006770924758102842,
+      "pump_position_rmse_m": 0.00017540648008824874,
+      "pump_position_rmse_stroke_fraction": 8.99520410708968e-05
+    }
+  },
+  {
+    "asset_id": "CO-DJ-003",
+    "site_id": "US_CO_DJ",
+    "reference_001_vs_002": {
+      "load_rmse_n": 6.830062372853598,
+      "load_rmse_range_fraction": 0.00015584520286671228,
+      "pump_position_rmse_m": 7.286341326396349e-05,
+      "pump_position_rmse_stroke_fraction": 3.4208175241297414e-05
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 15.123791208750967,
+      "load_rmse_range_fraction": 0.00034507628615309546,
+      "pump_position_rmse_m": 0.0001473075597979447,
+      "pump_position_rmse_stroke_fraction": 6.91584787783778e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 35.254641370027585,
+      "load_rmse_range_fraction": 0.000804397557841789,
+      "pump_position_rmse_m": 0.00034646515887166724,
+      "pump_position_rmse_stroke_fraction": 0.00016265969900078274
+    }
+  },
+  {
+    "asset_id": "CO-DJ-004",
+    "site_id": "US_CO_DJ",
+    "reference_001_vs_002": {
+      "load_rmse_n": 9.47275737031653,
+      "load_rmse_range_fraction": 0.00015930869118474248,
+      "pump_position_rmse_m": 0.00010107609519606877,
+      "pump_position_rmse_stroke_fraction": 4.3755885366263536e-05
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 21.102771155256058,
+      "load_rmse_range_fraction": 0.00035478340782246477,
+      "pump_position_rmse_m": 0.00020332768501441403,
+      "pump_position_rmse_stroke_fraction": 8.80206428633827e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 50.03357810976511,
+      "load_rmse_range_fraction": 0.000841173096023111,
+      "pump_position_rmse_m": 0.0004779354423797676,
+      "pump_position_rmse_stroke_fraction": 0.0002068984599046613
+    }
+  },
+  {
+    "asset_id": "CO-DJ-005",
+    "site_id": "US_CO_DJ",
+    "reference_001_vs_002": {
+      "load_rmse_n": 6.930620996600553,
+      "load_rmse_range_fraction": 0.00017451094053986326,
+      "pump_position_rmse_m": 5.316848188355701e-05,
+      "pump_position_rmse_stroke_fraction": 2.13528039693e-05
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 17.27430214665628,
+      "load_rmse_range_fraction": 0.00043492826915274144,
+      "pump_position_rmse_m": 0.00010771460572479779,
+      "pump_position_rmse_stroke_fraction": 4.32588778011236e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 39.376873972661784,
+      "load_rmse_range_fraction": 0.0009914215634401452,
+      "pump_position_rmse_m": 0.00025246451940805773,
+      "pump_position_rmse_stroke_fraction": 0.00010139137325624807
+    }
+  },
+  {
+    "asset_id": "TX-EAG-001",
+    "site_id": "US_TX_EAGLEFORD",
+    "reference_001_vs_002": {
+      "load_rmse_n": 8.11604741963237,
+      "load_rmse_range_fraction": 0.00020087968602825813,
+      "pump_position_rmse_m": 6.080372678429616e-05,
+      "pump_position_rmse_stroke_fraction": 3.286687934286279e-05
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 17.76841228932934,
+      "load_rmse_range_fraction": 0.0004395738211616211,
+      "pump_position_rmse_m": 0.00012317305231903156,
+      "pump_position_rmse_stroke_fraction": 6.65800282805576e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 41.71272433034783,
+      "load_rmse_range_fraction": 0.001031933598026861,
+      "pump_position_rmse_m": 0.00029317196958488704,
+      "pump_position_rmse_stroke_fraction": 0.00015847133491074975
+    }
+  },
+  {
+    "asset_id": "TX-EAG-002",
+    "site_id": "US_TX_EAGLEFORD",
+    "reference_001_vs_002": {
+      "load_rmse_n": 5.277242665333076,
+      "load_rmse_range_fraction": 0.00013935105924286464,
+      "pump_position_rmse_m": 6.574424111109578e-05,
+      "pump_position_rmse_stroke_fraction": 3.238632567049054e-05
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 11.811727014382408,
+      "load_rmse_range_fraction": 0.0003119178556103057,
+      "pump_position_rmse_m": 0.0001326114492201676,
+      "pump_position_rmse_stroke_fraction": 6.532583705426976e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 27.26841224411614,
+      "load_rmse_range_fraction": 0.0007200898448402917,
+      "pump_position_rmse_m": 0.00031383732115090765,
+      "pump_position_rmse_stroke_fraction": 0.00015459966559158014
+    }
+  },
+  {
+    "asset_id": "TX-EAG-003",
+    "site_id": "US_TX_EAGLEFORD",
+    "reference_001_vs_002": {
+      "load_rmse_n": 7.414421736742704,
+      "load_rmse_range_fraction": 0.00014772074907720998,
+      "pump_position_rmse_m": 5.037874979105687e-05,
+      "pump_position_rmse_stroke_fraction": 2.2795814385093607e-05
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 17.79518714924608,
+      "load_rmse_range_fraction": 0.0003545483040806638,
+      "pump_position_rmse_m": 0.00010051155253336436,
+      "pump_position_rmse_stroke_fraction": 4.5480340512834555e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 41.91352564998154,
+      "load_rmse_range_fraction": 0.0008350780080372428,
+      "pump_position_rmse_m": 0.00023239483311109915,
+      "pump_position_rmse_stroke_fraction": 0.00010515603308194531
+    }
+  },
+  {
+    "asset_id": "TX-EAG-004",
+    "site_id": "US_TX_EAGLEFORD",
+    "reference_001_vs_002": {
+      "load_rmse_n": 4.0547840482957795,
+      "load_rmse_range_fraction": 8.989709404145768e-05,
+      "pump_position_rmse_m": 5.076890406675941e-05,
+      "pump_position_rmse_stroke_fraction": 2.124221927479473e-05
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 9.630963842876957,
+      "load_rmse_range_fraction": 0.00021351005041076156,
+      "pump_position_rmse_m": 0.00010152835789151907,
+      "pump_position_rmse_stroke_fraction": 4.248048447343894e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 22.939994051640056,
+      "load_rmse_range_fraction": 0.0005085596173233203,
+      "pump_position_rmse_m": 0.0002366384541634914,
+      "pump_position_rmse_stroke_fraction": 9.901190550773698e-05
+    }
+  },
+  {
+    "asset_id": "TX-EAG-005",
+    "site_id": "US_TX_EAGLEFORD",
+    "reference_001_vs_002": {
+      "load_rmse_n": 7.387480512070082,
+      "load_rmse_range_fraction": 0.00011556435484540899,
+      "pump_position_rmse_m": 9.886263956822133e-05,
+      "pump_position_rmse_stroke_fraction": 3.846795313938573e-05
+    },
+    "candidate_002_vs_004": {
+      "load_rmse_n": 16.1283070246733,
+      "load_rmse_range_fraction": 0.0002523236663840262,
+      "pump_position_rmse_m": 0.00019871828867324873,
+      "pump_position_rmse_stroke_fraction": 7.732229131254816e-05
+    },
+    "candidate_002_vs_0067": {
+      "load_rmse_n": 37.6667142386886,
+      "load_rmse_range_fraction": 0.0005892871100981431,
+      "pump_position_rmse_m": 0.00046593675191280927,
+      "pump_position_rmse_stroke_fraction": 0.00018129834704778573
+    }
+  }
+]

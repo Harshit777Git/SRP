@@ -1,0 +1,7 @@
+{
+  "state_id": "STATE-012",
+  "source_state": "Damping_RodString",
+  "surface_card": null,
+  "downhole_card": null,
+  "reason": "No verified ordered numerical samples extracted"
+}

@@ -1,0 +1,57 @@
+{
+  "state_id": "STATE-043",
+  "name": "Need Gas Separator",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Need Gas Separator",
+  "source_files": [
+    {
+      "State ID": "STATE-043",
+      "Original State Name": "Need Gas Separator",
+      "Application": "TAM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Need Gas Separator\\Original TAM\\Need Gas Separator.TAM_EXP",
+      "Extension": ".TAM_EXP",
+      "Bytes": 581397,
+      "SHA256": "2bc67d20e1a384117c6f66b8a3ea1579e1a6969df38c2680e5a0737514ac1d10",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-043",
+      "Original State Name": "Need Gas Separator",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Need Gas Separator\\Original TWM\\1_7_Gas-Separator\\GasInterNeedGasSep.004",
+      "Extension": ".004",
+      "Bytes": 702877,
+      "SHA256": "b1ffcb93c1b56b77f5a05d41fbe727879a378c1ccd21c5264d93f4fab79c7940",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-043",
+      "Original State Name": "Need Gas Separator",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Need Gas Separator\\Original TWM\\2_1_PumpIntakePressuureDYNO_PFL_VC_08\\GasInterNeedGasSep.004",
+      "Extension": ".004",
+      "Bytes": 702901,
+      "SHA256": "7101d883cc0ade75b97d123993e8e71914b068191a4e5c8433e07dc12086820a",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "VENDOR_GUI_ACTION_REQUIRED",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

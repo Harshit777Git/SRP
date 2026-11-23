@@ -1,0 +1,137 @@
+{
+  "source_sha256": "084c3d9f036d19dcef835b0dfafe74fc073150558edc9d6924cbc98bb240d945",
+  "origin": "SYNTHETIC",
+  "seed": 73129,
+  "partitions": {
+    "train": [
+      "TX-MID-004",
+      "TX-EAG-002",
+      "OK-ANA-002",
+      "NM-DEL-001",
+      "CO-DJ-004",
+      "CO-DJ-005",
+      "CO-DJ-001",
+      "TX-MID-001",
+      "TX-EAG-001",
+      "OK-ANA-005",
+      "ND-WIL-003",
+      "NM-DEL-005",
+      "CO-DJ-003",
+      "ND-WIL-004",
+      "NM-DEL-002",
+      "TX-MID-003",
+      "TX-MID-002",
+      "ND-WIL-005"
+    ],
+    "validation": [
+      "OK-ANA-004",
+      "TX-MID-005",
+      "ND-WIL-001",
+      "OK-ANA-003",
+      "TX-EAG-003",
+      "NM-DEL-003"
+    ],
+    "test": [
+      "OK-ANA-001",
+      "TX-EAG-004",
+      "TX-EAG-005",
+      "CO-DJ-002",
+      "ND-WIL-002",
+      "NM-DEL-004"
+    ]
+  },
+  "physical_configuration_groups": {
+    "ab39917fcb623a8fb32a525a489632186b0f3c69f36c2d2787ede5a84f526387": [
+      "TX-MID-001"
+    ],
+    "f29c135c32eb3763f0399718d0725a278ca28c79474677d8005de73e370ad1d3": [
+      "TX-MID-002"
+    ],
+    "e04465669984473275ddb8a5062006df111c9eadea25f92597a65c424e088087": [
+      "TX-MID-003"
+    ],
+    "404556545668cbc2dd8b719923fdcd9546df2cd954e0c16ed7a6c14a4274bd33": [
+      "TX-MID-004"
+    ],
+    "fe7bac7c700205c6d37381564f168c338fdad5932e86c87116f956a6cfffefce": [
+      "TX-MID-005"
+    ],
+    "1f2227da1e05f9148b916ad71b62548c65372ddcea9775137933e8752c012b3b": [
+      "NM-DEL-001"
+    ],
+    "7b74909049d16592ce87c75bac18f5858797d8affc0cf00c081819aeb798a11a": [
+      "NM-DEL-002"
+    ],
+    "7a221572ec2c82215a7d3e48994d287266efd098508b02c1d21a1701c9d85f11": [
+      "NM-DEL-003"
+    ],
+    "bbec96809d17508edd3d4d88673f2cda2c81b62ee5105339176f3fdb192e1c10": [
+      "NM-DEL-004"
+    ],
+    "13e590519ec7f8119bfff2562658ca047f6118a77a901882cb0bfa9b406bdabe": [
+      "NM-DEL-005"
+    ],
+    "35080481e36a51b66d40fc7da967c5e9aa35bdb8a41054a5454d964bd3790f55": [
+      "ND-WIL-001"
+    ],
+    "a00c9650524c454d9b080f71612a61d5c78c0e690fcbbc4c40f60a5d5bab6d94": [
+      "ND-WIL-002"
+    ],
+    "7f1d4cd7f1f60cf97b6718f87888fbeaa99fe4ae5c484e76cf1f4324140e35c1": [
+      "ND-WIL-003"
+    ],
+    "c37f2e0d1b2dcfbd6b9d8925888f99f0fe10c2f5521ef44692276f3103a2eb74": [
+      "ND-WIL-004"
+    ],
+    "e49f856b50e8ee18caf9f7f276237a1df0d83aa2e1d67d47c0a80816633f7738": [
+      "ND-WIL-005"
+    ],
+    "12bd013516f3fb0099c9895385f5f33631ab5883e0f4d980cf66ce78380cd768": [
+      "OK-ANA-001"
+    ],
+    "5748046fdef6ecd0b438d125ceece569b79394adc7b7b16e2b751c280af03853": [
+      "OK-ANA-002"
+    ],
+    "24d14ca7e0f50f05793ea91fcaa22e8af1e35caafcffabfeff3f0d960b278d13": [
+      "OK-ANA-003"
+    ],
+    "edd42f803d06911eec97a9d4c3011ebe5c1b76cdedbf957b25914e941b02375f": [
+      "OK-ANA-004"
+    ],
+    "6c4b6e7aa96e6eb4a51231f3ba2f7f4c20f82f572b78982ba6bd591337c0324b": [
+      "OK-ANA-005"
+    ],
+    "4c275ed4de596ff6578b1f5e5b804b02ca4f10fcc1d00b6183e0e1463cf88c9f": [
+      "CO-DJ-001"
+    ],
+    "76af5276e75ee69e4477addc24e7f1f94f2d8984a8f99c8b5b1df8f72a01e172": [
+      "CO-DJ-002"
+    ],
+    "68751ce76113cc7534ddb966fb4bed65211b7450c4f3d7bca06c3b41739cd0fd": [
+      "CO-DJ-003"
+    ],
+    "0931cfd42bc2e759fba9de8a486901660c40e613d9866751e70fabcd2c2cfb54": [
+      "CO-DJ-004"
+    ],
+    "c713b60ca2d93c35b31b1a4ac3c78f6e9e10d0ec9c972148027d6799bc163a76": [
+      "CO-DJ-005"
+    ],
+    "67a9b4279194c09c91fff38540ba4b54a0056e829b47ff8f5732a236126d2af5": [
+      "TX-EAG-001"
+    ],
+    "258f90b06ed8c0d36f6a931f152385582a01b4da31bd54bea9fc4c3fd6b70ee4": [
+      "TX-EAG-002"
+    ],
+    "cf7e028d6aa2b87ee4de841a6195e859fe73117a60ab0ab56ea42ede2c3870f5": [
+      "TX-EAG-003"
+    ],
+    "cdcf7e0b714b49ee14ce0e9c838bd92667b892d62afea34c1d19d73feb07a120": [
+      "TX-EAG-004"
+    ],
+    "7eaec4de22953f1004b0f941185b5dd91f0faef47156d63e86d584c3af958d3d": [
+      "TX-EAG-005"
+    ]
+  },
+  "policy": "All strokes and severity variants from a configuration stay together. Test partition must not guide model selection.",
+  "limitation": "Fleet configurations have previously informed simulator development; this is not an independent field evaluation."
+}

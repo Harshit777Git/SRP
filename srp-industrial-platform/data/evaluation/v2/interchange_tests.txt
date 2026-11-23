@@ -1,0 +1,8 @@
+test_declared_gaps_degrade_geometry (__main__.InterchangeTests.test_declared_gaps_degrade_geometry) ... ok
+test_mapping_sorting_and_idempotency (__main__.InterchangeTests.test_mapping_sorting_and_idempotency) ... ok
+test_reject_duplicates_and_nonfinite (__main__.InterchangeTests.test_reject_duplicates_and_nonfinite) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.010s
+
+OK

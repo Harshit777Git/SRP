@@ -1,0 +1,94 @@
+﻿State ID,State,Summary PDF collected,Reviewed solver configuration,Rod string complete,Missing parameters
+STATE-001,Anchored but NOT Set,True,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-002,Anchored With Rod Stretch,True,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-003,Asphaltenes in Pump,True,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-004,average_well,True,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-005,Bad Tail Bearing,True,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-006,BlockedIntake,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-007,Calculate_PlungerClearance,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-008,Conventional,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-009,Damping_10API,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-010,Damping_High,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-011,Damping_Negative_Acc,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-012,Damping_RodString,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-013,Damping_ShallowWell,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-014,Damping_VeryHigh,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-015,Deep_well,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-016,Dyno_CardOptions,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-017,Dyno_HydraulicPump,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-018,Dyno_Normal_GradientSet_0,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-019,DynoChangeSPM,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-020,FHMUF814,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-021,FlatLoadLineBuoy,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-022,FluidPoundUnAnchoredTubing,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-023,Flumping,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-024,Gas Interference,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-025,GasLocked_wTag,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-026,GearboxBalance,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-027,Gunk in Pump,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-028,HighSpeed,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-029,INF 1824,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-030,Leak Hole In Pump Barrel,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-031,Leak Pump Barrel Worn,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-032,Leak Standing Valve,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-033,Leak SV Bad,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-034,Leak Tubing Hole,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-035,Leak Tubing Hole HT,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-036,Leak Tubing Hole PRT,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-037,Leak TV Unanchored,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-038,Leak TV(best),False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-039,LeaveCsgValveClosed,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-040,Light Load Motor,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-041,MarkII,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-042,Motor - Burn Up,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-043,Need Gas Separator,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-044,NR-6,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-045,PFL_Anomaly,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-046,PFL_DHM_CasingWtChange,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-047,PFL_DHM_CoalBedPerfs,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-048,PFL_Gaseous_noisy,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-049,PFL_Gaslift,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-050,PFL_High,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-051,PFL_High_liquid_low_gas,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-052,PFL_Imp_Exp,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-053,PFL_Liner,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-054,PFL_Lot of Gas2,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-055,PFL_SBHP,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-056,PFL_Tubing_anchor,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-057,Plunger_Normal Cycle,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-058,PRT Bending Polished Rod,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-059,PRT RodRotator,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-060,Red Raider 1,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-061,ReverseMark,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-062,RodPart_3000,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-063,RodPart_5365,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-064,RodPart_NoPlunger,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-065,RotoFlex,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-066,RotoFlex_Electric,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-067,RVOGTA8,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-068,RVOGTA8DOWN10MIN,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-069,RvogtXa8,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-070,Sandia,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-071,Stick_Release_Upstroke,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-072,StrokeProcessind3,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-073,StrokeProcessing,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-074,StrokeProcessing1,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-075,Stuffing Box,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-076,SV_StuckOpenHT,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-077,Tagging Down Hard,True,True,NO,61-ft rod-depth gap; verified pump intake conditions
+STATE-078,Tagging Fiberglass Rods on Downstroke,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-079,Tagging Hard FG,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-080,Tagging Unanchored,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-081,TBG Fluid Grad,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-082,Trash Sticks SV Open,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-083,Trash Sticks TV Open,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-084,TV Action Erratic,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-085,TV Double Valve,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-086,Unaccounted Wellbore Friction,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-087,Undertravel,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-088,UseBackPressureRequlator,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-089,V11,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-090,V11_StartUp_AMP_KW,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-091,VariableSlippagePump,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-092,Well5,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs
+STATE-093,Well6,False,False,UNVERIFIED,Not assessed; review engineering PDF and required application inputs

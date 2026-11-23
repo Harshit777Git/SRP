@@ -1,0 +1,110 @@
+{
+  "provenance": {
+    "state_id": "STATE-026",
+    "source_archive": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-026\\01_TAM\\GearboxBalance.TAM_EXP",
+    "source_sha256": "828ae1b9ccdbf61838cd8d1d9d68960d2642e60b3f6b7755fd2d158e71432252",
+    "source_bytes": 8303,
+    "extracted_utc": "2026-11-18T04_44_29Z",
+    "method": "lossless extraction of vendor metadata.json and TestResults.json",
+    "synthetic_data": false
+  },
+  "tests": [
+    {
+      "DateTime": "2003-06-17T18:56:12Z",
+      "LastModified": "2003-06-17T18:56:12Z",
+      "Type": "DYN",
+      "NumValues": {
+        "Rated Current": 54.0
+      },
+      "StrValues": {}
+    },
+    {
+      "DateTime": "2003-06-17T18:39:31Z",
+      "LastModified": "2003-06-17T18:39:31Z",
+      "Type": "DYN",
+      "NumValues": {
+        "Beam Loading": 92.4642906814325,
+        "Existing Counterbalance": 2298.874,
+        "Existing Cyclic Load Factor": 1.492130053921373,
+        "Existing Max Gearbox Torque, DownStroke": 632.1426391601562,
+        "Existing Max Gearbox Torque, Upstroke": 610.0973510742188,
+        "Existing Min Gearbox Torque, DownStroke": -76.13385772705078,
+        "Existing Min Gearbox Torque, Upstroke": -213.8419952392578,
+        "Existing RMS Gearbox Torque": 323.1594064855897,
+        "In Balance Cyclic Load Factor": 1.4894276301347453,
+        "In Balance Max Gearbox Torque, DownStroke": 620.2583618164062,
+        "In Balance Max Gearbox Torque, Upstroke": 620.2583618164062,
+        "In Balance Min Gearbox Torque, DownStroke": -87.75076293945312,
+        "In Balance Min Gearbox Torque, Upstroke": -202.49545288085938,
+        "In Balance RMS Gearbox Torque": 322.2806346997893,
+        "Maximum Counterbalance": 2344.842,
+        "Polished Rod Power": 20.99032620155667,
+        "Rated Current": 54.0,
+        "Required Counterbalance Change": 17.381691309773828
+      },
+      "StrValues": {
+        "Out of Balance": "Yes, weights heavy",
+        "To Balance Move": "14144.0 weights IN 1.23"
+      }
+    },
+    {
+      "DateTime": "2003-06-10T19:45:29Z",
+      "LastModified": "2003-06-10T19:45:29Z",
+      "Type": "DYN",
+      "NumValues": {
+        "Beam Loading": 92.4642906814325,
+        "Existing Counterbalance": 2298.874,
+        "Existing Cyclic Load Factor": 1.492130053921373,
+        "Existing Max Gearbox Torque, DownStroke": 632.1426391601562,
+        "Existing Max Gearbox Torque, Upstroke": 610.0973510742188,
+        "Existing Min Gearbox Torque, DownStroke": -76.13385772705078,
+        "Existing Min Gearbox Torque, Upstroke": -213.8419952392578,
+        "Existing RMS Gearbox Torque": 323.1594064855897,
+        "In Balance Cyclic Load Factor": 1.4894276301347453,
+        "In Balance Max Gearbox Torque, DownStroke": 620.2583618164062,
+        "In Balance Max Gearbox Torque, Upstroke": 620.2583618164062,
+        "In Balance Min Gearbox Torque, DownStroke": -87.75076293945312,
+        "In Balance Min Gearbox Torque, Upstroke": -202.49545288085938,
+        "In Balance RMS Gearbox Torque": 322.2806346997893,
+        "Maximum Counterbalance": 2344.842,
+        "Polished Rod Power": 20.99032620155667,
+        "Rated Current": 54.0,
+        "Required Counterbalance Change": 17.381691309773828
+      },
+      "StrValues": {
+        "Out of Balance": "Yes, weights heavy",
+        "To Balance Move": "14144.0 weights IN 1.23"
+      }
+    },
+    {
+      "DateTime": "2003-06-10T19:27:06Z",
+      "LastModified": "2003-06-10T19:27:06Z",
+      "Type": "DYN",
+      "NumValues": {
+        "Beam Loading": 90.89424258372823,
+        "Existing Counterbalance": 2004.59,
+        "Existing Cyclic Load Factor": 1.6736063530322252,
+        "Existing Max Gearbox Torque, DownStroke": 435.8700866699219,
+        "Existing Max Gearbox Torque, Upstroke": 797.0213623046875,
+        "Existing Min Gearbox Torque, DownStroke": -280.1817932128906,
+        "Existing Min Gearbox Torque, Upstroke": -47.24489212036133,
+        "Existing RMS Gearbox Torque": 360.2047436186179,
+        "In Balance Cyclic Load Factor": 1.5437809052217533,
+        "In Balance Max Gearbox Torque, DownStroke": 618.8931274414062,
+        "In Balance Max Gearbox Torque, Upstroke": 618.8931274414062,
+        "In Balance Min Gearbox Torque, DownStroke": -81.96060943603516,
+        "In Balance Min Gearbox Torque, Upstroke": -229.65367126464844,
+        "In Balance RMS Gearbox Torque": 318.4185349127416,
+        "Maximum Counterbalance": 2004.59,
+        "Polished Rod Power": 20.929956580393057,
+        "Rated Current": 54.0,
+        "Required Counterbalance Change": 296.6345374916336
+      },
+      "StrValues": {
+        "Out of Balance": "Yes, rod heavy",
+        "To Balance Move": "Loading cannot be balanced, must add weights to balance"
+      }
+    }
+  ],
+  "note": "Exact vendor result values only; invalid/sentinel values are preserved and no units are inferred."
+}

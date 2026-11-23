@@ -1,0 +1,147 @@
+{
+  "origin": "SYNTHETIC_ONLY",
+  "coverage": {
+    "abnormal_speed": {
+      "telemetry_samples": 3129,
+      "independent_runs": 3,
+      "virtual_wells": 3,
+      "actual_severities": [
+        0.1,
+        0.2,
+        0.4
+      ],
+      "distinct_cards": 6,
+      "duplicate_card_rows": 0,
+      "solved_cards": 6
+    },
+    "gas_interference": {
+      "telemetry_samples": 3129,
+      "independent_runs": 3,
+      "virtual_wells": 3,
+      "actual_severities": [
+        0.1,
+        0.2,
+        0.4
+      ],
+      "distinct_cards": 5,
+      "duplicate_card_rows": 0,
+      "solved_cards": 5
+    },
+    "healthy": {
+      "telemetry_samples": 3129,
+      "independent_runs": 3,
+      "virtual_wells": 3,
+      "actual_severities": [
+        0.0
+      ],
+      "distinct_cards": 5,
+      "duplicate_card_rows": 0,
+      "solved_cards": 5
+    },
+    "incomplete_fillage": {
+      "telemetry_samples": 3129,
+      "independent_runs": 3,
+      "virtual_wells": 3,
+      "actual_severities": [
+        0.1,
+        0.2,
+        0.4
+      ],
+      "distinct_cards": 5,
+      "duplicate_card_rows": 0,
+      "solved_cards": 5
+    },
+    "load_cell_drift": {
+      "telemetry_samples": 3129,
+      "independent_runs": 3,
+      "virtual_wells": 3,
+      "actual_severities": [
+        0.1,
+        0.2,
+        0.4
+      ],
+      "distinct_cards": 5,
+      "duplicate_card_rows": 0,
+      "solved_cards": 5
+    },
+    "position_sensor_fault": {
+      "telemetry_samples": 3129,
+      "independent_runs": 3,
+      "virtual_wells": 3,
+      "actual_severities": [
+        0.1,
+        0.2,
+        0.4
+      ],
+      "distinct_cards": 5,
+      "duplicate_card_rows": 0,
+      "solved_cards": 5
+    },
+    "pump_wear": {
+      "telemetry_samples": 3129,
+      "independent_runs": 3,
+      "virtual_wells": 3,
+      "actual_severities": [
+        0.1,
+        0.2,
+        0.4
+      ],
+      "distinct_cards": 5,
+      "duplicate_card_rows": 0,
+      "solved_cards": 5
+    },
+    "restricted_inflow": {
+      "telemetry_samples": 3129,
+      "independent_runs": 3,
+      "virtual_wells": 3,
+      "actual_severities": [
+        0.1,
+        0.2,
+        0.4
+      ],
+      "distinct_cards": 5,
+      "duplicate_card_rows": 0,
+      "solved_cards": 5
+    },
+    "rod_friction": {
+      "telemetry_samples": 3129,
+      "independent_runs": 3,
+      "virtual_wells": 3,
+      "actual_severities": [
+        0.1,
+        0.2,
+        0.4
+      ],
+      "distinct_cards": 6,
+      "duplicate_card_rows": 0,
+      "solved_cards": 6
+    },
+    "standing_valve_leak": {
+      "telemetry_samples": 3129,
+      "independent_runs": 3,
+      "virtual_wells": 3,
+      "actual_severities": [
+        0.1,
+        0.2,
+        0.4
+      ],
+      "distinct_cards": 4,
+      "duplicate_card_rows": 0,
+      "solved_cards": 4
+    },
+    "traveling_valve_leak": {
+      "telemetry_samples": 3129,
+      "independent_runs": 3,
+      "virtual_wells": 3,
+      "actual_severities": [
+        0.1,
+        0.2,
+        0.4
+      ],
+      "distinct_cards": 6,
+      "duplicate_card_rows": 0,
+      "solved_cards": 6
+    }
+  },
+  "explanation": "Telemetry rows are not independent labeled strokes. No field validation follows from these counts."
+}

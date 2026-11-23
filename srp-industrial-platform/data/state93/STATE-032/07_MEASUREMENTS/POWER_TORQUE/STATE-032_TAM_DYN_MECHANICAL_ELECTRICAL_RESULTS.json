@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "state_id": "STATE-032",
+    "source_archive": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-032\\01_TAM\\Leak Standing Valve.TAM_EXP",
+    "source_sha256": "799a714a858bba135b63b583676720eedb7a8c41e4eef104100d413b1488a0a5",
+    "source_bytes": 5312,
+    "extracted_utc": "2026-11-18T04_44_29Z",
+    "method": "lossless extraction of vendor metadata.json and TestResults.json",
+    "synthetic_data": false
+  },
+  "tests": [
+    {
+      "DateTime": "2003-09-16T16:19:02Z",
+      "LastModified": "2003-09-16T16:19:02Z",
+      "Type": "DYN",
+      "NumValues": {
+        "Rated Current": 38.0
+      },
+      "StrValues": {}
+    },
+    {
+      "DateTime": "2003-09-16T16:16:41Z",
+      "LastModified": "2003-09-16T16:16:41Z",
+      "Type": "DYN",
+      "NumValues": {
+        "Beam Loading": 73.64470639731735,
+        "Existing Counterbalance": 558.71746,
+        "Existing Cyclic Load Factor": 1.596941648834891,
+        "Existing Max Gearbox Torque, DownStroke": 88.54596710205078,
+        "Existing Max Gearbox Torque, Upstroke": 135.75527954101562,
+        "Existing Min Gearbox Torque, DownStroke": -84.68619537353516,
+        "Existing Min Gearbox Torque, Upstroke": 4.815479755401611,
+        "Existing RMS Gearbox Torque": 78.61629548860299,
+        "In Balance Cyclic Load Factor": 1.464833023663218,
+        "In Balance Max Gearbox Torque, DownStroke": 118.05631256103516,
+        "In Balance Max Gearbox Torque, Upstroke": 118.05631256103516,
+        "In Balance Min Gearbox Torque, DownStroke": -63.5223503112793,
+        "In Balance Min Gearbox Torque, Upstroke": -8.80774974822998,
+        "In Balance RMS Gearbox Torque": 71.92334284802641,
+        "Maximum Counterbalance": 659.9164599999999,
+        "Polished Rod Power": 6.090683915832249,
+        "Rated Current": 38.0,
+        "Required Counterbalance Change": 30.12844532172929
+      },
+      "StrValues": {
+        "Out of Balance": "Yes, rod heavy",
+        "To Balance Move": "3416.0 weights OUT 8.82"
+      }
+    }
+  ],
+  "note": "Exact vendor result values only; invalid/sentinel values are preserved and no units are inferred."
+}

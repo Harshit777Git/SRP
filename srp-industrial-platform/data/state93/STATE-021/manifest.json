@@ -1,0 +1,35 @@
+{
+  "state_id": "STATE-021",
+  "name": "FlatLoadLineBuoy",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\FlatLoadLineBuoy",
+  "source_files": [
+    {
+      "State ID": "STATE-021",
+      "Original State Name": "FlatLoadLineBuoy",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\FlatLoadLineBuoy\\Original TWM\\1_8_Dyno_Analysis_Advanced\\FlatLoadLineBuoy.002",
+      "Extension": ".002",
+      "Bytes": 438715,
+      "SHA256": "0dccbb141ea8abe82d71b74c745fbe64b8a3c44569d744c9fbd498f08826d6ee",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "UNSUPPORTED_CONVERSION",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

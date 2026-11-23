@@ -1,0 +1,39 @@
+{
+  "state_id": "STATE-002",
+  "state_name": "Anchored With Rod Stretch",
+  "source_application": "TAM",
+  "test_id": "2002-01-11_012908",
+  "selected_stroke_id": "99",
+  "reported_test_strokes": 99,
+  "exported_unique_strokes": 1,
+  "sample_count": 271,
+  "surface_load_unit": "lbf",
+  "pump_load_unit": "lbf",
+  "position_unit": "in",
+  "pdf_configuration_status": "ORIGINAL_PDF_COLLECTED_NOT_ENGINEERING_REVIEWED",
+  "vendor_comment": "Anchored Tubing and Deep Fluid Level - Dynamometer Test",
+  "diagnostic_label_status": "COMMENT_ONLY_NOT_FIELD_VERIFIED",
+  "txt_dyn_surface_max_position_difference_in": 0.0,
+  "txt_dyn_surface_max_load_difference_lbf": 0.005000000001018634,
+  "source_files": [
+    {
+      "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-002\\05_NUMERICAL_DATA\\TAM\\test_2002-01-11_012908\\Anchored With Rod Stretch_DYN_4294967295_01-11-2002_01-29-08.txt",
+      "bytes": 10829,
+      "sha256": "701b83ce440507b7be6677f72677bd61a0c0aad48b06467bd935d0ca14da0c17",
+      "format": ".txt"
+    },
+    {
+      "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-002\\05_NUMERICAL_DATA\\TAM\\test_2002-01-11_012908\\Anchored With Rod Stretch_DYN_4294967295_01-11-2002_01-29-08.dyn",
+      "bytes": 5752,
+      "sha256": "00128b2b6bdcf26524dd467b9e16005faa139501bd9f69c542b24dea5e7e1847",
+      "format": ".dyn"
+    },
+    {
+      "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-002\\06_ENGINEERING_CONFIGURATION\\TAM\\Anchored With Rod Stretch_Summary.pdf",
+      "bytes": 183035,
+      "sha256": "3d46e1d71543bf7943a2c65d4f9b3da8ccc0adad1dff2befecb6608e2fa7b976",
+      "format": ".pdf"
+    }
+  ],
+  "apm_reconstruction": "BLOCKED_REVIEWED_CONFIGURATION_REQUIRED"
+}

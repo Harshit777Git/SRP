@@ -1,0 +1,7 @@
+{
+  "state_id": "STATE-059",
+  "source_state": "PRT RodRotator",
+  "surface_card": null,
+  "downhole_card": null,
+  "reason": "No verified ordered numerical samples extracted"
+}

@@ -1,0 +1,36 @@
+{
+  "asset_id": "STATE-077",
+  "source": "Browser check of local APM on 2026-11-18",
+  "reference_view_loaded": true,
+  "stored_version_displayed": "faa955c2ea369d59",
+  "database_version_current": "faa955c2ea369d59",
+  "browser_version_matches_current_database": true,
+  "sample_count_displayed": 174,
+  "scrub_test": {
+    "from": 0,
+    "to": 87,
+    "surface_sample_displayed": 88,
+    "downhole_sample_displayed": 88,
+    "plunger_position_changed": true
+  },
+  "play_test": {
+    "cursor_advanced": true,
+    "pause_control_appeared": true,
+    "pause_returned_to_play": true
+  },
+  "vendor_overlay_default_on": true,
+  "vendor_overlay_toggle_tested": true,
+  "vendor_overlay_plot_counts": {
+    "on": 2,
+    "off": 1,
+    "restored": 2
+  },
+  "csv_export_browser_tested": true,
+  "csv_export_rows_including_header": 175,
+  "csv_export_path": "C:\\Users\\HARSHIT\\Downloads\\STATE-077-comparison.csv",
+  "png_export_tested": false,
+  "pdf_export_tested": false,
+  "timing_status": "ESTIMATED_FROM_SPM",
+  "valve_and_fillage_status": "UNAVAILABLE",
+  "screenshot_saved": false
+}

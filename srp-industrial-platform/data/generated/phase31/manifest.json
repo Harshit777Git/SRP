@@ -1,0 +1,87 @@
+{
+  "schema_version": "phase3.1",
+  "origin": "SYNTHETIC",
+  "model_training_performed": false,
+  "physics_step_s": 0.0067,
+  "sensor_rates_hz": {
+    "dynamometer": 50,
+    "electrical": 10,
+    "pressure": 1
+  },
+  "wells": 30,
+  "completed_strokes": 90,
+  "valid_strokes": 90,
+  "raw_dynamometer_samples": 42150,
+  "electrical_samples": 8439,
+  "pressure_samples": 856,
+  "split_manifest": "data\\evaluation\\phase3\\future_split_manifest.json",
+  "split_sha256": "873b65a64538a572b4e56d2fa2d4a01116f951151b410c4b9303ea4122cc9a0a",
+  "files": [
+    {
+      "path": "data\\generated\\phase31\\ml_inputs\\dynamometer.csv",
+      "bytes": 12066852,
+      "sha256": "d32a6ae53ea99c14b4a24efb22040d27ce5f0ee153363f3bcd9e4ab98a9b9216"
+    },
+    {
+      "path": "data\\generated\\phase31\\ml_inputs\\dynamometer.parquet",
+      "bytes": 1147981,
+      "sha256": "092b60235f91890483df70a3ae557976edb53fdd8e318ec4821d63f3322ac492"
+    },
+    {
+      "path": "data\\generated\\phase31\\ml_inputs\\electrical.csv",
+      "bytes": 1386608,
+      "sha256": "ac9306054943bc379fd7790f613370d2968c01f41a88fdc7879e7b4821c1b3a1"
+    },
+    {
+      "path": "data\\generated\\phase31\\ml_inputs\\electrical.parquet",
+      "bytes": 175938,
+      "sha256": "3c19bc27f02e0864e9d05df65bf02235b9e32a130905116b3c93fc8c84b312a3"
+    },
+    {
+      "path": "data\\generated\\phase31\\ml_inputs\\pressure.csv",
+      "bytes": 129609,
+      "sha256": "2a664ae9dbac1e228ec3a4611706d8810b5bc90c7db8176767b9d6b0cc9c6f05"
+    },
+    {
+      "path": "data\\generated\\phase31\\ml_inputs\\pressure.parquet",
+      "bytes": 12499,
+      "sha256": "3c43ae2a8ba46ff1bd63d5251543ca6c250bdf47d20e51848e41254e2753bf8f"
+    },
+    {
+      "path": "data\\generated\\phase31\\ml_inputs\\features.csv",
+      "bytes": 15051,
+      "sha256": "2908cfb065ea676d713a8323635b4f0997660e76e63dbb9e1b4b4afea6a8830c"
+    },
+    {
+      "path": "data\\generated\\phase31\\ml_inputs\\features.parquet",
+      "bytes": 10614,
+      "sha256": "b98348f3ac9708f381655a89498635e927bfc19e6dbe20c3f895786ce4312f3d"
+    },
+    {
+      "path": "data\\generated\\phase31\\ml_inputs\\cards.jsonl",
+      "bytes": 4191108,
+      "sha256": "da61f370c3cbe6ce783b0b946461d6e68a7a0e0b13a29b43880dc34d9d58a73e"
+    },
+    {
+      "path": "data\\generated\\phase31\\simulation_truth\\downhole_truth.jsonl",
+      "bytes": 14744125,
+      "sha256": "e9f4f99c0efa7bd2d1e0e07ef229e583cb374588c9ab881650bebab49b19497b"
+    },
+    {
+      "path": "data\\generated\\phase31\\simulation_truth\\scenario_labels.jsonl",
+      "bytes": 6205,
+      "sha256": "63a54ea696e7e2ccb4b2e6b0d49f48f2993f3cada0870f5713fa83ae8229dace"
+    },
+    {
+      "path": "data\\generated\\phase31\\validation.jsonl",
+      "bytes": 67634,
+      "sha256": "47420c952123dc98171d34689082e601e49f35ea1dce827a48c8f716327133e2"
+    },
+    {
+      "path": "data\\generated\\phase31\\configuration.json",
+      "bytes": 40615,
+      "sha256": "4bd917ecd38a00ec4d16c8fb380de721c65baca31ae8a2fff13216384a1990d1"
+    }
+  ],
+  "truth_isolation": "simulation_truth directory excluded from ml_inputs"
+}

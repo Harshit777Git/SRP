@@ -1,0 +1,140 @@
+
+> build
+> tsc --noEmit && vite build apps/srp-simulator/frontend && vite build apps/srp-apm/frontend
+
+vite v7.3.8 building client environment for production...
+transforming...
+node_modules/@mui/material/esm/CssBaseline/CssBaseline.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/CssBaseline/CssBaseline.js" was ignored.
+node_modules/@mui/material/esm/Button/Button.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/Button/Button.js" was ignored.
+node_modules/@mui/material/esm/styles/useThemeProps.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/styles/useThemeProps.js" was ignored.
+node_modules/@mui/material/esm/styles/styled.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/styles/styled.js" was ignored.
+node_modules/@mui/material/esm/styles/ThemeProvider.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/styles/ThemeProvider.js" was ignored.
+node_modules/@mui/material/esm/styles/adaptV4Theme.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/styles/adaptV4Theme.js" was ignored.
+node_modules/@mui/material/esm/styles/defaultTheme.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/styles/defaultTheme.js" was ignored.
+node_modules/@mui/material/esm/styles/ThemeProviderNoVars.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/styles/ThemeProviderNoVars.js" was ignored.
+node_modules/@mui/material/esm/styles/useTheme.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/styles/useTheme.js" was ignored.
+node_modules/@mui/material/esm/ButtonGroup/ButtonGroupContext.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/ButtonGroup/ButtonGroupContext.js" was ignored.
+node_modules/@mui/material/esm/styles/ThemeProviderWithVars.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/styles/ThemeProviderWithVars.js" was ignored.
+node_modules/@mui/material/esm/ButtonGroup/ButtonGroupButtonContext.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/ButtonGroup/ButtonGroupButtonContext.js" was ignored.
+node_modules/@mui/material/esm/utils/index.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/utils/index.js" was ignored.
+node_modules/@mui/system/esm/useThemeProps/useThemeProps.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useThemeProps/useThemeProps.js" was ignored.
+node_modules/@mui/material/esm/DefaultPropsProvider/DefaultPropsProvider.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/DefaultPropsProvider/DefaultPropsProvider.js" was ignored.
+node_modules/@mui/material/esm/CircularProgress/CircularProgress.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/CircularProgress/CircularProgress.js" was ignored.
+node_modules/@mui/material/esm/ButtonBase/ButtonBase.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/ButtonBase/ButtonBase.js" was ignored.
+node_modules/@mui/material/esm/utils/useEnhancedEffect.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/utils/useEnhancedEffect.js" was ignored.
+node_modules/@mui/material/esm/utils/useControlled.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/utils/useControlled.js" was ignored.
+node_modules/@mui/material/esm/utils/useId.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/utils/useId.js" was ignored.
+node_modules/@mui/material/esm/utils/useForkRef.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/utils/useForkRef.js" was ignored.
+node_modules/@mui/material/esm/utils/useEventCallback.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/utils/useEventCallback.js" was ignored.
+node_modules/@mui/system/esm/RtlProvider/index.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/RtlProvider/index.js" was ignored.
+node_modules/@mui/system/esm/Stack/Stack.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Stack/Stack.js" was ignored.
+node_modules/@mui/system/esm/Grid/Grid.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Grid/Grid.js" was ignored.
+node_modules/@mui/styled-engine/esm/index.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/styled-engine/esm/index.js" was ignored.
+node_modules/@mui/system/esm/Container/createContainer.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Container/createContainer.js" was ignored.
+node_modules/@mui/material/esm/utils/createSvgIcon.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/utils/createSvgIcon.js" was ignored.
+node_modules/@mui/system/esm/cssVars/createCssVarsProvider.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/cssVars/createCssVarsProvider.js" was ignored.
+node_modules/@mui/system/esm/createBox/createBox.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/createBox/createBox.js" was ignored.
+node_modules/@mui/system/esm/useTheme/useTheme.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useTheme/useTheme.js" was ignored.
+node_modules/@mui/system/esm/useThemeWithoutDefault/useThemeWithoutDefault.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useThemeWithoutDefault/useThemeWithoutDefault.js" was ignored.
+node_modules/@mui/material/esm/useLazyRipple/index.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/useLazyRipple/index.js" was ignored.
+node_modules/@mui/material/esm/GlobalStyles/GlobalStyles.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/GlobalStyles/GlobalStyles.js" was ignored.
+node_modules/@mui/system/esm/cssVars/useCurrentColorScheme.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/cssVars/useCurrentColorScheme.js" was ignored.
+node_modules/@mui/material/esm/useLazyRipple/useLazyRipple.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/useLazyRipple/useLazyRipple.js" was ignored.
+node_modules/@mui/utils/esm/useEventCallback/useEventCallback.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/esm/useEventCallback/useEventCallback.js" was ignored.
+node_modules/@mui/utils/esm/useEnhancedEffect/useEnhancedEffect.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/esm/useEnhancedEffect/useEnhancedEffect.js" was ignored.
+node_modules/@mui/utils/esm/useForkRef/useForkRef.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/esm/useForkRef/useForkRef.js" was ignored.
+node_modules/@mui/utils/esm/useId/useId.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/esm/useId/useId.js" was ignored.
+node_modules/@mui/system/esm/GlobalStyles/GlobalStyles.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/GlobalStyles/GlobalStyles.js" was ignored.
+node_modules/@mui/system/esm/Grid/createGrid.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Grid/createGrid.js" was ignored.
+node_modules/@mui/styled-engine/esm/GlobalStyles/GlobalStyles.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/styled-engine/esm/GlobalStyles/GlobalStyles.js" was ignored.
+node_modules/@mui/system/esm/useMediaQuery/useMediaQuery.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useMediaQuery/useMediaQuery.js" was ignored.
+node_modules/@mui/material/esm/ButtonBase/TouchRipple.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/ButtonBase/TouchRipple.js" was ignored.
+node_modules/@mui/system/esm/Container/Container.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Container/Container.js" was ignored.
+node_modules/@mui/utils/esm/useControlled/useControlled.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/esm/useControlled/useControlled.js" was ignored.
+node_modules/@mui/system/esm/Stack/createStack.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Stack/createStack.js" was ignored.
+node_modules/@mui/system/esm/Box/Box.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Box/Box.js" was ignored.
+node_modules/@mui/system/esm/DefaultPropsProvider/DefaultPropsProvider.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/DefaultPropsProvider/DefaultPropsProvider.js" was ignored.
+node_modules/@mui/utils/esm/useLazyRef/useLazyRef.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/esm/useLazyRef/useLazyRef.js" was ignored.
+node_modules/@mui/utils/esm/useTimeout/useTimeout.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/esm/useTimeout/useTimeout.js" was ignored.
+node_modules/@mui/utils/esm/useOnMount/useOnMount.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/esm/useOnMount/useOnMount.js" was ignored.
+node_modules/@mui/system/esm/ThemeProvider/ThemeProvider.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/ThemeProvider/ThemeProvider.js" was ignored.
+node_modules/@mui/material/esm/SvgIcon/SvgIcon.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/SvgIcon/SvgIcon.js" was ignored.
+node_modules/@mui/private-theming/esm/useTheme/useTheme.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/private-theming/esm/useTheme/useTheme.js" was ignored.
+node_modules/@mui/material/esm/ButtonBase/Ripple.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/ButtonBase/Ripple.js" was ignored.
+node_modules/@mui/private-theming/esm/useTheme/ThemeContext.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/private-theming/esm/useTheme/ThemeContext.js" was ignored.
+node_modules/@mui/styled-engine/esm/StyledEngineProvider/StyledEngineProvider.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/styled-engine/esm/StyledEngineProvider/StyledEngineProvider.js" was ignored.
+✓ 362 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.36 kB │ gzip:   0.27 kB
+dist/assets/index-BGwqkCAz.css    4.84 kB │ gzip:   1.63 kB
+dist/assets/index-41qFBu5a.js   354.14 kB │ gzip: 114.18 kB
+✓ built in 10.50s
+vite v7.3.8 building client environment for production...
+transforming...
+node_modules/@mui/material/esm/Button/Button.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/Button/Button.js" was ignored.
+node_modules/@mui/material/esm/CssBaseline/CssBaseline.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/CssBaseline/CssBaseline.js" was ignored.
+node_modules/@mui/material/esm/styles/useThemeProps.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/styles/useThemeProps.js" was ignored.
+node_modules/@mui/material/esm/styles/ThemeProvider.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/styles/ThemeProvider.js" was ignored.
+node_modules/@mui/material/esm/styles/styled.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/styles/styled.js" was ignored.
+node_modules/@mui/material/esm/styles/adaptV4Theme.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/styles/adaptV4Theme.js" was ignored.
+node_modules/@mui/material/esm/styles/defaultTheme.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/styles/defaultTheme.js" was ignored.
+node_modules/@mui/material/esm/styles/ThemeProviderNoVars.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/styles/ThemeProviderNoVars.js" was ignored.
+node_modules/@mui/material/esm/styles/ThemeProviderWithVars.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/styles/ThemeProviderWithVars.js" was ignored.
+node_modules/@mui/material/esm/styles/useTheme.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/styles/useTheme.js" was ignored.
+node_modules/@mui/material/esm/ButtonGroup/ButtonGroupContext.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/ButtonGroup/ButtonGroupContext.js" was ignored.
+node_modules/@mui/material/esm/utils/index.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/utils/index.js" was ignored.
+node_modules/@mui/material/esm/ButtonGroup/ButtonGroupButtonContext.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/ButtonGroup/ButtonGroupButtonContext.js" was ignored.
+node_modules/@mui/system/esm/useThemeProps/useThemeProps.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useThemeProps/useThemeProps.js" was ignored.
+node_modules/@mui/material/esm/utils/useId.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/utils/useId.js" was ignored.
+node_modules/@mui/material/esm/utils/useEnhancedEffect.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/utils/useEnhancedEffect.js" was ignored.
+node_modules/@mui/material/esm/utils/useControlled.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/utils/useControlled.js" was ignored.
+node_modules/@mui/material/esm/utils/useEventCallback.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/utils/useEventCallback.js" was ignored.
+node_modules/@mui/material/esm/utils/useForkRef.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/utils/useForkRef.js" was ignored.
+node_modules/@mui/system/esm/useTheme/useTheme.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useTheme/useTheme.js" was ignored.
+node_modules/@mui/system/esm/createBox/createBox.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/createBox/createBox.js" was ignored.
+node_modules/@mui/system/esm/useThemeWithoutDefault/useThemeWithoutDefault.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useThemeWithoutDefault/useThemeWithoutDefault.js" was ignored.
+node_modules/@mui/system/esm/RtlProvider/index.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/RtlProvider/index.js" was ignored.
+node_modules/@mui/material/esm/DefaultPropsProvider/DefaultPropsProvider.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/DefaultPropsProvider/DefaultPropsProvider.js" was ignored.
+node_modules/@mui/material/esm/CircularProgress/CircularProgress.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/CircularProgress/CircularProgress.js" was ignored.
+node_modules/@mui/utils/esm/useId/useId.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/esm/useId/useId.js" was ignored.
+node_modules/@mui/utils/esm/useEnhancedEffect/useEnhancedEffect.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/esm/useEnhancedEffect/useEnhancedEffect.js" was ignored.
+node_modules/@mui/utils/esm/useForkRef/useForkRef.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/esm/useForkRef/useForkRef.js" was ignored.
+node_modules/@mui/utils/esm/useEventCallback/useEventCallback.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/esm/useEventCallback/useEventCallback.js" was ignored.
+node_modules/@mui/styled-engine/esm/index.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/styled-engine/esm/index.js" was ignored.
+node_modules/@mui/system/esm/Grid/Grid.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Grid/Grid.js" was ignored.
+node_modules/@mui/material/esm/GlobalStyles/GlobalStyles.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/GlobalStyles/GlobalStyles.js" was ignored.
+node_modules/@mui/system/esm/Container/createContainer.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Container/createContainer.js" was ignored.
+node_modules/@mui/material/esm/utils/createSvgIcon.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/utils/createSvgIcon.js" was ignored.
+node_modules/@mui/system/esm/ThemeProvider/ThemeProvider.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/ThemeProvider/ThemeProvider.js" was ignored.
+node_modules/@mui/system/esm/cssVars/createCssVarsProvider.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/cssVars/createCssVarsProvider.js" was ignored.
+node_modules/@mui/material/esm/ButtonBase/ButtonBase.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/ButtonBase/ButtonBase.js" was ignored.
+node_modules/@mui/system/esm/Box/Box.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Box/Box.js" was ignored.
+node_modules/@mui/system/esm/Stack/Stack.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Stack/Stack.js" was ignored.
+node_modules/@mui/utils/esm/useControlled/useControlled.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/esm/useControlled/useControlled.js" was ignored.
+node_modules/@mui/system/esm/Container/Container.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Container/Container.js" was ignored.
+node_modules/@mui/system/esm/Stack/createStack.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Stack/createStack.js" was ignored.
+node_modules/@mui/system/esm/Grid/createGrid.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Grid/createGrid.js" was ignored.
+node_modules/@mui/system/esm/GlobalStyles/GlobalStyles.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/GlobalStyles/GlobalStyles.js" was ignored.
+node_modules/@mui/system/esm/useMediaQuery/useMediaQuery.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useMediaQuery/useMediaQuery.js" was ignored.
+node_modules/@mui/system/esm/DefaultPropsProvider/DefaultPropsProvider.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/DefaultPropsProvider/DefaultPropsProvider.js" was ignored.
+node_modules/@mui/system/esm/cssVars/useCurrentColorScheme.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/cssVars/useCurrentColorScheme.js" was ignored.
+node_modules/@mui/material/esm/useLazyRipple/index.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/useLazyRipple/index.js" was ignored.
+node_modules/@mui/material/esm/ButtonBase/TouchRipple.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/ButtonBase/TouchRipple.js" was ignored.
+node_modules/@mui/material/esm/useLazyRipple/useLazyRipple.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/useLazyRipple/useLazyRipple.js" was ignored.
+node_modules/@mui/styled-engine/esm/GlobalStyles/GlobalStyles.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/styled-engine/esm/GlobalStyles/GlobalStyles.js" was ignored.
+node_modules/@mui/styled-engine/esm/StyledEngineProvider/StyledEngineProvider.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/styled-engine/esm/StyledEngineProvider/StyledEngineProvider.js" was ignored.
+node_modules/@mui/material/esm/SvgIcon/SvgIcon.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/SvgIcon/SvgIcon.js" was ignored.
+node_modules/@mui/utils/esm/useTimeout/useTimeout.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/esm/useTimeout/useTimeout.js" was ignored.
+node_modules/@mui/private-theming/esm/useTheme/useTheme.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/private-theming/esm/useTheme/useTheme.js" was ignored.
+node_modules/@mui/material/esm/ButtonBase/Ripple.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/esm/ButtonBase/Ripple.js" was ignored.
+node_modules/@mui/utils/esm/useLazyRef/useLazyRef.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/esm/useLazyRef/useLazyRef.js" was ignored.
+node_modules/@mui/utils/esm/useOnMount/useOnMount.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/esm/useOnMount/useOnMount.js" was ignored.
+node_modules/@mui/private-theming/esm/useTheme/ThemeContext.js (1:0): Module level directives cause errors when bundled, "use client" in "node_modules/@mui/private-theming/esm/useTheme/ThemeContext.js" was ignored.
+✓ 364 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.36 kB │ gzip:   0.27 kB
+dist/assets/index-BGwqkCAz.css    4.84 kB │ gzip:   1.63 kB
+dist/assets/index-Bwo8KDit.js   369.70 kB │ gzip: 118.66 kB
+✓ built in 11.13s

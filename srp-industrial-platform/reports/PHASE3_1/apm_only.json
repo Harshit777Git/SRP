@@ -1,0 +1,16 @@
+{
+  "state": "C:\\Users\\HARSHIT\\AppData\\Local\\Temp\\srp-apm-bench-pxagog_h",
+  "cycles": 3,
+  "submitted": 42090,
+  "publish_enqueue_s": 0.6543618000578135,
+  "elapsed_s": 25.56686170003377,
+  "accepted": 42090,
+  "persisted": 42090,
+  "active_wells": 30,
+  "cards": 60,
+  "ingest_rate_per_s": 1646.2716657924584,
+  "counts": {
+    "accepted": 42090,
+    "ingest_processing_us": 10949838
+  }
+}

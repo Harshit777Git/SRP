@@ -1,0 +1,46 @@
+{
+  "state_id": "STATE-037",
+  "name": "Leak TV Unanchored",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Leak TV Unanchored",
+  "source_files": [
+    {
+      "State ID": "STATE-037",
+      "Original State Name": "Leak TV Unanchored",
+      "Application": "TAM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Leak TV Unanchored\\Original TAM\\Leak TV Unanchored.TAM_EXP",
+      "Extension": ".TAM_EXP",
+      "Bytes": 3812,
+      "SHA256": "0c365e4b66723200e8c2c620394b8184a9238d2d4cce3aac970fdb89a0d5cd6f",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-037",
+      "Original State Name": "Leak TV Unanchored",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Leak TV Unanchored\\Original TWM\\Leak TV(best).010",
+      "Extension": ".010",
+      "Bytes": 279401,
+      "SHA256": "5f7e09b680ccb37b19377d27e26bdc40b829021968ec4e6f5b66676edd21270f",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "VENDOR_GUI_ACTION_REQUIRED",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

@@ -1,0 +1,87 @@
+{
+  "source_url": "https://doi.org/10.1371/journal.pone.0326973.s001",
+  "derivation": "CSV values copied in original row/column order; original XLSX files unchanged",
+  "dataset_kind": "unlabeled numerical surface-card references",
+  "total_cards": 4,
+  "total_ordered_point_pairs": 576,
+  "training_eligible": false,
+  "exclusion": "No independent fault labels, well IDs, timestamps, explicit card units, or card-to-electrical crosswalk.",
+  "cards": [
+    {
+      "source_file": "data/external_reference/plos_0326973_s001/DC1.xlsx",
+      "source_sha256": "1b4db893c733633af6841dfbc8408e15dceef1797eef15b4d45fff8bc119413c",
+      "normalized_file": "data/external_reference/plos_0326973_s001/normalized_csv/DC1.csv",
+      "normalized_sha256": "3303422041ba27432e805ba110d1f9cbf0749b43ca0e0efd0d8ed2845f1dba92",
+      "sheet": "Sheet1",
+      "point_pairs": 144,
+      "numeric_cells_as_decimal_text": 2,
+      "columns_original_order": [
+        "suspension point displacement",
+        "suspension point load"
+      ],
+      "values_round_trip_exact": true,
+      "units": "UNIT_UNVERIFIED",
+      "origin": "MEASURED_CLAIM_UNVERIFIED",
+      "fault_label": null,
+      "training_eligible": false
+    },
+    {
+      "source_file": "data/external_reference/plos_0326973_s001/DC2.xlsx",
+      "source_sha256": "09be020e1810ef6eb1c57d9481ab083a47ae95874bb0f77889adb891bc6f2149",
+      "normalized_file": "data/external_reference/plos_0326973_s001/normalized_csv/DC2.csv",
+      "normalized_sha256": "b1e70fa407c59fac73d80ce602c0676fd0a5b4a2bd2d21d841ece8ad4fd4d2c6",
+      "sheet": "Sheet1",
+      "point_pairs": 144,
+      "numeric_cells_as_decimal_text": 8,
+      "columns_original_order": [
+        "suspension point displacement",
+        "suspension point load"
+      ],
+      "values_round_trip_exact": true,
+      "units": "UNIT_UNVERIFIED",
+      "origin": "MEASURED_CLAIM_UNVERIFIED",
+      "fault_label": null,
+      "training_eligible": false
+    },
+    {
+      "source_file": "data/external_reference/plos_0326973_s001/DC3.xlsx",
+      "source_sha256": "90479a57f47aceea4bb3f9a5ce1808607431ea55b54010ac82a7def7ff6822fe",
+      "normalized_file": "data/external_reference/plos_0326973_s001/normalized_csv/DC3.csv",
+      "normalized_sha256": "a701426da933e5a9a9ba710969897c450034d2abe0013c140bf4baffea7f6e02",
+      "sheet": "Sheet1",
+      "point_pairs": 144,
+      "numeric_cells_as_decimal_text": 5,
+      "columns_original_order": [
+        "suspension point displacement",
+        "suspension point load"
+      ],
+      "values_round_trip_exact": true,
+      "units": "UNIT_UNVERIFIED",
+      "origin": "MEASURED_CLAIM_UNVERIFIED",
+      "fault_label": null,
+      "training_eligible": false
+    },
+    {
+      "source_file": "data/external_reference/plos_0326973_s001/DC4.xlsx",
+      "source_sha256": "338878c7f74f4250253578fee4f3ae84aba49515f4532c7be9fa7b180693fb3f",
+      "normalized_file": "data/external_reference/plos_0326973_s001/normalized_csv/DC4.csv",
+      "normalized_sha256": "487c042fdb799aab59ef56027b48a4bcae4c76b8ccc1518788b55a1fba46d694",
+      "sheet": "Sheet1",
+      "point_pairs": 144,
+      "numeric_cells_as_decimal_text": 7,
+      "columns_original_order": [
+        "suspension point displacement",
+        "suspension point load"
+      ],
+      "values_round_trip_exact": true,
+      "units": "UNIT_UNVERIFIED",
+      "origin": "MEASURED_CLAIM_UNVERIFIED",
+      "fault_label": null,
+      "training_eligible": false
+    }
+  ],
+  "permission": "VERIFIED_CC_BY_4_0_WITH_ATTRIBUTION",
+  "license": "CC BY 4.0 applies to PLOS Supporting Information; attribution required",
+  "scope": "DC1-DC4 card CSV derivatives only; ED1-ED4 are cataloged in the canonical root manifest.",
+  "canonical_provenance_path": "data/external_reference/plos_0326973_s001/PROVENANCE.json"
+}

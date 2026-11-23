@@ -1,0 +1,35 @@
+{
+  "state_id": "STATE-046",
+  "name": "PFL_DHM_CasingWtChange",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\PFL_DHM_CasingWtChange",
+  "source_files": [
+    {
+      "State ID": "STATE-046",
+      "Original State Name": "PFL_DHM_CasingWtChange",
+      "Application": "TAM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\PFL_DHM_CasingWtChange\\Original TAM\\PFL_DHM_CasingWtChange.TAM_EXP",
+      "Extension": ".TAM_EXP",
+      "Bytes": 5125,
+      "SHA256": "808691ef86636a4436a32c4fd1b936f4764d19c6616f0456de83c0dcca3dd92b",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "VENDOR_GUI_ACTION_REQUIRED",
+    "02_TWM": "UNSUPPORTED_CONVERSION",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

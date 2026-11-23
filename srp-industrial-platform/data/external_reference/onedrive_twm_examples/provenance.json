@@ -1,0 +1,640 @@
+{
+  "dataset_id": "onedrive-twm-example-bundle",
+  "source_archive": "C:\\Users\\HARSHIT\\Downloads\\OneDrive_2026-11-16 (2).zip",
+  "source_archive_sha256": "be9c65a61c26cbf420f05a6761ca8a713239afe06fcf288652b4b9fc57e2b1b4",
+  "nested_archive": "OneDrive_2026-11-16.zip",
+  "nested_archive_sha256": "cbfd2d8853e1fc4ff6582735d6d813a2ee1c9c4e8bddf6a26c6bc73953c401d5",
+  "extracted_at": "2026-11-17",
+  "extracted_files": 125,
+  "training_eligible": false,
+  "permission_status": "PERMISSION_UNVERIFIED",
+  "data_origin": "ECHOMETER_TWM_TUTORIAL_DEMONSTRATION_UNKNOWN_MEASURED_OR_SIMULATED",
+  "use": "Reference-only local TWM engineering examples; no fault labels inferred from filenames.",
+  "files": [
+    {
+      "name": "TWM Example Dyno Files/sensor.bak",
+      "bytes": 4,
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_1_Introduction_TWM_Torque_Power/f814102CostEst.pdf",
+      "bytes": 14564,
+      "sha256": "d492d9af52c2fd40dae3bd8631480714f2d47c04f4bd1f60f954dff506c614bb"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_1_Introduction_TWM_Torque_Power/F814CheckSheet&teforms.xls",
+      "bytes": 75264,
+      "sha256": "8664f8ee28960ad0f7e06e8de006615940f13981b241fd46f55fdf91270a53bf"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_1_Introduction_TWM_Torque_Power/FHMU F814 10_15_02 - 14_38.pdf",
+      "bytes": 56843,
+      "sha256": "03327d4b5e19aabfa29609a2bc3b0458953ba57ce96a7bf4515be7894bb03154"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_1_Introduction_TWM_Torque_Power/FHMUF814 11_08_02 - 11_20.pdf",
+      "bytes": 57372,
+      "sha256": "2e240690223132133a8129ac89dd695c2d8650bb04d5b826c2590d8780e42dac"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_1_Introduction_TWM_Torque_Power/FHMUF814.004",
+      "bytes": 1158161,
+      "sha256": "5c22ab4e50f2a99c25c1a5de82d011663f7484916c8bf525bdb6a884306a3ea1"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_1_Introduction_TWM_Torque_Power/FHMUF814.005",
+      "bytes": 401920,
+      "sha256": "81e30398f0f5dc8edeccd0037bbd9a68a7830c348b51dbad42d19fbb70cd7df4"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_2_Dynamometer_Basic_Loads/Dyno_CardOptions.001",
+      "bytes": 135044,
+      "sha256": "79486f9d36fa322f8896af041aaf0f07159f0968b5870e5d22ce96c1b5e75bda"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_2_Dynamometer_Basic_Loads/StrokeProcessind3.001",
+      "bytes": 598714,
+      "sha256": "6a2330be9ba4d4337ce60d893e05b6fb7f8d794606bbd77f12c10bb7023e1010"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_2_Dynamometer_Basic_Loads/StrokeProcessing.001",
+      "bytes": 164105,
+      "sha256": "a2a9a6cc1a382f882a8b17d5c3fcb1a3eb883572cfcdacbae001215295848755"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_2_Dynamometer_Basic_Loads/StrokeProcessing1.001",
+      "bytes": 914836,
+      "sha256": "0bdd0a21197001ab2fdfb793c8a00ecafa52e91fab4d06fcd165bf61c28b89f0"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_3_Surface_Pump_Card_Reference/Dyno_Normal_GradientSet_0.001",
+      "bytes": 134968,
+      "sha256": "ef1cb9018b41cd9e652cf6a5cc9d434da20f29046036a51426afb453a13e3522"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_3_Surface_Pump_Card_Reference/TBG Fluid Grad.001",
+      "bytes": 493013,
+      "sha256": "4a910ae3855841f14fd4e3d9e17f3712b5d6b6ed74276bb972326f220c2a7d7f"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_3_Surface_Pump_Card_Reference/TBG Fluid Grad.002",
+      "bytes": 147805,
+      "sha256": "61e4c997ce1667919d6f67e0ff273a6722f8fc031fc7d6b9292ea98728eae9c9"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_4_QRod_Quick_Rod_Design/Anchored but NOT Set.001",
+      "bytes": 216135,
+      "sha256": "1e2c79a02d33bca667f975b5765b97c7742ce25daa0f6bd8bac15143d670d8d4"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_4_QRod_Quick_Rod_Design/ChangePIP.qrd",
+      "bytes": 1410,
+      "sha256": "fffb3f4b6874fd42cd505fd0f09bce7c76fb5480b24fc5a710acd9b23eca12f8"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_4_QRod_Quick_Rod_Design/SlowDownTakeOffAnchor.qrd",
+      "bytes": 1389,
+      "sha256": "9d22ed06846b70d0729f04b795ed1533a5a8309ad46273aeeb262ea5c6ea271c"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_5_ Over Travel_Under Travel and  Fo_Skr and N_No/DynoChangeSPM.012",
+      "bytes": 243489,
+      "sha256": "a6d40106a0aff51cc8253120e7fa4e0298bbc77ed388dac3ef066c1070d1b5b0"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_5_ Over Travel_Under Travel and  Fo_Skr and N_No/DynoChangeSPM.013",
+      "bytes": 109655,
+      "sha256": "6035dc36c538d83a713942838da069cb3aab12780419b62f68f9f1c74665fcd8"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_5_ Over Travel_Under Travel and  Fo_Skr and N_No/DynoChangeSPM.014",
+      "bytes": 110711,
+      "sha256": "c1e23c5fa591ce7258186cdf4402d5e2995d7112f577b5824226e70dadb719b4"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_6_Dynamometer Analysis/BlockedIntake.019",
+      "bytes": 411764,
+      "sha256": "3786be67ac71c8d9415220f594f51154202dad59b2c2bb14f58973181ea7ac5f"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_6_Dynamometer Analysis/FluidPoundUnAnchoredTubing.001",
+      "bytes": 219614,
+      "sha256": "685d8678f925d4b3366e19885bcf8a59e98c875109b1c5d926d93e4a967422af"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_6_Dynamometer Analysis/Gas Interference.001",
+      "bytes": 81343,
+      "sha256": "128cf9651150ad3e9f33222abbb0380c418c9cddced1569f6ee2ee29f2dd69c9"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_6_Dynamometer Analysis/GasLocked_wTag.008",
+      "bytes": 541647,
+      "sha256": "a8d5384f1f11e09c942f09cac99dd663ce51eb46903f13f79ebc2d7df79596e0"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_6_Dynamometer Analysis/Light Load Motor.001",
+      "bytes": 112301,
+      "sha256": "c83c6bdb27e2f04c8f1118c969bc1449112dfd5b43427a7bbc07c5c545ce5ddb"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_7_Gas-Separator/GasInterNeedGasSep.004",
+      "bytes": 702877,
+      "sha256": "b1ffcb93c1b56b77f5a05d41fbe727879a378c1ccd21c5264d93f4fab79c7940"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/FlatLoadLineBuoy.002",
+      "bytes": 438715,
+      "sha256": "0dccbb141ea8abe82d71b74c745fbe64b8a3c44569d744c9fbd498f08826d6ee"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/Leak Hole In Pump Barrel.001",
+      "bytes": 1007649,
+      "sha256": "6e983807a5b769fbce06f6e740ecd220eaab058c6c8f64e963763d4d2eb85878"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/Leak Pump Barrel Worn.004",
+      "bytes": 320519,
+      "sha256": "36aaae852ecd4ea74aa967b2a2b1d4272825ccabf4d642333c621269c8c8c77c"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/Leak Tubing Hole HT.003",
+      "bytes": 100147,
+      "sha256": "b02c9f684acf4f9b32b4a488405be05063bf435cfcf452ec20715b59ed88ac36"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/Leak Tubing Hole PRT.001",
+      "bytes": 472873,
+      "sha256": "6a423b581f5f16330c52d33c8fd7bf150346b251cd1b1e2d961e9ddf44dc2f28"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/LeaveCsgValveClosed.018",
+      "bytes": 733158,
+      "sha256": "e8e2405a21484637e511faa64801ffc43de042ea2274efb4a26287cfb08ac4ac"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/RodPart_3000.007",
+      "bytes": 63349,
+      "sha256": "5222286cb807810694955d1d54ec9b77da736d3b62458746374fe11e4ea87a4a"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/RodPart_5365.012",
+      "bytes": 33747,
+      "sha256": "7186ddd84040ef6a865c78073759a755575a81cf93f6733ba46eec8d163bf09e"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/RodPart_NoPlunger.001",
+      "bytes": 66499,
+      "sha256": "c9a9b0df40278a818aaa55554767a7fcf02e2af830bbfaafa5be7253a14eddf3"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/Strainer Nipple with Scale Build up.jpg",
+      "bytes": 479519,
+      "sha256": "87b7cf732887310c7ff6e01fd0dec667f349b0ba47d9c795822d4ffc3eacc84c"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/SV Cage with Scale.jpg",
+      "bytes": 5503323,
+      "sha256": "11ea7c416057174d7fcca4cf5a9dcfd24c197f34521b28178e866d3aeb715b2a"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/SV_StuckOpenHT.001",
+      "bytes": 860195,
+      "sha256": "7ad9434d1d5cec804474c9208eacbce1846579e39ca8da92fd1a1155fc99d7be"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/Tagging Down Hard.001",
+      "bytes": 565694,
+      "sha256": "75aacc3ea081489d8a4fe59bb66261aafd1995ac58a3743e0ee0d3c5fe8578ff"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/Tagging Fiberglass Rods on Downstroke.001",
+      "bytes": 347808,
+      "sha256": "8c6372558e8903a6891f5f427067ec7310ad098df679f16d8e5be6f7ccb1686b"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/Tagging Fiberglass Rods on Downstroke.002",
+      "bytes": 531945,
+      "sha256": "726dc75193a5da5ed3c86318ed5db2592c08b433c4b3b2d0dbf1ac1ef85c66ba"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/Tagging Unanchored.001",
+      "bytes": 102675,
+      "sha256": "ebe9f544ccdfcf55d1bbdcae88c899b51e0c4b6835147061671f7b9abb6c0abc"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/Trash Sticks SV Open.073",
+      "bytes": 789567,
+      "sha256": "011ca1042835092b1d24e6785cc4068c2ecb4b1c59a88bd167a6c5ee8a194cb7"
+    },
+    {
+      "name": "TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/Trash Sticks TV Open.001",
+      "bytes": 680458,
+      "sha256": "67686e9987d78160ebbc986e7679a02bbbd8a916cf20f5602ca1160d1d5d72db"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_1_PumpIntakePressuureDYNO_PFL_VC_08/FluidPoundUnAnchoredTubing.001",
+      "bytes": 219660,
+      "sha256": "191c144142bc4f338402b66a85b731638ecb0308480a4a3aacd368b45cbc6dff"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_1_PumpIntakePressuureDYNO_PFL_VC_08/Gas Interference.001",
+      "bytes": 81113,
+      "sha256": "0a334d2372e323da7e0a8b2c498da01f21527fc6e68b4cdf8fe0d81d1b16ac99"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_1_PumpIntakePressuureDYNO_PFL_VC_08/GasInterNeedGasSep.004",
+      "bytes": 702901,
+      "sha256": "7101d883cc0ade75b97d123993e8e71914b068191a4e5c8433e07dc12086820a"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_1_PumpIntakePressuureDYNO_PFL_VC_08/Sandia.010",
+      "bytes": 75373,
+      "sha256": "53c8831e3238ebf0629458a0b2e2f5a00ac0d8302594628586bfc4480ca86c60"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_2_Pump_Operation/Leak Standing Valve.001",
+      "bytes": 410409,
+      "sha256": "9641fe5c8ab5663589ab1d005ec583ded56edab35f4c3a369e39fb2d6cf2d57d"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_2_Pump_Operation/Leak SV Bad.001",
+      "bytes": 29885,
+      "sha256": "6c53dd45befb2a0d8556cc637786d1258deba6b53612c1b1a67cbc88b926262b"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_2_Pump_Operation/Leak TV(best).010",
+      "bytes": 279401,
+      "sha256": "5f7e09b680ccb37b19377d27e26bdc40b829021968ec4e6f5b66676edd21270f"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_3_ControlRunTime/Fillup_PumpOffRates.xls",
+      "bytes": 264192,
+      "sha256": "19f71e694b199566948c55815c05d695ae651c939b81291b2d67153c712574f9"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_3_ControlRunTime/RVOGTA8.016",
+      "bytes": 457475,
+      "sha256": "881ed9bc5daeb3bed677d102ee9a1d46baa1a372fbeb930cfae558ad8ece7ec8"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_3_ControlRunTime/RVOGTA8DOWN10MIN.001",
+      "bytes": 394522,
+      "sha256": "1fda6f71d6aa620abdcb767591ca312f025ff285a5921ea4d9c1e14f9f295c38"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_3_ControlRunTime/Tagging Down Hard.001",
+      "bytes": 565694,
+      "sha256": "75aacc3ea081489d8a4fe59bb66261aafd1995ac58a3743e0ee0d3c5fe8578ff"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_4_Damping Factor/Damping_10API.001",
+      "bytes": 667450,
+      "sha256": "a94a38ac87882aa9f74591518315a662c0bda482b12dccabca654d94ed30c633"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_4_Damping Factor/Damping_High.023",
+      "bytes": 257638,
+      "sha256": "c37a898b3ace7693763e8cf9a6f0d473535a676ad16621a8aa85f446d03cc49a"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_4_Damping Factor/Damping_Negative_Acc.003",
+      "bytes": 848204,
+      "sha256": "1b87ee1887b539ed3ff5043b8ea3f113d385fe0e3cb902054963b88e729a695f"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_4_Damping Factor/Damping_RodString.002",
+      "bytes": 371822,
+      "sha256": "bdc9c08c7d53c767150161c384c16849431c86ebeccefcf1e531d292d10559b6"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_4_Damping Factor/Damping_ShallowWell.002",
+      "bytes": 178269,
+      "sha256": "b78bb8c215049364c7929e2c5a0cc1420cbfdf2b70d571631cbb310690bb0892"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_4_Damping Factor/Damping_VeryHigh.010",
+      "bytes": 665033,
+      "sha256": "2d95ea8617814efcfcad403d39daf50baa3203b1ea348d18f7c9a096056ad8e9"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_4_Damping Factor/Stick_Release_Upstroke.007",
+      "bytes": 443192,
+      "sha256": "d6ad8578c1451f83deeebfd1e8fd2ef686c3ccc90233a9fb4796f5e6bc5ff056"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_4_Damping Factor/Stuffing Box.001",
+      "bytes": 189439,
+      "sha256": "5d27cb895f40730294b24c4db90bea18f35a8fbaf4b88154ea190db07f1d921f"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_4_Damping Factor/Stuffing Box.002",
+      "bytes": 66578,
+      "sha256": "a42bcb45bdcb83b2034f9e398fafb46f0fca7951acbdd495fd0eceff78629d79"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_4_Damping Factor/Unaccounted Wellbore Friction.001",
+      "bytes": 389562,
+      "sha256": "fd4c37af7cc357421477c822d4600bc5b2681bdfab62f3cdf0e8b9088f2c91be"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_4_Damping Factor/Unaccounted Wellbore Friction.002",
+      "bytes": 1077651,
+      "sha256": "81f42131b33138908618ea72e0f90ffc197c0e530f45761e55a6677dd3eeb5b4"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_5_Pumping Flumping Sucker Rod Lifted Wells/UseBackPressureRequlator.005",
+      "bytes": 1670807,
+      "sha256": "876db25f6bb71c3c03d7f67dfafd76e6af46c5780bec69cdb6e36fa79a0ae755"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_5_Pumping Flumping Sucker Rod Lifted Wells/VariableSlippagePump.007",
+      "bytes": 2951478,
+      "sha256": "185b8f6555bd5ec0c48048143a828ccb423ea7a0f6018cf82491fc3ce6e3bf92"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_6_Pump Slippage - Setting Pump Clearances/Calculate_PlungerClearance.003",
+      "bytes": 686818,
+      "sha256": "80ee5ec45421b5055092b5e979f0b5ffbb87d71ac177f3c7cdd82ea500244612"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_6_Pump Slippage - Setting Pump Clearances/Dyno_HydraulicPump.002",
+      "bytes": 325407,
+      "sha256": "896cfd15ede29771272748b727ea743826c2d03186988e408ddbc41c36d3105b"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_6_Pump Slippage - Setting Pump Clearances/Pump Slippage Calculator_SPM_PattersonEq.xls",
+      "bytes": 113152,
+      "sha256": "c219a39455403a77d3ec22362fae716dc96dbfb98f6fe1ccef918e95e05aee8c"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_6_Pump Slippage - Setting Pump Clearances/Red Raider 1.076",
+      "bytes": 5650239,
+      "sha256": "51f2d3c397b3dc7f4c5d1994a9007eb9d64c34701b9777989fa0f097c51d6431"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_6_Pump Slippage - Setting Pump Clearances/Red Raider 1.080",
+      "bytes": 5899239,
+      "sha256": "054ed5f503ecaaeb6cbd746a94bc896442c4592a33d1acffe16c97a23ae27db5"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_6_Pump Slippage - Setting Pump Clearances/Red Raider 1.081",
+      "bytes": 1654313,
+      "sha256": "fec38406a1afdc05cd733ef871591be285e6a1be186b666246a211c76e715290"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_6_Pump Slippage - Setting Pump Clearances/Red Raider 1.088",
+      "bytes": 4911539,
+      "sha256": "5ac35df72331bf1c1e0e0c065e01a1959a4a6a499fb6be7f25b114e6065b93af"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_6_Pump Slippage - Setting Pump Clearances/Red Raider 1.089",
+      "bytes": 4787544,
+      "sha256": "498d56557d8de5eb01355e7cb5d62ab7504ed6d1d0075b976e73e9793351edfc"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_6_Pump Slippage - Setting Pump Clearances/Red Raider 1.106",
+      "bytes": 4876371,
+      "sha256": "fa7dbafdd6e5a2f257713ef925af422ffd7ff4b2bf23a10da3c54c40c51c1c6d"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_7_HighSpeedDynoData/Gunk in Pump.001",
+      "bytes": 271733,
+      "sha256": "87dd44ac83aece55d45190f7eee202aa88091cae1e59cb26f6f90a991ff8e654"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_7_HighSpeedDynoData/HighSpeed.072",
+      "bytes": 3281527,
+      "sha256": "6e5d87e9a79590364fb75fbe76cc19cf4c8e75acbc78ca1138fc4ca06fa1a7ee"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_7_HighSpeedDynoData/Tagging Hard FG.007",
+      "bytes": 436607,
+      "sha256": "51e843b742e5db3bbd06fe14cc47b4d9290da30a0a790fb932e2df89cfc0dff4"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_7_HighSpeedDynoData/Tagging Hard FG.008",
+      "bytes": 1512103,
+      "sha256": "21f08ef3cd0e739bfd110d3438d878091ece490c54b7bb75f9a03913a40f494f"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_7_HighSpeedDynoData/TV Double Valve.003",
+      "bytes": 380562,
+      "sha256": "53abf643d1b7ae19c48b3b5b9785b2239fed23b23cf781d72e284795e1da387d"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_7_HighSpeedDynoData/TV Double Valve.004",
+      "bytes": 68639,
+      "sha256": "6b7582d80ec211b606a99fdebc335230d304ca0c5481332d14a16a3b83da9906"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_8_PRT_BendingRolishedRod/INF 1824.012",
+      "bytes": 192409,
+      "sha256": "8b3ba0f1739f7d58ade5e9be6009a031de34f6adac37c3426dc81d14e1ae9856"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_8_PRT_BendingRolishedRod/NR-6.001",
+      "bytes": 47684,
+      "sha256": "a58fe478c800837a54473a160111f01fdf820959094c36fd3d8773834f271893"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_8_PRT_BendingRolishedRod/NR-6.002",
+      "bytes": 47648,
+      "sha256": "d5b22a27aa0f16ce0b554ef96256768d746898ce880fae93bbd21d3ca127bde9"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_8_PRT_BendingRolishedRod/NR-6.003",
+      "bytes": 47786,
+      "sha256": "76772076bf8285aa44d42e57c9db4a374fd9a4d2eadd291b0534bdf57824fe8b"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_8_PRT_BendingRolishedRod/NR-6.004",
+      "bytes": 326600,
+      "sha256": "f42b2cabe5d3a33512632b5a7f3040582ca04350a8c8c23f61c25ddc06a9b75c"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_8_PRT_BendingRolishedRod/NR-6.005",
+      "bytes": 1550966,
+      "sha256": "bc6a20fa0a13ff1fdd788d6f943fc1f78ee1f4eaeead2d725493c6750b3c4495"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_8_PRT_BendingRolishedRod/PRT Bending Polished Rod.001",
+      "bytes": 221608,
+      "sha256": "692fe717585c627c97b204f01f5999535c8d54f7072dac9a600a11931b5e8066"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_8_PRT_BendingRolishedRod/PRT Bending Polished Rod.002",
+      "bytes": 342927,
+      "sha256": "a9fe2e2620602e44c63990b5d344d8f197d85155fcb179d23500d86ee86feef7"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_8_PRT_BendingRolishedRod/PRT Bending Polished Rod.003",
+      "bytes": 270299,
+      "sha256": "bfa0fa8d70fc38cd0faa60dff05a80110e84c8d530ed956a0068a7e69d2fd57f"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_8_PRT_BendingRolishedRod/PRT RodRotator.001",
+      "bytes": 352160,
+      "sha256": "4c6c86729fba0191c7a86c2d22906ab550ce7ca0676e59b209e8d46e783eeee5"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_8_PRT_BendingRolishedRod/RvogtXa8.017",
+      "bytes": 2075800,
+      "sha256": "437a200c735aa261e7821dd581d213efaeb360b474a1b8ca102db34835e824aa"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_8_PRT_BendingRolishedRod/RvogtXa8.018",
+      "bytes": 1105517,
+      "sha256": "b92c2a4572bfb9987eff0a0cd74c92b1c724718d7eac5007846554b4f6ceb61e"
+    },
+    {
+      "name": "TWM Example Dyno Files/2_8_PRT_BendingRolishedRod/RvogtXa8.019",
+      "bytes": 1132234,
+      "sha256": "9585f817878bbd21b496ee8d5ee4b8a8527104cae2104fcac592ecca44d81b0a"
+    },
+    {
+      "name": "TWM Example Dyno Files/3_1_Beam_Pumping_Units/cweight.txt",
+      "bytes": 12577,
+      "sha256": "2d1926e71ec135d0b116c04bceb796f97ef2d65732b04e9a8c59d8c26aca2253"
+    },
+    {
+      "name": "TWM Example Dyno Files/3_2_Motor/Light Load Motor.001",
+      "bytes": 112301,
+      "sha256": "7543e5066446adc98fd711a85a79bd61efadee10f868dfdb3384c17236be9992"
+    },
+    {
+      "name": "TWM Example Dyno Files/3_2_Motor/Motor - Burn Up.001",
+      "bytes": 86342,
+      "sha256": "e4e0772eb0ea3a9d3cc25fa55fc5a31a89931a37c3f12b8a5416fef1bd6d636a"
+    },
+    {
+      "name": "TWM Example Dyno Files/3_2_Motor/Motor - Burn Up.002",
+      "bytes": 132816,
+      "sha256": "072724d90cdcd58e63eec87c4b8f41bafbef6495be384a6ffeb98e21aa491735"
+    },
+    {
+      "name": "TWM Example Dyno Files/3_2_Motor/V11_StartUp_AMP_KW.029",
+      "bytes": 2118053,
+      "sha256": "c20fac3e5eea11a6ff942d179f93ee17c682d582b010ad20f9c5e8904c526431"
+    },
+    {
+      "name": "TWM Example Dyno Files/3_3_RealTime_PumpingUnit_MotorInst/Conventional.001",
+      "bytes": 565220,
+      "sha256": "14a2f7de46220a94f92be242f47cef5fcfdf40d736b660819c1ede6f019a8172"
+    },
+    {
+      "name": "TWM Example Dyno Files/3_3_RealTime_PumpingUnit_MotorInst/MarkII.002",
+      "bytes": 632929,
+      "sha256": "ee221e150e80df1146ca48c8a91803127e6bfaabf3d75ae8968cf10bee8e8d4f"
+    },
+    {
+      "name": "TWM Example Dyno Files/3_3_RealTime_PumpingUnit_MotorInst/ReverseMark.006",
+      "bytes": 937351,
+      "sha256": "68780405b4882f68c2aac757b0c9d6d3f2af67cdefb7f20db29ef8172cf588e1"
+    },
+    {
+      "name": "TWM Example Dyno Files/3_3_RealTime_PumpingUnit_MotorInst/RotoFlex.001",
+      "bytes": 549963,
+      "sha256": "e8c35c51ca023199ff8760ffeb0663c1d78d0eb1a6287798215950c72d0c0fa6"
+    },
+    {
+      "name": "TWM Example Dyno Files/3_4_PumpUnit_BalanceTorque/GearboxBalance.011",
+      "bytes": 2450934,
+      "sha256": "3092c984f242b877e3703a2fb9298afe02a7b7aad90709d53a007a0221454f15"
+    },
+    {
+      "name": "TWM Example Dyno Files/3_4_PumpUnit_BalanceTorque/GearboxBalance.012",
+      "bytes": 2056682,
+      "sha256": "5225d3b7b0d977904a57c2a354c79f119a5a3760bb7f4783ce93bb4cfdff1607"
+    },
+    {
+      "name": "TWM Example Dyno Files/3_4_PumpUnit_BalanceTorque/RotoFlex_Electric.001",
+      "bytes": 818965,
+      "sha256": "14c9dca214105b4be1fc0c2b86ee79e20f61cc58e321583c1cdad16190b944bc"
+    },
+    {
+      "name": "TWM Example Dyno Files/3_5_HowToCBELoad_Detail/V11.029",
+      "bytes": 2118053,
+      "sha256": "c20fac3e5eea11a6ff942d179f93ee17c682d582b010ad20f9c5e8904c526431"
+    },
+    {
+      "name": "TWM Example Dyno Files/3_5_HowToCBELoad_Detail/Well5.001",
+      "bytes": 562311,
+      "sha256": "69941bbfe167d35664f17042f6864d09566b83504f247b7530abe7173e05b868"
+    },
+    {
+      "name": "TWM Example Dyno Files/3_5_HowToCBELoad_Detail/Well6.002",
+      "bytes": 559938,
+      "sha256": "049eb023c16bdb03c2bb93ad56011edd4e1944b596f076895d58452dbeaebd8e"
+    },
+    {
+      "name": "TWM Example Dyno Files/3_6_ System Efficiency of Sucker Rod Pumping/Bad Tail Bearing.001",
+      "bytes": 92794,
+      "sha256": "d68092cd48bc6da32a3d537a7e482938cae3fa94c60197a439466a181e892ce4"
+    },
+    {
+      "name": "TWM Example Dyno Files/3_6_ System Efficiency of Sucker Rod Pumping/Bad Tail Bearing.002",
+      "bytes": 147776,
+      "sha256": "8b6d391ac698962f99a58ff3601d572130a710feabb4913bf5b2b3f751ab53aa"
+    },
+    {
+      "name": "TWM Example Dyno Files/3_7_TroubleShooting/Undertravel.001",
+      "bytes": 277212,
+      "sha256": "5c4b0a4f3c876dbacbe266fd28804c42347571b5ab5c916b74b246d6ff40bc12"
+    },
+    {
+      "name": "TWM Example Dyno Files/3_7_TroubleShooting/UnderTravel_NoAnchor.qrd",
+      "bytes": 1393,
+      "sha256": "34ac372d8d78108286247c3c632a63c8f18a74bcfd8f58af5b0d1439fa2be4d7"
+    },
+    {
+      "name": "TWM Example Dyno Files/3_8_BeamPump/CheckSheet_Teforms.xls",
+      "bytes": 125440,
+      "sha256": "bec333b2dff9e17a91255c95d5f26057203e25347c4173e55233093acd7b9c23"
+    },
+    {
+      "name": "TWM Example Dyno Files/Movie/AnchoredNotSet.avi",
+      "bytes": 6987776,
+      "sha256": "d4593e7f6f6b7b3c77f237b4f80b827a5450e033c359a1955dc153a638b85720"
+    },
+    {
+      "name": "TWM Example Dyno Files/Movie/AnchorSet.avi",
+      "bytes": 6035968,
+      "sha256": "f45d2be740660f8993f7c07e74164e408e1ed1e34d9d406ec4bd6c8e0e526b00"
+    },
+    {
+      "name": "TWM Example Dyno Files/Movie/ChokedIntake.avi",
+      "bytes": 27566080,
+      "sha256": "6d218c48cf6edbf5e8f13cbf30b95aa7a840cdfc8703ca4c12831d3cc3d8a4da"
+    },
+    {
+      "name": "TWM Example Dyno Files/Movie/GasInterference.avi",
+      "bytes": 7821824,
+      "sha256": "d240f423e230ca58eefd447d565e7442119f3358cc4f7644c9adb5712bab5930"
+    },
+    {
+      "name": "TWM Example Dyno Files/Movie/PlungerStopsNearTopofStroke.avi",
+      "bytes": 22904320,
+      "sha256": "e5951d787205fdb568464cf3928ad9e53f1be5e4754596be483b617b54963ba6"
+    },
+    {
+      "name": "TWM Example Dyno Files/Movie/PR_Clamp_Respaced.avi",
+      "bytes": 10765312,
+      "sha256": "bb63b39e685f5fdd60bd6bd2f1b057166e31564efaa100804f9c20302b08866a"
+    },
+    {
+      "name": "TWM Example Dyno Files/Movie/PR_Clamp_Slipped.avi",
+      "bytes": 2018304,
+      "sha256": "2f15fa11dbd9c0eb30b50cdb8f5ab0adb9f23043a32f93e61a53325d7d05c42b"
+    },
+    {
+      "name": "TWM Example Dyno Files/Movie/Stick_Release_Upstroke.avi",
+      "bytes": 22401024,
+      "sha256": "49630739f1db339aecdcad971df8d9fe94c669395e596b54f7bb71f0daa8ad1e"
+    },
+    {
+      "name": "TWM Example Dyno Files/sensor.cfg",
+      "bytes": 4,
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+    }
+  ]
+}

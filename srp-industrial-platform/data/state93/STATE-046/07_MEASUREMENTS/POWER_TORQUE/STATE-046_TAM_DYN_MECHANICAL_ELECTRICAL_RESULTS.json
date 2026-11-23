@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "state_id": "STATE-046",
+    "source_archive": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-046\\01_TAM\\PFL_DHM_CasingWtChange.TAM_EXP",
+    "source_sha256": "808691ef86636a4436a32c4fd1b936f4764d19c6616f0456de83c0dcca3dd92b",
+    "source_bytes": 5125,
+    "extracted_utc": "2026-11-18T04_44_29Z",
+    "method": "lossless extraction of vendor metadata.json and TestResults.json",
+    "synthetic_data": false
+  },
+  "tests": [
+    {
+      "DateTime": "2004-01-20T19:11:35Z",
+      "LastModified": "2004-01-20T19:11:35Z",
+      "Type": "DYN",
+      "NumValues": {
+        "Rated Current": 94.5
+      },
+      "StrValues": {}
+    },
+    {
+      "DateTime": "2004-01-20T18:57:33Z",
+      "LastModified": "2004-01-20T18:57:33Z",
+      "Type": "DYN",
+      "NumValues": {
+        "Beam Loading": 67.69737315122082,
+        "Existing Counterbalance": 3021.16,
+        "Existing Cyclic Load Factor": 2.1371481718322234,
+        "Existing Max Gearbox Torque, DownStroke": 961.9266357421875,
+        "Existing Max Gearbox Torque, Upstroke": 804.7147827148438,
+        "Existing Min Gearbox Torque, DownStroke": -261.1943664550781,
+        "Existing Min Gearbox Torque, Upstroke": -660.1956176757812,
+        "Existing RMS Gearbox Torque": 507.4961746788133,
+        "In Balance Cyclic Load Factor": 1.9974655162861823,
+        "In Balance Max Gearbox Torque, DownStroke": 854.107666015625,
+        "In Balance Max Gearbox Torque, Upstroke": 854.107666015625,
+        "In Balance Min Gearbox Torque, DownStroke": -376.3296813964844,
+        "In Balance Min Gearbox Torque, Upstroke": -550.4178466796875,
+        "In Balance RMS Gearbox Torque": 469.47243695387664,
+        "Maximum Counterbalance": 3230.94,
+        "Polished Rod Power": 18.919936543086447,
+        "Rated Current": 94.5,
+        "Required Counterbalance Change": 150.82032538832817
+      },
+      "StrValues": {
+        "Out of Balance": "Yes, weights heavy",
+        "To Balance Move": "24680.0 weights IN 6.11"
+      }
+    }
+  ],
+  "note": "Exact vendor result values only; invalid/sentinel values are preserved and no units are inferred."
+}

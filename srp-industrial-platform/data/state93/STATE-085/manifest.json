@@ -1,0 +1,46 @@
+{
+  "state_id": "STATE-085",
+  "name": "TV Double Valve",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\TV Double Valve",
+  "source_files": [
+    {
+      "State ID": "STATE-085",
+      "Original State Name": "TV Double Valve",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\TV Double Valve\\Original TWM\\2_7_HighSpeedDynoData\\TV Double Valve.003",
+      "Extension": ".003",
+      "Bytes": 380562,
+      "SHA256": "53abf643d1b7ae19c48b3b5b9785b2239fed23b23cf781d72e284795e1da387d",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-085",
+      "Original State Name": "TV Double Valve",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\TV Double Valve\\Original TWM\\2_7_HighSpeedDynoData\\TV Double Valve.004",
+      "Extension": ".004",
+      "Bytes": 68639,
+      "SHA256": "6b7582d80ec211b606a99fdebc335230d304ca0c5481332d14a16a3b83da9906",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "UNSUPPORTED_CONVERSION",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

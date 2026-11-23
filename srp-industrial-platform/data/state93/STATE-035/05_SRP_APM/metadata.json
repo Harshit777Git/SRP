@@ -1,0 +1,7 @@
+{
+  "state_id": "STATE-035",
+  "source_state": "Leak Tubing Hole HT",
+  "surface_card": null,
+  "downhole_card": null,
+  "reason": "No verified ordered numerical samples extracted"
+}

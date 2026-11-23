@@ -1,0 +1,17 @@
+{
+  "source": "https://huggingface.co/datasets/Arailym-tleubayeva/NK-Oil-Well-Sensor-Monitoring",
+  "download_urls": {
+    "wells_dataset.csv": "https://huggingface.co/datasets/Arailym-tleubayeva/NK-Oil-Well-Sensor-Monitoring/resolve/main/wells_dataset.csv",
+    "SOURCE_README.md": "https://huggingface.co/datasets/Arailym-tleubayeva/NK-Oil-Well-Sensor-Monitoring/resolve/main/README.md"
+  },
+  "sha256": {
+    "wells_dataset.csv": "7a31fca2a4709a3bf9513bdc5fe7ed8f66a543a8d4e0c6855282ee8dde5f70b2",
+    "SOURCE_README.md": "097d00f8b0e49a8bbb6edffc8ffc510ea5b14c03947db1df7b3ae0f16bf76264"
+  },
+  "downloaded_on": "2026-11-17",
+  "license_claim": "Apache-2.0 in dataset card; card also requires compliance with source-owner confidentiality and contractual terms",
+  "origin_claim": "Galaz and Company LLP industrial SCADA/telemetry, consolidated from Excel files",
+  "verified_content": "186251 long-format hourly parameter rows, 10 wells, 153093 rows from 7 SRP wells; zero load-displacement cards",
+  "fault_ground_truth": "None independently verified",
+  "training_status": "Excluded from supervised fault training"
+}

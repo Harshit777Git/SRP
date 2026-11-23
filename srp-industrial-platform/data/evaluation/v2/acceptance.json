@@ -1,0 +1,365 @@
+{
+  "playback": "PASS",
+  "comparison_browser": "PASS",
+  "vendor_browser_comparison": "PASS (geometry only)",
+  "fault_evidence": {
+    "run_id": "f993b1ba67e24b5bbce6a194f9af24fe",
+    "stroke_id": 19,
+    "condition_monitor": {
+      "status": "DYNACARD_CHANGE",
+      "version": "dynacard-change/1.0",
+      "reference_count": 3,
+      "reference_strokes": [
+        5,
+        6,
+        7
+      ],
+      "surface": {
+        "change_fraction": 0.05318351221955573,
+        "threshold_fraction": 0.050392611793726706
+      },
+      "downhole": {
+        "change_fraction": 0.04975034512434134,
+        "threshold_fraction": 0.04012007775094717
+      }
+    },
+    "diagnosis": {
+      "label": "UNKNOWN",
+      "confidence": 0.37257033586502075,
+      "evidence": "Calculated downhole card work 8447 J per stroke, 104% of the ideal hydrostatic work",
+      "model_version": "cnn-v2/a63191e90177-13",
+      "status": "TRAINED_ON_SYNTHETIC",
+      "investigation": "Review stroke quality, operating trend and downhole reconstruction",
+      "provenance": "v2_full_runs.npz",
+      "in_training_spm_range": true,
+      "timestamp": "2026-11-16T10:30:56.221378+00:00",
+      "stroke_id": 19,
+      "quality": "GOOD",
+      "severity": null,
+      "limitation_flags": [
+        "NO_FIELD_VALIDATION"
+      ]
+    }
+  },
+  "offline_pump_truth": [
+    {
+      "label": "healthy",
+      "position_rmse_m": 0.0018940419285825832,
+      "centered_position_rmse_m": 0.0018940419125156164,
+      "load_rmse_n": 120.76024245448141,
+      "load_rmse_fraction_of_range": 0.021835444880585232,
+      "position_phase_deg": 0.01212583985239845,
+      "load_correlation": 0.9988400192147853,
+      "card_area_error_fraction": 0.0068986382855431225
+    },
+    {
+      "label": "leak",
+      "position_rmse_m": 0.001662833741564212,
+      "centered_position_rmse_m": 0.0016628336780375968,
+      "load_rmse_n": 104.54081278616317,
+      "load_rmse_fraction_of_range": 0.018959273310848998,
+      "position_phase_deg": 0.011870067445535077,
+      "load_correlation": 0.9991287796103402,
+      "card_area_error_fraction": 0.00674938790818336
+    }
+  ],
+  "roundtrips": [
+    {
+      "label": "healthy",
+      "kind": "surface",
+      "max_error": {
+        "position_m": 0.0,
+        "load_n": 0.0
+      },
+      "report": {
+        "reference": {
+          "asset": "SRP_001",
+          "run": "f993b1ba67e24b5bbce6a194f9af24fe",
+          "stroke": 8,
+          "source": "SIMULATOR",
+          "configuration": {
+            "asset_id": "SRP_001",
+            "rods": [
+              {
+                "length_m": 450.0,
+                "diameter_m": 0.0222,
+                "density": 7850.0,
+                "modulus": 205000000000.0
+              }
+            ],
+            "stroke_m": 1.65,
+            "spm": 8.0,
+            "crank_m": 0.6,
+            "rocker_m": 2.0,
+            "pitman_m": 3.4,
+            "pivot_x_m": 2.4,
+            "pivot_y_m": 2.1,
+            "mechanism": "four_bar",
+            "damping_s": 0.6,
+            "plunger_m": 0.04445,
+            "fluid_kg_m3": 880.0,
+            "chamber_gas_fraction": 0.015,
+            "viscosity_pa_s": 0.015,
+            "intake_head_m": 100.0,
+            "tubing_pa": 350000.0,
+            "casing_pa": 150000.0,
+            "voltage_v": 480.0,
+            "gear_ratio": 100.0,
+            "running_efficiency": 0.85,
+            "physics_step_s": 0.002,
+            "dynamometer_hz": 50,
+            "electrical_hz": 10,
+            "pressure_hz": 1,
+            "noise_position_m": 0.0,
+            "noise_load_n": 0.0,
+            "position_bias_m": 0.0,
+            "load_bias_n": 0.0,
+            "sensor_latency_s": 0.0,
+            "missing_probability": 0.0,
+            "seed": 42
+          }
+        },
+        "external": {
+          "asset": "SRP_001",
+          "stroke": 8,
+          "source": "synthetic acceptance run",
+          "kind": "surface"
+        },
+        "peak_load_difference_pct": 0.0,
+        "minimum_load_difference_n": 0.0,
+        "stroke_length_difference_m": 0.0,
+        "area_difference_j": 0.0,
+        "alignment": "TIME_ALIGNED_FROM_CONFIRMED_ORIGIN",
+        "comparison_window_s": 7.48,
+        "rmse_n": 0.0,
+        "mae_n": 0.0,
+        "normalized_rmse": 0.0,
+        "correlation": 1.0,
+        "fundamental_phase_deg": -0.0
+      }
+    },
+    {
+      "label": "healthy",
+      "kind": "downhole",
+      "max_error": {
+        "position_m": 1.1102230246251565e-16,
+        "load_n": 9.094947017729282e-13
+      },
+      "report": {
+        "reference": {
+          "asset": "SRP_001",
+          "run": "f993b1ba67e24b5bbce6a194f9af24fe",
+          "stroke": 8,
+          "source": "SIMULATOR",
+          "configuration": {
+            "asset_id": "SRP_001",
+            "rods": [
+              {
+                "length_m": 450.0,
+                "diameter_m": 0.0222,
+                "density": 7850.0,
+                "modulus": 205000000000.0
+              }
+            ],
+            "stroke_m": 1.65,
+            "spm": 8.0,
+            "crank_m": 0.6,
+            "rocker_m": 2.0,
+            "pitman_m": 3.4,
+            "pivot_x_m": 2.4,
+            "pivot_y_m": 2.1,
+            "mechanism": "four_bar",
+            "damping_s": 0.6,
+            "plunger_m": 0.04445,
+            "fluid_kg_m3": 880.0,
+            "chamber_gas_fraction": 0.015,
+            "viscosity_pa_s": 0.015,
+            "intake_head_m": 100.0,
+            "tubing_pa": 350000.0,
+            "casing_pa": 150000.0,
+            "voltage_v": 480.0,
+            "gear_ratio": 100.0,
+            "running_efficiency": 0.85,
+            "physics_step_s": 0.002,
+            "dynamometer_hz": 50,
+            "electrical_hz": 10,
+            "pressure_hz": 1,
+            "noise_position_m": 0.0,
+            "noise_load_n": 0.0,
+            "position_bias_m": 0.0,
+            "load_bias_n": 0.0,
+            "sensor_latency_s": 0.0,
+            "missing_probability": 0.0,
+            "seed": 42
+          }
+        },
+        "external": {
+          "asset": "SRP_001",
+          "stroke": 8,
+          "source": "synthetic acceptance run",
+          "kind": "downhole"
+        },
+        "peak_load_difference_pct": 0.0,
+        "minimum_load_difference_n": 0.0,
+        "stroke_length_difference_m": 0.0,
+        "area_difference_j": 0.0,
+        "alignment": "TIME_ALIGNED_FROM_CONFIRMED_ORIGIN",
+        "comparison_window_s": 7.4625,
+        "rmse_n": 6.650927192802928e-13,
+        "mae_n": 1.8610890606396423e-13,
+        "normalized_rmse": 1.1567131481215513e-16,
+        "correlation": 1.0,
+        "fundamental_phase_deg": -1.7587319711697937e-14
+      }
+    },
+    {
+      "label": "leak",
+      "kind": "surface",
+      "max_error": {
+        "position_m": 0.0,
+        "load_n": 0.0
+      },
+      "report": {
+        "reference": {
+          "asset": "SRP_001",
+          "run": "f993b1ba67e24b5bbce6a194f9af24fe",
+          "stroke": 19,
+          "source": "SIMULATOR",
+          "configuration": {
+            "asset_id": "SRP_001",
+            "rods": [
+              {
+                "length_m": 450.0,
+                "diameter_m": 0.0222,
+                "density": 7850.0,
+                "modulus": 205000000000.0
+              }
+            ],
+            "stroke_m": 1.65,
+            "spm": 8.0,
+            "crank_m": 0.6,
+            "rocker_m": 2.0,
+            "pitman_m": 3.4,
+            "pivot_x_m": 2.4,
+            "pivot_y_m": 2.1,
+            "mechanism": "four_bar",
+            "damping_s": 0.6,
+            "plunger_m": 0.04445,
+            "fluid_kg_m3": 880.0,
+            "chamber_gas_fraction": 0.015,
+            "viscosity_pa_s": 0.015,
+            "intake_head_m": 100.0,
+            "tubing_pa": 350000.0,
+            "casing_pa": 150000.0,
+            "voltage_v": 480.0,
+            "gear_ratio": 100.0,
+            "running_efficiency": 0.85,
+            "physics_step_s": 0.002,
+            "dynamometer_hz": 50,
+            "electrical_hz": 10,
+            "pressure_hz": 1,
+            "noise_position_m": 0.0,
+            "noise_load_n": 0.0,
+            "position_bias_m": 0.0,
+            "load_bias_n": 0.0,
+            "sensor_latency_s": 0.0,
+            "missing_probability": 0.0,
+            "seed": 42
+          }
+        },
+        "external": {
+          "asset": "SRP_001",
+          "stroke": 19,
+          "source": "synthetic acceptance run",
+          "kind": "surface"
+        },
+        "peak_load_difference_pct": 0.0,
+        "minimum_load_difference_n": 0.0,
+        "stroke_length_difference_m": 0.0,
+        "area_difference_j": 0.0,
+        "alignment": "TIME_ALIGNED_FROM_CONFIRMED_ORIGIN",
+        "comparison_window_s": 7.48,
+        "rmse_n": 0.0,
+        "mae_n": 0.0,
+        "normalized_rmse": 0.0,
+        "correlation": 1.0,
+        "fundamental_phase_deg": -0.0
+      }
+    },
+    {
+      "label": "leak",
+      "kind": "downhole",
+      "max_error": {
+        "position_m": 1.1102230246251565e-16,
+        "load_n": 9.094947017729282e-13
+      },
+      "report": {
+        "reference": {
+          "asset": "SRP_001",
+          "run": "f993b1ba67e24b5bbce6a194f9af24fe",
+          "stroke": 19,
+          "source": "SIMULATOR",
+          "configuration": {
+            "asset_id": "SRP_001",
+            "rods": [
+              {
+                "length_m": 450.0,
+                "diameter_m": 0.0222,
+                "density": 7850.0,
+                "modulus": 205000000000.0
+              }
+            ],
+            "stroke_m": 1.65,
+            "spm": 8.0,
+            "crank_m": 0.6,
+            "rocker_m": 2.0,
+            "pitman_m": 3.4,
+            "pivot_x_m": 2.4,
+            "pivot_y_m": 2.1,
+            "mechanism": "four_bar",
+            "damping_s": 0.6,
+            "plunger_m": 0.04445,
+            "fluid_kg_m3": 880.0,
+            "chamber_gas_fraction": 0.015,
+            "viscosity_pa_s": 0.015,
+            "intake_head_m": 100.0,
+            "tubing_pa": 350000.0,
+            "casing_pa": 150000.0,
+            "voltage_v": 480.0,
+            "gear_ratio": 100.0,
+            "running_efficiency": 0.85,
+            "physics_step_s": 0.002,
+            "dynamometer_hz": 50,
+            "electrical_hz": 10,
+            "pressure_hz": 1,
+            "noise_position_m": 0.0,
+            "noise_load_n": 0.0,
+            "position_bias_m": 0.0,
+            "load_bias_n": 0.0,
+            "sensor_latency_s": 0.0,
+            "missing_probability": 0.0,
+            "seed": 42
+          }
+        },
+        "external": {
+          "asset": "SRP_001",
+          "stroke": 19,
+          "source": "synthetic acceptance run",
+          "kind": "downhole"
+        },
+        "peak_load_difference_pct": 0.0,
+        "minimum_load_difference_n": -5.684341886080802e-14,
+        "stroke_length_difference_m": 0.0,
+        "area_difference_j": 0.0,
+        "alignment": "TIME_ALIGNED_FROM_CONFIRMED_ORIGIN",
+        "comparison_window_s": 7.4625,
+        "rmse_n": 8.380692681115286e-13,
+        "mae_n": 2.3167245899458064e-13,
+        "normalized_rmse": 1.4747111100652861e-16,
+        "correlation": 1.0,
+        "fundamental_phase_deg": -4.5041009175610454e-15
+      }
+    }
+  ],
+  "pipeline": "PASS"
+}

@@ -1,0 +1,118 @@
+﻿test_type,value_kind,parameter,record_count
+ACU,numeric,ACU Acoustic Velocity,55
+ACU,numeric,ACU Casing Pressure,55
+ACU,numeric,ACU PBHP,54
+ACU,numeric,Annular Gas Flow,54
+ACU,numeric,Average Acoustic Velocity,49
+ACU,numeric,Average Joints Per Second,55
+ACU,numeric,Back Pressure,48
+ACU,numeric,Back Pressure on Formation Due to Liquid Loading,54
+ACU,numeric,Buildup,55
+ACU,numeric,Buildup Time,55
+ACU,numeric,Computed Gas Gravity from User Entered Velocity,47
+ACU,numeric,Computed Velocity from Gas Gravity,13
+ACU,numeric,Continuous Removal of Liquid For Condensate,33
+ACU,numeric,Continuous Removal of Liquid For Water,33
+ACU,numeric,Continuous Removal of Liquid Tubing ID,55
+ACU,numeric,Current Loaded EOT,48
+ACU,numeric,Distance to Liquid,55
+ACU,numeric,Filter High End,46
+ACU,numeric,Filter Low End,46
+ACU,numeric,Flowing Gas EOT,48
+ACU,numeric,Fluid Above Pump,45
+ACU,numeric,Gas Free Above Pump,45
+ACU,numeric,Gas Production,54
+ACU,numeric,Gas/Liquid Interface Pressure,54
+ACU,numeric,Interval Acoustic Velocity,49
+ACU,numeric,Interval Joints Per Second,49
+ACU,numeric,Joints to Liquid,55
+ACU,numeric,Liquid Level - TVD,55
+ACU,numeric,Oil Production,37
+ACU,numeric,PIP LL,54
+ACU,numeric,Percent Liquid Above Pump,55
+ACU,numeric,Percent Liquid Below Pump,40
+ACU,numeric,Producing Efficiency,55
+ACU,numeric,RTTT,55
+ACU,numeric,SBHP,2
+ACU,numeric,Selected Marker Depth,55
+ACU,numeric,Time to First Collar,46
+ACU,numeric,Time to Last Collar,46
+ACU,numeric,User Entered Velocity,47
+ACU,numeric,Water Production,37
+ACU,numeric,Water/Oil Interface Pressure,2
+ACU,text,Acoustic Velocity Calc Method,55
+ACU,text,Continuous Removal of Liquid Method,55
+ACU,text,Gun Serial Number,55
+ACU,text,IPR Method,55
+ACU,text,Pressure Sensor Serial Number,54
+ACU,text,Pulse Type,55
+ACU,text,Selected Marker Name,55
+ACU,text,Shot Path,55
+ACU,text,Well State,55
+DYN,numeric,Acquisition Rate,71
+DYN,numeric,Adjusted Displacement,59
+DYN,numeric,Adjusted EPT,59
+DYN,numeric,Adjusted Fillage,62
+DYN,numeric,Average Fillage,62
+DYN,numeric,Beam Loading,62
+DYN,numeric,Calculated Buoyant Rod Weight,71
+DYN,numeric,Calculated Buoyant Rod Weight + Fo FL,60
+DYN,numeric,Calculated Buoyant Rod Weight + Fo Max,71
+DYN,numeric,Computed Stroke Length,62
+DYN,numeric,DYN Casing Pressure,62
+DYN,numeric,DYN Tubing Pressure,62
+DYN,numeric,Damping Factor Down Stroke,62
+DYN,numeric,Damping Factor Up Stroke,62
+DYN,numeric,Effective Plunger Travel,59
+DYN,numeric,Existing Counterbalance,60
+DYN,numeric,Existing Cyclic Load Factor,60
+DYN,numeric,"Existing Max Gearbox Torque, DownStroke",60
+DYN,numeric,"Existing Max Gearbox Torque, Upstroke",60
+DYN,numeric,"Existing Min Gearbox Torque, DownStroke",60
+DYN,numeric,"Existing Min Gearbox Torque, Upstroke",60
+DYN,numeric,Existing RMS Gearbox Torque,60
+DYN,numeric,Fo Calculated from PIP Fluid Level Analysis,60
+DYN,numeric,Fo Calculated from Valve Test Analysis,37
+DYN,numeric,Fo Max Line,62
+DYN,numeric,Gas Free Fillage,62
+DYN,numeric,In Balance Cyclic Load Factor,60
+DYN,numeric,"In Balance Max Gearbox Torque, DownStroke",60
+DYN,numeric,"In Balance Max Gearbox Torque, Upstroke",60
+DYN,numeric,"In Balance Min Gearbox Torque, DownStroke",60
+DYN,numeric,"In Balance Min Gearbox Torque, Upstroke",60
+DYN,numeric,In Balance RMS Gearbox Torque,60
+DYN,numeric,Leakage,34
+DYN,numeric,Maximum Counterbalance,44
+DYN,numeric,Maximum Plunger Stroke,62
+DYN,numeric,Maximum Rod Loading % Goodman,62
+DYN,numeric,Maximum Rod Stress,62
+DYN,numeric,Measured Fluid Load,62
+DYN,numeric,Measured Load SV,37
+DYN,numeric,Measured Load TV,37
+DYN,numeric,Minimum Polished Rod Load,62
+DYN,numeric,Minimum Rod Stress,62
+DYN,numeric,Number of Strokes,62
+DYN,numeric,PIP DYN,62
+DYN,numeric,PIP VT,34
+DYN,numeric,Peak Polished Rod Load,62
+DYN,numeric,Polished Rod Power,62
+DYN,numeric,Polished Rod to Pump Efficiency,59
+DYN,numeric,Pump Discharge Pressure,71
+DYN,numeric,Pump Displacement,59
+DYN,numeric,Pump HP,59
+DYN,numeric,Pump to Motor Efficiency,1
+DYN,numeric,Rated Current,71
+DYN,numeric,Required Counterbalance Change,60
+DYN,numeric,Rod/Tubing Stretch,62
+DYN,numeric,Stroke Number,62
+DYN,numeric,Strokes Per Minute,62
+DYN,numeric,Tubing Stretch,62
+DYN,numeric,Unaccounted Friction,62
+DYN,numeric,Unanchored Tubing Stretch on Pump Card,62
+DYN,numeric,Volumetric Efficiency,62
+DYN,text,DYN Load Cell Serial Number,71
+DYN,text,Downstroke Crank Angles,60
+DYN,text,Out of Balance,62
+DYN,text,Rod Taper % Goodman,62
+DYN,text,To Balance Move,62
+DYN,text,Upstroke Crank Angles,60

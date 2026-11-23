@@ -1,0 +1,7 @@
+{
+  "state_id": "STATE-064",
+  "source_state": "RodPart_NoPlunger",
+  "surface_card": null,
+  "downhole_card": null,
+  "reason": "No verified ordered numerical samples extracted"
+}

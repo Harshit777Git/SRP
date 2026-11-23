@@ -1,0 +1,79 @@
+{
+  "state_id": "STATE-044",
+  "name": "NR-6",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\NR-6",
+  "source_files": [
+    {
+      "State ID": "STATE-044",
+      "Original State Name": "NR-6",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\NR-6\\Original TWM\\2_8_PRT_BendingRolishedRod\\NR-6.001",
+      "Extension": ".001",
+      "Bytes": 47684,
+      "SHA256": "a58fe478c800837a54473a160111f01fdf820959094c36fd3d8773834f271893",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-044",
+      "Original State Name": "NR-6",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\NR-6\\Original TWM\\2_8_PRT_BendingRolishedRod\\NR-6.002",
+      "Extension": ".002",
+      "Bytes": 47648,
+      "SHA256": "d5b22a27aa0f16ce0b554ef96256768d746898ce880fae93bbd21d3ca127bde9",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-044",
+      "Original State Name": "NR-6",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\NR-6\\Original TWM\\2_8_PRT_BendingRolishedRod\\NR-6.003",
+      "Extension": ".003",
+      "Bytes": 47786,
+      "SHA256": "76772076bf8285aa44d42e57c9db4a374fd9a4d2eadd291b0534bdf57824fe8b",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-044",
+      "Original State Name": "NR-6",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\NR-6\\Original TWM\\2_8_PRT_BendingRolishedRod\\NR-6.004",
+      "Extension": ".004",
+      "Bytes": 326600,
+      "SHA256": "f42b2cabe5d3a33512632b5a7f3040582ca04350a8c8c23f61c25ddc06a9b75c",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-044",
+      "Original State Name": "NR-6",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\NR-6\\Original TWM\\2_8_PRT_BendingRolishedRod\\NR-6.005",
+      "Extension": ".005",
+      "Bytes": 1550966,
+      "SHA256": "bc6a20fa0a13ff1fdd788d6f943fc1f78ee1f4eaeead2d725493c6750b3c4495",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "UNSUPPORTED_CONVERSION",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

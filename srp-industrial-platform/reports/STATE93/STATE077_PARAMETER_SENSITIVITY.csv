@@ -1,0 +1,13 @@
+﻿variant,parameter,value,note,status,load_rmse_lbf,displacement_rmse_in,card_area_error_percent
+baseline,none,,Existing APM baseline,SOLVED,627.3106625247694,1.4218893705299334,5.4438532531811195
+modulus_low,rod_modulus_pa,190000000000.0,"Steel range sensitivity, not calibration",SOLVED,630.1899322906239,2.301548678170248,5.064636984564235
+modulus_high,rod_modulus_pa,215000000000.0,"Steel range sensitivity, not calibration",SOLVED,634.4560488170355,0.9582239393699349,5.660252911518754
+density_low,rod_density_kg_m3,7750,Steel density sensitivity,SOLVED,751.9663847380359,1.7786753310601366,6.509941399666281
+density_high,rod_density_kg_m3,7950,Steel density sensitivity,SOLVED,507.6752689910467,1.069386057201189,4.379112873726193
+damping_low,damping_s,0.3,Model parameter sensitivity,SOLVED,791.4185742361523,1.6448959548669877,50.171794199156835
+damping_high,damping_s,1.2,Model parameter sensitivity,SOLVED,1022.9395011750386,1.8071837101095258,-83.9357188432385
+liquid_density_low,fluid_kg_m3,900,Unmeasured mixture sensitivity,SOLVED,526.5676218763571,1.116811425508879,5.443853253180939
+liquid_density_high,fluid_kg_m3,1050,Unmeasured mixture sensitivity,SOLVED,699.969228776481,1.6365378527322885,5.4438532531809205
+rod_gap_hypothesis,last_rod_extra_ft,61,Hypothetical 61-ft assembly; not a source fact,SOLVED,496.8538316457719,1.1613044354114541,4.0176567120756665
+spm_low,spm,10.176596746171418,Estimated timebase sensitivity,SOLVED,649.4496876936804,1.4462090245811954,7.005028026913594
+spm_high,spm,10.591968041933518,Estimated timebase sensitivity,SOLVED,615.8873147538036,1.4078365312299024,3.8911948765456383

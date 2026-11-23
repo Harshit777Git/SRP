@@ -1,0 +1,103 @@
+{
+  "duplicate_delivery": "PASS",
+  "asset": "CHECK_E6FAFC6",
+  "run_id": "c439176ab43d458d94b31dc55a59dbe9",
+  "broker": "Aedes",
+  "healthy_solved": 3,
+  "fault_stroke": 10,
+  "relative_surface_area_change": 0.007592412169512174,
+  "surface_area_change_j": 76.41277531875676,
+  "baseline_area_spread_j": 0.03449160538366414,
+  "inverse_validation": [
+    {
+      "position_rmse_m": 0.0018940419287987466,
+      "centered_position_rmse_m": 0.001894041912731761,
+      "load_rmse_n": 120.76024247413173,
+      "load_rmse_fraction_of_range": 0.02183544488438448,
+      "position_phase_deg": 0.012125839847882394,
+      "load_correlation": 0.9988400192144012,
+      "card_area_error_fraction": 0.006898638280722698
+    },
+    {
+      "position_rmse_m": 0.0016885517805296695,
+      "centered_position_rmse_m": 0.0016885517550216298,
+      "load_rmse_n": 104.45500106851604,
+      "load_rmse_fraction_of_range": 0.018948699338581614,
+      "position_phase_deg": 0.011962373341242177,
+      "load_correlation": 0.9991307077868699,
+      "card_area_error_fraction": 0.006836484088280383
+    }
+  ],
+  "classification": {
+    "label": "UNKNOWN",
+    "confidence": 0.5012896060943604,
+    "evidence": "Calculated downhole card work 8452 J per stroke, 104% of the ideal hydrostatic work",
+    "model_version": "cnn/b186501ac13b",
+    "status": "TRAINED_ON_SYNTHETIC",
+    "investigation": "Review stroke quality, operating trend and downhole reconstruction",
+    "provenance": "simulated_cards.npz",
+    "in_training_spm_range": true,
+    "timestamp": "2026-11-16T09:10:04.529607+00:00"
+  },
+  "publisher": {
+    "ready": true,
+    "connected": true,
+    "queued": 5,
+    "sent": 2821,
+    "retry_failures": 0,
+    "dropped": 0,
+    "ack_lag_s": 0.00356292724609375,
+    "topics": [
+      "srp/v1/CHECK_E6FAFC6/events/stroke",
+      "srp/v1/CHECK_E6FAFC6/status",
+      "srp/v1/CHECK_E6FAFC6/telemetry/dynamometer",
+      "srp/v1/CHECK_E6FAFC6/telemetry/electrical",
+      "srp/v1/CHECK_E6FAFC6/telemetry/pressure"
+    ]
+  },
+  "subscriber": {
+    "ready": true,
+    "connected": true,
+    "counts": {
+      "accepted": 2304,
+      "ingest_processing_us": 486655,
+      "duplicates": 1
+    }
+  },
+  "captured_samples": 18,
+  "origin": "SIMULATED",
+  "ml_acceptance": "INCOMPLETE",
+  "browser": "PASS",
+  "outage": {
+    "queued_before_restart": 256,
+    "recovered_stroke": 14,
+    "latest_stroke_before_outage": 12,
+    "newly_observed_gaps": 0,
+    "subscriber": {
+      "ready": true,
+      "connected": true,
+      "counts": {
+        "accepted": 3943,
+        "ingest_processing_us": 936269,
+        "duplicates": 1
+      }
+    },
+    "publisher": {
+      "ready": true,
+      "connected": true,
+      "queued": 0,
+      "sent": 4833,
+      "retry_failures": 0,
+      "dropped": 0,
+      "ack_lag_s": 0.0022721290588378906,
+      "topics": [
+        "srp/v1/CHECK_E6FAFC6/events/stroke",
+        "srp/v1/CHECK_E6FAFC6/status",
+        "srp/v1/CHECK_E6FAFC6/telemetry/dynamometer",
+        "srp/v1/CHECK_E6FAFC6/telemetry/electrical",
+        "srp/v1/CHECK_E6FAFC6/telemetry/pressure"
+      ]
+    }
+  },
+  "pipeline": "PASS"
+}

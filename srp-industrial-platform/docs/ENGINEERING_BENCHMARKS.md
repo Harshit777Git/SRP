@@ -1,0 +1,7 @@
+# Engineering Benchmark Laboratory
+
+Select the well and operating stroke. Import and save the external record with provenance, then select it in the Laboratory. A solid trace shows the operating stroke. An imported card is dashed. Download the JSON evidence report.
+
+Peak load percentage, minimum load, travel and oriented-loop work differences describe card geometry. Units are SI. A timed comparison requires complete timestamps, explicit operator confirmation of matched equipment/conditions/cycle origin and sample spans within 3%. The algorithm linearly interpolates loads onto a common relative-time grid. It computes RMSE, MAE, RMSE divided by reference load range, Pearson correlation and phase of the first load harmonic. A zero reference span produces no normalized error. There is no arbitrary index stretching or forced phase shift.
+
+The sample DYN files have ordered load–position pairs and no verified acquisition timestamps in their point blocks. Their comparison is therefore **GEOMETRY_ONLY**. Absolute differences against SRP_001 illustrate the laboratory and do not establish simulator accuracy against this differently configured well. The verified zero-error comparison uses a timestamp-aligned export round trip. Prediction-source preservation comes from imported provenance. Production rates require compatible pump capacity, fillage, runtime and boundary conditions. Point-only examples cannot support that comparison.

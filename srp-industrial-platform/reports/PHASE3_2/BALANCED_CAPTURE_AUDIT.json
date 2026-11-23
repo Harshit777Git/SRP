@@ -1,0 +1,630 @@
+{
+  "origin": "SYNTHETIC_ONLY",
+  "complete_strokes": 2970,
+  "classes": {
+    "abnormal_speed": {
+      "strokes": 270,
+      "runs": 270,
+      "wells": 30,
+      "severity_counts": {
+        "0.001": 30,
+        "0.01": 30,
+        "0.05": 30,
+        "0.1": 30,
+        "0.2": 30,
+        "0.4": 30,
+        "0.6": 30,
+        "0.8": 30,
+        "1.0": 30
+      },
+      "raw_samples": 113624
+    },
+    "gas_interference": {
+      "strokes": 270,
+      "runs": 270,
+      "wells": 30,
+      "severity_counts": {
+        "0.001": 30,
+        "0.01": 30,
+        "0.05": 30,
+        "0.1": 30,
+        "0.2": 30,
+        "0.4": 30,
+        "0.6": 30,
+        "0.8": 30,
+        "1.0": 30
+      },
+      "raw_samples": 126270
+    },
+    "healthy": {
+      "strokes": 270,
+      "runs": 270,
+      "wells": 30,
+      "severity_counts": {
+        "0.0": 270
+      },
+      "raw_samples": 126270
+    },
+    "incomplete_fillage": {
+      "strokes": 270,
+      "runs": 270,
+      "wells": 30,
+      "severity_counts": {
+        "0.001": 30,
+        "0.01": 30,
+        "0.05": 30,
+        "0.1": 30,
+        "0.2": 30,
+        "0.4": 30,
+        "0.6": 30,
+        "0.8": 30,
+        "1.0": 30
+      },
+      "raw_samples": 126270
+    },
+    "load_cell_drift": {
+      "strokes": 270,
+      "runs": 270,
+      "wells": 30,
+      "severity_counts": {
+        "0.001": 30,
+        "0.01": 30,
+        "0.05": 30,
+        "0.1": 30,
+        "0.2": 30,
+        "0.4": 30,
+        "0.6": 30,
+        "0.8": 30,
+        "1.0": 30
+      },
+      "raw_samples": 126270
+    },
+    "position_sensor_fault": {
+      "strokes": 270,
+      "runs": 270,
+      "wells": 30,
+      "severity_counts": {
+        "0.001": 30,
+        "0.01": 30,
+        "0.05": 30,
+        "0.1": 30,
+        "0.2": 30,
+        "0.4": 30,
+        "0.6": 30,
+        "0.8": 30,
+        "1.0": 30
+      },
+      "raw_samples": 126270
+    },
+    "pump_wear": {
+      "strokes": 270,
+      "runs": 270,
+      "wells": 30,
+      "severity_counts": {
+        "0.001": 30,
+        "0.01": 30,
+        "0.05": 30,
+        "0.1": 30,
+        "0.2": 30,
+        "0.4": 30,
+        "0.6": 30,
+        "0.8": 30,
+        "1.0": 30
+      },
+      "raw_samples": 126270
+    },
+    "restricted_inflow": {
+      "strokes": 270,
+      "runs": 270,
+      "wells": 30,
+      "severity_counts": {
+        "0.001": 30,
+        "0.01": 30,
+        "0.05": 30,
+        "0.1": 30,
+        "0.2": 30,
+        "0.4": 30,
+        "0.6": 30,
+        "0.8": 30,
+        "1.0": 30
+      },
+      "raw_samples": 126270
+    },
+    "rod_friction": {
+      "strokes": 270,
+      "runs": 270,
+      "wells": 30,
+      "severity_counts": {
+        "0.001": 30,
+        "0.01": 30,
+        "0.05": 30,
+        "0.1": 30,
+        "0.2": 30,
+        "0.4": 30,
+        "0.6": 30,
+        "0.8": 30,
+        "1.0": 30
+      },
+      "raw_samples": 126270
+    },
+    "standing_valve_leak": {
+      "strokes": 270,
+      "runs": 270,
+      "wells": 30,
+      "severity_counts": {
+        "0.001": 30,
+        "0.01": 30,
+        "0.05": 30,
+        "0.1": 30,
+        "0.2": 30,
+        "0.4": 30,
+        "0.6": 30,
+        "0.8": 30,
+        "1.0": 30
+      },
+      "raw_samples": 126270
+    },
+    "traveling_valve_leak": {
+      "strokes": 270,
+      "runs": 270,
+      "wells": 30,
+      "severity_counts": {
+        "0.001": 30,
+        "0.01": 30,
+        "0.05": 30,
+        "0.1": 30,
+        "0.2": 30,
+        "0.4": 30,
+        "0.6": 30,
+        "0.8": 30,
+        "1.0": 30
+      },
+      "raw_samples": 126270
+    }
+  },
+  "identical_surface_signal_groups": [
+    [
+      "balanced-v1-healthy-00000",
+      "balanced-v1-healthy-00030",
+      "balanced-v1-healthy-00060",
+      "balanced-v1-healthy-00090",
+      "balanced-v1-healthy-00120",
+      "balanced-v1-healthy-00150",
+      "balanced-v1-healthy-00180",
+      "balanced-v1-healthy-00210",
+      "balanced-v1-healthy-00240"
+    ],
+    [
+      "balanced-v1-healthy-00001",
+      "balanced-v1-healthy-00031",
+      "balanced-v1-healthy-00061",
+      "balanced-v1-healthy-00091",
+      "balanced-v1-healthy-00121",
+      "balanced-v1-healthy-00151",
+      "balanced-v1-healthy-00181",
+      "balanced-v1-healthy-00211",
+      "balanced-v1-healthy-00241"
+    ],
+    [
+      "balanced-v1-healthy-00002",
+      "balanced-v1-healthy-00032",
+      "balanced-v1-healthy-00062",
+      "balanced-v1-healthy-00092",
+      "balanced-v1-healthy-00122",
+      "balanced-v1-healthy-00152",
+      "balanced-v1-healthy-00182",
+      "balanced-v1-healthy-00212",
+      "balanced-v1-healthy-00242"
+    ],
+    [
+      "balanced-v1-healthy-00003",
+      "balanced-v1-healthy-00033",
+      "balanced-v1-healthy-00063",
+      "balanced-v1-healthy-00093",
+      "balanced-v1-healthy-00123",
+      "balanced-v1-healthy-00153",
+      "balanced-v1-healthy-00183",
+      "balanced-v1-healthy-00213",
+      "balanced-v1-healthy-00243"
+    ],
+    [
+      "balanced-v1-healthy-00004",
+      "balanced-v1-healthy-00034",
+      "balanced-v1-healthy-00064",
+      "balanced-v1-healthy-00094",
+      "balanced-v1-healthy-00124",
+      "balanced-v1-healthy-00154",
+      "balanced-v1-healthy-00184",
+      "balanced-v1-healthy-00214",
+      "balanced-v1-healthy-00244"
+    ],
+    [
+      "balanced-v1-healthy-00005",
+      "balanced-v1-healthy-00035",
+      "balanced-v1-healthy-00065",
+      "balanced-v1-healthy-00095",
+      "balanced-v1-healthy-00125",
+      "balanced-v1-healthy-00155",
+      "balanced-v1-healthy-00185",
+      "balanced-v1-healthy-00215",
+      "balanced-v1-healthy-00245"
+    ],
+    [
+      "balanced-v1-healthy-00006",
+      "balanced-v1-healthy-00036",
+      "balanced-v1-healthy-00066",
+      "balanced-v1-healthy-00096",
+      "balanced-v1-healthy-00126",
+      "balanced-v1-healthy-00156",
+      "balanced-v1-healthy-00186",
+      "balanced-v1-healthy-00216",
+      "balanced-v1-healthy-00246"
+    ],
+    [
+      "balanced-v1-healthy-00007",
+      "balanced-v1-healthy-00037",
+      "balanced-v1-healthy-00067",
+      "balanced-v1-healthy-00097",
+      "balanced-v1-healthy-00127",
+      "balanced-v1-healthy-00157",
+      "balanced-v1-healthy-00187",
+      "balanced-v1-healthy-00217",
+      "balanced-v1-healthy-00247"
+    ],
+    [
+      "balanced-v1-healthy-00008",
+      "balanced-v1-healthy-00038",
+      "balanced-v1-healthy-00068",
+      "balanced-v1-healthy-00098",
+      "balanced-v1-healthy-00128",
+      "balanced-v1-healthy-00158",
+      "balanced-v1-healthy-00188",
+      "balanced-v1-healthy-00218",
+      "balanced-v1-healthy-00248"
+    ],
+    [
+      "balanced-v1-healthy-00009",
+      "balanced-v1-healthy-00039",
+      "balanced-v1-healthy-00069",
+      "balanced-v1-healthy-00099",
+      "balanced-v1-healthy-00129",
+      "balanced-v1-healthy-00159",
+      "balanced-v1-healthy-00189",
+      "balanced-v1-healthy-00219",
+      "balanced-v1-healthy-00249"
+    ],
+    [
+      "balanced-v1-healthy-00010",
+      "balanced-v1-healthy-00040",
+      "balanced-v1-healthy-00070",
+      "balanced-v1-healthy-00100",
+      "balanced-v1-healthy-00130",
+      "balanced-v1-healthy-00160",
+      "balanced-v1-healthy-00190",
+      "balanced-v1-healthy-00220",
+      "balanced-v1-healthy-00250"
+    ],
+    [
+      "balanced-v1-healthy-00011",
+      "balanced-v1-healthy-00041",
+      "balanced-v1-healthy-00071",
+      "balanced-v1-healthy-00101",
+      "balanced-v1-healthy-00131",
+      "balanced-v1-healthy-00161",
+      "balanced-v1-healthy-00191",
+      "balanced-v1-healthy-00221",
+      "balanced-v1-healthy-00251"
+    ],
+    [
+      "balanced-v1-healthy-00012",
+      "balanced-v1-healthy-00042",
+      "balanced-v1-healthy-00072",
+      "balanced-v1-healthy-00102",
+      "balanced-v1-healthy-00132",
+      "balanced-v1-healthy-00162",
+      "balanced-v1-healthy-00192",
+      "balanced-v1-healthy-00222",
+      "balanced-v1-healthy-00252"
+    ],
+    [
+      "balanced-v1-healthy-00013",
+      "balanced-v1-healthy-00043",
+      "balanced-v1-healthy-00073",
+      "balanced-v1-healthy-00103",
+      "balanced-v1-healthy-00133",
+      "balanced-v1-healthy-00163",
+      "balanced-v1-healthy-00193",
+      "balanced-v1-healthy-00223",
+      "balanced-v1-healthy-00253"
+    ],
+    [
+      "balanced-v1-healthy-00014",
+      "balanced-v1-healthy-00044",
+      "balanced-v1-healthy-00074",
+      "balanced-v1-healthy-00104",
+      "balanced-v1-healthy-00134",
+      "balanced-v1-healthy-00164",
+      "balanced-v1-healthy-00194",
+      "balanced-v1-healthy-00224",
+      "balanced-v1-healthy-00254"
+    ],
+    [
+      "balanced-v1-healthy-00015",
+      "balanced-v1-healthy-00045",
+      "balanced-v1-healthy-00075",
+      "balanced-v1-healthy-00105",
+      "balanced-v1-healthy-00135",
+      "balanced-v1-healthy-00165",
+      "balanced-v1-healthy-00195",
+      "balanced-v1-healthy-00225",
+      "balanced-v1-healthy-00255"
+    ],
+    [
+      "balanced-v1-healthy-00016",
+      "balanced-v1-healthy-00046",
+      "balanced-v1-healthy-00076",
+      "balanced-v1-healthy-00106",
+      "balanced-v1-healthy-00136",
+      "balanced-v1-healthy-00166",
+      "balanced-v1-healthy-00196",
+      "balanced-v1-healthy-00226",
+      "balanced-v1-healthy-00256"
+    ],
+    [
+      "balanced-v1-healthy-00017",
+      "balanced-v1-healthy-00047",
+      "balanced-v1-healthy-00077",
+      "balanced-v1-healthy-00107",
+      "balanced-v1-healthy-00137",
+      "balanced-v1-healthy-00167",
+      "balanced-v1-healthy-00197",
+      "balanced-v1-healthy-00227",
+      "balanced-v1-healthy-00257"
+    ],
+    [
+      "balanced-v1-healthy-00018",
+      "balanced-v1-healthy-00048",
+      "balanced-v1-healthy-00078",
+      "balanced-v1-healthy-00108",
+      "balanced-v1-healthy-00138",
+      "balanced-v1-healthy-00168",
+      "balanced-v1-healthy-00198",
+      "balanced-v1-healthy-00228",
+      "balanced-v1-healthy-00258"
+    ],
+    [
+      "balanced-v1-healthy-00019",
+      "balanced-v1-healthy-00049",
+      "balanced-v1-healthy-00079",
+      "balanced-v1-healthy-00109",
+      "balanced-v1-healthy-00139",
+      "balanced-v1-healthy-00169",
+      "balanced-v1-healthy-00199",
+      "balanced-v1-healthy-00229",
+      "balanced-v1-healthy-00259"
+    ],
+    [
+      "balanced-v1-healthy-00020",
+      "balanced-v1-healthy-00050",
+      "balanced-v1-healthy-00080",
+      "balanced-v1-healthy-00110",
+      "balanced-v1-healthy-00140",
+      "balanced-v1-healthy-00170",
+      "balanced-v1-healthy-00200",
+      "balanced-v1-healthy-00230",
+      "balanced-v1-healthy-00260"
+    ],
+    [
+      "balanced-v1-healthy-00021",
+      "balanced-v1-healthy-00051",
+      "balanced-v1-healthy-00081",
+      "balanced-v1-healthy-00111",
+      "balanced-v1-healthy-00141",
+      "balanced-v1-healthy-00171",
+      "balanced-v1-healthy-00201",
+      "balanced-v1-healthy-00231",
+      "balanced-v1-healthy-00261"
+    ],
+    [
+      "balanced-v1-healthy-00022",
+      "balanced-v1-healthy-00052",
+      "balanced-v1-healthy-00082",
+      "balanced-v1-healthy-00112",
+      "balanced-v1-healthy-00142",
+      "balanced-v1-healthy-00172",
+      "balanced-v1-healthy-00202",
+      "balanced-v1-healthy-00232",
+      "balanced-v1-healthy-00262"
+    ],
+    [
+      "balanced-v1-healthy-00023",
+      "balanced-v1-healthy-00053",
+      "balanced-v1-healthy-00083",
+      "balanced-v1-healthy-00113",
+      "balanced-v1-healthy-00143",
+      "balanced-v1-healthy-00173",
+      "balanced-v1-healthy-00203",
+      "balanced-v1-healthy-00233",
+      "balanced-v1-healthy-00263"
+    ],
+    [
+      "balanced-v1-healthy-00024",
+      "balanced-v1-healthy-00054",
+      "balanced-v1-healthy-00084",
+      "balanced-v1-healthy-00114",
+      "balanced-v1-healthy-00144",
+      "balanced-v1-healthy-00174",
+      "balanced-v1-healthy-00204",
+      "balanced-v1-healthy-00234",
+      "balanced-v1-healthy-00264"
+    ],
+    [
+      "balanced-v1-healthy-00025",
+      "balanced-v1-healthy-00055",
+      "balanced-v1-healthy-00085",
+      "balanced-v1-healthy-00115",
+      "balanced-v1-healthy-00145",
+      "balanced-v1-healthy-00175",
+      "balanced-v1-healthy-00205",
+      "balanced-v1-healthy-00235",
+      "balanced-v1-healthy-00265"
+    ],
+    [
+      "balanced-v1-healthy-00026",
+      "balanced-v1-healthy-00056",
+      "balanced-v1-healthy-00086",
+      "balanced-v1-healthy-00116",
+      "balanced-v1-healthy-00146",
+      "balanced-v1-healthy-00176",
+      "balanced-v1-healthy-00206",
+      "balanced-v1-healthy-00236",
+      "balanced-v1-healthy-00266"
+    ],
+    [
+      "balanced-v1-healthy-00027",
+      "balanced-v1-healthy-00057",
+      "balanced-v1-healthy-00087",
+      "balanced-v1-healthy-00117",
+      "balanced-v1-healthy-00147",
+      "balanced-v1-healthy-00177",
+      "balanced-v1-healthy-00207",
+      "balanced-v1-healthy-00237",
+      "balanced-v1-healthy-00267"
+    ],
+    [
+      "balanced-v1-healthy-00028",
+      "balanced-v1-healthy-00058",
+      "balanced-v1-healthy-00088",
+      "balanced-v1-healthy-00118",
+      "balanced-v1-healthy-00148",
+      "balanced-v1-healthy-00178",
+      "balanced-v1-healthy-00208",
+      "balanced-v1-healthy-00238",
+      "balanced-v1-healthy-00268"
+    ],
+    [
+      "balanced-v1-healthy-00029",
+      "balanced-v1-healthy-00059",
+      "balanced-v1-healthy-00089",
+      "balanced-v1-healthy-00119",
+      "balanced-v1-healthy-00149",
+      "balanced-v1-healthy-00179",
+      "balanced-v1-healthy-00209",
+      "balanced-v1-healthy-00239",
+      "balanced-v1-healthy-00269"
+    ],
+    [
+      "balanced-v1-pump_wear-00014",
+      "balanced-v1-traveling_valve_leak-00224"
+    ],
+    [
+      "balanced-v1-pump_wear-00023",
+      "balanced-v1-traveling_valve_leak-00233"
+    ],
+    [
+      "balanced-v1-pump_wear-00031",
+      "balanced-v1-traveling_valve_leak-00241"
+    ],
+    [
+      "balanced-v1-pump_wear-00040",
+      "balanced-v1-traveling_valve_leak-00250"
+    ],
+    [
+      "balanced-v1-pump_wear-00049",
+      "balanced-v1-traveling_valve_leak-00259"
+    ],
+    [
+      "balanced-v1-pump_wear-00058",
+      "balanced-v1-traveling_valve_leak-00268"
+    ],
+    [
+      "balanced-v1-pump_wear-00066",
+      "balanced-v1-traveling_valve_leak-00006"
+    ],
+    [
+      "balanced-v1-pump_wear-00075",
+      "balanced-v1-traveling_valve_leak-00015"
+    ],
+    [
+      "balanced-v1-pump_wear-00084",
+      "balanced-v1-traveling_valve_leak-00024"
+    ],
+    [
+      "balanced-v1-pump_wear-00092",
+      "balanced-v1-traveling_valve_leak-00032"
+    ],
+    [
+      "balanced-v1-pump_wear-00101",
+      "balanced-v1-traveling_valve_leak-00041"
+    ],
+    [
+      "balanced-v1-pump_wear-00110",
+      "balanced-v1-traveling_valve_leak-00050"
+    ],
+    [
+      "balanced-v1-pump_wear-00119",
+      "balanced-v1-traveling_valve_leak-00059"
+    ],
+    [
+      "balanced-v1-pump_wear-00127",
+      "balanced-v1-traveling_valve_leak-00067"
+    ],
+    [
+      "balanced-v1-pump_wear-00145",
+      "balanced-v1-traveling_valve_leak-00085"
+    ],
+    [
+      "balanced-v1-pump_wear-00153",
+      "balanced-v1-traveling_valve_leak-00093"
+    ],
+    [
+      "balanced-v1-pump_wear-00162",
+      "balanced-v1-traveling_valve_leak-00102"
+    ],
+    [
+      "balanced-v1-pump_wear-00171",
+      "balanced-v1-traveling_valve_leak-00111"
+    ],
+    [
+      "balanced-v1-pump_wear-00188",
+      "balanced-v1-traveling_valve_leak-00128"
+    ],
+    [
+      "balanced-v1-pump_wear-00197",
+      "balanced-v1-traveling_valve_leak-00137"
+    ],
+    [
+      "balanced-v1-pump_wear-00206",
+      "balanced-v1-traveling_valve_leak-00146"
+    ],
+    [
+      "balanced-v1-pump_wear-00214",
+      "balanced-v1-traveling_valve_leak-00154"
+    ],
+    [
+      "balanced-v1-pump_wear-00223",
+      "balanced-v1-traveling_valve_leak-00163"
+    ],
+    [
+      "balanced-v1-pump_wear-00232",
+      "balanced-v1-traveling_valve_leak-00172"
+    ],
+    [
+      "balanced-v1-pump_wear-00240",
+      "balanced-v1-traveling_valve_leak-00180"
+    ],
+    [
+      "balanced-v1-pump_wear-00249",
+      "balanced-v1-traveling_valve_leak-00189"
+    ],
+    [
+      "balanced-v1-pump_wear-00258",
+      "balanced-v1-traveling_valve_leak-00198"
+    ],
+    [
+      "balanced-v1-pump_wear-00267",
+      "balanced-v1-traveling_valve_leak-00207"
+    ]
+  ],
+  "field_validation": false
+}

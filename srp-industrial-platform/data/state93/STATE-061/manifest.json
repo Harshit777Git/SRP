@@ -1,0 +1,35 @@
+{
+  "state_id": "STATE-061",
+  "name": "ReverseMark",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\ReverseMark",
+  "source_files": [
+    {
+      "State ID": "STATE-061",
+      "Original State Name": "ReverseMark",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\ReverseMark\\Original TWM\\3_3_RealTime_PumpingUnit_MotorInst\\ReverseMark.006",
+      "Extension": ".006",
+      "Bytes": 937351,
+      "SHA256": "68780405b4882f68c2aac757b0c9d6d3f2af67cdefb7f20db29ef8172cf588e1",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "UNSUPPORTED_CONVERSION",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

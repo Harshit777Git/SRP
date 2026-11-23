@@ -1,0 +1,57 @@
+{
+  "state_id": "STATE-019",
+  "name": "DynoChangeSPM",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\DynoChangeSPM",
+  "source_files": [
+    {
+      "State ID": "STATE-019",
+      "Original State Name": "DynoChangeSPM",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\DynoChangeSPM\\Original TWM\\1_5_ Over Travel_Under Travel and  Fo_Skr and N_No\\DynoChangeSPM.012",
+      "Extension": ".012",
+      "Bytes": 243489,
+      "SHA256": "a6d40106a0aff51cc8253120e7fa4e0298bbc77ed388dac3ef066c1070d1b5b0",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-019",
+      "Original State Name": "DynoChangeSPM",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\DynoChangeSPM\\Original TWM\\1_5_ Over Travel_Under Travel and  Fo_Skr and N_No\\DynoChangeSPM.013",
+      "Extension": ".013",
+      "Bytes": 109655,
+      "SHA256": "6035dc36c538d83a713942838da069cb3aab12780419b62f68f9f1c74665fcd8",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-019",
+      "Original State Name": "DynoChangeSPM",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\DynoChangeSPM\\Original TWM\\1_5_ Over Travel_Under Travel and  Fo_Skr and N_No\\DynoChangeSPM.014",
+      "Extension": ".014",
+      "Bytes": 110711,
+      "SHA256": "c1e23c5fa591ce7258186cdf4402d5e2995d7112f577b5824226e70dadb719b4",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "UNSUPPORTED_CONVERSION",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "MISSING_REQUIRED_INPUTS",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

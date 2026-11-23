@@ -1,0 +1,7 @@
+{
+  "state_id": "STATE-023",
+  "source_state": "Flumping",
+  "surface_card": null,
+  "downhole_card": null,
+  "reason": "No verified ordered numerical samples extracted"
+}

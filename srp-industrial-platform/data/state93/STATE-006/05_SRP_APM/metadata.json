@@ -1,0 +1,7 @@
+{
+  "state_id": "STATE-006",
+  "source_state": "BlockedIntake",
+  "surface_card": null,
+  "downhole_card": null,
+  "reason": "No verified ordered numerical samples extracted"
+}

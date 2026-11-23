@@ -1,0 +1,28 @@
+{
+  "state_id": "STATE-077",
+  "version": "phase4-1",
+  "source_files": [
+    {
+      "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\pilot\\Tagging Down Hard\\original\\user_exports\\Tagging Down Hard_DYN_4294967295_03-13-2003_02-09-20.dyn",
+      "sha256": "3534bb53331a49622b4e041fcb7403a8c2fe8b19b02d09d7f9e231473c9852bf",
+      "bytes": 3773
+    },
+    {
+      "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\pilot\\Tagging Down Hard\\original\\user_exports\\Tagging Down Hard_Summary.pdf",
+      "sha256": "9763edf680c255b7a7eba2a19688243dae860d76b4661ae9f9d9b05950203625",
+      "bytes": 183913
+    },
+    {
+      "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\pilot\\Tagging Down Hard\\original\\user_exports\\TATE-077_Tagging_Down_Hard_Card_Data.txt",
+      "sha256": "f324c9749bee2ccfe013776aa2bf47685fd53e71e9bb18140391c3c6822af54b",
+      "bytes": 7103
+    }
+  ],
+  "units": {
+    "surface": "in,lbf",
+    "vendor_pump": "in,lbf",
+    "apm_pump": "in,lbf"
+  },
+  "timebase": "ORDERED_POINTS; uniform sample timing estimated from 10.384282394 SPM",
+  "test_identity": "Tagging Down Hard DYN 03-13-2003 02:09:20 local; UTC correspondence inferred"
+}

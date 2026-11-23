@@ -1,0 +1,46 @@
+{
+  "state_id": "STATE-052",
+  "name": "PFL_Imp_Exp",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\PFL_Imp_Exp",
+  "source_files": [
+    {
+      "State ID": "STATE-052",
+      "Original State Name": "PFL_Imp_Exp",
+      "Application": "TAM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\PFL_Imp_Exp\\Original TAM\\PFL_Imp_Exp.TAM_EXP",
+      "Extension": ".TAM_EXP",
+      "Bytes": 3591,
+      "SHA256": "e5245a5043d38b0e8f02faa41b0e93a5cbcfc230a97dda26ef41c137faa5ceb0",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-052",
+      "Original State Name": "PFL_Imp_Exp",
+      "Application": "QROD",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\PFL_Imp_Exp\\QRod reference\\ChangePIP.qrd",
+      "Extension": ".qrd",
+      "Bytes": 1410,
+      "SHA256": "fffb3f4b6874fd42cd505fd0f09bce7c76fb5480b24fc5a710acd9b23eca12f8",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "VENDOR_GUI_ACTION_REQUIRED",
+    "02_TWM": "UNSUPPORTED_CONVERSION",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "VENDOR_GUI_ACTION_REQUIRED",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

@@ -1,0 +1,20 @@
+{
+  "states": 40,
+  "tests": 136,
+  "test_types": {
+    "ACU": 55,
+    "CBE": 9,
+    "DYN": 71,
+    "PLIFT": 1
+  },
+  "unique_parameters": 117,
+  "expected_strokes_from_vendor_counts": 1057,
+  "verified_expected_strokes": 41,
+  "missing_expected_strokes": 1016,
+  "dyn_tests_without_stroke_count": 9,
+  "outputs": [
+    "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\reports\\STATE96\\TAM_EXP_TEST_INVENTORY.csv",
+    "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\reports\\STATE96\\TAM_EXP_PARAMETER_INVENTORY.csv",
+    "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\reports\\STATE96\\TAM_EXP_EXPECTED_STROKE_QUEUE.csv"
+  ]
+}

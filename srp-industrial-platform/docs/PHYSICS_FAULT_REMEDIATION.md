@@ -1,0 +1,15 @@
+# Phase 3 fault physics and observability
+
+The forward model uses a lumped compressible chamber, pressure-directed intake/discharge valve conductances, rod elasticity and dissipative friction. Sensor drift and position bias are applied only in `virtual_sensors/sampling.py`, leaving the physical state unchanged. `docs/PHYSICS_MODEL.md` gives the governing approximations and known omitted physics.
+
+Phase 3 corrected one mechanism overlap. Previously `missing_charge = 1-(1-underfill)*(1-restriction)` made restricted inflow directly add the same chamber void as incomplete fillage. Restricted inflow now changes intake pressure and conductance; direct underfill changes chamber liquid charge. This is a physical separation of causes, not a forced card distortion. In the matched TX-MID-001 synthetic study at severity 0.8, their prior Surface and Downhole load RMSE was exactly 0 N. After the correction, Surface load RMSE was 3,108.69 N and Downhole load RMSE 3,068.37 N. Restricted inflow remained relatively weak against healthy: 356.88 N Surface load RMSE. These are one-well sensitivity results, not general class separability or diagnostic accuracy.
+
+The 8 studied mechanisms are healthy, incomplete fillage, restricted inflow, gas interference, standing-valve leak, traveling-valve leak, pump wear and rod friction. `reports/FAULT_OBSERVABILITY_MATRIX.csv` contains all 64 ordered matched pairs. Traveling-valve leak versus pump wear remains close (626.65 N Surface, 495.58 N Downhole load RMSE), because pump wear currently increases the same effective leakage path. Standing-valve leak versus healthy is also relatively close (851.37 N Surface). Additional pressures, production and time trends may help, but their discriminating power was not validated here.
+
+Fluid pound, rod/tubing contact, mechanical obstruction, rod parting and gas lock were not implemented. Abnormal speed, load-cell drift and position-sensor faults exist but were not included in the 8-class card study. No model was trained or thresholds changed in that prior remediation.
+
+## Pump-wear physics revision (17 November 2026)
+
+The prior simulator coupled pump wear to the traveling-valve leak conductance, yielding exact matched trajectories under some settings. `srp-forward-2.0-plunger-clearance` separates pump wear into pressure-driven annular leakage through plunger/barrel clearance. The reduced relation and limitations are documented in `PHYSICS_MODEL.md`. This code change does not retroactively fix old synthetic datasets or model artifacts.
+
+One synthetic SRP_001 sensitivity pilot (`reports/PHASE3_2/PUMP_WEAR_PHYSICS_PILOT.json`) shows the revised path is distinct but weak in surface load at illustrative settings: 80% wear has 34.94 N phase-aligned load RMSE (0.343% of healthy load range); 100% severity has 0.535%. These are not field detectability estimates. Pump inspection dimensions, production evidence, and measured cards are still required to calibrate and validate it. Existing v1-v3 synthetic captures predate this change and must not be reused as current-physics ground truth for pump-wear model selection.

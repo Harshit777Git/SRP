@@ -1,0 +1,2421 @@
+{
+  "wells": 120,
+  "results": [
+    {
+      "asset_id": "canyon-001",
+      "stroke_id": 5,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.63,
+      "displacement_rmse_in": 0.00045375734440555713,
+      "load_rmse_lbf": 0.0734185856046029,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "canyon-002",
+      "stroke_id": 5,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Normal_Operation",
+      "confidence": 0.8523025435073628,
+      "displacement_rmse_in": 0.0003549013323563198,
+      "load_rmse_lbf": 0.10156076815267326,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "canyon-003",
+      "stroke_id": 5,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.51,
+      "displacement_rmse_in": 0.00015593138884937365,
+      "load_rmse_lbf": 0.05698258069600057,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "canyon-004",
+      "stroke_id": 5,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Gas_Interference",
+      "confidence": 0.7466666666666667,
+      "displacement_rmse_in": 0.0002231146288570895,
+      "load_rmse_lbf": 0.05818774613143184,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "canyon-005",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.43842034805890234,
+      "displacement_rmse_in": 0.00029607772140269003,
+      "load_rmse_lbf": 0.17352592602583147,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "canyon-006",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Standing_Valve_Leak",
+      "confidence": 0.6966666666666667,
+      "displacement_rmse_in": 0.00045241609991194864,
+      "load_rmse_lbf": 0.13204552795478267,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "canyon-007",
+      "stroke_id": 5,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Gas_Interference",
+      "confidence": 0.8233333333333334,
+      "displacement_rmse_in": 0.00038903175704020306,
+      "load_rmse_lbf": 0.03498124517308602,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "canyon-008",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Standing_Valve_Leak",
+      "confidence": 0.8266666666666667,
+      "displacement_rmse_in": 0.00075443542536029,
+      "load_rmse_lbf": 0.08885176268319031,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "canyon-009",
+      "stroke_id": 5,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.5033333333333333,
+      "displacement_rmse_in": 0.0003420127587732633,
+      "load_rmse_lbf": 0.05458170223502626,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "canyon-010",
+      "stroke_id": 5,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.6466666666666666,
+      "displacement_rmse_in": 0.00038305649429368124,
+      "load_rmse_lbf": 0.08296302935425974,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "canyon-011",
+      "stroke_id": 5,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.49666666666666665,
+      "displacement_rmse_in": 0.00020790856777310908,
+      "load_rmse_lbf": 0.04338922386029931,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "canyon-012",
+      "stroke_id": 5,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Gas_Interference",
+      "confidence": 0.7966666666666666,
+      "displacement_rmse_in": 0.0006374350174821672,
+      "load_rmse_lbf": 0.09576497315910877,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "canyon-013",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.37254350736278447,
+      "displacement_rmse_in": 0.0003112031897735155,
+      "load_rmse_lbf": 0.15708617536305233,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "canyon-014",
+      "stroke_id": 5,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Normal_Operation",
+      "confidence": 0.7566666666666667,
+      "displacement_rmse_in": 0.0003314120007973903,
+      "load_rmse_lbf": 0.12269489610833523,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "canyon-015",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.6233333333333333,
+      "displacement_rmse_in": 0.0001955440191068498,
+      "load_rmse_lbf": 0.044948603093262665,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "canyon-016",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.5566666666666666,
+      "displacement_rmse_in": 0.0001592682069828369,
+      "load_rmse_lbf": 0.023224402146687154,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "canyon-017",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Traveling_Valve_Leak",
+      "confidence": 0.86,
+      "displacement_rmse_in": 0.00022173955556326918,
+      "load_rmse_lbf": 0.09112238869903842,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "canyon-018",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Gas_Interference",
+      "confidence": 0.9233333333333333,
+      "displacement_rmse_in": 0.00019829510197605658,
+      "load_rmse_lbf": 0.04192565734301383,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "canyon-019",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.6033333333333334,
+      "displacement_rmse_in": 0.0002935348678812934,
+      "load_rmse_lbf": 0.023494018363250754,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "canyon-020",
+      "stroke_id": 5,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Gas_Interference",
+      "confidence": 0.7466666666666667,
+      "displacement_rmse_in": 0.0002503760494291032,
+      "load_rmse_lbf": 0.046981931704262465,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "canyon-021",
+      "stroke_id": 5,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.6,
+      "displacement_rmse_in": 0.00028823221352357217,
+      "load_rmse_lbf": 0.052343986085590044,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "canyon-022",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Traveling_Valve_Leak",
+      "confidence": 0.91,
+      "displacement_rmse_in": 0.00020746258177171053,
+      "load_rmse_lbf": 0.061183676870469585,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "canyon-023",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Normal_Operation",
+      "confidence": 0.7681793842034806,
+      "displacement_rmse_in": 0.00032156888684602305,
+      "load_rmse_lbf": 0.12094312483307944,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "canyon-024",
+      "stroke_id": 5,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Normal_Operation",
+      "confidence": 0.7423025435073628,
+      "displacement_rmse_in": 0.00038108129611649403,
+      "load_rmse_lbf": 0.12184966313180173,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "canyon-025",
+      "stroke_id": 5,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.6466666666666666,
+      "displacement_rmse_in": 0.00021155483183544536,
+      "load_rmse_lbf": 0.025813102377455283,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "canyon-026",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.5215127175368139,
+      "displacement_rmse_in": 0.0005837674218149881,
+      "load_rmse_lbf": 0.1295125117799431,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "canyon-027",
+      "stroke_id": 5,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Traveling_Valve_Leak",
+      "confidence": 0.66,
+      "displacement_rmse_in": 0.00029480484303927247,
+      "load_rmse_lbf": 0.04783444746058275,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "canyon-028",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Severe_Gas_Lock",
+      "confidence": 0.7633333333333333,
+      "displacement_rmse_in": 0.0003988280229073829,
+      "load_rmse_lbf": 0.030835868764270684,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "canyon-029",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Traveling_Valve_Leak",
+      "confidence": 0.6733333333333333,
+      "displacement_rmse_in": 0.00026597214559443365,
+      "load_rmse_lbf": 0.07398445691111558,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "canyon-030",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.5917536813922356,
+      "displacement_rmse_in": 0.00031806356191409115,
+      "load_rmse_lbf": 0.11391682818476093,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-001",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.25333333333333335,
+      "displacement_rmse_in": 0.00025146688110179,
+      "load_rmse_lbf": 0.05318590751248995,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-002",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.34921017402945115,
+      "displacement_rmse_in": 0.00018085934147213007,
+      "load_rmse_lbf": 0.07022154769208148,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-003",
+      "stroke_id": 5,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "High_Fluid_Damping",
+      "confidence": 0.6566666666666666,
+      "displacement_rmse_in": 0.0005337907368038211,
+      "load_rmse_lbf": 0.04390962081240315,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-004",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.54,
+      "displacement_rmse_in": 0.0001861557010456455,
+      "load_rmse_lbf": 0.06891864064205179,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-005",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.37,
+      "displacement_rmse_in": 0.00027640783711730153,
+      "load_rmse_lbf": 0.09001939282988215,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-006",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.2733333333333333,
+      "displacement_rmse_in": 0.00023403099069560862,
+      "load_rmse_lbf": 0.08008965306602928,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-007",
+      "stroke_id": 5,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.4666666666666667,
+      "displacement_rmse_in": 0.0002716437888786645,
+      "load_rmse_lbf": 0.049851678546046704,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-008",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.3771485943775101,
+      "displacement_rmse_in": 0.0002359593604565213,
+      "load_rmse_lbf": 0.07343381444736317,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-009",
+      "stroke_id": 5,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.65,
+      "displacement_rmse_in": 0.00024214370440851264,
+      "load_rmse_lbf": 0.04584067714979228,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-010",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.38666666666666666,
+      "displacement_rmse_in": 0.0002405267583115005,
+      "load_rmse_lbf": 0.06946141956235194,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-011",
+      "stroke_id": 5,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.33230254350736277,
+      "displacement_rmse_in": 0.00018322677576729327,
+      "load_rmse_lbf": 0.04272908117886716,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-012",
+      "stroke_id": 5,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.32,
+      "displacement_rmse_in": 0.00020859469110969222,
+      "load_rmse_lbf": 0.045684338945792706,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-013",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.4766666666666667,
+      "displacement_rmse_in": 0.0001823666234712886,
+      "load_rmse_lbf": 0.07844818537394449,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-014",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.36127175368139225,
+      "displacement_rmse_in": 0.00018080270892755875,
+      "load_rmse_lbf": 0.06633433928733255,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-015",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Normal_Operation",
+      "confidence": 0.7156358768406961,
+      "displacement_rmse_in": 0.00028021186219337886,
+      "load_rmse_lbf": 0.041124176534796525,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-016",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.4881793842034806,
+      "displacement_rmse_in": 0.00019504203647427323,
+      "load_rmse_lbf": 0.07263423105428943,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-017",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.5002409638554217,
+      "displacement_rmse_in": 0.00017165673334878018,
+      "load_rmse_lbf": 0.07970209935332069,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-018",
+      "stroke_id": 5,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.44333333333333336,
+      "displacement_rmse_in": 0.000595135900245234,
+      "load_rmse_lbf": 0.05673549926876929,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-019",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.41333333333333333,
+      "displacement_rmse_in": 0.0002461048836878884,
+      "load_rmse_lbf": 0.0496586467439885,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-020",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.37666666666666665,
+      "displacement_rmse_in": 0.00021813001903382294,
+      "load_rmse_lbf": 0.07024354095861965,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-021",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.59,
+      "displacement_rmse_in": 0.00022691271591016019,
+      "load_rmse_lbf": 0.05021396336617476,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-022",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.49333333333333335,
+      "displacement_rmse_in": 0.0005860144565371265,
+      "load_rmse_lbf": 0.04506404817392657,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-023",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.2879384203480589,
+      "displacement_rmse_in": 0.00023630607690466003,
+      "load_rmse_lbf": 0.08399400311390429,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-024",
+      "stroke_id": 5,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.39666666666666667,
+      "displacement_rmse_in": 0.000200279247195585,
+      "load_rmse_lbf": 0.043133405030467524,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-025",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.53,
+      "displacement_rmse_in": 0.0005253451020037814,
+      "load_rmse_lbf": 0.04488152466854257,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-026",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.4666666666666667,
+      "displacement_rmse_in": 0.00018635355102772347,
+      "load_rmse_lbf": 0.04245727195741574,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-027",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.46,
+      "displacement_rmse_in": 0.00044657599830539354,
+      "load_rmse_lbf": 0.04388882866272112,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-028",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.45666666666666667,
+      "displacement_rmse_in": 0.0005766662112485367,
+      "load_rmse_lbf": 0.0533132517308172,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-029",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.3658768406961178,
+      "displacement_rmse_in": 0.0002910323782160694,
+      "load_rmse_lbf": 0.08534223012325014,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "delta-030",
+      "stroke_id": 6,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.47333333333333333,
+      "displacement_rmse_in": 0.00027359426151377287,
+      "load_rmse_lbf": 0.09616669456859574,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-001",
+      "stroke_id": 7,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.35484605087014726,
+      "displacement_rmse_in": 0.0002935619766591898,
+      "load_rmse_lbf": 0.10615377869982338,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-002",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.49333333333333335,
+      "displacement_rmse_in": 0.00021557398135917038,
+      "load_rmse_lbf": 0.03670455230627508,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-003",
+      "stroke_id": 7,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.54,
+      "displacement_rmse_in": 0.00027226908958546546,
+      "load_rmse_lbf": 0.15554288066044078,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-004",
+      "stroke_id": 7,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Fluid_Pound",
+      "confidence": 0.7833333333333333,
+      "displacement_rmse_in": 0.00048712003283655423,
+      "load_rmse_lbf": 0.021229148386232504,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-005",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.5769076305220884,
+      "displacement_rmse_in": 0.00034996247933648277,
+      "load_rmse_lbf": 0.18092981688905435,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-006",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.375087014725569,
+      "displacement_rmse_in": 0.00026813847158558293,
+      "load_rmse_lbf": 0.15101323230125493,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-007",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.3702409638554217,
+      "displacement_rmse_in": 0.00028658641424385636,
+      "load_rmse_lbf": 0.1497891119298745,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-008",
+      "stroke_id": 7,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.44,
+      "displacement_rmse_in": 0.0003426669409423486,
+      "load_rmse_lbf": 0.0853566970961022,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-009",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.4525435073627845,
+      "displacement_rmse_in": 0.00034919293797002095,
+      "load_rmse_lbf": 0.20456796399435478,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-010",
+      "stroke_id": 7,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.5166666666666667,
+      "displacement_rmse_in": 0.00034846285360437806,
+      "load_rmse_lbf": 0.10248796379004418,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-011",
+      "stroke_id": 7,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Normal_Operation",
+      "confidence": 0.7046050870147256,
+      "displacement_rmse_in": 0.00031252907504238716,
+      "load_rmse_lbf": 0.09643500743931242,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-012",
+      "stroke_id": 7,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.34714859437751006,
+      "displacement_rmse_in": 0.0003874129721888663,
+      "load_rmse_lbf": 0.185220298062769,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-013",
+      "stroke_id": 7,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.6333333333333333,
+      "displacement_rmse_in": 0.0002915251212000197,
+      "load_rmse_lbf": 0.11369467443269302,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-014",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.5033333333333333,
+      "displacement_rmse_in": 0.00033202545357905567,
+      "load_rmse_lbf": 0.21846835078735904,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-015",
+      "stroke_id": 7,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Normal_Operation",
+      "confidence": 0.85,
+      "displacement_rmse_in": 0.00032559448321949606,
+      "load_rmse_lbf": 0.09330778292589137,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-016",
+      "stroke_id": 7,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.3271485943775101,
+      "displacement_rmse_in": 0.0002802609798692853,
+      "load_rmse_lbf": 0.18036288673014494,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-017",
+      "stroke_id": 7,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Normal_Operation",
+      "confidence": 0.7089692101740295,
+      "displacement_rmse_in": 0.00036556568155558545,
+      "load_rmse_lbf": 0.2261110211053402,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-018",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.36666666666666664,
+      "displacement_rmse_in": 0.0001450280176365008,
+      "load_rmse_lbf": 0.03345336326729969,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-019",
+      "stroke_id": 7,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Normal_Operation",
+      "confidence": 0.6766666666666666,
+      "displacement_rmse_in": 0.0004241302561268705,
+      "load_rmse_lbf": 0.143217946818787,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-020",
+      "stroke_id": 7,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.5366666666666666,
+      "displacement_rmse_in": 0.0002907416610025019,
+      "load_rmse_lbf": 0.12411952066676114,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-021",
+      "stroke_id": 7,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.5938152610441767,
+      "displacement_rmse_in": 0.0003487239876614096,
+      "load_rmse_lbf": 0.09936335255104578,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-022",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.5733333333333334,
+      "displacement_rmse_in": 0.0003219170938226577,
+      "load_rmse_lbf": 0.21221891972682577,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-023",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.6123025435073628,
+      "displacement_rmse_in": 0.00042354849393535523,
+      "load_rmse_lbf": 0.24863703212150925,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-024",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.37048192771084343,
+      "displacement_rmse_in": 0.00028608548095591225,
+      "load_rmse_lbf": 0.20581957667461492,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-025",
+      "stroke_id": 7,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.44,
+      "displacement_rmse_in": 0.0007320292685801088,
+      "load_rmse_lbf": 0.1565789585031574,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-026",
+      "stroke_id": 7,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.6333333333333333,
+      "displacement_rmse_in": 0.00029245404902005195,
+      "load_rmse_lbf": 0.14298246520737523,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-027",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.6294511378848728,
+      "displacement_rmse_in": 0.0003879312815556989,
+      "load_rmse_lbf": 0.15143085704977585,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-028",
+      "stroke_id": 7,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Normal_Operation",
+      "confidence": 0.6725435073627845,
+      "displacement_rmse_in": 0.0003795848541888452,
+      "load_rmse_lbf": 0.1638382385230709,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-029",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.323574297188755,
+      "displacement_rmse_in": 0.00029624877510968275,
+      "load_rmse_lbf": 0.19822409412200762,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "mesa-030",
+      "stroke_id": 7,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Standing_Valve_Leak",
+      "confidence": 0.67,
+      "displacement_rmse_in": 0.00027343231838871545,
+      "load_rmse_lbf": 0.10328962623316797,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-001",
+      "stroke_id": 9,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.47,
+      "displacement_rmse_in": 0.00020920815702485016,
+      "load_rmse_lbf": 0.015390229576015158,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-002",
+      "stroke_id": 9,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Normal_Operation",
+      "confidence": 0.6566666666666666,
+      "displacement_rmse_in": 0.00031004772521748864,
+      "load_rmse_lbf": 0.08706503705686819,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-003",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Traveling_Valve_Leak",
+      "confidence": 0.8833333333333333,
+      "displacement_rmse_in": 0.00028586718922937564,
+      "load_rmse_lbf": 0.08334774590484532,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-004",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Normal_Operation",
+      "confidence": 0.7946050870147255,
+      "displacement_rmse_in": 0.00025799819668676725,
+      "load_rmse_lbf": 0.10838188789772514,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-005",
+      "stroke_id": 9,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.6066666666666667,
+      "displacement_rmse_in": 0.00016079816303455098,
+      "load_rmse_lbf": 0.08309111419844799,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-006",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.4781793842034806,
+      "displacement_rmse_in": 0.00031280796898550253,
+      "load_rmse_lbf": 0.09316706975335552,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-007",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Normal_Operation",
+      "confidence": 0.8033333333333333,
+      "displacement_rmse_in": 0.0004606004924970094,
+      "load_rmse_lbf": 0.13514687594205765,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-008",
+      "stroke_id": 9,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.6325435073627845,
+      "displacement_rmse_in": 0.0002561779591474613,
+      "load_rmse_lbf": 0.08151243411510141,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-009",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.5333333333333333,
+      "displacement_rmse_in": 0.0003539636671004993,
+      "load_rmse_lbf": 0.013382707086879352,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-010",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Traveling_Valve_Leak",
+      "confidence": 0.7666666666666667,
+      "displacement_rmse_in": 0.00016956990446122751,
+      "load_rmse_lbf": 0.07629799939333952,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-011",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.5866666666666667,
+      "displacement_rmse_in": 0.00028755297696536256,
+      "load_rmse_lbf": 0.015011437824887456,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-012",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.51,
+      "displacement_rmse_in": 0.0002224410805711124,
+      "load_rmse_lbf": 0.08101360217414184,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-013",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.5556358768406962,
+      "displacement_rmse_in": 0.0002240264822083607,
+      "load_rmse_lbf": 0.1014692055063621,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-014",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.5233333333333333,
+      "displacement_rmse_in": 0.00042165120115821145,
+      "load_rmse_lbf": 0.09845717959002478,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-015",
+      "stroke_id": 9,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.4766666666666667,
+      "displacement_rmse_in": 0.00023088902688364466,
+      "load_rmse_lbf": 0.13077796039873962,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-016",
+      "stroke_id": 9,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.55,
+      "displacement_rmse_in": 0.00023042091631624332,
+      "load_rmse_lbf": 0.09990765729199881,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-017",
+      "stroke_id": 9,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.56,
+      "displacement_rmse_in": 0.0002352270398811567,
+      "load_rmse_lbf": 0.09462345299999199,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-018",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Normal_Operation",
+      "confidence": 0.8012717536813923,
+      "displacement_rmse_in": 0.00018344498220481558,
+      "load_rmse_lbf": 0.09425473083842377,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-019",
+      "stroke_id": 9,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Normal_Operation",
+      "confidence": 0.8933333333333333,
+      "displacement_rmse_in": 0.00019962767978019618,
+      "load_rmse_lbf": 0.0975534920681934,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-020",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Fluid_Pound",
+      "confidence": 0.9766666666666667,
+      "displacement_rmse_in": 0.0003712936677281717,
+      "load_rmse_lbf": 0.011464243916555065,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-021",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Traveling_Valve_Leak",
+      "confidence": 0.8,
+      "displacement_rmse_in": 0.0002421986794834872,
+      "load_rmse_lbf": 0.08525160461897037,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-022",
+      "stroke_id": 9,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Fluid_Pound",
+      "confidence": 0.8266666666666667,
+      "displacement_rmse_in": 0.0002483360690397886,
+      "load_rmse_lbf": 0.014110857760923816,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-023",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.5502409638554216,
+      "displacement_rmse_in": 0.00032356671916351266,
+      "load_rmse_lbf": 0.135385191903729,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-024",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.6233333333333333,
+      "displacement_rmse_in": 0.00022649624988190442,
+      "load_rmse_lbf": 0.10307536110711527,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-025",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Traveling_Valve_Leak",
+      "confidence": 0.71,
+      "displacement_rmse_in": 0.00024900278797536737,
+      "load_rmse_lbf": 0.07137909515538175,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-026",
+      "stroke_id": 9,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Unanchored_Tubing_Slip",
+      "confidence": 0.6933333333333334,
+      "displacement_rmse_in": 0.00015724691706055634,
+      "load_rmse_lbf": 0.011806870775203636,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-027",
+      "stroke_id": 9,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.6189692101740295,
+      "displacement_rmse_in": 0.00021746002379434125,
+      "load_rmse_lbf": 0.08768853171325533,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-028",
+      "stroke_id": 9,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.56,
+      "displacement_rmse_in": 0.00017729003105742546,
+      "load_rmse_lbf": 0.07813228044747333,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-029",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "FAULT_TYPE_UNDETERMINED",
+      "confidence": 0.5666666666666667,
+      "displacement_rmse_in": 0.00020735972141190106,
+      "load_rmse_lbf": 0.10665068268601514,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    },
+    {
+      "asset_id": "prairie-030",
+      "stroke_id": 8,
+      "source": "SIMULATOR",
+      "quality": "GOOD",
+      "primary": "EJ-spatial-FD/3.0",
+      "verification": "Gibbs-harmonic/2.0",
+      "solver_quality": "VALID",
+      "model_version": "paired-contour/3.0",
+      "predicted": "Normal_Operation",
+      "confidence": 0.8023025435073627,
+      "displacement_rmse_in": 0.00019733069616766465,
+      "load_rmse_lbf": 0.11949594935430541,
+      "transfer_identifiable": true,
+      "configured_limits": {
+        "structural_limit_lbf": null,
+        "rod_yield_limit_lbf": null,
+        "min_load_limit_lbf": null
+      }
+    }
+  ],
+  "model_versions": {
+    "paired-contour/3.0": 120
+  },
+  "solver_quality": {
+    "VALID": 120
+  },
+  "passed": true,
+  "checks": [
+    "actual MQTT acquisition",
+    "paired sample geometry",
+    "imperial area/load conversions",
+    "fluid-load pressure equation",
+    "EPT bounds",
+    "BPD dimensional equation",
+    "no fault identifiers in input samples"
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "origin": "SYNTHETIC_SELF_CONSISTENCY_ONLY",
+  "by_mechanism": {
+    "healthy": {
+      "cards": 5,
+      "independent_runs": 3,
+      "max_area_error_fraction": 0.004571586146947657,
+      "max_displacement_rmse_m": 0.004433415799901011,
+      "max_load_rmse_fraction": 0.01678538586823201
+    },
+    "incomplete_fillage": {
+      "cards": 5,
+      "independent_runs": 3,
+      "max_area_error_fraction": 0.2848484232401368,
+      "max_displacement_rmse_m": 0.003365038199874119,
+      "max_load_rmse_fraction": 0.010360471882561714
+    },
+    "gas_interference": {
+      "cards": 5,
+      "independent_runs": 3,
+      "max_area_error_fraction": 0.012442151026957518,
+      "max_displacement_rmse_m": 0.002998329249401406,
+      "max_load_rmse_fraction": 0.011369616795659586
+    },
+    "traveling_valve_leak": {
+      "cards": 6,
+      "independent_runs": 3,
+      "max_area_error_fraction": 0.005673908185280431,
+      "max_displacement_rmse_m": 0.005236661875211177,
+      "max_load_rmse_fraction": 0.012936389980403445
+    },
+    "standing_valve_leak": {
+      "cards": 4,
+      "independent_runs": 3,
+      "max_area_error_fraction": 0.0026170911374587026,
+      "max_displacement_rmse_m": 0.006043316435552556,
+      "max_load_rmse_fraction": 0.009485926330763597
+    },
+    "rod_friction": {
+      "cards": 6,
+      "independent_runs": 3,
+      "max_area_error_fraction": 0.4198151743974681,
+      "max_displacement_rmse_m": 0.04202416532798531,
+      "max_load_rmse_fraction": 0.1427769351011379
+    },
+    "pump_wear": {
+      "cards": 5,
+      "independent_runs": 3,
+      "max_area_error_fraction": 0.004150423701620106,
+      "max_displacement_rmse_m": 0.003643153693848689,
+      "max_load_rmse_fraction": 0.014931757056142423
+    },
+    "restricted_inflow": {
+      "cards": 5,
+      "independent_runs": 3,
+      "max_area_error_fraction": 0.0025301548836335784,
+      "max_displacement_rmse_m": 0.003961174786535239,
+      "max_load_rmse_fraction": 0.00758263203072516
+    },
+    "load_cell_drift": {
+      "cards": 5,
+      "independent_runs": 3,
+      "max_area_error_fraction": 0.003203531885174274,
+      "max_displacement_rmse_m": 0.0025285284817294002,
+      "max_load_rmse_fraction": 0.048678787960720005
+    },
+    "position_sensor_fault": {
+      "cards": 5,
+      "independent_runs": 3,
+      "max_area_error_fraction": 0.12022527460552761,
+      "max_displacement_rmse_m": 0.15738530568730993,
+      "max_load_rmse_fraction": 0.027146970332651368
+    },
+    "abnormal_speed": {
+      "cards": 6,
+      "independent_runs": 3,
+      "max_area_error_fraction": 0.004641191548502121,
+      "max_displacement_rmse_m": 0.005245224571585149,
+      "max_load_rmse_fraction": 0.019033119038616514
+    }
+  },
+  "worst_area_cases": [
+    {
+      "run_id": "phase32-fault-rod_friction-case02-OK-ANA-003",
+      "asset_id": "OK-ANA-003",
+      "stroke_id": 8,
+      "mechanism": "rod_friction",
+      "severity": 0.4,
+      "samples": 492,
+      "load_rmse_n": 4658.451034465521,
+      "load_rmse_fraction_of_truth_range": 0.1427769351011379,
+      "displacement_centered_rmse_m": 0.04202416532798531,
+      "displacement_offset_m": 0.0009445916624686035,
+      "card_area_error_fraction": 0.4198151743974681,
+      "position_phase_error_deg": -3.875665105698257,
+      "production_error": "UNAVAILABLE_NO_INDEPENDENT_MEASURED_PRODUCTION"
+    },
+    {
+      "run_id": "phase32-fault-rod_friction-case02-OK-ANA-003",
+      "asset_id": "OK-ANA-003",
+      "stroke_id": 7,
+      "mechanism": "rod_friction",
+      "severity": 0.4,
+      "samples": 491,
+      "load_rmse_n": 4619.739382902407,
+      "load_rmse_fraction_of_truth_range": 0.14156906582365517,
+      "displacement_centered_rmse_m": 0.04183510332444207,
+      "displacement_offset_m": 0.00036661316675761223,
+      "card_area_error_fraction": 0.41448688538652295,
+      "position_phase_error_deg": -3.834769768219253,
+      "production_error": "UNAVAILABLE_NO_INDEPENDENT_MEASURED_PRODUCTION"
+    },
+    {
+      "run_id": "phase32-fault-incomplete_fillage-case02-NM-DEL-001",
+      "asset_id": "NM-DEL-001",
+      "stroke_id": 7,
+      "mechanism": "incomplete_fillage",
+      "severity": 0.4,
+      "samples": 540,
+      "load_rmse_n": 49.104316465127134,
+      "load_rmse_fraction_of_truth_range": 0.0033962795332939766,
+      "displacement_centered_rmse_m": 0.0006875432404767631,
+      "displacement_offset_m": -4.683619514995064e-06,
+      "card_area_error_fraction": 0.2848484232401368,
+      "position_phase_error_deg": 0.0333533214953409,
+      "production_error": "UNAVAILABLE_NO_INDEPENDENT_MEASURED_PRODUCTION"
+    },
+    {
+      "run_id": "phase32-fault-rod_friction-case01-OK-ANA-002",
+      "asset_id": "OK-ANA-002",
+      "stroke_id": 8,
+      "mechanism": "rod_friction",
+      "severity": 0.2,
+      "samples": 361,
+      "load_rmse_n": 1893.1776851693542,
+      "load_rmse_fraction_of_truth_range": 0.07134909329259918,
+      "displacement_centered_rmse_m": 0.021297716277328085,
+      "displacement_offset_m": 0.0008388254297502629,
+      "card_area_error_fraction": 0.1943358533817699,
+      "position_phase_error_deg": -2.0440210807765147,
+      "production_error": "UNAVAILABLE_NO_INDEPENDENT_MEASURED_PRODUCTION"
+    },
+    {
+      "run_id": "phase32-fault-rod_friction-case01-OK-ANA-002",
+      "asset_id": "OK-ANA-002",
+      "stroke_id": 7,
+      "mechanism": "rod_friction",
+      "severity": 0.2,
+      "samples": 361,
+      "load_rmse_n": 1882.0785758628754,
+      "load_rmse_fraction_of_truth_range": 0.07095167793881708,
+      "displacement_centered_rmse_m": 0.021199719559368016,
+      "displacement_offset_m": 0.0007346214573957566,
+      "card_area_error_fraction": 0.19258586892273047,
+      "position_phase_error_deg": -2.030484932380377,
+      "production_error": "UNAVAILABLE_NO_INDEPENDENT_MEASURED_PRODUCTION"
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "dataset_id": "phase32-fault-training-candidate-3129-each",
+  "origin": "SYNTHETIC_SIMULATOR",
+  "training_use": "SYNTHETIC_EXPERIMENTS_ONLY",
+  "field_validated": false,
+  "mechanisms": [
+    "healthy",
+    "incomplete_fillage",
+    "gas_interference",
+    "traveling_valve_leak",
+    "standing_valve_leak",
+    "rod_friction",
+    "pump_wear",
+    "restricted_inflow",
+    "load_cell_drift",
+    "position_sensor_fault",
+    "abnormal_speed"
+  ],
+  "target_samples_per_mechanism": 3129,
+  "actual_samples_per_mechanism": {
+    "healthy": 3129,
+    "incomplete_fillage": 3129,
+    "gas_interference": 3129,
+    "traveling_valve_leak": 3129,
+    "standing_valve_leak": 3129,
+    "rod_friction": 3129,
+    "pump_wear": 3129,
+    "restricted_inflow": 3129,
+    "load_cell_drift": 3129,
+    "position_sensor_fault": 3129,
+    "abnormal_speed": 3129
+  },
+  "total_samples": 34419,
+  "wells": [
+    "CO-DJ-001",
+    "CO-DJ-002",
+    "CO-DJ-003",
+    "CO-DJ-004",
+    "CO-DJ-005",
+    "ND-WIL-001",
+    "ND-WIL-002",
+    "ND-WIL-003",
+    "ND-WIL-004",
+    "ND-WIL-005",
+    "NM-DEL-001",
+    "NM-DEL-002",
+    "NM-DEL-003",
+    "NM-DEL-004",
+    "NM-DEL-005",
+    "OK-ANA-001",
+    "OK-ANA-002",
+    "OK-ANA-003",
+    "OK-ANA-004",
+    "OK-ANA-005",
+    "TX-EAG-001",
+    "TX-EAG-002",
+    "TX-EAG-003",
+    "TX-EAG-004",
+    "TX-EAG-005",
+    "TX-MID-001",
+    "TX-MID-002",
+    "TX-MID-003",
+    "TX-MID-004",
+    "TX-MID-005"
+  ],
+  "runs": [
+    {
+      "run_id": "phase32-fault-healthy-case00-TX-MID-001",
+      "asset_id": "TX-MID-001",
+      "site_id": "US_TX_MIDLAND",
+      "mechanism": "healthy",
+      "severity": 0.0,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-healthy-case01-TX-MID-002",
+      "asset_id": "TX-MID-002",
+      "site_id": "US_TX_MIDLAND",
+      "mechanism": "healthy",
+      "severity": 0.0,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-healthy-case02-TX-MID-003",
+      "asset_id": "TX-MID-003",
+      "site_id": "US_TX_MIDLAND",
+      "mechanism": "healthy",
+      "severity": 0.0,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-incomplete_fillage-case00-TX-MID-004",
+      "asset_id": "TX-MID-004",
+      "site_id": "US_TX_MIDLAND",
+      "mechanism": "incomplete_fillage",
+      "severity": 0.1,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-incomplete_fillage-case01-TX-MID-005",
+      "asset_id": "TX-MID-005",
+      "site_id": "US_TX_MIDLAND",
+      "mechanism": "incomplete_fillage",
+      "severity": 0.2,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-incomplete_fillage-case02-NM-DEL-001",
+      "asset_id": "NM-DEL-001",
+      "site_id": "US_NM_DELAWARE",
+      "mechanism": "incomplete_fillage",
+      "severity": 0.4,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-gas_interference-case00-NM-DEL-002",
+      "asset_id": "NM-DEL-002",
+      "site_id": "US_NM_DELAWARE",
+      "mechanism": "gas_interference",
+      "severity": 0.1,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-gas_interference-case01-NM-DEL-003",
+      "asset_id": "NM-DEL-003",
+      "site_id": "US_NM_DELAWARE",
+      "mechanism": "gas_interference",
+      "severity": 0.2,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-gas_interference-case02-NM-DEL-004",
+      "asset_id": "NM-DEL-004",
+      "site_id": "US_NM_DELAWARE",
+      "mechanism": "gas_interference",
+      "severity": 0.4,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-traveling_valve_leak-case00-NM-DEL-005",
+      "asset_id": "NM-DEL-005",
+      "site_id": "US_NM_DELAWARE",
+      "mechanism": "traveling_valve_leak",
+      "severity": 0.1,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-traveling_valve_leak-case01-ND-WIL-001",
+      "asset_id": "ND-WIL-001",
+      "site_id": "US_ND_WILLISTON",
+      "mechanism": "traveling_valve_leak",
+      "severity": 0.2,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-traveling_valve_leak-case02-ND-WIL-002",
+      "asset_id": "ND-WIL-002",
+      "site_id": "US_ND_WILLISTON",
+      "mechanism": "traveling_valve_leak",
+      "severity": 0.4,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-standing_valve_leak-case00-ND-WIL-003",
+      "asset_id": "ND-WIL-003",
+      "site_id": "US_ND_WILLISTON",
+      "mechanism": "standing_valve_leak",
+      "severity": 0.1,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-standing_valve_leak-case01-ND-WIL-004",
+      "asset_id": "ND-WIL-004",
+      "site_id": "US_ND_WILLISTON",
+      "mechanism": "standing_valve_leak",
+      "severity": 0.2,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-standing_valve_leak-case02-ND-WIL-005",
+      "asset_id": "ND-WIL-005",
+      "site_id": "US_ND_WILLISTON",
+      "mechanism": "standing_valve_leak",
+      "severity": 0.4,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-rod_friction-case00-OK-ANA-001",
+      "asset_id": "OK-ANA-001",
+      "site_id": "US_OK_ANADARKO",
+      "mechanism": "rod_friction",
+      "severity": 0.1,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-rod_friction-case01-OK-ANA-002",
+      "asset_id": "OK-ANA-002",
+      "site_id": "US_OK_ANADARKO",
+      "mechanism": "rod_friction",
+      "severity": 0.2,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-rod_friction-case02-OK-ANA-003",
+      "asset_id": "OK-ANA-003",
+      "site_id": "US_OK_ANADARKO",
+      "mechanism": "rod_friction",
+      "severity": 0.4,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-pump_wear-case00-OK-ANA-004",
+      "asset_id": "OK-ANA-004",
+      "site_id": "US_OK_ANADARKO",
+      "mechanism": "pump_wear",
+      "severity": 0.1,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-pump_wear-case01-OK-ANA-005",
+      "asset_id": "OK-ANA-005",
+      "site_id": "US_OK_ANADARKO",
+      "mechanism": "pump_wear",
+      "severity": 0.2,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-pump_wear-case02-CO-DJ-001",
+      "asset_id": "CO-DJ-001",
+      "site_id": "US_CO_DJ",
+      "mechanism": "pump_wear",
+      "severity": 0.4,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-restricted_inflow-case00-CO-DJ-002",
+      "asset_id": "CO-DJ-002",
+      "site_id": "US_CO_DJ",
+      "mechanism": "restricted_inflow",
+      "severity": 0.1,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-restricted_inflow-case01-CO-DJ-003",
+      "asset_id": "CO-DJ-003",
+      "site_id": "US_CO_DJ",
+      "mechanism": "restricted_inflow",
+      "severity": 0.2,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-restricted_inflow-case02-CO-DJ-004",
+      "asset_id": "CO-DJ-004",
+      "site_id": "US_CO_DJ",
+      "mechanism": "restricted_inflow",
+      "severity": 0.4,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-load_cell_drift-case00-CO-DJ-005",
+      "asset_id": "CO-DJ-005",
+      "site_id": "US_CO_DJ",
+      "mechanism": "load_cell_drift",
+      "severity": 0.1,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-load_cell_drift-case01-TX-EAG-001",
+      "asset_id": "TX-EAG-001",
+      "site_id": "US_TX_EAGLEFORD",
+      "mechanism": "load_cell_drift",
+      "severity": 0.2,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-load_cell_drift-case02-TX-EAG-002",
+      "asset_id": "TX-EAG-002",
+      "site_id": "US_TX_EAGLEFORD",
+      "mechanism": "load_cell_drift",
+      "severity": 0.4,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-position_sensor_fault-case00-TX-EAG-003",
+      "asset_id": "TX-EAG-003",
+      "site_id": "US_TX_EAGLEFORD",
+      "mechanism": "position_sensor_fault",
+      "severity": 0.1,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-position_sensor_fault-case01-TX-EAG-004",
+      "asset_id": "TX-EAG-004",
+      "site_id": "US_TX_EAGLEFORD",
+      "mechanism": "position_sensor_fault",
+      "severity": 0.2,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-position_sensor_fault-case02-TX-EAG-005",
+      "asset_id": "TX-EAG-005",
+      "site_id": "US_TX_EAGLEFORD",
+      "mechanism": "position_sensor_fault",
+      "severity": 0.4,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-abnormal_speed-case00-TX-MID-001",
+      "asset_id": "TX-MID-001",
+      "site_id": "US_TX_MIDLAND",
+      "mechanism": "abnormal_speed",
+      "severity": 0.1,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-abnormal_speed-case01-TX-MID-002",
+      "asset_id": "TX-MID-002",
+      "site_id": "US_TX_MIDLAND",
+      "mechanism": "abnormal_speed",
+      "severity": 0.2,
+      "samples": 1043
+    },
+    {
+      "run_id": "phase32-fault-abnormal_speed-case02-TX-MID-003",
+      "asset_id": "TX-MID-003",
+      "site_id": "US_TX_MIDLAND",
+      "mechanism": "abnormal_speed",
+      "severity": 0.4,
+      "samples": 1043
+    }
+  ],
+  "cards": 57,
+  "solved_downhole_cards": 57,
+  "severity_values": [
+    0.1,
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0
+  ],
+  "provenance": "Generated by Engine + virtual Sensors; labels from injected simulation Fault, not field diagnosis.",
+  "files": {
+    "ml_inputs_telemetry.jsonl": "e7fd5a3924fb5e80ffa8e46e58b6b58df73c707dad4b80160bc0694b467ea670",
+    "ml_inputs_auxiliary.jsonl": "bdc255f4a98615d9957862c04476360f5c9b36c8f539793382570e342ade03ec",
+    "simulation_truth_labels.jsonl": "1ef0da2a4fc406784e358ebfa3481a341687c9ea1c9715d3004e0e578779262f",
+    "surface_downhole_cards.jsonl": "de1b40e1fae8dd5b35bc1bfcd8589f84a6fb43a8b4ec91c2946085dde0ccfa8e"
+  }
+}

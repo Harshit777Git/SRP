@@ -1,0 +1,121 @@
+field,well_id,state_id,fault_mechanism,fault_severity,depth_ft,unit_model,stroke_in,spm,oil_bpd,water_bpd,gas_mscfd,water_cut_pct,dataset_file
+Prairie,prairie-001,STATE-001,Unanchored Tubing Slip,0.4,4524.9,C-228D-213-86,64.0,7.91,397.1,281.7,140.1,41.5,Prairie/prairie-001.csv
+Prairie,prairie-002,STATE-004,Normal Operation,0.0,4220.1,C-228D-213-86,100.0,7.08,1169.9,1401.4,262.2,54.5,Prairie/prairie-002.csv
+Prairie,prairie-003,STATE-038,Traveling Valve Leak,0.75,3360.9,C-228D-213-86,74.0,5.91,481.5,769.2,239.8,61.5,Prairie/prairie-003.csv
+Prairie,prairie-004,STATE-004,Normal Operation,0.0,4533.1,C-228D-213-86,74.0,6.31,940.3,645.4,401.0,40.7,Prairie/prairie-004.csv
+Prairie,prairie-005,STATE-038,Traveling Valve Leak,0.72,3432.1,C-228D-213-86,74.0,7.98,856.2,1021.5,225.9,54.4,Prairie/prairie-005.csv
+Prairie,prairie-006,STATE-004,Normal Operation,0.0,4368.1,C-228D-213-86,64.0,5.83,362.8,834.4,170.1,69.7,Prairie/prairie-006.csv
+Prairie,prairie-007,STATE-004,Normal Operation,0.0,4215.9,C-228D-213-86,100.0,6.6,806.1,1537.1,325.1,65.6,Prairie/prairie-007.csv
+Prairie,prairie-008,STATE-004,Normal Operation,0.0,4977.0,C-228D-213-86,100.0,7.99,1273.4,1465.2,406.0,53.5,Prairie/prairie-008.csv
+Prairie,prairie-009,STATE-001,Unanchored Tubing Slip,0.36,3530.8,C-228D-213-86,100.0,6.23,451.8,509.4,194.9,53.0,Prairie/prairie-009.csv
+Prairie,prairie-010,STATE-038,Traveling Valve Leak,0.71,3738.8,C-228D-213-86,74.0,6.92,699.4,908.4,155.6,56.5,Prairie/prairie-010.csv
+Prairie,prairie-011,STATE-001,Unanchored Tubing Slip,0.37,4000.0,C-228D-213-86,86.0,6.36,250.4,532.1,80.0,68.0,Prairie/prairie-011.csv
+Prairie,prairie-012,STATE-032,Standing Valve Leak,0.59,3579.1,C-228D-213-86,74.0,6.46,774.3,735.1,164.7,48.7,Prairie/prairie-012.csv
+Prairie,prairie-013,STATE-004,Normal Operation,0.0,3522.0,C-228D-213-86,74.0,6.41,1010.5,682.2,464.0,40.3,Prairie/prairie-013.csv
+Prairie,prairie-014,STATE-031,Worn Pump Barrel,0.7,3315.0,C-228D-213-86,100.0,6.76,1485.4,1028.0,736.7,40.9,Prairie/prairie-014.csv
+Prairie,prairie-015,STATE-031,Worn Pump Barrel,0.75,3742.1,C-228D-213-86,100.0,7.26,828.3,1843.6,413.9,69.0,Prairie/prairie-015.csv
+Prairie,prairie-016,STATE-032,Standing Valve Leak,0.75,3579.1,C-228D-213-86,74.0,7.09,792.4,851.6,311.2,51.8,Prairie/prairie-016.csv
+Prairie,prairie-017,STATE-031,Worn Pump Barrel,0.58,4747.0,C-228D-213-86,64.0,7.93,783.3,848.6,209.9,52.0,Prairie/prairie-017.csv
+Prairie,prairie-018,STATE-004,Normal Operation,0.0,4821.9,C-228D-213-86,74.0,6.36,950.0,649.3,286.9,40.6,Prairie/prairie-018.csv
+Prairie,prairie-019,STATE-004,Normal Operation,0.0,4628.9,C-228D-213-86,74.0,7.94,1023.4,979.4,258.2,48.9,Prairie/prairie-019.csv
+Prairie,prairie-020,STATE-022,Fluid Pound,0.66,3998.0,C-228D-213-86,100.0,6.23,502.5,409.5,174.9,44.9,Prairie/prairie-020.csv
+Prairie,prairie-021,STATE-038,Traveling Valve Leak,0.67,4889.1,C-228D-213-86,74.0,6.2,649.6,488.0,319.4,42.9,Prairie/prairie-021.csv
+Prairie,prairie-022,STATE-022,Fluid Pound,0.56,4956.0,C-228D-213-86,74.0,7.07,417.7,293.8,161.0,41.3,Prairie/prairie-022.csv
+Prairie,prairie-023,STATE-031,Worn Pump Barrel,0.61,4559.1,C-228D-213-86,100.0,5.9,1151.9,872.6,241.3,43.1,Prairie/prairie-023.csv
+Prairie,prairie-024,STATE-032,Standing Valve Leak,0.6,4683.1,C-228D-213-86,64.0,5.61,247.6,723.5,65.4,74.5,Prairie/prairie-024.csv
+Prairie,prairie-025,STATE-038,Traveling Valve Leak,0.77,4720.1,C-228D-213-86,64.0,6.29,246.1,665.2,94.0,73.0,Prairie/prairie-025.csv
+Prairie,prairie-026,STATE-001,Unanchored Tubing Slip,0.36,4054.1,C-228D-213-86,64.0,7.06,192.6,449.5,78.3,70.0,Prairie/prairie-026.csv
+Prairie,prairie-027,STATE-004,Normal Operation,0.0,3266.1,C-228D-213-86,86.0,7.54,1336.9,1102.7,305.1,45.2,Prairie/prairie-027.csv
+Prairie,prairie-028,STATE-038,Traveling Valve Leak,0.63,4029.9,C-228D-213-86,64.0,7.97,693.7,804.5,223.8,53.7,Prairie/prairie-028.csv
+Prairie,prairie-029,STATE-004,Normal Operation,0.0,3242.1,C-228D-213-86,86.0,5.89,859.6,1000.9,392.0,53.8,Prairie/prairie-029.csv
+Prairie,prairie-030,STATE-004,Normal Operation,0.0,4568.9,C-228D-213-86,64.0,6.33,666.3,679.8,217.2,50.5,Prairie/prairie-030.csv
+Canyon,canyon-001,STATE-038,Traveling Valve Leak,0.7,8866.1,M-640D-356-144,120.0,5.65,296.9,361.4,319.4,54.9,Canyon/canyon-001.csv
+Canyon,canyon-002,STATE-004,Normal Operation,0.0,7678.1,M-640D-356-144,144.0,4.57,774.1,894.2,892.1,53.6,Canyon/canyon-002.csv
+Canyon,canyon-003,STATE-025,Severe Gas Lock,0.92,7580.1,M-640D-356-144,100.0,5.17,306.6,198.5,251.2,39.3,Canyon/canyon-003.csv
+Canyon,canyon-004,STATE-024,Gas Interference,0.56,8345.1,M-640D-356-144,144.0,5.5,511.2,418.2,549.4,45.0,Canyon/canyon-004.csv
+Canyon,canyon-005,STATE-004,Normal Operation,0.0,9232.0,M-640D-356-144,100.0,6.0,913.1,389.4,916.7,29.9,Canyon/canyon-005.csv
+Canyon,canyon-006,STATE-032,Standing Valve Leak,0.68,9359.9,M-640D-356-144,100.0,6.02,435.9,165.3,318.9,27.5,Canyon/canyon-006.csv
+Canyon,canyon-007,STATE-024,Gas Interference,0.59,7059.1,M-640D-356-144,120.0,5.3,378.1,417.9,252.8,52.5,Canyon/canyon-007.csv
+Canyon,canyon-008,STATE-032,Standing Valve Leak,0.59,8216.9,M-640D-356-144,120.0,5.72,465.0,356.5,367.0,43.4,Canyon/canyon-008.csv
+Canyon,canyon-009,STATE-038,Traveling Valve Leak,0.77,9357.9,M-640D-356-144,100.0,4.89,314.5,112.8,234.1,26.4,Canyon/canyon-009.csv
+Canyon,canyon-010,STATE-004,Normal Operation,0.0,8219.2,M-640D-356-144,100.0,5.52,866.7,450.5,648.9,34.2,Canyon/canyon-010.csv
+Canyon,canyon-011,STATE-024,Gas Interference,0.71,7520.0,M-640D-356-144,120.0,5.68,470.3,253.2,485.4,35.0,Canyon/canyon-011.csv
+Canyon,canyon-012,STATE-024,Gas Interference,0.62,8732.9,M-640D-356-144,144.0,5.53,459.5,535.1,500.1,53.8,Canyon/canyon-012.csv
+Canyon,canyon-013,STATE-004,Normal Operation,0.0,9211.0,M-640D-356-144,120.0,6.31,1061.6,687.4,758.1,39.3,Canyon/canyon-013.csv
+Canyon,canyon-014,STATE-004,Normal Operation,0.0,7603.0,M-640D-356-144,144.0,4.84,804.3,940.3,629.1,53.9,Canyon/canyon-014.csv
+Canyon,canyon-015,STATE-024,Gas Interference,0.59,8179.1,M-640D-356-144,100.0,6.07,395.8,239.5,454.8,37.7,Canyon/canyon-015.csv
+Canyon,canyon-016,STATE-025,Severe Gas Lock,0.83,8529.9,M-640D-356-144,120.0,5.53,298.8,339.7,219.4,53.2,Canyon/canyon-016.csv
+Canyon,canyon-017,STATE-038,Traveling Valve Leak,0.69,8717.8,M-640D-356-144,120.0,5.82,510.1,459.6,314.9,47.4,Canyon/canyon-017.csv
+Canyon,canyon-018,STATE-024,Gas Interference,0.56,7124.0,M-640D-356-144,144.0,6.03,635.0,428.7,704.7,40.3,Canyon/canyon-018.csv
+Canyon,canyon-019,STATE-025,Severe Gas Lock,0.78,7404.9,M-640D-356-144,120.0,5.67,437.0,284.1,366.0,39.4,Canyon/canyon-019.csv
+Canyon,canyon-020,STATE-024,Gas Interference,0.61,7061.0,M-640D-356-144,144.0,4.64,521.6,181.3,428.4,25.8,Canyon/canyon-020.csv
+Canyon,canyon-021,STATE-024,Gas Interference,0.65,9132.9,M-640D-356-144,100.0,4.99,268.6,177.5,196.0,39.8,Canyon/canyon-021.csv
+Canyon,canyon-022,STATE-038,Traveling Valve Leak,0.7,7501.0,M-640D-356-144,100.0,6.19,633.2,229.5,655.1,26.6,Canyon/canyon-022.csv
+Canyon,canyon-023,STATE-004,Normal Operation,0.0,7053.1,M-640D-356-144,120.0,6.5,1144.0,873.6,892.1,43.3,Canyon/canyon-023.csv
+Canyon,canyon-024,STATE-004,Normal Operation,0.0,8378.9,M-640D-356-144,120.0,4.59,687.0,621.6,674.9,47.5,Canyon/canyon-024.csv
+Canyon,canyon-025,STATE-024,Gas Interference,0.61,7309.1,M-640D-356-144,100.0,4.79,320.6,134.1,237.7,29.5,Canyon/canyon-025.csv
+Canyon,canyon-026,STATE-004,Normal Operation,0.0,8396.0,M-640D-356-144,120.0,5.59,1066.3,569.1,892.4,34.8,Canyon/canyon-026.csv
+Canyon,canyon-027,STATE-038,Traveling Valve Leak,0.8,7176.8,M-640D-356-144,120.0,5.24,419.9,347.7,459.5,45.3,Canyon/canyon-027.csv
+Canyon,canyon-028,STATE-025,Severe Gas Lock,0.84,8628.9,M-640D-356-144,144.0,5.94,429.8,458.2,382.9,51.6,Canyon/canyon-028.csv
+Canyon,canyon-029,STATE-038,Traveling Valve Leak,0.63,7588.9,M-640D-356-144,120.0,5.84,511.9,548.0,507.4,51.7,Canyon/canyon-029.csv
+Canyon,canyon-030,STATE-004,Normal Operation,0.0,7590.9,M-640D-356-144,144.0,5.93,1434.5,799.9,1536.4,35.8,Canyon/canyon-030.csv
+Mesa,mesa-001,STATE-006,Blocked Intake,0.69,5978.0,C-320D-256-100,100.0,6.64,619.2,1515.8,175.2,71.0,Mesa/mesa-001.csv
+Mesa,mesa-002,STATE-022,Fluid Pound,0.53,5851.0,C-320D-256-100,120.0,8.8,264.5,1282.2,99.8,82.9,Mesa/mesa-002.csv
+Mesa,mesa-003,STATE-004,Normal Operation,0.0,6935.0,C-320D-256-100,100.0,7.18,440.5,1807.0,185.5,80.4,Mesa/mesa-003.csv
+Mesa,mesa-004,STATE-022,Fluid Pound,0.68,6069.9,C-320D-256-100,144.0,6.38,507.1,796.4,226.1,61.1,Mesa/mesa-004.csv
+Mesa,mesa-005,STATE-004,Normal Operation,0.0,6379.9,C-320D-256-100,144.0,8.56,1435.1,3021.8,548.1,67.8,Mesa/mesa-005.csv
+Mesa,mesa-006,STATE-077,Tagging Down Hard,0.77,6957.0,C-320D-256-100,100.0,7.72,553.1,1526.4,276.5,73.4,Mesa/mesa-006.csv
+Mesa,mesa-007,STATE-077,Tagging Down Hard,0.84,7196.9,C-320D-256-100,100.0,8.72,971.2,1481.3,416.3,60.4,Mesa/mesa-007.csv
+Mesa,mesa-008,STATE-006,Blocked Intake,0.74,5049.9,C-320D-256-100,100.0,7.6,449.8,2120.5,190.6,82.5,Mesa/mesa-008.csv
+Mesa,mesa-009,STATE-004,Normal Operation,0.0,6251.0,C-320D-256-100,144.0,8.36,915.5,3303.2,280.0,78.3,Mesa/mesa-009.csv
+Mesa,mesa-010,STATE-004,Normal Operation,0.0,6193.9,C-320D-256-100,120.0,6.8,912.7,1836.3,418.1,66.8,Mesa/mesa-010.csv
+Mesa,mesa-011,STATE-031,Worn Pump Barrel,0.65,5167.0,C-320D-256-100,120.0,6.58,909.1,1862.5,227.7,67.2,Mesa/mesa-011.csv
+Mesa,mesa-012,STATE-077,Tagging Down Hard,0.86,6980.0,C-320D-256-100,144.0,7.07,458.6,2682.2,164.0,85.4,Mesa/mesa-012.csv
+Mesa,mesa-013,STATE-006,Blocked Intake,0.83,6357.9,C-320D-256-100,120.0,6.39,463.6,2069.9,108.2,81.7,Mesa/mesa-013.csv
+Mesa,mesa-014,STATE-032,Standing Valve Leak,0.56,5341.9,C-320D-256-100,144.0,8.84,544.1,3843.4,246.9,87.6,Mesa/mesa-014.csv
+Mesa,mesa-015,STATE-004,Normal Operation,0.0,5263.1,C-320D-256-100,120.0,7.46,894.0,2265.1,191.6,71.7,Mesa/mesa-015.csv
+Mesa,mesa-016,STATE-031,Worn Pump Barrel,0.64,6896.0,C-320D-256-100,100.0,7.14,792.9,1321.5,237.3,62.5,Mesa/mesa-016.csv
+Mesa,mesa-017,STATE-004,Normal Operation,0.0,6492.1,C-320D-256-100,120.0,7.55,719.8,2396.1,294.8,76.9,Mesa/mesa-017.csv
+Mesa,mesa-018,STATE-022,Fluid Pound,0.57,7190.9,C-320D-256-100,120.0,8.15,222.8,1014.7,78.5,82.0,Mesa/mesa-018.csv
+Mesa,mesa-019,STATE-004,Normal Operation,0.0,5017.1,C-320D-256-100,144.0,6.9,1301.7,2385.7,630.1,64.7,Mesa/mesa-019.csv
+Mesa,mesa-020,STATE-006,Blocked Intake,0.65,5085.0,C-320D-256-100,144.0,7.45,1275.1,2636.2,571.9,67.4,Mesa/mesa-020.csv
+Mesa,mesa-021,STATE-004,Normal Operation,0.0,5965.9,C-320D-256-100,144.0,6.72,937.2,2397.9,211.7,71.9,Mesa/mesa-021.csv
+Mesa,mesa-022,STATE-032,Standing Valve Leak,0.56,5301.8,C-320D-256-100,144.0,8.75,657.7,3847.2,327.6,85.4,Mesa/mesa-022.csv
+Mesa,mesa-023,STATE-031,Worn Pump Barrel,0.63,5251.0,C-320D-256-100,144.0,8.83,1288.1,3536.3,287.0,73.3,Mesa/mesa-023.csv
+Mesa,mesa-024,STATE-077,Tagging Down Hard,0.81,6303.1,C-320D-256-100,120.0,8.31,1177.7,2022.7,345.2,63.2,Mesa/mesa-024.csv
+Mesa,mesa-025,STATE-006,Blocked Intake,0.66,7058.1,C-320D-256-100,144.0,6.62,626.9,2523.4,305.3,80.1,Mesa/mesa-025.csv
+Mesa,mesa-026,STATE-032,Standing Valve Leak,0.56,6913.1,C-320D-256-100,100.0,7.05,490.0,1235.4,148.8,71.6,Mesa/mesa-026.csv
+Mesa,mesa-027,STATE-004,Normal Operation,0.0,5174.9,C-320D-256-100,144.0,8.51,1528.6,2967.3,590.4,66.0,Mesa/mesa-027.csv
+Mesa,mesa-028,STATE-004,Normal Operation,0.0,5774.0,C-320D-256-100,144.0,6.41,420.4,2740.4,99.9,86.7,Mesa/mesa-028.csv
+Mesa,mesa-029,STATE-031,Worn Pump Barrel,0.62,6756.9,C-320D-256-100,120.0,8.79,786.8,2619.1,233.9,76.9,Mesa/mesa-029.csv
+Mesa,mesa-030,STATE-032,Standing Valve Leak,0.57,6219.2,C-320D-256-100,100.0,6.44,493.7,1376.4,144.7,73.6,Mesa/mesa-030.csv
+Delta,delta-001,STATE-032,Standing Valve Leak,0.73,2945.9,C-320D-305-120,120.0,5.34,796.9,2979.8,329.4,78.9,Delta/delta-001.csv
+Delta,delta-002,STATE-004,Normal Operation,0.0,4065.9,C-320D-305-120,84.0,5.27,565.8,1602.0,262.4,73.9,Delta/delta-002.csv
+Delta,delta-003,STATE-010,High Fluid Damping,0.88,2957.0,C-320D-305-120,84.0,4.22,401.0,1644.8,124.5,80.4,Delta/delta-003.csv
+Delta,delta-004,STATE-031,Worn Pump Barrel,0.63,4129.9,C-320D-305-120,84.0,5.77,250.3,2156.8,73.2,89.6,Delta/delta-004.csv
+Delta,delta-005,STATE-031,Worn Pump Barrel,0.65,3253.0,C-320D-305-120,120.0,5.94,261.3,3886.5,130.1,93.7,Delta/delta-005.csv
+Delta,delta-006,STATE-010,High Fluid Damping,0.75,4161.1,C-320D-305-120,100.0,5.1,414.2,2096.4,189.7,83.5,Delta/delta-006.csv
+Delta,delta-007,STATE-004,Normal Operation,0.0,3605.0,C-320D-305-120,120.0,4.33,599.0,2337.2,252.9,79.6,Delta/delta-007.csv
+Delta,delta-008,STATE-032,Standing Valve Leak,0.57,4117.1,C-320D-305-120,100.0,5.05,406.6,2150.8,164.2,84.1,Delta/delta-008.csv
+Delta,delta-009,STATE-004,Normal Operation,0.0,3180.1,C-320D-305-120,120.0,4.5,779.3,2441.1,286.3,75.8,Delta/delta-009.csv
+Delta,delta-010,STATE-031,Worn Pump Barrel,0.61,2990.2,C-320D-305-120,100.0,5.92,896.4,2551.2,229.0,74.0,Delta/delta-010.csv
+Delta,delta-011,STATE-032,Standing Valve Leak,0.59,2883.9,C-320D-305-120,84.0,4.5,133.0,2012.2,44.4,93.8,Delta/delta-011.csv
+Delta,delta-012,STATE-004,Normal Operation,0.0,2935.0,C-320D-305-120,100.0,4.22,203.1,2243.6,43.6,91.7,Delta/delta-012.csv
+Delta,delta-013,STATE-038,Traveling Valve Leak,0.75,4360.9,C-320D-305-120,84.0,5.99,543.1,1860.0,228.8,77.4,Delta/delta-013.csv
+Delta,delta-014,STATE-004,Normal Operation,0.0,4061.0,C-320D-305-120,84.0,4.91,520.0,1487.8,182.4,74.1,Delta/delta-014.csv
+Delta,delta-015,STATE-004,Normal Operation,0.0,2628.9,C-320D-305-120,100.0,5.45,341.8,2976.8,141.8,89.7,Delta/delta-015.csv
+Delta,delta-016,STATE-032,Standing Valve Leak,0.61,3789.0,C-320D-305-120,84.0,6.19,242.9,2397.7,99.3,90.8,Delta/delta-016.csv
+Delta,delta-017,STATE-004,Normal Operation,0.0,4512.1,C-320D-305-120,84.0,6.06,358.1,2111.5,94.1,85.5,Delta/delta-017.csv
+Delta,delta-018,STATE-010,High Fluid Damping,0.82,3622.0,C-320D-305-120,120.0,4.26,608.9,2263.1,144.8,78.8,Delta/delta-018.csv
+Delta,delta-019,STATE-032,Standing Valve Leak,0.7,3174.9,C-320D-305-120,120.0,4.95,596.0,2910.0,294.2,83.0,Delta/delta-019.csv
+Delta,delta-020,STATE-038,Traveling Valve Leak,0.74,4264.1,C-320D-305-120,100.0,5.17,683.1,1894.7,338.6,73.5,Delta/delta-020.csv
+Delta,delta-021,STATE-038,Traveling Valve Leak,0.75,3566.9,C-320D-305-120,84.0,4.78,315.8,1789.6,79.9,85.0,Delta/delta-021.csv
+Delta,delta-022,STATE-010,High Fluid Damping,0.86,3140.1,C-320D-305-120,100.0,4.77,708.2,1994.8,315.8,73.8,Delta/delta-022.csv
+Delta,delta-023,STATE-031,Worn Pump Barrel,0.57,3167.0,C-320D-305-120,100.0,5.96,534.2,2847.1,158.7,84.2,Delta/delta-023.csv
+Delta,delta-024,STATE-004,Normal Operation,0.0,2784.1,C-320D-305-120,100.0,4.34,668.1,1901.7,196.4,74.0,Delta/delta-024.csv
+Delta,delta-025,STATE-010,High Fluid Damping,0.69,3313.0,C-320D-305-120,100.0,4.74,594.7,2096.1,244.0,77.9,Delta/delta-025.csv
+Delta,delta-026,STATE-004,Normal Operation,0.0,2752.0,C-320D-305-120,84.0,5.7,305.8,2474.5,91.7,89.0,Delta/delta-026.csv
+Delta,delta-027,STATE-086,High Wellbore Friction,0.68,2766.1,C-320D-305-120,100.0,4.99,616.9,2320.9,168.6,79.0,Delta/delta-027.csv
+Delta,delta-028,STATE-086,High Wellbore Friction,0.76,3371.1,C-320D-305-120,120.0,4.74,765.8,2549.3,360.5,76.9,Delta/delta-028.csv
+Delta,delta-029,STATE-031,Worn Pump Barrel,0.75,3779.9,C-320D-305-120,120.0,5.62,632.5,3088.2,183.0,83.0,Delta/delta-029.csv
+Delta,delta-030,STATE-038,Traveling Valve Leak,0.66,3815.0,C-320D-305-120,120.0,6.11,832.0,3187.2,383.5,79.3,Delta/delta-030.csv

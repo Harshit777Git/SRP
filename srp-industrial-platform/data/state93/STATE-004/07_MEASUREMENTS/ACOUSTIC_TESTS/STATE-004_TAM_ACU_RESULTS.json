@@ -1,0 +1,67 @@
+{
+  "provenance": {
+    "state_id": "STATE-004",
+    "source_archive": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-004\\01_TAM\\average_well.TAM_EXP",
+    "source_sha256": "2c8357067c7e762a525baa25d11fc5427d2149e2701b8ae01cd4d7bdbf3a7aee",
+    "source_bytes": 4673,
+    "extracted_utc": "2026-11-18T04_44_29Z",
+    "method": "lossless extraction of vendor metadata.json and TestResults.json",
+    "synthetic_data": false
+  },
+  "tests": [
+    {
+      "DateTime": "1995-02-25T04:15:02Z",
+      "FilePath": "",
+      "LastModified": "1995-02-25T04:15:02Z",
+      "NumValues": {
+        "ACU Acoustic Velocity": 1175.5434782608695,
+        "ACU Casing Pressure": 127.90116882324219,
+        "ACU PBHP": 436.76333648445,
+        "Annular Gas Flow": 27.631238082823803,
+        "Average Acoustic Velocity": 1175.5434782608695,
+        "Average Joints Per Second": 18.54169524070772,
+        "Back Pressure": 301.9382744825739,
+        "Back Pressure on Formation Due to Liquid Loading": 301.9382744825739,
+        "Buildup": 1.2689056396484375,
+        "Buildup Time": 120.0,
+        "Computed Gas Gravity from User Entered Velocity": 0.7883123131880803,
+        "Continuous Removal of Liquid Tubing ID": 2.441,
+        "Current Loaded EOT": 451.46333648445,
+        "Distance to Liquid": 3132.2355978260866,
+        "Filter High End": 20.248175182481635,
+        "Filter Low End": 16.248175182481635,
+        "Flowing Gas EOT": 149.52506200187608,
+        "Fluid Above Pump": 1982.7644021739134,
+        "Gas Free Above Pump": 748.5865039020042,
+        "Gas Production": 27.631238082823803,
+        "Gas/Liquid Interface Pressure": 140.87399548053116,
+        "Interval Acoustic Velocity": 1156.9343065693356,
+        "Interval Joints Per Second": 18.248175182481635,
+        "Joints to Liquid": 98.80869393773145,
+        "Liquid Level - TVD": 3132.2355978260866,
+        "PIP LL": 411.6625762209711,
+        "Percent Liquid Above Pump": 37.7546875,
+        "Percent Liquid Below Pump": 52.08393822218396,
+        "Producing Efficiency": 86.73358594235235,
+        "RTTT": 5.329,
+        "Selected Marker Depth": 0.0,
+        "Time to First Collar": 0.256,
+        "Time to Last Collar": 5.272,
+        "User Entered Velocity": 1175.5434782608695
+      },
+      "Session": false,
+      "StrValues": {
+        "Acoustic Velocity Calc Method": "Collar Count",
+        "Continuous Removal of Liquid Method": "Turner",
+        "Gun Serial Number": "WG Unknown",
+        "IPR Method": "Vogel",
+        "Pressure Sensor Serial Number": "PT Well Gun",
+        "Pulse Type": "Explosion",
+        "Selected Marker Name": "",
+        "Shot Path": "Casing",
+        "Well State": "Producing"
+      },
+      "Type": "ACU"
+    }
+  ]
+}

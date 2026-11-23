@@ -1,0 +1,75 @@
+{
+  "provenance": {
+    "state_id": "STATE-049",
+    "source_archive": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-049\\01_TAM\\PFL_Gaslift.TAM_EXP",
+    "source_sha256": "e8d363d19e6fffabde78fcd0721199a68123311f568dce603888265dbe660794",
+    "source_bytes": 2897,
+    "extracted_utc": "2026-11-18T04_44_29Z",
+    "method": "lossless extraction of vendor metadata.json and TestResults.json",
+    "synthetic_data": false
+  },
+  "archive_metadata": {
+    "DateExported": "2026-11-18T04_44_29Z",
+    "Source": "Tam",
+    "SourceVersion": "2.1.19"
+  },
+  "test_results": {
+    "Wells": [
+      {
+        "Company": "",
+        "Description": "",
+        "GPSBlock": "",
+        "ID": "{8BB364E9-41E3-406E-80B4-04375BD71AD8}",
+        "MajorGroup": "Examples",
+        "MinorGroup": "",
+        "Name": "PFL_Gaslift",
+        "SavedAppVersion": "1.1.15",
+        "Sessions": [],
+        "Tests": [
+          {
+            "DateTime": "1999-08-12T12:22:01Z",
+            "FilePath": "",
+            "LastModified": "1999-08-12T12:22:01Z",
+            "NumValues": {
+              "ACU Acoustic Velocity": 2062.474193726219,
+              "ACU Casing Pressure": 0.0,
+              "Average Acoustic Velocity": 2062.474193726219,
+              "Average Joints Per Second": 23.871229094053458,
+              "Buildup": 0.0,
+              "Buildup Time": 0.0,
+              "Computed Gas Gravity from User Entered Velocity": 0.55001,
+              "Continuous Removal of Liquid Tubing ID": 2.441,
+              "Distance to Liquid": 18415.832075781407,
+              "Filter High End": 25.094688221708907,
+              "Filter Low End": 21.094688221708907,
+              "Interval Acoustic Velocity": 1995.3810623556496,
+              "Interval Joints Per Second": 23.094688221708907,
+              "Joints to Liquid": 426.2924091616066,
+              "Liquid Level - TVD": 18415.832075781407,
+              "Percent Liquid Above Pump": 100.0,
+              "Producing Efficiency": 0.0,
+              "RTTT": 17.858,
+              "Selected Marker Depth": 0.0,
+              "Time to First Collar": 0.26,
+              "Time to Last Collar": 3.468,
+              "User Entered Velocity": 2062.474193726219
+            },
+            "Session": false,
+            "StrValues": {
+              "Acoustic Velocity Calc Method": "Collar Count",
+              "Continuous Removal of Liquid Method": "Turner",
+              "Gun Serial Number": "WG Unknown",
+              "IPR Method": "Vogel",
+              "Pulse Type": "Implosion",
+              "Selected Marker Name": "",
+              "Shot Path": "Casing",
+              "Well State": "Producing"
+            },
+            "Type": "ACU"
+          }
+        ],
+        "Versions": []
+      }
+    ]
+  }
+}

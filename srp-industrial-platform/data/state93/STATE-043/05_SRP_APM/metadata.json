@@ -1,0 +1,7 @@
+{
+  "state_id": "STATE-043",
+  "source_state": "Need Gas Separator",
+  "surface_card": null,
+  "downhole_card": null,
+  "reason": "No verified ordered numerical samples extracted"
+}

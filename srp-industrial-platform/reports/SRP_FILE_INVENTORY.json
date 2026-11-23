@@ -1,0 +1,1531 @@
+[
+  {
+    "path": "data/dataset_manifest.json",
+    "bytes": 14482,
+    "sha256": "4fa35b33bbd5e2eed9753c9133674abf390b28a674b0d7a7b709b05e4f83361f",
+    "format": ".json"
+  },
+  {
+    "path": "data/dataset_registry.json",
+    "bytes": 12165,
+    "sha256": "e67450adff6058e9100f5a9199406f9f13eccadbbd156525a7919e9b87f33783",
+    "format": ".json"
+  },
+  {
+    "path": "data/evaluation/acceptance.json",
+    "bytes": 3223,
+    "sha256": "78d97a91d4a74227e0cb851cfe3d1f6ef68e5321fa8c6437f3004d187aa87ba7",
+    "format": ".json"
+  },
+  {
+    "path": "data/evaluation/acceptance_cards.json",
+    "bytes": 71012,
+    "sha256": "15ac7d43f189fde13073b045120761eab3d76e5922a3c309bf46074dc1968f36",
+    "format": ".json"
+  },
+  {
+    "path": "data/evaluation/acceptance_truth.jsonl",
+    "bytes": 1800150,
+    "sha256": "aff3fc0a2d7a2449908615278f661ddc52aeac394cea9a5af5cc71db4eeeb8e1",
+    "format": ".jsonl",
+    "rows": 2261
+  },
+  {
+    "path": "data/evaluation/apm.png",
+    "bytes": 138850,
+    "sha256": "14e1adc731d858a152ef7dbf6879722d32a309c42389e44f4a6ccde122859a6e",
+    "format": ".png"
+  },
+  {
+    "path": "data/evaluation/compose-config.txt",
+    "bytes": 36,
+    "sha256": "f75d887f769a6db69a546daeef565dc683a0a7630979516ab6d02213ddd0e340",
+    "format": ".txt"
+  },
+  {
+    "path": "data/evaluation/frontend-build.txt",
+    "bytes": 24815,
+    "sha256": "8a23c9c242a8b4ecb6fe8229190156a54ea2146b404b30717cebd3d2aba9563a",
+    "format": ".txt"
+  },
+  {
+    "path": "data/evaluation/ingest-tests.txt",
+    "bytes": 321,
+    "sha256": "3f8c0089cb528b3accee33571c62de761f669482888e6530e64fb2fc85031264",
+    "format": ".txt"
+  },
+  {
+    "path": "data/evaluation/legacy_fit_gap.json",
+    "bytes": 273,
+    "sha256": "0b89eaebf5cfd7cf86a15916b4b018f8dc7f4dbf069896e0d7031a77e6f65241",
+    "format": ".json"
+  },
+  {
+    "path": "data/evaluation/ml.json",
+    "bytes": 4415,
+    "sha256": "26bad520720c8bcbe864a40025613f4497e185d5f8de3cfc1ad5d1bd343412c2",
+    "format": ".json"
+  },
+  {
+    "path": "data/evaluation/mqtt_capture.jsonl",
+    "bytes": 6956,
+    "sha256": "cc9102657db0f0b28ad2711684d7b4c5cdbad2fabb1c0b5ba1ef706664f35a5e",
+    "format": ".jsonl",
+    "rows": 18
+  },
+  {
+    "path": "data/evaluation/onedrive_zip_inventory.json",
+    "bytes": 76799,
+    "sha256": "47639d471b57c629c0252f70674320113400819737ede06a1e42b30adbe863ff",
+    "format": ".json"
+  },
+  {
+    "path": "data/evaluation/performance.json",
+    "bytes": 1855,
+    "sha256": "31d3b3d389e115b42bf3cde895344e28edd75c6426debef2c12ee38927718e60",
+    "format": ".json"
+  },
+  {
+    "path": "data/evaluation/real_acquisition_audit.json",
+    "bytes": 3476,
+    "sha256": "3fb6f0b50d11a745da75bb8b3f70525bc4d935c825f6c0a12c0676e1628bb3c1",
+    "format": ".json"
+  },
+  {
+    "path": "data/evaluation/remediation_fresh.json",
+    "bytes": 179782,
+    "sha256": "f72d17521ece5763f97b2df419f561aea2815891cd9b90140bd96afe2ca875d6",
+    "format": ".json"
+  },
+  {
+    "path": "data/evaluation/remediation_live.json",
+    "bytes": 966,
+    "sha256": "d4be978be30f3d28ab82bda53c722b1c388f39aee39995af10c8521bda14bcf7",
+    "format": ".json"
+  },
+  {
+    "path": "data/evaluation/remediation_live.png",
+    "bytes": 123399,
+    "sha256": "64383ce4a78f9cf704e1c91e13a7e5bea3e6894996ab48ce0af7a56484f79fdc",
+    "format": ".png"
+  },
+  {
+    "path": "data/evaluation/remediation_metrics.json",
+    "bytes": 28628,
+    "sha256": "63fe235324ad818e9fd3cf4d3fdfc63f6975da5c13e0eb63e9a1260220093548",
+    "format": ".json"
+  },
+  {
+    "path": "data/evaluation/simulator.png",
+    "bytes": 117853,
+    "sha256": "4497472cc98c2d314e52250a37e69a592645713fe0fdba4225a4be6cdcbe26e6",
+    "format": ".png"
+  },
+  {
+    "path": "data/evaluation/unit-tests.txt",
+    "bytes": 520,
+    "sha256": "2e4a49f2561aa218e0f9763828cf19af06ad1c9641a41d35ee48bffbf4232f8e",
+    "format": ".txt"
+  },
+  {
+    "path": "data/evaluation/v2/acceptance.json",
+    "bytes": 11574,
+    "sha256": "e8a3004fdfc32905bb7d4df16f055959a8d62dfd8994d85d668b3b676af9199f",
+    "format": ".json"
+  },
+  {
+    "path": "data/evaluation/v2/animated_pump.png",
+    "bytes": 162990,
+    "sha256": "1aad4b25eaa6fd4cb5ce0a5f4104a235856c46102d07d04252afddd21c8f2ea0",
+    "format": ".png"
+  },
+  {
+    "path": "data/evaluation/v2/engineering_benchmark.png",
+    "bytes": 228047,
+    "sha256": "4449dcb38f76708d9978ec0b2e1f50d842ca75900f215d58d25a9199ebf0ad4d",
+    "format": ".png"
+  },
+  {
+    "path": "data/evaluation/v2/engineering_comparison.json",
+    "bytes": 1569,
+    "sha256": "c0b26508d77c335f93591768f73001bf8b272eef564f0934cacf3d911738a1bf",
+    "format": ".json"
+  },
+  {
+    "path": "data/evaluation/v2/external_dyn_benchmark.png",
+    "bytes": 228073,
+    "sha256": "1fba78bda8203c0fb695157077a12e24ef772dc85230acb3f8d1e5340644416c",
+    "format": ".png"
+  },
+  {
+    "path": "data/evaluation/v2/external_dyn_comparison.json",
+    "bytes": 1745,
+    "sha256": "3c978bc066080d4b65206dfd3ee2290438cf86f14260edac95fac0bcec94521f",
+    "format": ".json"
+  },
+  {
+    "path": "data/evaluation/v2/fault_diagnosis.png",
+    "bytes": 170764,
+    "sha256": "40db7b47d229baa613f7495e855539d20a209c2ffc50468db9ca07698162f546",
+    "format": ".png"
+  },
+  {
+    "path": "data/evaluation/v2/fault_probability_bars.png",
+    "bytes": 129545,
+    "sha256": "8b447213ae8451e9bcac7291dfc94a0189e884efb40626cbed5ca26eca26b150",
+    "format": ".png"
+  },
+  {
+    "path": "data/evaluation/v2/fault_pump_playback.png",
+    "bytes": 162319,
+    "sha256": "4efb956ca26588a9a8cc9a3e51287870309d1992ce027f7614a5301c78ebfbad",
+    "format": ".png"
+  },
+  {
+    "path": "data/evaluation/v2/fault_severity_coverage.json",
+    "bytes": 234171,
+    "sha256": "d253ef552f83d47b4eed1bb46ae366693ad9728472376a584392995b14d78998",
+    "format": ".json"
+  },
+  {
+    "path": "data/evaluation/v2/frontend-build.txt",
+    "bytes": 24817,
+    "sha256": "c054bbc150a89275df7f65f98cb33297db0dbd8e5f89f7714d8e189a9999e835",
+    "format": ".txt"
+  },
+  {
+    "path": "data/evaluation/v2/healthy_downhole.csv",
+    "bytes": 22443,
+    "sha256": "767ca196be0d823b0b24bb990451f4a6c3176e67462706befbbaf5639ff11b34",
+    "format": ".csv",
+    "rows": 200,
+    "columns": [
+      "well_id",
+      "stroke_id",
+      "timestamp",
+      "sample_index",
+      "plunger_position_in",
+      "pump_load_lbf",
+      "solver_version",
+      "quality"
+    ]
+  },
+  {
+    "path": "data/evaluation/v2/healthy_surface.csv",
+    "bytes": 37003,
+    "sha256": "69a8f2947b93224e5f2ec3d8bf31c82ca7e94e9b76af4112058413087381c896",
+    "format": ".csv",
+    "rows": 375,
+    "columns": [
+      "well_id",
+      "stroke_id",
+      "timestamp",
+      "sample_index",
+      "position_in",
+      "load_lbf",
+      "stroke_phase",
+      "source"
+    ]
+  },
+  {
+    "path": "data/evaluation/v2/incomplete_fillage_alert.png",
+    "bytes": 100882,
+    "sha256": "83d1104d4a8195b8bd21128821ac421d0776747436d9cc8b7bd78da8c3e30ffd",
+    "format": ".png"
+  },
+  {
+    "path": "data/evaluation/v2/incomplete_fillage_live.json",
+    "bytes": 568,
+    "sha256": "ab3b3f508f6bb00cda8879490aeb44005f7259a4ceccaa82b37d31f2cf637079",
+    "format": ".json"
+  },
+  {
+    "path": "data/evaluation/v2/ingest_tests.txt",
+    "bytes": 441,
+    "sha256": "f8248430c2ddb71b0e7315a1aaa332633c7acac5cb18e5dd6221ef1197d79def",
+    "format": ".txt"
+  },
+  {
+    "path": "data/evaluation/v2/interchange_tests.txt",
+    "bytes": 431,
+    "sha256": "772f4949b9b9f2fb05135272c63677e0732ed4f6e58e0963943a2c2be594add2",
+    "format": ".txt"
+  },
+  {
+    "path": "data/evaluation/v2/leak_downhole.csv",
+    "bytes": 22646,
+    "sha256": "2c5e53273b543e275b8ea1375da110212f3d71a829271b10e62d13cd07a60a74",
+    "format": ".csv",
+    "rows": 200,
+    "columns": [
+      "well_id",
+      "stroke_id",
+      "timestamp",
+      "sample_index",
+      "plunger_position_in",
+      "pump_load_lbf",
+      "solver_version",
+      "quality"
+    ]
+  },
+  {
+    "path": "data/evaluation/v2/leak_surface.csv",
+    "bytes": 37423,
+    "sha256": "c98287dcb880e5912ba88b27c57f356314e316cd9019886d22afc57e3917d42a",
+    "format": ".csv",
+    "rows": 375,
+    "columns": [
+      "well_id",
+      "stroke_id",
+      "timestamp",
+      "sample_index",
+      "position_in",
+      "load_lbf",
+      "stroke_phase",
+      "source"
+    ]
+  },
+  {
+    "path": "data/evaluation/v2/live_comparison_updated.png",
+    "bytes": 211644,
+    "sha256": "70117dacb669d45f929417837d910b8ae2fb04bac95422e30766f6e7c955e698",
+    "format": ".png"
+  },
+  {
+    "path": "data/evaluation/v2/live_fault_coverage.json",
+    "bytes": 10282,
+    "sha256": "0dc35680e4ea41aa558624468237dd7882bcbdde1d6278eefe279dcd65492621",
+    "format": ".json"
+  },
+  {
+    "path": "data/evaluation/v2/minimum_speed_alert.png",
+    "bytes": 91176,
+    "sha256": "da3a8837f761f7f34693b8ba103abc65549bdccaccdcb76bd87edbc9c73ed143",
+    "format": ".png"
+  },
+  {
+    "path": "data/evaluation/v2/reference_stroke.json",
+    "bytes": 42359,
+    "sha256": "a57e8d943f7db347a818a431240e5b7b36674e680d5680080e7b1c8ea3d992f5",
+    "format": ".json"
+  },
+  {
+    "path": "data/evaluation/v2/srp_configuration.csv",
+    "bytes": 687,
+    "sha256": "c66b14be447612320050a242627aeb79bc54dc356ba368da1078d4f130ab3348",
+    "format": ".csv",
+    "rows": 1,
+    "columns": [
+      "well_id",
+      "unit_system",
+      "pump_setting_depth_m",
+      "stroke_m",
+      "spm",
+      "crank_m",
+      "rocker_m",
+      "pitman_m",
+      "pivot_x_m",
+      "pivot_y_m",
+      "mechanism",
+      "damping_s",
+      "plunger_m",
+      "fluid_kg_m3",
+      "chamber_gas_fraction",
+      "viscosity_pa_s",
+      "intake_head_m",
+      "tubing_pa",
+      "casing_pa",
+      "voltage_v",
+      "gear_ratio",
+      "running_efficiency",
+      "physics_step_s",
+      "dynamometer_hz",
+      "electrical_hz",
+      "pressure_hz",
+      "noise_position_m",
+      "noise_load_n",
+      "position_bias_m",
+      "load_bias_n",
+      "sensor_latency_s",
+      "missing_probability",
+      "seed",
+      "rods_json"
+    ]
+  },
+  {
+    "path": "data/evaluation/v2/srp_diagnostics.csv",
+    "bytes": 353,
+    "sha256": "d6a32eade5613dd9478b4e4e8666714f6f8c67e3e86f621b1a34049be5ff7dda",
+    "format": ".csv",
+    "rows": 1,
+    "columns": [
+      "well_id",
+      "stroke_id",
+      "timestamp",
+      "predicted_class",
+      "confidence",
+      "severity",
+      "evidence",
+      "model_version",
+      "dataset_provenance",
+      "fault_status",
+      "quality"
+    ]
+  },
+  {
+    "path": "data/evaluation/v2/srp_downhole.csv",
+    "bytes": 22443,
+    "sha256": "767ca196be0d823b0b24bb990451f4a6c3176e67462706befbbaf5639ff11b34",
+    "format": ".csv",
+    "rows": 200,
+    "columns": [
+      "well_id",
+      "stroke_id",
+      "timestamp",
+      "sample_index",
+      "plunger_position_in",
+      "pump_load_lbf",
+      "solver_version",
+      "quality"
+    ]
+  },
+  {
+    "path": "data/evaluation/v2/srp_raw.csv",
+    "bytes": 43949,
+    "sha256": "81fc60fd2de7dea0f97557f8874d5c211cc49f6fd57a731bae19707300d7daa5",
+    "format": ".csv",
+    "rows": 375,
+    "columns": [
+      "well_id",
+      "stroke_id",
+      "timestamp",
+      "sample_index",
+      "crank_angle_deg",
+      "polished_rod_position_in",
+      "polished_rod_load_lbf",
+      "spm",
+      "quality",
+      "source"
+    ]
+  },
+  {
+    "path": "data/evaluation/v2/srp_surface.csv",
+    "bytes": 37003,
+    "sha256": "69a8f2947b93224e5f2ec3d8bf31c82ca7e94e9b76af4112058413087381c896",
+    "format": ".csv",
+    "rows": 375,
+    "columns": [
+      "well_id",
+      "stroke_id",
+      "timestamp",
+      "sample_index",
+      "position_in",
+      "load_lbf",
+      "stroke_phase",
+      "source"
+    ]
+  },
+  {
+    "path": "data/evaluation/v2/srp_synchronized.csv",
+    "bytes": 24395,
+    "sha256": "36a1d08b40bc2cffeb6c1132fa9c3fcd67b6889dfb28f8b623b24cb54296409f",
+    "format": ".csv",
+    "rows": 200,
+    "columns": [
+      "well_id",
+      "stroke_id",
+      "timestamp",
+      "sample_index",
+      "position_in",
+      "load_lbf",
+      "plunger_position_in",
+      "pump_load_lbf"
+    ]
+  },
+  {
+    "path": "data/evaluation/v2/vendor_archive_inspection.json",
+    "bytes": 1013,
+    "sha256": "84fb8a78b6e314308ee70b5012137b950b7865b8cc62addb0c2f87324c07465a",
+    "format": ".json"
+  },
+  {
+    "path": "data/evaluation/v2/vendor_examples.json",
+    "bytes": 4902,
+    "sha256": "f90e31f16aa3023e0659f1db5e0787af665c69e6a143e37de2c076544ec09985",
+    "format": ".json"
+  },
+  {
+    "path": "data/evaluation/v2_full_ml.json",
+    "bytes": 34376,
+    "sha256": "895e3f8c23a0d5651bcc04925a7230415db7ce230664922adf47327ca195efdd",
+    "format": ".json"
+  },
+  {
+    "path": "data/evaluation/v2_ml.json",
+    "bytes": 31633,
+    "sha256": "2ad3d83e0746314af625e0bd2775066d2442558344b7ea49ad789db68c75400f",
+    "format": ".json"
+  },
+  {
+    "path": "data/evaluation/wave.json",
+    "bytes": 6142,
+    "sha256": "66b703b15b7c52bf0d1ec0218ccfa1242fd12cf31f52883c7da347621c739d25",
+    "format": ".json"
+  },
+  {
+    "path": "data/external_reference/Eisner-Langbauer-Fruhwirth-2021.pdf",
+    "bytes": 2766475,
+    "sha256": "c2491ff8655c189b9830b0b877399110ec1972d2a8b54531b1580b2f1051c4a0",
+    "format": ".pdf"
+  },
+  {
+    "path": "data/external_reference/nk_well_monitoring/PROVENANCE.json",
+    "bytes": 1123,
+    "sha256": "5e2d03481c0570515c80813c8f2cbdfe0ef162d9410823f4bfe8443e8415e74a",
+    "format": ".json"
+  },
+  {
+    "path": "data/external_reference/nk_well_monitoring/SOURCE_README.md",
+    "bytes": 13536,
+    "sha256": "097d00f8b0e49a8bbb6edffc8ffc510ea5b14c03947db1df7b3ae0f16bf76264",
+    "format": ".md"
+  },
+  {
+    "path": "data/external_reference/nk_well_monitoring/wells_dataset.csv",
+    "bytes": 12575376,
+    "sha256": "7a31fca2a4709a3bf9513bdc5fe7ed8f66a543a8d4e0c6855282ee8dde5f70b2",
+    "format": ".csv",
+    "rows": 186251,
+    "columns": [
+      "well_id",
+      "well_type",
+      "timestamp",
+      "parameter",
+      "value",
+      "unit",
+      "value [parameter=SPM]",
+      "value [parameter=casing_pressure]",
+      "value [parameter=dynamometer_area]",
+      "value [parameter=line_pressure]",
+      "value [parameter=max_rod_weight]",
+      "value [parameter=min_rod_weight]",
+      "value [parameter=pump_fillage]",
+      "value [parameter=tubing_pressure]"
+    ]
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_1_Introduction_TWM_Torque_Power/f814102CostEst.pdf",
+    "bytes": 14564,
+    "sha256": "d492d9af52c2fd40dae3bd8631480714f2d47c04f4bd1f60f954dff506c614bb",
+    "format": ".pdf"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_1_Introduction_TWM_Torque_Power/F814CheckSheet&teforms.xls",
+    "bytes": 75264,
+    "sha256": "8664f8ee28960ad0f7e06e8de006615940f13981b241fd46f55fdf91270a53bf",
+    "format": ".xls"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_1_Introduction_TWM_Torque_Power/FHMU F814 10_15_02 - 14_38.pdf",
+    "bytes": 56843,
+    "sha256": "03327d4b5e19aabfa29609a2bc3b0458953ba57ce96a7bf4515be7894bb03154",
+    "format": ".pdf"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_1_Introduction_TWM_Torque_Power/FHMUF814 11_08_02 - 11_20.pdf",
+    "bytes": 57372,
+    "sha256": "2e240690223132133a8129ac89dd695c2d8650bb04d5b826c2590d8780e42dac",
+    "format": ".pdf"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_1_Introduction_TWM_Torque_Power/FHMUF814.004",
+    "bytes": 1158161,
+    "sha256": "5c22ab4e50f2a99c25c1a5de82d011663f7484916c8bf525bdb6a884306a3ea1",
+    "format": ".004"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_1_Introduction_TWM_Torque_Power/FHMUF814.005",
+    "bytes": 401920,
+    "sha256": "81e30398f0f5dc8edeccd0037bbd9a68a7830c348b51dbad42d19fbb70cd7df4",
+    "format": ".005"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_2_Dynamometer_Basic_Loads/Dyno_CardOptions.001",
+    "bytes": 135044,
+    "sha256": "79486f9d36fa322f8896af041aaf0f07159f0968b5870e5d22ce96c1b5e75bda",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_2_Dynamometer_Basic_Loads/StrokeProcessind3.001",
+    "bytes": 598714,
+    "sha256": "6a2330be9ba4d4337ce60d893e05b6fb7f8d794606bbd77f12c10bb7023e1010",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_2_Dynamometer_Basic_Loads/StrokeProcessing.001",
+    "bytes": 164105,
+    "sha256": "a2a9a6cc1a382f882a8b17d5c3fcb1a3eb883572cfcdacbae001215295848755",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_2_Dynamometer_Basic_Loads/StrokeProcessing1.001",
+    "bytes": 914836,
+    "sha256": "0bdd0a21197001ab2fdfb793c8a00ecafa52e91fab4d06fcd165bf61c28b89f0",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_3_Surface_Pump_Card_Reference/Dyno_Normal_GradientSet_0.001",
+    "bytes": 134968,
+    "sha256": "ef1cb9018b41cd9e652cf6a5cc9d434da20f29046036a51426afb453a13e3522",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_3_Surface_Pump_Card_Reference/TBG Fluid Grad.001",
+    "bytes": 493013,
+    "sha256": "4a910ae3855841f14fd4e3d9e17f3712b5d6b6ed74276bb972326f220c2a7d7f",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_3_Surface_Pump_Card_Reference/TBG Fluid Grad.002",
+    "bytes": 147805,
+    "sha256": "61e4c997ce1667919d6f67e0ff273a6722f8fc031fc7d6b9292ea98728eae9c9",
+    "format": ".002"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_4_QRod_Quick_Rod_Design/Anchored but NOT Set.001",
+    "bytes": 216135,
+    "sha256": "1e2c79a02d33bca667f975b5765b97c7742ce25daa0f6bd8bac15143d670d8d4",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_4_QRod_Quick_Rod_Design/ChangePIP.qrd",
+    "bytes": 1410,
+    "sha256": "fffb3f4b6874fd42cd505fd0f09bce7c76fb5480b24fc5a710acd9b23eca12f8",
+    "format": ".qrd"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_4_QRod_Quick_Rod_Design/SlowDownTakeOffAnchor.qrd",
+    "bytes": 1389,
+    "sha256": "9d22ed06846b70d0729f04b795ed1533a5a8309ad46273aeeb262ea5c6ea271c",
+    "format": ".qrd"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_5_ Over Travel_Under Travel and  Fo_Skr and N_No/DynoChangeSPM.012",
+    "bytes": 243489,
+    "sha256": "a6d40106a0aff51cc8253120e7fa4e0298bbc77ed388dac3ef066c1070d1b5b0",
+    "format": ".012"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_5_ Over Travel_Under Travel and  Fo_Skr and N_No/DynoChangeSPM.013",
+    "bytes": 109655,
+    "sha256": "6035dc36c538d83a713942838da069cb3aab12780419b62f68f9f1c74665fcd8",
+    "format": ".013"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_5_ Over Travel_Under Travel and  Fo_Skr and N_No/DynoChangeSPM.014",
+    "bytes": 110711,
+    "sha256": "c1e23c5fa591ce7258186cdf4402d5e2995d7112f577b5824226e70dadb719b4",
+    "format": ".014"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_6_Dynamometer Analysis/BlockedIntake.019",
+    "bytes": 411764,
+    "sha256": "3786be67ac71c8d9415220f594f51154202dad59b2c2bb14f58973181ea7ac5f",
+    "format": ".019"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_6_Dynamometer Analysis/FluidPoundUnAnchoredTubing.001",
+    "bytes": 219614,
+    "sha256": "685d8678f925d4b3366e19885bcf8a59e98c875109b1c5d926d93e4a967422af",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_6_Dynamometer Analysis/Gas Interference.001",
+    "bytes": 81343,
+    "sha256": "128cf9651150ad3e9f33222abbb0380c418c9cddced1569f6ee2ee29f2dd69c9",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_6_Dynamometer Analysis/GasLocked_wTag.008",
+    "bytes": 541647,
+    "sha256": "a8d5384f1f11e09c942f09cac99dd663ce51eb46903f13f79ebc2d7df79596e0",
+    "format": ".008"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_6_Dynamometer Analysis/Light Load Motor.001",
+    "bytes": 112301,
+    "sha256": "c83c6bdb27e2f04c8f1118c969bc1449112dfd5b43427a7bbc07c5c545ce5ddb",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_7_Gas-Separator/GasInterNeedGasSep.004",
+    "bytes": 702877,
+    "sha256": "b1ffcb93c1b56b77f5a05d41fbe727879a378c1ccd21c5264d93f4fab79c7940",
+    "format": ".004"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/FlatLoadLineBuoy.002",
+    "bytes": 438715,
+    "sha256": "0dccbb141ea8abe82d71b74c745fbe64b8a3c44569d744c9fbd498f08826d6ee",
+    "format": ".002"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/Leak Hole In Pump Barrel.001",
+    "bytes": 1007649,
+    "sha256": "6e983807a5b769fbce06f6e740ecd220eaab058c6c8f64e963763d4d2eb85878",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/Leak Pump Barrel Worn.004",
+    "bytes": 320519,
+    "sha256": "36aaae852ecd4ea74aa967b2a2b1d4272825ccabf4d642333c621269c8c8c77c",
+    "format": ".004"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/Leak Tubing Hole HT.003",
+    "bytes": 100147,
+    "sha256": "b02c9f684acf4f9b32b4a488405be05063bf435cfcf452ec20715b59ed88ac36",
+    "format": ".003"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/Leak Tubing Hole PRT.001",
+    "bytes": 472873,
+    "sha256": "6a423b581f5f16330c52d33c8fd7bf150346b251cd1b1e2d961e9ddf44dc2f28",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/LeaveCsgValveClosed.018",
+    "bytes": 733158,
+    "sha256": "e8e2405a21484637e511faa64801ffc43de042ea2274efb4a26287cfb08ac4ac",
+    "format": ".018"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/RodPart_3000.007",
+    "bytes": 63349,
+    "sha256": "5222286cb807810694955d1d54ec9b77da736d3b62458746374fe11e4ea87a4a",
+    "format": ".007"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/RodPart_5365.012",
+    "bytes": 33747,
+    "sha256": "7186ddd84040ef6a865c78073759a755575a81cf93f6733ba46eec8d163bf09e",
+    "format": ".012"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/RodPart_NoPlunger.001",
+    "bytes": 66499,
+    "sha256": "c9a9b0df40278a818aaa55554767a7fcf02e2af830bbfaafa5be7253a14eddf3",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/Strainer Nipple with Scale Build up.jpg",
+    "bytes": 479519,
+    "sha256": "87b7cf732887310c7ff6e01fd0dec667f349b0ba47d9c795822d4ffc3eacc84c",
+    "format": ".jpg"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/SV Cage with Scale.jpg",
+    "bytes": 5503323,
+    "sha256": "11ea7c416057174d7fcca4cf5a9dcfd24c197f34521b28178e866d3aeb715b2a",
+    "format": ".jpg"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/SV_StuckOpenHT.001",
+    "bytes": 860195,
+    "sha256": "7ad9434d1d5cec804474c9208eacbce1846579e39ca8da92fd1a1155fc99d7be",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/Tagging Down Hard.001",
+    "bytes": 565694,
+    "sha256": "75aacc3ea081489d8a4fe59bb66261aafd1995ac58a3743e0ee0d3c5fe8578ff",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/Tagging Fiberglass Rods on Downstroke.001",
+    "bytes": 347808,
+    "sha256": "8c6372558e8903a6891f5f427067ec7310ad098df679f16d8e5be6f7ccb1686b",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/Tagging Fiberglass Rods on Downstroke.002",
+    "bytes": 531945,
+    "sha256": "726dc75193a5da5ed3c86318ed5db2592c08b433c4b3b2d0dbf1ac1ef85c66ba",
+    "format": ".002"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/Tagging Unanchored.001",
+    "bytes": 102675,
+    "sha256": "ebe9f544ccdfcf55d1bbdcae88c899b51e0c4b6835147061671f7b9abb6c0abc",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/Trash Sticks SV Open.073",
+    "bytes": 789567,
+    "sha256": "011ca1042835092b1d24e6785cc4068c2ecb4b1c59a88bd167a6c5ee8a194cb7",
+    "format": ".073"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/1_8_Dyno_Analysis_Advanced/Trash Sticks TV Open.001",
+    "bytes": 680458,
+    "sha256": "67686e9987d78160ebbc986e7679a02bbbd8a916cf20f5602ca1160d1d5d72db",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_1_PumpIntakePressuureDYNO_PFL_VC_08/FluidPoundUnAnchoredTubing.001",
+    "bytes": 219660,
+    "sha256": "191c144142bc4f338402b66a85b731638ecb0308480a4a3aacd368b45cbc6dff",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_1_PumpIntakePressuureDYNO_PFL_VC_08/Gas Interference.001",
+    "bytes": 81113,
+    "sha256": "0a334d2372e323da7e0a8b2c498da01f21527fc6e68b4cdf8fe0d81d1b16ac99",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_1_PumpIntakePressuureDYNO_PFL_VC_08/GasInterNeedGasSep.004",
+    "bytes": 702901,
+    "sha256": "7101d883cc0ade75b97d123993e8e71914b068191a4e5c8433e07dc12086820a",
+    "format": ".004"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_1_PumpIntakePressuureDYNO_PFL_VC_08/Sandia.010",
+    "bytes": 75373,
+    "sha256": "53c8831e3238ebf0629458a0b2e2f5a00ac0d8302594628586bfc4480ca86c60",
+    "format": ".010"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_2_Pump_Operation/Leak Standing Valve.001",
+    "bytes": 410409,
+    "sha256": "9641fe5c8ab5663589ab1d005ec583ded56edab35f4c3a369e39fb2d6cf2d57d",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_2_Pump_Operation/Leak SV Bad.001",
+    "bytes": 29885,
+    "sha256": "6c53dd45befb2a0d8556cc637786d1258deba6b53612c1b1a67cbc88b926262b",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_2_Pump_Operation/Leak TV(best).010",
+    "bytes": 279401,
+    "sha256": "5f7e09b680ccb37b19377d27e26bdc40b829021968ec4e6f5b66676edd21270f",
+    "format": ".010"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_3_ControlRunTime/Fillup_PumpOffRates.xls",
+    "bytes": 264192,
+    "sha256": "19f71e694b199566948c55815c05d695ae651c939b81291b2d67153c712574f9",
+    "format": ".xls"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_3_ControlRunTime/RVOGTA8.016",
+    "bytes": 457475,
+    "sha256": "881ed9bc5daeb3bed677d102ee9a1d46baa1a372fbeb930cfae558ad8ece7ec8",
+    "format": ".016"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_3_ControlRunTime/RVOGTA8DOWN10MIN.001",
+    "bytes": 394522,
+    "sha256": "1fda6f71d6aa620abdcb767591ca312f025ff285a5921ea4d9c1e14f9f295c38",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_3_ControlRunTime/Tagging Down Hard.001",
+    "bytes": 565694,
+    "sha256": "75aacc3ea081489d8a4fe59bb66261aafd1995ac58a3743e0ee0d3c5fe8578ff",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_4_Damping Factor/Damping_10API.001",
+    "bytes": 667450,
+    "sha256": "a94a38ac87882aa9f74591518315a662c0bda482b12dccabca654d94ed30c633",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_4_Damping Factor/Damping_High.023",
+    "bytes": 257638,
+    "sha256": "c37a898b3ace7693763e8cf9a6f0d473535a676ad16621a8aa85f446d03cc49a",
+    "format": ".023"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_4_Damping Factor/Damping_Negative_Acc.003",
+    "bytes": 848204,
+    "sha256": "1b87ee1887b539ed3ff5043b8ea3f113d385fe0e3cb902054963b88e729a695f",
+    "format": ".003"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_4_Damping Factor/Damping_RodString.002",
+    "bytes": 371822,
+    "sha256": "bdc9c08c7d53c767150161c384c16849431c86ebeccefcf1e531d292d10559b6",
+    "format": ".002"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_4_Damping Factor/Damping_ShallowWell.002",
+    "bytes": 178269,
+    "sha256": "b78bb8c215049364c7929e2c5a0cc1420cbfdf2b70d571631cbb310690bb0892",
+    "format": ".002"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_4_Damping Factor/Damping_VeryHigh.010",
+    "bytes": 665033,
+    "sha256": "2d95ea8617814efcfcad403d39daf50baa3203b1ea348d18f7c9a096056ad8e9",
+    "format": ".010"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_4_Damping Factor/Stick_Release_Upstroke.007",
+    "bytes": 443192,
+    "sha256": "d6ad8578c1451f83deeebfd1e8fd2ef686c3ccc90233a9fb4796f5e6bc5ff056",
+    "format": ".007"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_4_Damping Factor/Stuffing Box.001",
+    "bytes": 189439,
+    "sha256": "5d27cb895f40730294b24c4db90bea18f35a8fbaf4b88154ea190db07f1d921f",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_4_Damping Factor/Stuffing Box.002",
+    "bytes": 66578,
+    "sha256": "a42bcb45bdcb83b2034f9e398fafb46f0fca7951acbdd495fd0eceff78629d79",
+    "format": ".002"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_4_Damping Factor/Unaccounted Wellbore Friction.001",
+    "bytes": 389562,
+    "sha256": "fd4c37af7cc357421477c822d4600bc5b2681bdfab62f3cdf0e8b9088f2c91be",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_4_Damping Factor/Unaccounted Wellbore Friction.002",
+    "bytes": 1077651,
+    "sha256": "81f42131b33138908618ea72e0f90ffc197c0e530f45761e55a6677dd3eeb5b4",
+    "format": ".002"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_5_Pumping Flumping Sucker Rod Lifted Wells/UseBackPressureRequlator.005",
+    "bytes": 1670807,
+    "sha256": "876db25f6bb71c3c03d7f67dfafd76e6af46c5780bec69cdb6e36fa79a0ae755",
+    "format": ".005"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_5_Pumping Flumping Sucker Rod Lifted Wells/VariableSlippagePump.007",
+    "bytes": 2951478,
+    "sha256": "185b8f6555bd5ec0c48048143a828ccb423ea7a0f6018cf82491fc3ce6e3bf92",
+    "format": ".007"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_6_Pump Slippage - Setting Pump Clearances/Calculate_PlungerClearance.003",
+    "bytes": 686818,
+    "sha256": "80ee5ec45421b5055092b5e979f0b5ffbb87d71ac177f3c7cdd82ea500244612",
+    "format": ".003"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_6_Pump Slippage - Setting Pump Clearances/Dyno_HydraulicPump.002",
+    "bytes": 325407,
+    "sha256": "896cfd15ede29771272748b727ea743826c2d03186988e408ddbc41c36d3105b",
+    "format": ".002"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_6_Pump Slippage - Setting Pump Clearances/Pump Slippage Calculator_SPM_PattersonEq.xls",
+    "bytes": 113152,
+    "sha256": "c219a39455403a77d3ec22362fae716dc96dbfb98f6fe1ccef918e95e05aee8c",
+    "format": ".xls"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_6_Pump Slippage - Setting Pump Clearances/Red Raider 1.076",
+    "bytes": 5650239,
+    "sha256": "51f2d3c397b3dc7f4c5d1994a9007eb9d64c34701b9777989fa0f097c51d6431",
+    "format": ".076"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_6_Pump Slippage - Setting Pump Clearances/Red Raider 1.080",
+    "bytes": 5899239,
+    "sha256": "054ed5f503ecaaeb6cbd746a94bc896442c4592a33d1acffe16c97a23ae27db5",
+    "format": ".080"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_6_Pump Slippage - Setting Pump Clearances/Red Raider 1.081",
+    "bytes": 1654313,
+    "sha256": "fec38406a1afdc05cd733ef871591be285e6a1be186b666246a211c76e715290",
+    "format": ".081"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_6_Pump Slippage - Setting Pump Clearances/Red Raider 1.088",
+    "bytes": 4911539,
+    "sha256": "5ac35df72331bf1c1e0e0c065e01a1959a4a6a499fb6be7f25b114e6065b93af",
+    "format": ".088"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_6_Pump Slippage - Setting Pump Clearances/Red Raider 1.089",
+    "bytes": 4787544,
+    "sha256": "498d56557d8de5eb01355e7cb5d62ab7504ed6d1d0075b976e73e9793351edfc",
+    "format": ".089"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_6_Pump Slippage - Setting Pump Clearances/Red Raider 1.106",
+    "bytes": 4876371,
+    "sha256": "fa7dbafdd6e5a2f257713ef925af422ffd7ff4b2bf23a10da3c54c40c51c1c6d",
+    "format": ".106"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_7_HighSpeedDynoData/Gunk in Pump.001",
+    "bytes": 271733,
+    "sha256": "87dd44ac83aece55d45190f7eee202aa88091cae1e59cb26f6f90a991ff8e654",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_7_HighSpeedDynoData/HighSpeed.072",
+    "bytes": 3281527,
+    "sha256": "6e5d87e9a79590364fb75fbe76cc19cf4c8e75acbc78ca1138fc4ca06fa1a7ee",
+    "format": ".072"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_7_HighSpeedDynoData/Tagging Hard FG.007",
+    "bytes": 436607,
+    "sha256": "51e843b742e5db3bbd06fe14cc47b4d9290da30a0a790fb932e2df89cfc0dff4",
+    "format": ".007"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_7_HighSpeedDynoData/Tagging Hard FG.008",
+    "bytes": 1512103,
+    "sha256": "21f08ef3cd0e739bfd110d3438d878091ece490c54b7bb75f9a03913a40f494f",
+    "format": ".008"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_7_HighSpeedDynoData/TV Double Valve.003",
+    "bytes": 380562,
+    "sha256": "53abf643d1b7ae19c48b3b5b9785b2239fed23b23cf781d72e284795e1da387d",
+    "format": ".003"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_7_HighSpeedDynoData/TV Double Valve.004",
+    "bytes": 68639,
+    "sha256": "6b7582d80ec211b606a99fdebc335230d304ca0c5481332d14a16a3b83da9906",
+    "format": ".004"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_8_PRT_BendingRolishedRod/INF 1824.012",
+    "bytes": 192409,
+    "sha256": "8b3ba0f1739f7d58ade5e9be6009a031de34f6adac37c3426dc81d14e1ae9856",
+    "format": ".012"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_8_PRT_BendingRolishedRod/NR-6.001",
+    "bytes": 47684,
+    "sha256": "a58fe478c800837a54473a160111f01fdf820959094c36fd3d8773834f271893",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_8_PRT_BendingRolishedRod/NR-6.002",
+    "bytes": 47648,
+    "sha256": "d5b22a27aa0f16ce0b554ef96256768d746898ce880fae93bbd21d3ca127bde9",
+    "format": ".002"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_8_PRT_BendingRolishedRod/NR-6.003",
+    "bytes": 47786,
+    "sha256": "76772076bf8285aa44d42e57c9db4a374fd9a4d2eadd291b0534bdf57824fe8b",
+    "format": ".003"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_8_PRT_BendingRolishedRod/NR-6.004",
+    "bytes": 326600,
+    "sha256": "f42b2cabe5d3a33512632b5a7f3040582ca04350a8c8c23f61c25ddc06a9b75c",
+    "format": ".004"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_8_PRT_BendingRolishedRod/NR-6.005",
+    "bytes": 1550966,
+    "sha256": "bc6a20fa0a13ff1fdd788d6f943fc1f78ee1f4eaeead2d725493c6750b3c4495",
+    "format": ".005"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_8_PRT_BendingRolishedRod/PRT Bending Polished Rod.001",
+    "bytes": 221608,
+    "sha256": "692fe717585c627c97b204f01f5999535c8d54f7072dac9a600a11931b5e8066",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_8_PRT_BendingRolishedRod/PRT Bending Polished Rod.002",
+    "bytes": 342927,
+    "sha256": "a9fe2e2620602e44c63990b5d344d8f197d85155fcb179d23500d86ee86feef7",
+    "format": ".002"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_8_PRT_BendingRolishedRod/PRT Bending Polished Rod.003",
+    "bytes": 270299,
+    "sha256": "bfa0fa8d70fc38cd0faa60dff05a80110e84c8d530ed956a0068a7e69d2fd57f",
+    "format": ".003"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_8_PRT_BendingRolishedRod/PRT RodRotator.001",
+    "bytes": 352160,
+    "sha256": "4c6c86729fba0191c7a86c2d22906ab550ce7ca0676e59b209e8d46e783eeee5",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_8_PRT_BendingRolishedRod/RvogtXa8.017",
+    "bytes": 2075800,
+    "sha256": "437a200c735aa261e7821dd581d213efaeb360b474a1b8ca102db34835e824aa",
+    "format": ".017"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_8_PRT_BendingRolishedRod/RvogtXa8.018",
+    "bytes": 1105517,
+    "sha256": "b92c2a4572bfb9987eff0a0cd74c92b1c724718d7eac5007846554b4f6ceb61e",
+    "format": ".018"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/2_8_PRT_BendingRolishedRod/RvogtXa8.019",
+    "bytes": 1132234,
+    "sha256": "9585f817878bbd21b496ee8d5ee4b8a8527104cae2104fcac592ecca44d81b0a",
+    "format": ".019"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/3_1_Beam_Pumping_Units/cweight.txt",
+    "bytes": 12577,
+    "sha256": "2d1926e71ec135d0b116c04bceb796f97ef2d65732b04e9a8c59d8c26aca2253",
+    "format": ".txt"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/3_2_Motor/Light Load Motor.001",
+    "bytes": 112301,
+    "sha256": "7543e5066446adc98fd711a85a79bd61efadee10f868dfdb3384c17236be9992",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/3_2_Motor/Motor - Burn Up.001",
+    "bytes": 86342,
+    "sha256": "e4e0772eb0ea3a9d3cc25fa55fc5a31a89931a37c3f12b8a5416fef1bd6d636a",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/3_2_Motor/Motor - Burn Up.002",
+    "bytes": 132816,
+    "sha256": "072724d90cdcd58e63eec87c4b8f41bafbef6495be384a6ffeb98e21aa491735",
+    "format": ".002"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/3_2_Motor/V11_StartUp_AMP_KW.029",
+    "bytes": 2118053,
+    "sha256": "c20fac3e5eea11a6ff942d179f93ee17c682d582b010ad20f9c5e8904c526431",
+    "format": ".029"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/3_3_RealTime_PumpingUnit_MotorInst/Conventional.001",
+    "bytes": 565220,
+    "sha256": "14a2f7de46220a94f92be242f47cef5fcfdf40d736b660819c1ede6f019a8172",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/3_3_RealTime_PumpingUnit_MotorInst/MarkII.002",
+    "bytes": 632929,
+    "sha256": "ee221e150e80df1146ca48c8a91803127e6bfaabf3d75ae8968cf10bee8e8d4f",
+    "format": ".002"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/3_3_RealTime_PumpingUnit_MotorInst/ReverseMark.006",
+    "bytes": 937351,
+    "sha256": "68780405b4882f68c2aac757b0c9d6d3f2af67cdefb7f20db29ef8172cf588e1",
+    "format": ".006"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/3_3_RealTime_PumpingUnit_MotorInst/RotoFlex.001",
+    "bytes": 549963,
+    "sha256": "e8c35c51ca023199ff8760ffeb0663c1d78d0eb1a6287798215950c72d0c0fa6",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/3_4_PumpUnit_BalanceTorque/GearboxBalance.011",
+    "bytes": 2450934,
+    "sha256": "3092c984f242b877e3703a2fb9298afe02a7b7aad90709d53a007a0221454f15",
+    "format": ".011"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/3_4_PumpUnit_BalanceTorque/GearboxBalance.012",
+    "bytes": 2056682,
+    "sha256": "5225d3b7b0d977904a57c2a354c79f119a5a3760bb7f4783ce93bb4cfdff1607",
+    "format": ".012"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/3_4_PumpUnit_BalanceTorque/RotoFlex_Electric.001",
+    "bytes": 818965,
+    "sha256": "14c9dca214105b4be1fc0c2b86ee79e20f61cc58e321583c1cdad16190b944bc",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/3_5_HowToCBELoad_Detail/V11.029",
+    "bytes": 2118053,
+    "sha256": "c20fac3e5eea11a6ff942d179f93ee17c682d582b010ad20f9c5e8904c526431",
+    "format": ".029"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/3_5_HowToCBELoad_Detail/Well5.001",
+    "bytes": 562311,
+    "sha256": "69941bbfe167d35664f17042f6864d09566b83504f247b7530abe7173e05b868",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/3_5_HowToCBELoad_Detail/Well6.002",
+    "bytes": 559938,
+    "sha256": "049eb023c16bdb03c2bb93ad56011edd4e1944b596f076895d58452dbeaebd8e",
+    "format": ".002"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/3_6_ System Efficiency of Sucker Rod Pumping/Bad Tail Bearing.001",
+    "bytes": 92794,
+    "sha256": "d68092cd48bc6da32a3d537a7e482938cae3fa94c60197a439466a181e892ce4",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/3_6_ System Efficiency of Sucker Rod Pumping/Bad Tail Bearing.002",
+    "bytes": 147776,
+    "sha256": "8b6d391ac698962f99a58ff3601d572130a710feabb4913bf5b2b3f751ab53aa",
+    "format": ".002"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/3_7_TroubleShooting/Undertravel.001",
+    "bytes": 277212,
+    "sha256": "5c4b0a4f3c876dbacbe266fd28804c42347571b5ab5c916b74b246d6ff40bc12",
+    "format": ".001"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/3_7_TroubleShooting/UnderTravel_NoAnchor.qrd",
+    "bytes": 1393,
+    "sha256": "34ac372d8d78108286247c3c632a63c8f18a74bcfd8f58af5b0d1439fa2be4d7",
+    "format": ".qrd"
+  },
+  {
+    "path": "data/external_reference/onedrive_2026-11-16_2/TWM Example Dyno Files/3_8_BeamPump/CheckSheet_Teforms.xls",
+    "bytes": 125440,
+    "sha256": "bec333b2dff9e17a91255c95d5f26057203e25347c4173e55233093acd7b9c23",
+    "format": ".xls"
+  },
+  {
+    "path": "data/generated/healthy.card.json",
+    "bytes": 40470,
+    "sha256": "3802ef4792087abf19f694ded326ea6d33f04f51d86586aa8a6f9ead3659c421",
+    "format": ".json"
+  },
+  {
+    "path": "data/generated/healthy.telemetry.jsonl",
+    "bytes": 164428,
+    "sha256": "64ba383216e0f4e64378e90b0e9563cad12253ad5ce9feb61b390de6f08ab595",
+    "format": ".jsonl",
+    "rows": 499
+  },
+  {
+    "path": "data/generated/healthy.truth.json",
+    "bytes": 37386,
+    "sha256": "4a7d70dbee85f664dc7b4f4552b25d955126415c58834c17cd82a7de3a40e2ad",
+    "format": ".json"
+  },
+  {
+    "path": "data/generated/incomplete_fillage.card.json",
+    "bytes": 40455,
+    "sha256": "8b29da85118f8c77a223b22932970e6b73b4552f14ffc959bb9eb5b51fbe8f97",
+    "format": ".json"
+  },
+  {
+    "path": "data/generated/incomplete_fillage.telemetry.jsonl",
+    "bytes": 164426,
+    "sha256": "fb87a388b988e1c422a3a09107267372a31fd1d56877ff73e9c07d0a542b61f2",
+    "format": ".jsonl",
+    "rows": 499
+  },
+  {
+    "path": "data/generated/incomplete_fillage.truth.json",
+    "bytes": 37396,
+    "sha256": "a9c61706afd229c8dd265753eef52b28d6f4569d95d9c144985f64ea42303638",
+    "format": ".json"
+  },
+  {
+    "path": "data/normalized/nk_well_monitoring.csv",
+    "bytes": 34288922,
+    "sha256": "c03e43230699cfbd5ae9968a84d7cdd44157ba207c46c99c04e48abd6e89ea60",
+    "format": ".csv",
+    "rows": 186251,
+    "columns": [
+      "record_id",
+      "source_dataset_id",
+      "source_row",
+      "well_id",
+      "well_type",
+      "source_timestamp",
+      "timezone_status",
+      "parameter",
+      "original_value",
+      "original_unit",
+      "normalized_value",
+      "normalized_unit",
+      "origin",
+      "quality",
+      "normalized_value [parameter=SPM]",
+      "normalized_value [parameter=casing_pressure]",
+      "normalized_value [parameter=dynamometer_area]",
+      "normalized_value [parameter=line_pressure]",
+      "normalized_value [parameter=max_rod_weight]",
+      "normalized_value [parameter=min_rod_weight]",
+      "normalized_value [parameter=pump_fillage]",
+      "normalized_value [parameter=tubing_pressure]"
+    ]
+  },
+  {
+    "path": "data/normalized/nk_well_monitoring.schema.json",
+    "bytes": 402,
+    "sha256": "702d345bdfa84362240ee7f10dda09cd51261f31094ca16b22ab3ccd8ab068b3",
+    "format": ".json"
+  },
+  {
+    "path": "data/normalized/README.md",
+    "bytes": 143,
+    "sha256": "47f60ee7b68a7fb8b93662e5582ae20414a39a1863cd46b1781a3d42c2450a68",
+    "format": ".md"
+  },
+  {
+    "path": "data/raw/README.md",
+    "bytes": 156,
+    "sha256": "85f63e6785866f72734bfa337e16607adf3ae70b2f158f1b578591ed4b120221",
+    "format": ".md"
+  },
+  {
+    "path": "data/training/cnn.pt",
+    "bytes": 159415,
+    "sha256": "2f142e6ac49a6334853d9be24962c86215fe02e888148e2e52a78bb9728d8f45",
+    "format": ".pt"
+  },
+  {
+    "path": "data/training/model.joblib",
+    "bytes": 106098,
+    "sha256": "ae358d754a8f520f775d80454ec84756f530633808d8a660440a1ce9e53bf8ea",
+    "format": ".joblib"
+  },
+  {
+    "path": "data/training/partitions.json",
+    "bytes": 965,
+    "sha256": "aa243dceb8c0c537ca517c7000b23e2090616a5d8e7cc3535e3fcc269d3b8e71",
+    "format": ".json"
+  },
+  {
+    "path": "data/training/real_labeled/README.md",
+    "bytes": 334,
+    "sha256": "37e71b76868e7a6f1cc103fa461d9345d23e35f684bce50f1ab15e95d3717c5a",
+    "format": ".md"
+  },
+  {
+    "path": "data/training/real_unlabeled/README.md",
+    "bytes": 332,
+    "sha256": "0b7cda4c8f83cf187b9d57e36e7a1f200eb513f0111bae6bb039b25f6f627744",
+    "format": ".md"
+  },
+  {
+    "path": "data/training/remediation_cnn.pt",
+    "bytes": 161679,
+    "sha256": "d1844f4338318638079145f9f37df9762127996460d7ff35c516809bae260020",
+    "format": ".pt"
+  },
+  {
+    "path": "data/training/remediation_extra_trees.joblib",
+    "bytes": 14280786,
+    "sha256": "a28e60da502b062a7739297c6211b66d1eb99fac23c407a06f2ab0a284ea3fdd",
+    "format": ".joblib"
+  },
+  {
+    "path": "data/training/remediation_lightgbm.joblib",
+    "bytes": 2634015,
+    "sha256": "52074dd98b7ffb549f1bd5db718485ef471d27d4076353664562a8cbeac4fb76",
+    "format": ".joblib"
+  },
+  {
+    "path": "data/training/remediation_physics_features.joblib",
+    "bytes": 9719,
+    "sha256": "8dab2387a462cad618dc4e8f66d8ddd4593a3e9b60e0f1698b645f530ad46276",
+    "format": ".joblib"
+  },
+  {
+    "path": "data/training/simulated_cards.npz",
+    "bytes": 190269,
+    "sha256": "b186501ac13be07565bdb6b8921d8f95944dbc121ad7b7197e5d06702e090b2b",
+    "format": ".npz",
+    "arrays": {
+      "series": [
+        36,
+        4,
+        200
+      ],
+      "features": [
+        36,
+        15
+      ],
+      "labels": [
+        36
+      ],
+      "groups": [
+        36
+      ],
+      "runs": [
+        36
+      ],
+      "contexts": [
+        36
+      ],
+      "quality": [
+        36
+      ],
+      "origin": [],
+      "channel_scales": [
+        4
+      ]
+    }
+  },
+  {
+    "path": "data/training/v2_cnn_0fb0ffa8ac1f-13.pt",
+    "bytes": 161933,
+    "sha256": "1a38b92e25a4d1fa50d6b6eb79c15f591662e55d6e1301d54b7c16586cd2c246",
+    "format": ".pt"
+  },
+  {
+    "path": "data/training/v2_cnn_0fb0ffa8ac1f-29.pt",
+    "bytes": 161933,
+    "sha256": "7bb984037ae289867ed21f516e19e8c0b9ec444172dad3ff25f559dbdfef97d4",
+    "format": ".pt"
+  },
+  {
+    "path": "data/training/v2_cnn_0fb0ffa8ac1f-71.pt",
+    "bytes": 161933,
+    "sha256": "34dc40c57e31ea5cac79b67a88d696459729dbc7a99491b2e0b5cb67ebf43437",
+    "format": ".pt"
+  },
+  {
+    "path": "data/training/v2_cnn_a63191e90177-13.pt",
+    "bytes": 161933,
+    "sha256": "b639ee1af37fe710e2998319a301ab37183250678d19786b0e35373167616fad",
+    "format": ".pt"
+  },
+  {
+    "path": "data/training/v2_cnn_a63191e90177-29.pt",
+    "bytes": 161933,
+    "sha256": "9ab5e9b249b4479f0735f58d0dbe8ebe8c5c30d47247e3c3fa640d01448b01cc",
+    "format": ".pt"
+  },
+  {
+    "path": "data/training/v2_cnn_a63191e90177-71.pt",
+    "bytes": 161933,
+    "sha256": "e286b5c9aa15a50b4f210155cca94349c88a7212e6e00fd2deaa0ca84714b99c",
+    "format": ".pt"
+  },
+  {
+    "path": "data/training/v2_full_runs.json",
+    "bytes": 1282596,
+    "sha256": "69c809a95e0ff61412ffab5af7659700c7cbd9bca24b3731a82c926e6bcb6661",
+    "format": ".json"
+  },
+  {
+    "path": "data/training/v2_full_runs.npz",
+    "bytes": 5163624,
+    "sha256": "a63191e90177cbb2255c34cc1c805353e5ac1cc53cde06a4b9138f1c67415285",
+    "format": ".npz",
+    "arrays": {
+      "series": [
+        800,
+        4,
+        200
+      ],
+      "feature": [
+        800,
+        54
+      ],
+      "label": [
+        800
+      ],
+      "group": [
+        800
+      ],
+      "seed": [
+        800
+      ],
+      "rule": [
+        800
+      ],
+      "run": [
+        800
+      ]
+    }
+  },
+  {
+    "path": "data/training/v2_runs.json",
+    "bytes": 97858,
+    "sha256": "95bae2a2844c7d9565040eccf7c9abee782ce7ad88c65585a912352936c17b10",
+    "format": ".json"
+  },
+  {
+    "path": "data/training/v2_runs.npz",
+    "bytes": 414395,
+    "sha256": "0fb0ffa8ac1ff1d4227223810a353522a26e6b7bc63c74c11b996c57962a872b",
+    "format": ".npz",
+    "arrays": {
+      "series": [
+        64,
+        4,
+        200
+      ],
+      "feature": [
+        64,
+        54
+      ],
+      "label": [
+        64
+      ],
+      "group": [
+        64
+      ],
+      "seed": [
+        64
+      ],
+      "rule": [
+        64
+      ],
+      "run": [
+        64
+      ]
+    }
+  },
+  {
+    "path": "data/training/v2_tabular_0fb0ffa8ac1f-13.joblib",
+    "bytes": 534742,
+    "sha256": "d9b2dc3ebf01326281dfdfafd5f2a70c983688962c09ac5ae6cbdb3d08d955dd",
+    "format": ".joblib"
+  },
+  {
+    "path": "data/training/v2_tabular_0fb0ffa8ac1f-29.joblib",
+    "bytes": 534742,
+    "sha256": "f028ce711bc8645c9ef61900f22781e723a1fcb7aa4443a24304a4eefadcddcc",
+    "format": ".joblib"
+  },
+  {
+    "path": "data/training/v2_tabular_0fb0ffa8ac1f-71.joblib",
+    "bytes": 534742,
+    "sha256": "37039e6c87495b7f77ac04501dcea76d1bbb5e9d23d68e59fcc4b9f2d5bbebc2",
+    "format": ".joblib"
+  },
+  {
+    "path": "data/training/v2_tabular_a63191e90177-13.joblib",
+    "bytes": 1170763,
+    "sha256": "6591765ea33a8630f6d40f29eaa08d05a57aae5c08fd54bbc2c02bc716f36b9d",
+    "format": ".joblib"
+  },
+  {
+    "path": "data/training/v2_tabular_a63191e90177-29.joblib",
+    "bytes": 1170763,
+    "sha256": "0d8ebdeb7d0ad00f4348e4af680d717897c6ddc3c961c95afe1261f73ff2e247",
+    "format": ".joblib"
+  },
+  {
+    "path": "data/training/v2_tabular_a63191e90177-71.joblib",
+    "bytes": 1170763,
+    "sha256": "693bf7bc11f9c43eff28c6b2ddea9c6c93e213258b2a0cf669cbabc8db6aea14",
+    "format": ".joblib"
+  }
+]

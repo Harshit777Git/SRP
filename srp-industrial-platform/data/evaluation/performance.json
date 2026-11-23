@@ -1,0 +1,57 @@
+{
+  "broker": "Aedes",
+  "database": "SQLite WAL",
+  "cases": [
+    {
+      "wells": 1,
+      "duration_s": 10.119178099907003,
+      "dyno_hz_per_well": 50,
+      "samples": 507,
+      "received_per_s": 50.102883356174885,
+      "expected_per_s": 50,
+      "broker_acks_per_s": 61.07215367675755,
+      "observed_missing_sequences": 0,
+      "publisher_dropped": 0,
+      "ingest_mean_processing_ms": 0.27613017751479285,
+      "mean_process_cpu_pct": 18.43,
+      "peak_combined_rss_mib": 178.3515625,
+      "peak_sampled_publisher_ack_lag_s": 0.022292375564575195,
+      "peak_sampled_outbox_rows": 2,
+      "processor_count": 12
+    },
+    {
+      "wells": 5,
+      "duration_s": 10.134587900014594,
+      "dyno_hz_per_well": 50,
+      "samples": 2534,
+      "received_per_s": 250.03483368044505,
+      "expected_per_s": 250,
+      "broker_acks_per_s": 304.99513453285545,
+      "observed_missing_sequences": 0,
+      "publisher_dropped": 0,
+      "ingest_mean_processing_ms": 0.17895974743488555,
+      "mean_process_cpu_pct": 35.28,
+      "peak_combined_rss_mib": 178.4375,
+      "peak_sampled_publisher_ack_lag_s": 0.013027191162109375,
+      "peak_sampled_outbox_rows": 7,
+      "processor_count": 12
+    },
+    {
+      "wells": 10,
+      "duration_s": 10.085571000003256,
+      "dyno_hz_per_well": 50,
+      "samples": 5053,
+      "received_per_s": 501.0127835100629,
+      "expected_per_s": 500,
+      "broker_acks_per_s": 612.5582775628674,
+      "observed_missing_sequences": 0,
+      "publisher_dropped": 0,
+      "ingest_mean_processing_ms": 0.19558915495745102,
+      "mean_process_cpu_pct": 80.85,
+      "peak_combined_rss_mib": 185.0546875,
+      "peak_sampled_publisher_ack_lag_s": 0.019327402114868164,
+      "peak_sampled_outbox_rows": 27,
+      "processor_count": 12
+    }
+  ]
+}

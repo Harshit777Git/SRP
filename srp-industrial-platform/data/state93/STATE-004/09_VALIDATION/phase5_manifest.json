@@ -1,0 +1,39 @@
+{
+  "state_id": "STATE-004",
+  "state_name": "average_well",
+  "source_application": "TAM",
+  "test_id": "1995-02-25_100152",
+  "selected_stroke_id": "7",
+  "reported_test_strokes": 7,
+  "exported_unique_strokes": 1,
+  "sample_count": 140,
+  "surface_load_unit": "lbf",
+  "pump_load_unit": "lbf",
+  "position_unit": "in",
+  "pdf_configuration_status": "ORIGINAL_PDF_COLLECTED_NOT_ENGINEERING_REVIEWED",
+  "vendor_comment": "Example in TWM Manual - v11TTD24.D01",
+  "diagnostic_label_status": "COMMENT_ONLY_NOT_FIELD_VERIFIED",
+  "txt_dyn_surface_max_position_difference_in": 0.0,
+  "txt_dyn_surface_max_load_difference_lbf": 0.005000000001018634,
+  "source_files": [
+    {
+      "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-004\\05_NUMERICAL_DATA\\TAM\\test_1995-02-25_100152\\average_well_DYN_4294967295_02-25-1995_10-01-52.txt",
+      "bytes": 5530,
+      "sha256": "6634cd85ef576d755835e9f6bb0047804db056f9c230d7200d364534871122d2",
+      "format": ".txt"
+    },
+    {
+      "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-004\\05_NUMERICAL_DATA\\TAM\\test_1995-02-25_100152\\average_well_DYN_4294967295_02-25-1995_10-01-52.dyn",
+      "bytes": 2897,
+      "sha256": "602d02654f2f6651b3c88e81f07904bb6d5e5f68fcc66a1c34e83a93482a16f6",
+      "format": ".dyn"
+    },
+    {
+      "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-004\\06_ENGINEERING_CONFIGURATION\\TAM\\average_well_Summary.pdf",
+      "bytes": 183760,
+      "sha256": "71b231415d963647495890cac694c0e300d4af886082c08bf01a1e8c7d4af742",
+      "format": ".pdf"
+    }
+  ],
+  "apm_reconstruction": "BLOCKED_REVIEWED_CONFIGURATION_REQUIRED"
+}

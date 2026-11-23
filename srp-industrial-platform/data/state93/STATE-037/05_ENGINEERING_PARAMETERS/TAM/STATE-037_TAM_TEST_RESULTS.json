@@ -1,0 +1,97 @@
+{
+  "provenance": {
+    "state_id": "STATE-037",
+    "source_archive": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-037\\01_TAM\\Leak TV Unanchored.TAM_EXP",
+    "source_sha256": "0c365e4b66723200e8c2c620394b8184a9238d2d4cce3aac970fdb89a0d5cd6f",
+    "source_bytes": 3812,
+    "extracted_utc": "2026-11-18T04_44_29Z",
+    "method": "lossless extraction of vendor metadata.json and TestResults.json",
+    "synthetic_data": false
+  },
+  "archive_metadata": {
+    "DateExported": "2026-11-18T04_44_29Z",
+    "Source": "Tam",
+    "SourceVersion": "2.1.19"
+  },
+  "test_results": {
+    "Wells": [
+      {
+        "Company": "",
+        "Description": "",
+        "GPSBlock": "",
+        "ID": "{E8E38E64-187D-47E4-9F8F-BB9E2D5C108F}",
+        "MajorGroup": "Examples",
+        "MinorGroup": "",
+        "Name": "Leak TV Unanchored",
+        "SavedAppVersion": "1.1.15",
+        "Sessions": [],
+        "Tests": [
+          {
+            "DateTime": "2000-11-10T16:13:00Z",
+            "FilePath": "",
+            "LastModified": "2000-11-10T16:13:00Z",
+            "NumValues": {
+              "Acquisition Rate": 20.0,
+              "Adjusted Fillage": -Infinity,
+              "Average Fillage": 84.99999999999999,
+              "Beam Loading": 42.526092529296875,
+              "Calculated Buoyant Rod Weight": 5942.569567201419,
+              "Calculated Buoyant Rod Weight + Fo Max": 10205.149974746717,
+              "Computed Stroke Length": 52.22921371459961,
+              "DYN Casing Pressure": 0.0,
+              "DYN Tubing Pressure": 50.0,
+              "Damping Factor Down Stroke": 0.1,
+              "Damping Factor Up Stroke": 0.1,
+              "Existing Counterbalance": -7.923464853144929,
+              "Existing Cyclic Load Factor": 16.77930698800108,
+              "Existing Max Gearbox Torque, DownStroke": 0.9255657196044922,
+              "Existing Max Gearbox Torque, Upstroke": 271.4774169921875,
+              "Existing Min Gearbox Torque, DownStroke": -231.55409240722656,
+              "Existing Min Gearbox Torque, Upstroke": 6.674596309661865,
+              "Existing RMS Gearbox Torque": 176.5052914347778,
+              "Fo Max Line": 4262.580407545298,
+              "Gas Free Fillage": -1.797693134862315e+308,
+              "In Balance Cyclic Load Factor": 37.40351005051468,
+              "In Balance Max Gearbox Torque, DownStroke": 39.39722442626953,
+              "In Balance Max Gearbox Torque, Upstroke": 39.39722442626953,
+              "In Balance Min Gearbox Torque, DownStroke": -44.23456573486328,
+              "In Balance Min Gearbox Torque, Upstroke": -35.67105484008789,
+              "In Balance RMS Gearbox Torque": 28.186153656885416,
+              "Maximum Plunger Stroke": -3.4028234663852886e+38,
+              "Maximum Rod Loading % Goodman": 7.7820438230973705,
+              "Maximum Rod Stress": 15469.375629662078,
+              "Measured Fluid Load": -3.4028234663852886e+41,
+              "Minimum Polished Rod Load": 8505.218505859375,
+              "Minimum Rod Stress": 14144.235805091883,
+              "Number of Strokes": 10.0,
+              "PIP DYN": -1.797693134862315e+308,
+              "Peak Polished Rod Load": 8505.218505859375,
+              "Polished Rod Power": -0.04275165556530621,
+              "Pump Discharge Pressure": 1772.175,
+              "Rated Current": -1.797693134862315e+308,
+              "Required Counterbalance Change": 249.5293941235569,
+              "Rod/Tubing Stretch": 321.90038262326857,
+              "Stroke Number": 10.0,
+              "Strokes Per Minute": 11.322165618233331,
+              "Tubing Stretch": 47049.11328481221,
+              "Unaccounted Friction": 0.0,
+              "Unanchored Tubing Stretch on Pump Card": 1180.8892370032127,
+              "Volumetric Efficiency": 5.282945626244748e+271
+            },
+            "Session": false,
+            "StrValues": {
+              "DYN Load Cell Serial Number": "PRT 138",
+              "Downstroke Crank Angles": "178.4° => 6.7°",
+              "Out of Balance": "Yes, rod heavy",
+              "Rod Taper % Goodman": "0.0% 7.8% ",
+              "To Balance Move": "2000.0 weights OUT 124.76",
+              "Upstroke Crank Angles": "10.5° => 176.4°"
+            },
+            "Type": "DYN"
+          }
+        ],
+        "Versions": []
+      }
+    ]
+  }
+}

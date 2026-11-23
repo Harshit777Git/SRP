@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "state_id": "STATE-083",
+    "source_archive": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-083\\01_TAM\\Trash Sticks TV Open.TAM_EXP",
+    "source_sha256": "7c99204c9c16b8d0cdeb3688909ed11b55cb170e9947b8a0f74e3355c66560fc",
+    "source_bytes": 5039,
+    "extracted_utc": "2026-11-18T04_44_29Z",
+    "method": "lossless extraction of vendor metadata.json and TestResults.json",
+    "synthetic_data": false
+  },
+  "tests": [
+    {
+      "DateTime": "2002-11-08T19:59:22Z",
+      "LastModified": "2002-11-08T19:59:22Z",
+      "Type": "DYN",
+      "NumValues": {
+        "Rated Current": 38.0
+      },
+      "StrValues": {}
+    },
+    {
+      "DateTime": "2002-11-08T19:53:55Z",
+      "LastModified": "2002-11-08T19:53:55Z",
+      "Type": "DYN",
+      "NumValues": {
+        "Beam Loading": 62.361060070390465,
+        "Existing Counterbalance": 141.69255147238138,
+        "Existing Cyclic Load Factor": 1.4641279850192759,
+        "Existing Max Gearbox Torque, DownStroke": 53.11011505126953,
+        "Existing Max Gearbox Torque, Upstroke": 77.76551055908203,
+        "Existing Min Gearbox Torque, DownStroke": -8.05667495727539,
+        "Existing Min Gearbox Torque, Upstroke": -7.578570365905762,
+        "Existing RMS Gearbox Torque": 29.44777969032652,
+        "In Balance Cyclic Load Factor": 1.5857916247566612,
+        "In Balance Max Gearbox Torque, DownStroke": 66.42346954345703,
+        "In Balance Max Gearbox Torque, Upstroke": 66.42346954345703,
+        "In Balance Min Gearbox Torque, DownStroke": -7.157473564147949,
+        "In Balance Min Gearbox Torque, Upstroke": -20.294404983520508,
+        "In Balance RMS Gearbox Torque": 31.89623242357775,
+        "Polished Rod Power": 1.9136963821303166,
+        "Rated Current": 38.0,
+        "Required Counterbalance Change": 15.503341077827383
+      },
+      "StrValues": {
+        "Out of Balance": "Yes, rod heavy",
+        "To Balance Move": "5000.0 weights OUT 3.10"
+      }
+    }
+  ],
+  "note": "Exact vendor result values only; invalid/sentinel values are preserved and no units are inferred."
+}

@@ -1,0 +1,114 @@
+services:
+  credentials:
+    image: eclipse-mosquitto:2
+    user: "0:0"
+    entrypoint: [/bin/sh, /init.sh]
+    volumes:
+      - ./docker/init.sh:/init.sh:ro
+      - broker-auth:/broker
+      - sim-auth:/sim-auth
+      - apm-auth:/apm-auth
+      - pg-auth:/pg
+  mqtt:
+    image: eclipse-mosquitto:2
+    depends_on:
+      credentials:
+        condition: service_completed_successfully
+    volumes:
+      - ./docker/mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
+      - ./docker/acl:/mosquitto/config/acl:ro
+      - broker-auth:/broker:ro
+      - mqtt-data:/mosquitto/data
+    ports: ["127.0.0.1:${MQTT_PORT:-1883}:1883"]
+  db:
+    image: postgres:17
+    depends_on:
+      credentials:
+        condition: service_completed_successfully
+    environment:
+      POSTGRES_USER: apm
+      POSTGRES_DB: srp_apm
+      POSTGRES_PASSWORD_FILE: /pg/password
+    volumes:
+      - pg-auth:/pg:ro
+      - pg-data:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD, pg_isready, -U, apm, -d, srp_apm]
+      interval: 2s
+      timeout: 2s
+      retries: 30
+  simulator:
+    build:
+      context: .
+      dockerfile: docker/backend.Dockerfile
+      args: {APP: srp-simulator}
+    depends_on: [mqtt]
+    environment:
+      API_PORT: 8001
+      MQTT_HOST: mqtt
+      MQTT_USERNAME: simulator
+      MQTT_PASSWORD_FILE: /auth/password
+      SIM_DATA: /state
+    volumes: [sim-auth:/auth:ro, sim-data:/state]
+    ports: ["127.0.0.1:${SIM_API_PORT:-8001}:8001"]
+  apm:
+    build:
+      context: .
+      dockerfile: docker/backend.Dockerfile
+      args: {APP: srp-apm}
+    depends_on:
+      mqtt:
+        condition: service_started
+      db:
+        condition: service_healthy
+    environment:
+      API_PORT: 8002
+      MQTT_HOST: mqtt
+      MQTT_USERNAME: apm
+      MQTT_PASSWORD_FILE: /auth/password
+      APM_POSTGRES_HOST: db
+      APM_POSTGRES_PASSWORD_FILE: /pg/password
+      APM_ASSETS: /assets.json
+      APM_DATA: /state
+      ML_WORKER_URL: http://ml-worker:8003
+    volumes:
+      - apm-auth:/auth:ro
+      - pg-auth:/pg:ro
+      - ./docker/assets.json:/assets.json:ro
+      - apm-data:/state
+    ports: ["127.0.0.1:${APM_API_PORT:-8002}:8002"]
+  ml-worker:
+    build:
+      context: .
+      dockerfile: docker/backend.Dockerfile
+      args: {APP: srp-apm, INSTALL_TORCH: "${SRP_ENABLE_CNN:-0}"}
+    command: [python, /srv/application/model_registry/worker.py]
+    environment:
+      SRP_MODEL_PATH: "${SRP_MODEL_PATH:-}"
+    volumes:
+      - ./data/training:/models:ro
+  simulator-ui:
+    build:
+      context: .
+      dockerfile: docker/frontend.Dockerfile
+      args: {APP: srp-simulator}
+    environment: {API_TARGET: "simulator:8001"}
+    depends_on: [simulator]
+    ports: ["127.0.0.1:${SIM_UI_PORT:-3001}:80"]
+  apm-ui:
+    build:
+      context: .
+      dockerfile: docker/frontend.Dockerfile
+      args: {APP: srp-apm}
+    environment: {API_TARGET: "apm:8002"}
+    depends_on: [apm]
+    ports: ["127.0.0.1:${APM_UI_PORT:-3002}:80"]
+volumes:
+  broker-auth:
+  sim-auth:
+  apm-auth:
+  pg-auth:
+  mqtt-data:
+  pg-data:
+  sim-data:
+  apm-data:

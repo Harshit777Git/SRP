@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "state_id": "STATE-002",
+    "source_archive": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-002\\01_TAM\\Anchored With Rod Stretch.TAM_EXP",
+    "source_sha256": "66440314fc26c5edf74cab1f8c75ee88550c3b3a85044f5d58de02246da464eb",
+    "source_bytes": 5144,
+    "extracted_utc": "2026-11-18T04_44_29Z",
+    "method": "lossless extraction of vendor metadata.json and TestResults.json",
+    "synthetic_data": false
+  },
+  "tests": [
+    {
+      "DateTime": "2002-01-10T20:08:40Z",
+      "LastModified": "2002-01-10T20:08:40Z",
+      "Type": "DYN",
+      "NumValues": {
+        "Rated Current": 86.0
+      },
+      "StrValues": {}
+    },
+    {
+      "DateTime": "2002-01-10T19:59:08Z",
+      "LastModified": "2002-01-10T19:59:08Z",
+      "Type": "DYN",
+      "NumValues": {
+        "Beam Loading": 89.19780918809234,
+        "Existing Counterbalance": 1053.73300613176,
+        "Existing Cyclic Load Factor": 2.1554065632179684,
+        "Existing Max Gearbox Torque, DownStroke": 399.8362121582031,
+        "Existing Max Gearbox Torque, Upstroke": 57.452056884765625,
+        "Existing Min Gearbox Torque, DownStroke": -18.40285301208496,
+        "Existing Min Gearbox Torque, Upstroke": -156.6456756591797,
+        "Existing RMS Gearbox Torque": 173.02573648262253,
+        "In Balance Cyclic Load Factor": 1.4186861724195678,
+        "In Balance Max Gearbox Torque, DownStroke": 203.31968688964844,
+        "In Balance Max Gearbox Torque, Upstroke": 203.30906677246094,
+        "In Balance Min Gearbox Torque, DownStroke": -64.09518432617188,
+        "In Balance Min Gearbox Torque, Upstroke": -30.401762008666992,
+        "In Balance RMS Gearbox Torque": 107.72140398149351,
+        "Polished Rod Power": 7.916273665571789,
+        "Rated Current": 86.0,
+        "Required Counterbalance Change": 203.04123126827554
+      },
+      "StrValues": {
+        "Out of Balance": "Yes, weights heavy",
+        "To Balance Move": "15844.0 weights IN 12.82"
+      }
+    }
+  ],
+  "note": "Exact vendor result values only; invalid/sentinel values are preserved and no units are inferred."
+}

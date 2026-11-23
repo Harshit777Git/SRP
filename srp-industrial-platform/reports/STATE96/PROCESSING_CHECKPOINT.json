@@ -1,0 +1,795 @@
+{
+  "schema": "state96-acquisition/1",
+  "states": {
+    "STATE-006": {
+      "TEST_HISTORY_PDF": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-18T10:13:28.664736+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\TEST_HISTORY\\STATE-006_DYN_TEST_HISTORY.pdf",
+        "bytes": 126870,
+        "sha256": "52a4c00906a5a6a4d0de02e76c1fb93633db68759dca07f1f65056dc41602a0b",
+        "details": "One-page TAM DYN history; BlockedIntake; 3 rows: valve test 0 strokes, DYN test 14 strokes, DYN test 18 strokes."
+      },
+      "FIELD_SUMMARY_2007-08-16_192306": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-18T10:15:06.889003+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\06_ENGINEERING_CONFIGURATION\\TAM\\STATE-006_BlockedIntake_Summary.pdf",
+        "bytes": 185311,
+        "sha256": "e6bc5c7c294ca6b031aa6ff5995b294d204a510604eaac58e22c05ecf1653e92",
+        "details": "Six-page TAM Field Summary; BlockedIntake; configuration timestamp 08/16/2007 07:23:06PM."
+      },
+      "TEST-20070816_192307_STROKE-008_DYN": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-18T10:40:53.645495+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-8.dyn",
+        "bytes": 6219,
+        "sha256": "a2e474e22a2723b34a7bac8329a405bd1b65a9ef6c176b4b7a3522b4b6deed21"
+      },
+      "TEST-20070816_192307_STROKE-008_TXT": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-18T10:40:53.982327+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-8.txt",
+        "bytes": 11736,
+        "sha256": "8e77f7e8a4b0992f74d59bb76541321e80445427c130a9292590b5a50e4b786d",
+        "details": "DYN/TXT surface arrays numerically verified by phase5_1_validate.py"
+      },
+      "TEST-20070816_192307_STROKE-009_DYN": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-18T10:42:48.105481+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-9.dyn",
+        "bytes": 6235,
+        "sha256": "38b7088bdabbba1470254f41a6f34b7c33c3a550de4113b832d56b0540228fec"
+      },
+      "TEST-20070816_192307_STROKE-009_TXT": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-18T10:42:48.511314+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-9.txt",
+        "bytes": 11768,
+        "sha256": "c55e86e05f4f290c300987684897b3ef5713f4b733bf1f789a489e97d4c10fb8",
+        "details": "DYN/TXT surface arrays numerically verified by phase5_1_validate.py"
+      },
+      "TEST-20070816_192307_STROKE-010_DYN": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-18T12:53:51.252228+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-10.dyn",
+        "bytes": 6230,
+        "sha256": "5d539d6e0f22d1f7bf9fb6ef6be794c60b4434c32b6e17da72dadf624d0b710d",
+        "details": "Numerical consistency verified by batch acquisition"
+      },
+      "TEST-20070816_192307_STROKE-010_TXT": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-18T12:53:51.446361+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-10.txt",
+        "bytes": 11759,
+        "sha256": "cf47ec912bb2b3390105a16e94715fb3ba33cdf3976d2b8105e041d41af2e0e4",
+        "details": "Numerical consistency verified by batch acquisition"
+      },
+      "TEST-20070816_192307_STROKE-011_DYN": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-18T12:53:51.627544+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-11.dyn",
+        "bytes": 6211,
+        "sha256": "90a3819a076345d015911928605f5f25763ee50c3961dd5aa1ff9b0d4ad8989a",
+        "details": "Numerical consistency verified by batch acquisition"
+      },
+      "TEST-20070816_192307_STROKE-011_TXT": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-18T12:53:51.803654+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-11.txt",
+        "bytes": 11752,
+        "sha256": "63293ca4653fe9d3c0a3b298cdbf7f3677de12263ae19b7107ba0dac774be1d3",
+        "details": "Numerical consistency verified by batch acquisition"
+      },
+      "TEST-20070816_192307_STROKE-012_DYN": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-18T12:55:52.780188+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-12.dyn",
+        "bytes": 6283,
+        "sha256": "f7a1257695654ca6bd040333c5602295c8a58d38765dddfcdcd6c2ab2471eb6b",
+        "details": "289 points; resumed DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192307_STROKE-012_TXT": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-18T12:55:52.957981+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-12.txt",
+        "bytes": 11888,
+        "sha256": "db3e3c8a625beb6302e1a04a87aee2a296e498408bb9a88437b366662993e6b4",
+        "details": "289 points; resumed DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192307_STROKE-013_DYN": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-18T12:56:46.442602+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-13.dyn",
+        "bytes": 6261,
+        "sha256": "85394af193ec6b1f8d5a7004e0a900ccee34bc9274313b066fab1eaeb43248f5",
+        "details": "290 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192307_STROKE-013_TXT": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-18T12:56:46.617526+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-13.txt",
+        "bytes": 11850,
+        "sha256": "9f8d3d9a3ddb208eee1e1cfc3fce8e378e5f41c0c618fee6095ea486a7e7b8d1",
+        "details": "290 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192307_STROKE-014_DYN": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:21:14.511659+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-14.dyn",
+        "bytes": 6240,
+        "sha256": "da4c3e9af4fed25a941f22731dc3026cf7b384bc6dccc0b6dc4472417790fbd8",
+        "details": "289 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192307_STROKE-014_TXT": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:21:14.687232+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-14.txt",
+        "bytes": 11812,
+        "sha256": "5c0c481fd393b7be50a8e28c5105e5f3f807bbbdb00dba7cd0a65dd9e4953028",
+        "details": "289 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192307_STROKE-015_DYN": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:22:23.214919+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-15.dyn",
+        "bytes": 6279,
+        "sha256": "c9e27996919aa2b6bc9d0df1dbd74941c50ee8c21c55ec045ac3a0b64e48cca8",
+        "details": "291 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192307_STROKE-015_TXT": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:22:23.569187+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-15.txt",
+        "bytes": 11891,
+        "sha256": "265472ff51f9e429408c6c8ab75c53341ea686c00be0a1e3236af1f9031e1f7a",
+        "details": "291 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192307_STROKE-016_DYN": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:23:47.650952+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-16.dyn",
+        "bytes": 6234,
+        "sha256": "651634cb7c74a1075aae5e75fe0de8a459db7d5bac8c6c03e9924e3abb111a04",
+        "details": "289 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192307_STROKE-016_TXT": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:23:47.887904+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-16.txt",
+        "bytes": 11809,
+        "sha256": "69c9c82b05b896d3df2e998ff8c815069528d106c9457aa98a4bef94f16fa3be",
+        "details": "289 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192307_STROKE-017_DYN": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:26:15.906114+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-17.dyn",
+        "bytes": 6254,
+        "sha256": "f09b5aa936685ae69b48e6cfa9a6fa6463d0e470b0136e9b23e4384dbc9949b8",
+        "details": "290 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192307_STROKE-017_TXT": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:26:16.087742+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192307\\STATE-006_test-2007-08-16_192307_stroke-17.txt",
+        "bytes": 11847,
+        "sha256": "d666799258c78addc81e9085bf6a4de96006e421d4b789ffcf4d05946829b1c1",
+        "details": "290 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192600_STROKE-001_DYN": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:41:12.536390+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192600\\STATE-006_test-2007-08-16_192600_stroke-1.dyn",
+        "bytes": 6269,
+        "sha256": "49221fbb5c914e60569ee429845d7aae7179421263aaac1572f32f107773f9d8",
+        "details": "291 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192600_STROKE-001_TXT": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:41:12.756104+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192600\\STATE-006_test-2007-08-16_192600_stroke-1.txt",
+        "bytes": 11849,
+        "sha256": "a35fe423e60c2870a2b8aca4d0906f8643ada572f0a3da2b7de98cc7d11bf7de",
+        "details": "291 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192600_STROKE-002_DYN": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:42:16.755862+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192600\\STATE-006_test-2007-08-16_192600_stroke-2.dyn",
+        "bytes": 6209,
+        "sha256": "dba6c86049fedbd66743869034feb0a897d910d4401ab010c7fb19238a2c65f2",
+        "details": "288 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192600_STROKE-002_TXT": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:42:16.919007+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192600\\STATE-006_test-2007-08-16_192600_stroke-2.txt",
+        "bytes": 11726,
+        "sha256": "f92f6c0b3b555fa5435f7d43f86977038962c11568dc32aa0ed18a0b23a5556b",
+        "details": "288 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192600_STROKE-003_DYN": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:42:51.796818+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192600\\STATE-006_test-2007-08-16_192600_stroke-3.dyn",
+        "bytes": 6231,
+        "sha256": "18cbe14c433fcf5dcb83fa31bd9f08b484362992bb72238a7fd90beb179d38be",
+        "details": "289 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192600_STROKE-003_TXT": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:42:51.965888+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192600\\STATE-006_test-2007-08-16_192600_stroke-3.txt",
+        "bytes": 11769,
+        "sha256": "f697eb071f96d723c055c338f1f2d3290f5e974fca29b8e9b7cdea6025eaebf8",
+        "details": "289 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192600_STROKE-004_DYN": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:43:27.370323+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192600\\STATE-006_test-2007-08-16_192600_stroke-4.dyn",
+        "bytes": 6229,
+        "sha256": "468cff1fca3e1af7a01bf4d8e0e24fa9c2745114770c4bd8167f75b1e1f79734",
+        "details": "289 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192600_STROKE-004_TXT": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:43:27.626307+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192600\\STATE-006_test-2007-08-16_192600_stroke-4.txt",
+        "bytes": 11760,
+        "sha256": "7b02bdfa99c3d21c7dc0f3532accf755c3db1a8ffc9ddb15e1fbd0c3ca653628",
+        "details": "289 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192600_STROKE-005_DYN": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:44:02.498307+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192600\\STATE-006_test-2007-08-16_192600_stroke-5.dyn",
+        "bytes": 6210,
+        "sha256": "9c9678d6923a48845c8bc3cf5b816496698d53f653b7565967eb023bfe77257d",
+        "details": "288 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192600_STROKE-005_TXT": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:44:02.763881+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192600\\STATE-006_test-2007-08-16_192600_stroke-5.txt",
+        "bytes": 11719,
+        "sha256": "ec533985ef164b2d6c47175a11e1577dbdf6acad0f8391233a7306a013483d25",
+        "details": "288 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192600_STROKE-006_DYN": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:44:39.991025+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192600\\STATE-006_test-2007-08-16_192600_stroke-6.dyn",
+        "bytes": 6230,
+        "sha256": "7f9f9c547b0bc18fd342157235048c3f9bf57cc4868b93b96a862226c5284c96",
+        "details": "289 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192600_STROKE-006_TXT": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:44:40.254505+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192600\\STATE-006_test-2007-08-16_192600_stroke-6.txt",
+        "bytes": 11760,
+        "sha256": "94339cfcdde2537ac5d8f24fdc43f335bff486afd559e709e1b3f53f6386de4e",
+        "details": "289 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192600_STROKE-007_DYN": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:45:23.783426+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192600\\STATE-006_test-2007-08-16_192600_stroke-7.dyn",
+        "bytes": 6209,
+        "sha256": "7b31a7a43d10d45a8a23196126464a239bc813b9a120206636e1eeb9352bf0ba",
+        "details": "288 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192600_STROKE-007_TXT": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:45:24.030653+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192600\\STATE-006_test-2007-08-16_192600_stroke-7.txt",
+        "bytes": 11721,
+        "sha256": "b1ac21bae3d2bbebdd0600a895856ea9427393a7625c268ad0a7304f5ec066b7",
+        "details": "288 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192600_STROKE-008_DYN": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:46:03.728575+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192600\\STATE-006_test-2007-08-16_192600_stroke-8.dyn",
+        "bytes": 6210,
+        "sha256": "644dec5ccffcb4538604f74d0f633445f4ad721f71e0d096af8983e311f64ace",
+        "details": "288 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192600_STROKE-008_TXT": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:46:03.912913+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192600\\STATE-006_test-2007-08-16_192600_stroke-8.txt",
+        "bytes": 11720,
+        "sha256": "201a619dbfa3ccea88735dd660958fc796d335c8c968051fad2f9bf9e3b16aa8",
+        "details": "288 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192600_STROKE-009_DYN": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:46:42.370068+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192600\\STATE-006_test-2007-08-16_192600_stroke-9.dyn",
+        "bytes": 6230,
+        "sha256": "17e56897fa883ac69bcf1dfdbd58a3c2b1dffb1ebe9e9126cb71540bc207a947",
+        "details": "289 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192600_STROKE-009_TXT": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:46:42.613561+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192600\\STATE-006_test-2007-08-16_192600_stroke-9.txt",
+        "bytes": 11759,
+        "sha256": "ab88ba67d72c1baef469ef4e0c792525d0656e3e5227bfba21d57893cc647107",
+        "details": "289 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192600_STROKE-010_DYN": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:47:20.937956+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192600\\STATE-006_test-2007-08-16_192600_stroke-10.dyn",
+        "bytes": 6209,
+        "sha256": "c07521402ef8b337810375600e23e8a45ecc250899d529668ca5a258de043c38",
+        "details": "288 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192600_STROKE-010_TXT": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:47:21.223527+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192600\\STATE-006_test-2007-08-16_192600_stroke-10.txt",
+        "bytes": 11718,
+        "sha256": "a6f003b9c4c0ad8bb3858bf96130620d7c2770ce0c5512bdbccb0435cd3d3960",
+        "details": "288 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192600_STROKE-011_DYN": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:48:00.544292+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192600\\STATE-006_test-2007-08-16_192600_stroke-11.dyn",
+        "bytes": 6229,
+        "sha256": "b8565b02bac1aec679ce5b6d28205ebc459d24067a912ec186acf3ac9d6ab0ec",
+        "details": "289 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192600_STROKE-011_TXT": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:48:00.873722+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192600\\STATE-006_test-2007-08-16_192600_stroke-11.txt",
+        "bytes": 11758,
+        "sha256": "ab14e8c7a41ba8d591cd0a9c5a10b40caa16322e9646c6532b159cbafb6ebb13",
+        "details": "289 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192600_STROKE-012_DYN": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:48:40.774741+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192600\\STATE-006_test-2007-08-16_192600_stroke-12.dyn",
+        "bytes": 6209,
+        "sha256": "722c9a40fcee83d64b2d7037facd74316b3a8e235582baaccb1149ddad20a7d1",
+        "details": "288 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192600_STROKE-012_TXT": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:48:40.951345+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192600\\STATE-006_test-2007-08-16_192600_stroke-12.txt",
+        "bytes": 11719,
+        "sha256": "1d6e89b0e30b8578635fe2ae551d82bd3ef64ef018e8880d7ab90e00138ad8d8",
+        "details": "288 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192600_STROKE-013_DYN": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:49:25.193858+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192600\\STATE-006_test-2007-08-16_192600_stroke-13.dyn",
+        "bytes": 6208,
+        "sha256": "c437ff850c7b276a18f7defb134f7ee257c905cce2bcddaa256e8a874436939c",
+        "details": "288 points; DYN/TXT numerical consistency verified"
+      },
+      "TEST-20070816_192600_STROKE-013_TXT": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T04:49:25.371208+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_NUMERICAL_DATA\\TAM\\test_2007-08-16_192600\\STATE-006_test-2007-08-16_192600_stroke-13.txt",
+        "bytes": 11718,
+        "sha256": "b5a95b45677f12dd2d5fad1e55fb28e8f3919de835584b885171c58afa6e3a54",
+        "details": "288 points; DYN/TXT numerical consistency verified"
+      },
+      "TAM_EXP": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:05:38.639359+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\01_TAM\\BlockedIntake.TAM_EXP",
+        "bytes": 373467,
+        "sha256": "f20db429ebbf75eb35a99e5014d332221e41af97c596659c5ab2f3c4875a21a2",
+        "details": "Vendor TAM export completed successfully: 1 well, 4 tests (3 DYN, 1 VT), 1 liquid level test; 373467 bytes; SHA256 F20DB429EBBF75EB35A99E5014D332221E41AF97C596659C5AB2F3C4875A21A2; archive contents enumerated."
+      },
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:11.508810+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-006\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-006_TAM_TEST_RESULTS.json",
+        "bytes": 13821,
+        "sha256": "92f9fbd7abce177c6281d90607111c58ba0bda91e92a12211d36e597cbb7e599",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 4 tests, 192 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-001": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:10.135683+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-001\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-001_TAM_TEST_RESULTS.json",
+        "bytes": 11114,
+        "sha256": "11a28be3eb667245d0d9afc41503c65796cce0d78010c071d6f6eb105cb25dba",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 4 tests, 155 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-002": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:10.387227+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-002\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-002_TAM_TEST_RESULTS.json",
+        "bytes": 11388,
+        "sha256": "344cf85d343b768063adb721d1a8b7f4bdc55c53c6d375112d821a69dfc8b080",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 5 tests, 156 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-003": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:10.666216+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-003\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-003_TAM_TEST_RESULTS.json",
+        "bytes": 7677,
+        "sha256": "d5c3f1384e81f640b47772f3bd1936ddf93dea56c0d808bafe0409e95ab53748",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 2 tests, 103 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-004": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:10.877611+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-004\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-004_TAM_TEST_RESULTS.json",
+        "bytes": 7671,
+        "sha256": "e5a8cf390f2b033e40373327b672d82604b6f6c6eb04da7880b06042760b996b",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 2 tests, 104 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-005": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:11.150488+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-005\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-005_TAM_TEST_RESULTS.json",
+        "bytes": 17873,
+        "sha256": "f08c7806d672a5f8e4aee7349a2a3e2fa20e7a9ca029b888681808b88a5715ac",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 5 tests, 262 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-015": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:11.906020+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-015\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-015_TAM_TEST_RESULTS.json",
+        "bytes": 11785,
+        "sha256": "3841d995317465dba4106fb6b50a69007c65df6a8fbf1e764252aa98d4000cfb",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 3 tests, 167 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-022": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:12.376836+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-022\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-022_TAM_TEST_RESULTS.json",
+        "bytes": 14297,
+        "sha256": "19ca23726c666a6ef47bdabc229e46766e287f85ea26e198d0799b03afd1013e",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 4 tests, 206 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-023": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:12.795380+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-023\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-023_TAM_TEST_RESULTS.json",
+        "bytes": 10281,
+        "sha256": "7f29e170138c078c07a9c84c3a8a09aabf618e1a7d98934869d4996d76480366",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 3 tests, 146 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-024": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:13.097451+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-024\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-024_TAM_TEST_RESULTS.json",
+        "bytes": 7482,
+        "sha256": "4912a37884d0b88c17c27b0058c9e3f2ba1536363c08b087b9145e14118d2a06",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 2 tests, 100 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-026": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:13.503065+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-026\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-026_TAM_TEST_RESULTS.json",
+        "bytes": 23031,
+        "sha256": "8fafd0f9abb7a833f7c01b75fc187349590380cb625036963ecfb668c1f65dec",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 7 tests, 348 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-027": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:14.009506+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-027\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-027_TAM_TEST_RESULTS.json",
+        "bytes": 39296,
+        "sha256": "4cd526caf20c9e3346635a642013f9c8e0792e2152f5795b24b05855f170261f",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 10 tests, 592 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-030": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:14.385786+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-030\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-030_TAM_TEST_RESULTS.json",
+        "bytes": 12244,
+        "sha256": "092cc964b5cc1d0a2280f41af7587334718eb4ed797dd472a7dde798a82fd1a3",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 5 tests, 170 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-032": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:14.688782+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-032\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-032_TAM_TEST_RESULTS.json",
+        "bytes": 9153,
+        "sha256": "fed4f3e8bbc3a0d74a59af74e7b379091da553dd225dbbb5c9505e98a591eec4",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 3 tests, 124 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-034": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:14.935424+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-034\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-034_TAM_TEST_RESULTS.json",
+        "bytes": 16323,
+        "sha256": "86301db97b3a7abab61eac47ed79f011fbaeaff8d65bf862445fbd11e1fd7877",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 5 tests, 239 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-037": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:15.225655+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-037\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-037_TAM_TEST_RESULTS.json",
+        "bytes": 4484,
+        "sha256": "1218107fcc1a122e4cd40231152bb35b00b8dc3ba5a33486dda430ab53d15a7f",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 1 tests, 52 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-043": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:15.505188+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-043\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-043_TAM_TEST_RESULTS.json",
+        "bytes": 9575,
+        "sha256": "da707549926fd2b0918d7762e89119c37369662bb985d6bb9b666f802ad8dfe1",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 4 tests, 126 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-045": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:15.763629+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-045\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-045_TAM_TEST_RESULTS.json",
+        "bytes": 12449,
+        "sha256": "57ce49870821ab8164c01d231d46a2d30958887f69381408a069e115afb1bf58",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 4 tests, 182 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-046": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:16.018054+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-046\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-046_TAM_TEST_RESULTS.json",
+        "bytes": 9005,
+        "sha256": "120d22db4907c84269c5bb10b544888532d41a8ff7c5a8b7def9017ebe569e36",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 3 tests, 122 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-047": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:16.292624+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-047\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-047_TAM_TEST_RESULTS.json",
+        "bytes": 7242,
+        "sha256": "9096a127fb7c43b5d45e241c0770f02acdb77d1e76bc5dac63f244ab0e7b1ff7",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 2 tests, 97 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-048": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:16.542882+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-048\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-048_TAM_TEST_RESULTS.json",
+        "bytes": 3640,
+        "sha256": "5a850127ede0d1e3da5ff16cffcad369d5d207b7d65c2c5aad92bd4f7df2accc",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 1 tests, 42 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-049": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:16.806098+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-049\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-049_TAM_TEST_RESULTS.json",
+        "bytes": 2876,
+        "sha256": "d09777cffaa126a316a93d44e76eb6b9ccaa6ae3e59e6294c151c5e39c86badc",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 1 tests, 30 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-050": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:17.043926+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-050\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-050_TAM_TEST_RESULTS.json",
+        "bytes": 3136,
+        "sha256": "62d68368ee48399a1d977c981b200e68a5ae97b01d6f4502af862f5069c8f2bb",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 1 tests, 35 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-051": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:17.336656+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-051\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-051_TAM_TEST_RESULTS.json",
+        "bytes": 3665,
+        "sha256": "1b8c2bc10a8cf4f499828410ec1020972abeedd5ad9ce2914d5751968e6e0e2e",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 1 tests, 42 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-052": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:17.654877+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-052\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-052_TAM_TEST_RESULTS.json",
+        "bytes": 5882,
+        "sha256": "f068a6ed0be6e0595c25d0f44fea56da4a1536f19902767e1ac463b86ccd9048",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 2 tests, 80 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-053": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:18.019278+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-053\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-053_TAM_TEST_RESULTS.json",
+        "bytes": 10425,
+        "sha256": "bebf1739335f2a50a323102c8a231aa2f3e9a2a2d0705d52905ad7cc05fff583",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 4 tests, 144 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-054": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:18.361767+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-054\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-054_TAM_TEST_RESULTS.json",
+        "bytes": 7757,
+        "sha256": "3b5bb05a0ad0d6571234320d6f066d3249016d7017a4f3c399f8f2ed17a61a27",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 2 tests, 106 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-055": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:18.656475+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-055\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-055_TAM_TEST_RESULTS.json",
+        "bytes": 9381,
+        "sha256": "64e568d0b1395a6944783b5cb2250c13e1337d1f7bc6142dc1b3eb21663cead5",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 3 tests, 137 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-056": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:19.032358+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-056\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-056_TAM_TEST_RESULTS.json",
+        "bytes": 3631,
+        "sha256": "06801cd6c6e07d521064e96b5684abe9b6c05ca69acfb9fc1df7b4da9b7a6388",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 1 tests, 42 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-057": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:19.392512+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-057\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-057_TAM_TEST_RESULTS.json",
+        "bytes": 3723,
+        "sha256": "35f5222c9015cad58d8e2e1d37c44e46463097986e7dba3a2b75de53f4b2feed",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 2 tests, 38 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-063": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:19.706952+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-063\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-063_TAM_TEST_RESULTS.json",
+        "bytes": 4849,
+        "sha256": "dbc62a19ba03aaeb149fc358275cdb20cf4b2259cf9b2044b434410292fa3cdd",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 1 tests, 59 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-064": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:19.973304+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-064\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-064_TAM_TEST_RESULTS.json",
+        "bytes": 4837,
+        "sha256": "6535363872f85fdaadd7ca68926579579d72257aba887aafb1d37a4d499b6341",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 1 tests, 59 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-077": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:20.270780+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-077\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-077_TAM_TEST_RESULTS.json",
+        "bytes": 19494,
+        "sha256": "c46decb128ade7ac9dd80e9794958894ef019afbe310b149f195be36a843d0c1",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 5 tests, 290 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-078": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:20.527345+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-078\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-078_TAM_TEST_RESULTS.json",
+        "bytes": 28595,
+        "sha256": "8e12618c6094578befa90a040e9d5bcb556fd4ed34008e35707cdca2be5ddc87",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 9 tests, 422 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-080": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:20.816612+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-080\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-080_TAM_TEST_RESULTS.json",
+        "bytes": 7963,
+        "sha256": "66b502db802d38a6f91f2911509438594716d44560798648bddfef271b37e500",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 2 tests, 106 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-082": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:21.074170+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-082\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-082_TAM_TEST_RESULTS.json",
+        "bytes": 19409,
+        "sha256": "fc45b7b5197c3673f130c812156fda2c777ab9bfd50e5ec7b0eb551059dd5c1f",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 5 tests, 288 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-083": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:21.333785+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-083\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-083_TAM_TEST_RESULTS.json",
+        "bytes": 8867,
+        "sha256": "5324528ef629f816749df45c8a5126c9d900b278d4fe9136f5bb697c57b2052b",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 3 tests, 119 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-084": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:21.588123+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-084\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-084_TAM_TEST_RESULTS.json",
+        "bytes": 7436,
+        "sha256": "b95a949dbc386a5a55b0700f42739048bac7e1e167207e75f04f774cddf08ff8",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 2 tests, 99 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-086": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:21.851158+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-086\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-086_TAM_TEST_RESULTS.json",
+        "bytes": 16092,
+        "sha256": "8395fbd80e7540e11b75195753f03b2de2d9a6eb5be8a6fc10f5d947f5043eaa",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 5 tests, 234 normalized parameter rows; no synthetic data."
+      }
+    },
+    "STATE-089": {
+      "CALCULATION_SETTINGS": {
+        "status": "VERIFIED",
+        "updated_utc": "2026-11-19T05:10:22.112664+00:00",
+        "path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\SRP\\srp-industrial-platform\\data\\state93\\STATE-089\\05_ENGINEERING_PARAMETERS\\TAM\\STATE-089_TAM_TEST_RESULTS.json",
+        "bytes": 21929,
+        "sha256": "e8ace125b08fa94a98e85e5c7e2ca0d9dcd505b1108e031b4f8f788dccf8f8e2",
+        "details": "Lossless vendor TAM_EXP TestResults extraction: 7 tests, 318 normalized parameter rows; no synthetic data."
+      }
+    }
+  }
+}

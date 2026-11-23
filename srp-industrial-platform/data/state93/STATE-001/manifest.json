@@ -1,0 +1,68 @@
+{
+  "state_id": "STATE-001",
+  "name": "Anchored but NOT Set",
+  "source_directory": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Anchored but NOT Set",
+  "source_files": [
+    {
+      "State ID": "STATE-001",
+      "Original State Name": "Anchored but NOT Set",
+      "Application": "TAM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Anchored but NOT Set\\Original TAM\\Anchored but NOT Set.TAM_EXP",
+      "Extension": ".TAM_EXP",
+      "Bytes": 5394,
+      "SHA256": "6fc76d446ef6fc056df7e7a89868b5ba07096e11f3d3df753802ffb9481c6a28",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-001",
+      "Original State Name": "Anchored but NOT Set",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Anchored but NOT Set\\Original TWM\\1_4_QRod_Quick_Rod_Design\\Anchored but NOT Set.001",
+      "Extension": ".001",
+      "Bytes": 216135,
+      "SHA256": "1e2c79a02d33bca667f975b5765b97c7742ce25daa0f6bd8bac15143d670d8d4",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-001",
+      "Original State Name": "Anchored but NOT Set",
+      "Application": "TWM",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Anchored but NOT Set\\Original TWM\\Anchored but NOT Set.001",
+      "Extension": ".001",
+      "Bytes": 216135,
+      "SHA256": "1e2c79a02d33bca667f975b5765b97c7742ce25daa0f6bd8bac15143d670d8d4",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    },
+    {
+      "State ID": "STATE-001",
+      "Original State Name": "Anchored but NOT Set",
+      "Application": "QROD",
+      "Original path": "C:\\Users\\HARSHIT\\OneDrive - TAS\\Desktop\\Master Dataset\\Examples\\Anchored but NOT Set\\QRod reference\\SlowDownTakeOffAnchor.qrd",
+      "Extension": ".qrd",
+      "Bytes": 1389,
+      "SHA256": "9d22ed06846b70d0729f04b795ed1533a5a8309ad46273aeeb262ea5c6ea271c",
+      "Open verified": "NO",
+      "Provenance": "Supplied source archive"
+    }
+  ],
+  "destination_status": {
+    "01_TAM": "VENDOR_GUI_ACTION_REQUIRED",
+    "02_TWM": "VENDOR_GUI_ACTION_REQUIRED",
+    "03_AWP2000": "MISSING_REQUIRED_INPUTS",
+    "04_QROD": "VENDOR_GUI_ACTION_REQUIRED",
+    "05_SRP_APM": "MISSING_REQUIRED_INPUTS"
+  },
+  "application_open_tests": {
+    "01_TAM": "NOT_RUN",
+    "02_TWM": "NOT_RUN",
+    "03_AWP2000": "NOT_RUN",
+    "04_QROD": "NOT_RUN",
+    "05_SRP_APM": "NOT_RUN"
+  },
+  "measured_card_points": null,
+  "well_identity_verified": false,
+  "synthetic_card_excluded": true
+}

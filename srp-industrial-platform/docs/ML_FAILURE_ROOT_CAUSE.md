@@ -1,0 +1,16 @@
+# ML failure root cause
+
+The existing corpus has 800 runs, 100 per class. Groups are well configurations. The split is 60 training, 20 calibration and 20 historical test configurations, yielding 480/160/160 runs. Each group includes all eight scenario classes. The archived severity generator drew intensities between 28% and 96%. The corpus omits low-intensity and onset detection, and its underfill/restricted-inflow physics predate the live revision.
+
+The old seed-13 test confusion matrix has 20 true cases per class. Standing-valve leakage was called healthy 10 times, traveling-valve leakage was called pump wear eight times, and restricted inflow was called incomplete fillage eight times. Five incomplete-fillage examples went the opposite direction and another five were classified healthy. The legacy LightGBM raw macro F1 was 0.570. Only about 29% of samples passed its confidence and operating-range gates in the recorded test. Class balance and the grouped split rule out simple majority-class skew and direct configuration overlap as explanations for these confusions.
+
+## Input and runtime findings
+
+- The archive's four channels use fixed 3 m and 30 kN divisors, retaining amplitude and offsets. Across depths and rod strings, those offsets vary substantially. Per-well hydrostatic and rod-weight normalization makes comparable load features easier to identify. Absolute scale features remain available to the tabular models.
+- The existing solver generates surface and inverse traces on one 200-point grid. The old archive does not retain that timing array per sample. Producer reconstruction establishes the documented grid. New live inference checks exact time-array agreement and rejects mixed or reordered grids. A common rotation to the upper surface reversal preserves inter-card phase.
+- The dual pair shares information because the downhole card is the inverse of the same surface measurements. It is sensitive to the rod model, operating state and solver errors. It cannot independently resolve equivalent hydraulic boundary conditions. Validation of inversion on one synthetic case does not establish error on a field fault.
+- V2 tabular training added equipment and spectral columns. The legacy registry used the shorter baseline feature vector and did not invoke the V2 post-calibrator. The V2 tabular artifact also omitted the live SPM-domain binding. The new versioned artifact and runtime use the same feature routine, calibration and domain gates.
+- The production APM used the rule baseline because there was no approved classifier. The previous baseline could output only an undetermined cause. The revised baseline returns identifiable evidence and prioritized engineering hypotheses while preserving abstention.
+- Retesting the original seed-13 artifacts gave LightGBM train/calibration/test macro F1 of 0.869/0.637/0.570, consistent with a substantial fit-to-unseen-geometry gap. The original CNN was already weak on training data at 0.441 versus 0.444 calibration and 0.423 test. Its low score is compatible with underfitting, unsuitable input conditioning or intrinsic class ambiguity. [Measured legacy fit gap](../data/evaluation/legacy_fit_gap.json).
+
+[Historical confusion matrices](../data/evaluation/v2_full_ml.json) · [Remediation confusion matrices](../data/evaluation/remediation_metrics.json).

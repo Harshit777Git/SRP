@@ -1,0 +1,11 @@
+{
+  "schema": "srp-normalized-hourly/1",
+  "source": "data\\external_reference\\nk_well_monitoring\\wells_dataset.csv",
+  "destination": "data\\normalized\\nk_well_monitoring.csv",
+  "rows": 186251,
+  "suspect_negative_area": 665,
+  "conversions": {
+    "atm_to_Pa": 101325
+  },
+  "notes": "Original fields preserved; timestamp year and timezone unverified. No card points or fault labels."
+}
